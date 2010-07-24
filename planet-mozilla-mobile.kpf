@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Komodo Project File - DO NOT EDIT -->
+<project id="bffaf8ee-579f-4d83-90a9-c146bfb19b3c" kpf_version="4" name="planet-mozilla-mobile.kpf">
+<preference-set idref="bffaf8ee-579f-4d83-90a9-c146bfb19b3c">
+  <boolean id="import_live">1</boolean>
+</preference-set>
+</project>
