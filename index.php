@@ -80,7 +80,7 @@
 						<p><img src="assets/imgs/back.png" alt="back" class="left">This is the back button. You will see this whenever you are not on the cover (homepage). It will take you back one page (unless you have javascript turned off in which case it will take you to the cover).</p>
 						<p><img src="assets/imgs/list.png" alt="list" class="left">This is the list button. It allows you to view the list of all those who are syndicated by Planet Mozilla.</p>
 						<p><img src="assets/imgs/info.png" alt="info" class="left">This is the info button. It brings you to this page where you can get any help you need on using Planet Mozilla Mobile.</p>
-						<p><img src="assets/imgs/rss.png" alt="rss" class="left">This is the rss button. This links you off to the raw rss feed used to power this site. (Recomended only for phones that support rss feeds)</p>
+						<p><img src="assets/imgs/reload.png" alt="reload" class="left">This is the reload button. This will reload all the listed articles on the homepage to ensure that you see the most up-to-date items available from Planet Mozilla.</p>
 						<p><img src="assets/imgs/link.png" alt="link" class="left">This is the link button. You will only see this when viewing an article. It allows you to go straight to the original source of the content.</p>
 					<? endif ?>
 				</div>
