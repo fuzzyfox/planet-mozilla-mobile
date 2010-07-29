@@ -17,3 +17,5 @@ as small as possible.
 
 Change Log
 ----------
+ * Cookiemonster branch created to work on UI and its persistance within PMOM. (2010-07-24)
+ * Bouncer branch created to work on securing PMOM from external nasties.(2010-07-28)
