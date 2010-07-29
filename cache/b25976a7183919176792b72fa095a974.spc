@@ -91,10 +91,2907 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 	
 	
 	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:76:"Meeting Notes from the Mozilla community: Mobile Meeting Minutes: 2010-07-28";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/345";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/345";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:11508:"<div>
+<h3>Mobile/Notes/28-Jul-2010</h3>
+<h5>From MozillaWiki</h5>
+<div id="contentSub"><span class="subpages">&lt; <a href="https://wiki.mozilla.org/Mobile" title="Mobile">Mobile</a> | <a href="https://wiki.mozilla.org/Mobile/Notes" title="Mobile/Notes">Notes</a></span></div>
+<p>			<a id="Details" name="Details"></a><br />
+</p><h4> </h4>
+<ul>
+<li> Wednesdays – 9:30am Pacific, 12:30pm Eastern, 16:30 UTC<p></p>
+</li><li> 650-903-0800 or 650-215-1282 x92 Conf# 8605 (US/INTL)
+</li><li> 1-800-707-2533 (pin 369) Conf# 8605 (US)
+</li><li> irc.mozilla.org #mobile for backchannel
+</li></ul>
+<p><a id="Schedule" name="Schedule"></a><br />
+</p><h4> </h4>
+<p><a id="Major_Topics_for_This_Week" name="Major_Topics_for_This_Week"></a><br />
+</p><h4> </h4>
+<p><a id="Front-end" name="Front-end"></a><br />
+</p><h4> </h4>
+<ul>
+<li> Bug fix mode<p></p>
+<ul>
+<li> Fixing reported bugs<p></p>
+</li><li> Fixing blockers for alpha 1
+</li><li> Fixing broken browser-chrome tests
+</li><li> Several e10s related patches are very close to landing, including some e10s crashers
+</li></ul>
+</li><li> Feature mode
+<ul>
+<li> <a href="https://wiki.mozilla.org/Mobile/Planning/2.0" title="Mobile/Planning/2.0"> Planning</a> work has begun and some work has already landed<p></p>
+</li><li> mbrubeck starting work on sharing; bugs added to <a href="https://wiki.mozilla.org/Mobile/Projects/Sharing" title="Mobile/Projects/Sharing">Mobile/Projects/Sharing</a>
+</li></ul>
+</li><li> Cleanup mode
+<ul>
+<li> Updating front-end code to current trunk style<p></p>
+</li><li> Re-organizing some areas
+</li></ul>
+</li><li> Updated more status and details for <a href="https://wiki.mozilla.org/Mobile/Planning/2.0" title="Mobile/Planning/2.0"> Planning 2.0</a> tasks
+</li></ul>
+<p><a id="UX_design" name="UX_design"></a><br />
+</p><h5> </h5>
+<p><a id="Maemo" name="Maemo"></a><br />
+</p><h4> </h4>
+<p><a id="Qt" name="Qt"></a><br />
+</p><h5> </h5>
+<p><a id="Android" name="Android"></a><br />
+</p><h4> </h4>
+<p><a id="Electrolysis" name="Electrolysis"></a><br />
+</p><h4> </h4>
+<ul>
+<li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=550936" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=550936">bug 550936</a> (InstallTrigger) ready to land once an xpconnect bug, <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=582100" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=582100">bug 582100</a> is done (which they say should be soon)<p></p>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=573635" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=573635">bug 573635</a> has two ways to resolve it, and we have patches for both. Neither is perfect but a perfect solution requires fundamental work on IPC networking. So for now, just need to decide which of the 2 patches to go with.
+</li><li> place bugs getting closer to land.
+</li><li> necko e10s reviews going faster. (12 patches in review state, 1 ready to push)
+</li><li> removing real widgets soon in the child process
+</li><li> window.crypto
+</li><li> lots of warnings+errors in startup
+</li></ul>
+<p><a id="General_Platform" name="General_Platform"></a><br />
+</p><h4> </h4>
+<p><a id="Geolocation_Working_Group" name="Geolocation_Working_Group"></a><br />
+</p><h5> </h5>
+<p><a id="Video" name="Video"></a><br />
+</p><h5> </h5>
+<p><a id="Camera" name="Camera"></a><br />
+</p><h5> </h5>
+<ul>
+<li> Layout bindings landed <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=567323" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=567323">Bug 567323</a><p></p>
+</li><li> Raw decoder relanded, looks like it will stick this time. <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=508082" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=508082">Bug 508082</a>
+</li><li> Have 95% of a patch to eliminate the temporary file and teach the DOM how to properly deal with a file generated by the camera.  Chasing test failures down.
+</li></ul>
+<p><a id="Plugins" name="Plugins"></a><br />
+</p><h5> </h5>
+<p><a id="Performance" name="Performance"></a><br />
+</p><h5> </h5>
+<ul>
+<li> Started <a class="external text" href="https://wiki.mozilla.org/Mobile/PowerManagement" rel="nofollow" title="https://wiki.mozilla.org/Mobile/PowerManagement">wiki page</a> on device and application states/notices by OS (‘low battery’, ’screen dimmed’, ‘application in background’, etc.), need data from Android people please.
+</li></ul>
+<p><a id="Networking" name="Networking"></a><br />
+</p><h5> </h5>
+<p><a id="Graphics" name="Graphics"></a><br />
+</p><h5> </h5>
+<p><a id="Startup" name="Startup"></a><br />
+</p><h5> </h5>
+<p><a id="Layout" name="Layout"></a><br />
+</p><h5> </h5>
+<ul>
+<li> Where are we with <a href="https://wiki.mozilla.org/Mobile/Layers" title="Mobile/Layers"> Layers</a><p></p>
+<ul>
+<li> Retained layers code has created some bugs in Fennec <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579349" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579349">bug 579349</a><p></p>
+</li><li> “Fake widgets” finished wrt drawing, need event/focus/IME love <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=582057" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=582057">bug 582057</a>
+</li><li> “Remote frames” for cross-process layers working with test-ipc, will be up for review today
+</li></ul>
+</li><li> Bugs to watch
+<ul>
+<li> Tracking bug <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=574512" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=574512">bug 574512</a><p></p>
+</li><li> e10s shadow tree <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=570620" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=570620">bug 570620</a>
+</li><li> <s>Integrate chrome hierarchy <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=130078" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=130078">bug 130078</a></s> (fake widgets make this bug mostly irrelevant to fennectrolysis+browser)
+</li></ul>
+</li></ul>
+<p><a id="Content" name="Content"></a><br />
+</p><h5> </h5>
+<p><a id="Release_Engineering" name="Release_Engineering"></a><br />
+</p><h4> </h4>
+<ul>
+<li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=562843" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=562843">bug 562843</a> Android release signing: looks like we can’t renew certs. <a class="external free" href="http://code.google.com/p/android/issues/detail?id=10020" rel="nofollow" title="http://code.google.com/p/android/issues/detail?id=10020">http://code.google.com/p/android/issues/detail?id=10020</a><p></p>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=567827" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=567827">bug 567827</a> make buildsymbols breaks on ix boxes: should land this week or early next
+</li><li> most of n810s/n900s back in production
+<ul>
+<li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579184" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579184">bug 579184</a> fixed: now unit tests with 0 passed tests are orange<p></p>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579186" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579186">bug 579186</a> Mozilla-central N810 builds do not launch (GLIBCXX_3.4.9 not found)
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578343" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578343">bug 578343</a> talos needs to be retrofitted for e10s
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=575506" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=575506">bug 575506</a> trunk maemo fennec builds not exiting talos profile creation since 6/23
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=582336" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=582336">bug 582336</a> (IT) Frequent “no route to host” in RF room — main cause of reds.
+</li></ul>
+</li></ul>
+<p><a id="QA" name="QA"></a><br />
+</p><h4> </h4>
+<p><a id="Manual" name="Manual"></a><br />
+</p><h5> </h5>
+<ul>
+<li> bugs <a class="external text" href="http://bit.ly/9o15HO" rel="nofollow" title="http://bit.ly/9o15HO">filed</a> on the Fennec product over the past week<p></p>
+</li><li> Fx Input is mobile ready and will be pushed live tomorrow.
+</li><li> working on triaging broken/unclear/failed test reports on litmus
+</li><li> ahoza will be working on Find in page functionality testing
+</li><li> Dates/Times related to Alpha 1?
+</li><li> bug notes
+<ul>
+<li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579349" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579349">bug 579349</a> – is still a blocker for testing<p></p>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=581532" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=581532">bug 581532</a> – Pages now load again with browser.tabs.remote=true, so testing again with that enabled. I’m getting crashes when closing tabs, in that case, though.
+</li><li> (mw22) Found <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=582242" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=582242">bug 582242</a> crasher. It seemed to be Windows only, though.
+</li></ul>
+</li></ul>
+<p><a id="Automation" name="Automation"></a><br />
+</p><h5> </h5>
+<ul>
+<li>
+<ul>
+<li> Android<p></p>
+<ul>
+<li> Landed everything for mochitest/reftest on m-c<p></p>
+</li><li> Patches in place for mochitest chrome/browser-chrome on android (need to be in a .jar file <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=543800" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=543800">bug 543800</a>)
+</li><li> Working with bear this week to get heartbeat and device management into tinderbox
+</li><li> Fixing little bugs along the way
+</li></ul>
+</li></ul>
+</li></ul>
+<ul>
+<li>
+<ul>
+<li> Browser-Chrome <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=553474" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=553474">bug 553474</a><p></p>
+<ul>
+<li> handful of fixes to get tests working in e10s (thanks mfinkle, vingtetun)<p></p>
+</li><li> lots of progress on new tests
+</li><li> still have an issue with ‘too much recursion’ causing all the tests to timeout
+</li></ul>
+</li></ul>
+</li></ul>
+<ul>
+<li>
+<ul>
+<li> [<a class="external text" href="https://wiki.mozilla.org/Mobile/Fennec_Unittests/green" rel="nofollow" title="https://wiki.mozilla.org/Mobile/Fennec_Unittests/green">Green</a>]<p></p>
+<ul>
+<li> mw22 and jmaher started looking into mochitest failures…the ball is rolling
+</li></ul>
+</li></ul>
+</li></ul>
+<p><a id="Other" name="Other"></a><br />
+</p><h4> </h4>
+<div class="printfooter">
+Retrieved from “<a href="https://wiki.mozilla.org/Mobile/Notes/28-Jul-2010">https://wiki.mozilla.org/Mobile/Notes/28-Jul-2010</a>“</div>
+<p></p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 29 Jul 2010 03:00:07 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:17:"Jesper Kristensen";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:92:"Meeting Notes from the Mozilla community: Firefox/Gecko Delivery Meeting Minutes: 2010-07-28";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/344";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/344";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:14765:"<div>
+<h3>Firefox/Planning/2010-07-28</h3>
+<h5>From MozillaWiki</h5>
+<div id="contentSub"><span class="subpages">&lt; <a href="https://wiki.mozilla.org/Firefox" title="Firefox">Firefox</a> | <a href="https://wiki.mozilla.org/Firefox/Planning" title="Firefox/Planning">Planning</a></span></div>
+<p><a href="https://wiki.mozilla.org/Firefox/Planning/2010-07-21" title="Firefox/Planning/2010-07-21">« previous week</a> | <a class="mw-redirect" href="https://wiki.mozilla.org/Firefox/DeliveryMeetings" title="Firefox/DeliveryMeetings">index</a> | <a class="new" href="https://wiki.mozilla.org/index.php?title=Firefox/Planning/2010-08-04&amp;action=edit&amp;redlink=1" title="Firefox/Planning/2010-08-04 (page does not exist)">next week »</a></p>
+<p><b>Firefox/Gecko Delivery Meeting Details</b>
+</p>
+<ul>
+<li> Wednesdays – 11:00am Pacific, 2:00pm Eastern, 18:00 UTC<p></p>
+</li><li> Mountain View Offices: Warp Core Conference Room
+</li><li> Toronto Offices: Fin du Monde Conference Room
+</li><li> 650-903-0800 or 650-215-1282 x92 Conf# 8605 (US/INTL)
+</li><li> 1-800-707-2533 (pin 369) Conf# 8605 (US)
+</li><li> <a class="external text" href="irc://irc.mozilla.org/planning" rel="nofollow" title="irc://irc.mozilla.org/planning">irc.mozilla.org #planning</a> for backchannel
+</li><li> (the <a href="https://wiki.mozilla.org/Platform#Meetings" title="Platform">developer meeting</a> takes place on Tuesdays)
+</li></ul>
+<div style="margin: 1em 0px; padding: 1em; background-color: orange; text-align: center;"><b>REMEMBER</b><p></p>
+<div style="font-size: x-small;">These notes are read by people who weren’t able to attend the meeting. Please make sure to include links and context so they can be understood.</div>
+</div>
+<p><a id="Agenda" name="Agenda"></a><br />
+</p><h3> </h3>
+<ul>
+<li> actions from last week:<p></p>
+</li><li> schedule and progress on upcoming releases
+</li><li> review highlights and notices
+</li><li> respond to questions and concerns
+</li></ul>
+<p><b>Action Items</b>
+</p>
+<p><a id="Schedule_.26_Progress_on_Upcoming_Releases" name="Schedule_.26_Progress_on_Upcoming_Releases"></a><br />
+</p><h4> </h4>
+<p><a id="Firefox_3.5.12_.2F_Firefox_3.6.9" name="Firefox_3.5.12_.2F_Firefox_3.6.9"></a><br />
+</p><h5> </h5>
+<ul>
+<li> schedule posted<p></p>
+</li><li> should also include new locales
+</li></ul>
+<p><a id="Firefox_4.0_Beta_3" name="Firefox_4.0_Beta_3"></a><br />
+</p><h5> </h5>
+<ul>
+<li> code freeze on Monday<p></p>
+</li><li> scheduled release next Friday, August 6th
+</li><li> major features
+<ul>
+<li> new JS values – could affect add-ons that use JSAPI<p></p>
+</li><li> OSX uses UNIX filesystem code instead of OSX filesystem code
+</li><li> SQLite 3.7.0
+</li><li> Sync UI built in
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=blocking2.0:beta3" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=blocking2.0:beta3">plus these blockers</a>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED,VERIFIED&amp;chfieldfrom=2010-07-20%2015%3A00&amp;chfield=resolution&amp;query_format=advanced&amp;chfieldto=Now&amp;product=Core&amp;product=Firefox&amp;product=NSPR&amp;product=NSS&amp;product=Toolkit" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED,VERIFIED&amp;chfieldfrom=2010-07-20%2015%3A00&amp;chfield=resolution&amp;query_format=advanced&amp;chfieldto=Now&amp;product=Core&amp;product=Firefox&amp;product=NSPR&amp;product=NSS&amp;product=Toolkit">complete changelist here</a>
+</li></ul>
+</li></ul>
+<p><a id="Jetpack_SDK_0.6" name="Jetpack_SDK_0.6"></a><br />
+</p><h5> </h5>
+<ul>
+<li> pushed back a day due to respin to take half dozen low-risk fixes<p></p>
+</li><li> scheduled for today, Wednesday, July 28
+</li><li> <a href="https://wiki.mozilla.org/Labs/Jetpack/Release_Notes/0.6" title="Labs/Jetpack/Release Notes/0.6">release notes</a>
+</li></ul>
+<p><a id="Add-on_Builder.next" name="Add-on_Builder.next"></a><br />
+</p><h5> </h5>
+<ul>
+<li> staging this week<p></p>
+</li><li> tentative release date next Tuesday, August 3
+</li><li> two follow-on releases in August, scheduled at two week intervals
+<ul>
+<li> <a href="https://wiki.mozilla.org/Labs/Jetpack/FlightDeck/1.0a4" title="Labs/Jetpack/FlightDeck/1.0a4">1.0a4</a> (mid-August)<p></p>
+</li><li> <a href="https://wiki.mozilla.org/Labs/Jetpack/FlightDeck/1.0a5" title="Labs/Jetpack/FlightDeck/1.0a5">1.0a5</a> (end August)
+</li></ul>
+</li><li> after that: AMO integration!
+</li></ul>
+<p><a id="Fx_Input" name="Fx_Input"></a><br />
+</p><h5> </h5>
+<p><b><a href="https://wiki.mozilla.org/Firefox/Input/Releases/1.6" title="Firefox/Input/Releases/1.6">Input 1.6</a></b>
+</p>
+<ul>
+<li> Going live tonight at 1am<p></p>
+</li><li> New Features: Mobile Pages, Clusters, URL submission on happy forms, some wording changes,
+</li></ul>
+<p><b><a href="https://wiki.mozilla.org/Firefox/Input/Releases/1.6.1" title="Firefox/Input/Releases/1.6.1">Input 1.6.1</a></b>
+</p>
+<ul>
+<li> Scheduled to go live next Wednesday, 8/4<p></p>
+</li><li> New Features: Sites, Searching only with messages with URLs
+</li><li> Bug fixes we couldn’t get to in 1.6
+</li></ul>
+<p><b><a href="https://wiki.mozilla.org/Firefox/Input/Releases/1.7" title="Firefox/Input/Releases/1.7">Input 1.7</a></b>
+</p>
+<ul>
+<li> <a class="external text" href="http://people.mozilla.com/~chowse/drop/mozilla.com/input/v2/" rel="nofollow" title="http://people.mozilla.com/~chowse/drop/mozilla.com/input/v2/">UX Overhaul</a>
+</li></ul>
+<p><a id="Test_Pilot_studies" name="Test_Pilot_studies"></a><br />
+</p><h5> </h5>
+<ul>
+<li> User background survey <p></p>
+</li><li> User Perception Survey [July 22-29]
+</li><li> Firefox 4 Beta Interface Study [July 22-29]
+</li><li> Search Study [August 5-12]
+</li></ul>
+<p><a id="Highlights_.2F_Notices" name="Highlights_.2F_Notices"></a><br />
+</p><h4> </h4>
+<p><i>Notes or issues that don’t correspond to a particular release you’d like people to know about.</i>
+</p>
+<ul>
+<li> Renaming Personas to Backgrounds is being discussed – rdoherty<p></p>
+<ul>
+<li> A/B test showed 15% higher engagement on Firstrun page for ‘Backgrounds’<p></p>
+</li><li> Moves Personas from brand to feature, in line with the majority of Firefox features
+</li><li> Easier translation for locales
+</li><li> No changes to 3.6, string change for Firefox 4
+</li><li> <a class="external text" href="https://wiki.mozilla.org/images/7/7d/Differently_proportioned_backgrounds_and_themes.png" rel="nofollow" title="https://wiki.mozilla.org/images/7/7d/Differently_proportioned_backgrounds_and_themes.png">Add-ons manager mockup</a>
+</li></ul>
+</li><li> Feedback from Beta channels
+<ul>
+<li> 24,000 Response Test Pilot Survey – User Perception on the current FX browser <p></p>
+<ul>
+<li> Aim: to understand user perception on FX in general over time. <p></p>
+<ul>
+<li> Findings may not only aim to inform the design, but alsoSUMO. <p></p>
+</li><li> We will also follow up a similar survey in a month to understand the change of user perception.
+</li></ul>
+</li><li> <a class="external text" href="https://wiki.mozilla.org/images/b/b5/How_You_Like_Your_Browser_Survey.pdf" rel="nofollow" title="https://wiki.mozilla.org/images/b/b5/How_You_Like_Your_Browser_Survey.pdf">Survey Results</a>
+</li><li> Results Highlights:
+<ul>
+<li> 74% launch their browsers multiple times a day<p></p>
+</li><li> Majority of users like the new UI – gave 7,8,9 (out of 9)
+</li><li> People liked (see slides 9-12): the new tab-on-top UI; having more screen real estate; anything involving heavy JavaScript works better now.
+</li><li> People didn’t like (see slides 13-16): hard to start private browsing and check out downloads due to the new menu design; easy to add a bookmark but hard to find bookmarks (no bookmarks bar by default); opening lots of tabs in Win 7 from the task bar
+</li></ul>
+</li></ul>
+</li><li> Top Feedback across channels
+<ul>
+<li> Problems downloading attachments from Hotmail [<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=581502" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=581502">bug 581502</a>]<p></p>
+</li><li> Issues around SVG text properties [bugs filed]
+</li><li> Hootsuite doesn’t work with our HTML 5 Parser [<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=581949" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=581949">bug 581949</a>]
+</li><li> Can’t close/minimize [known <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=574833" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=574833">bug 574833</a>, also confirmed by TP discussion groups]
+</li><li> Don’t get pretty theme with Windows 7/Vista w/o aeroglassi.e., default basic theme then get XP UI [cww will test bug and file appropriately -- Seems to be deliberate?]
+</li><li> App Tabs go away after restart [bug filed, Facebook]
+</li></ul>
+</li></ul>
+</li><li> Firefox 3.6.8 support issues:
+<ul>
+<li>We’re seeing even more cases of Flash video not working or crashing (20+). A number of these appear to be <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=575326" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=575326">bug 575326</a> which is Nvidia drivers incompatible with Flash 10.1 with hardware acceleration. <p></p>
+</li><li>We’re also seeing another increase (~15-20) in number of users with missing toolbars which is <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=547891" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=547891">bug 547891</a>
+</li><li>Lastly, with two updates in the past week, we’re seeing more of the usual update breakages or problems on other sites being attributed to updates : McAfee blocking Firefox ( <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=582360" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=582360">bug 582360</a> ), Zynga’s Poker Facebook game not working, other Facebook issues (see <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=581123" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=581123">bug 581123</a>, since resolved) .
+</li></ul>
+</li><li> <a class="external text" href="https://wiki.mozilla.org/File:Metrics_Input_Report_Beta_4.1.pdf" rel="nofollow" title="https://wiki.mozilla.org/File:Metrics_Input_Report_Beta_4.1.pdf">Clustered site comments around Firefox 4 Beta 1</a> via Input
+</li></ul>
+<p><a id="Questions_and_Concerns" name="Questions_and_Concerns"></a><br />
+</p><h4> </h4>
+<p><i>Please add any questions or concerns you would like discussed at today’s meeting.</i>
+</p>
+<ul>
+<li> Any update on branching 2.0? Looking for invariants in the en-US branch plan, to get more data points on what’s the least laborious and risky path for l10n, for which we’ll need to end up with “all your local repos have set upstream urls for the life time of 4.0″. (Axel)<p></p>
+<ul>
+<li> so far we’re tracking to this <a href="https://wiki.mozilla.org/Firefox/4/Beta#Milestones" title="Firefox/4/Beta">schedule of milstones</a><p></p>
+</li><li> plan is to branch in time for b5 (early September)
+</li></ul>
+</li><li> Did we start to compare actual beta audience with the anticipated beta audience? (Axel)
+<ul>
+<li> we don’t think that we’re hitting enough mainstream (mayumi)<p></p>
+</li><li> plan is to extend outreach to consumer audience starting with beta 3 and onwards as UI solidifies
+</li></ul>
+</li><li> How are we doing outbound communication on removal of UI language on UA string – <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=572656" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=572656">bug 572656</a> (aakashd)
+<ul>
+<li> feels like something we should have talked about more broadly (beltzner)<p></p>
+</li><li> <b>beltzner</b> to follow-up with engagement
+</li></ul>
+</li></ul>
+<p><a id="Press_.26_Public_Reactions" name="Press_.26_Public_Reactions"></a><br />
+</p><h4> </h4>
+<ul>
+<li><a class="external text" href="http://www.pcpro.co.uk/news/359839/new-firefox-4-beta-debuts-app-tabs" rel="nofollow" title="http://www.pcpro.co.uk/news/359839/new-firefox-4-beta-debuts-app-tabs">New Firefox 4 beta debuts “App Tabs”</a><p></p>
+</li><li><a class="external text" href="http://arstechnica.com/open-source/news/2010/07/firefox-4-beta-2-adds-css3-transitions-and-tab-pinning.ars" rel="nofollow" title="http://arstechnica.com/open-source/news/2010/07/firefox-4-beta-2-adds-css3-transitions-and-tab-pinning.ars">Firefox 4 beta 2 adds CSS3 transitions and tab-pinning</a>
+</li><li><a class="external text" href="http://www.pcmag.com/article2/0,2817,2367079,00.asp" rel="nofollow" title="http://www.pcmag.com/article2/0,2817,2367079,00.asp">Firefox 4 Gets Second Beta Release</a>
+</li><li><a class="external text" href="http://mashable.com/2010/07/27/firefox-4-beta-2/" rel="nofollow" title="http://mashable.com/2010/07/27/firefox-4-beta-2/">Firefox 4 Beta 2 Adds More Languages and App Tabs</a>
+</li><li><a class="external text" href="http://www.readwriteweb.com/archives/firefox_4_beta_2_introduces_web_apps_err_app_tabs.php" rel="nofollow" title="http://www.readwriteweb.com/archives/firefox_4_beta_2_introduces_web_apps_err_app_tabs.php">Firefox 4 Beta 2 Introduces Web Apps…Err… App Tabs</a>
+</li></ul>
+<ul>
+<li><a class="external text" href="http://news.cnet.com/8301-27076_3-20011531-248.html" rel="nofollow" title="http://news.cnet.com/8301-27076_3-20011531-248.html">‘Tab Candy’ to bring calm to Firefox’s tab chaos</a> <p></p>
+</li><li><a class="external text" href="http://techcrunch.com/2010/07/23/firefox-tab-candy/" rel="nofollow" title="http://techcrunch.com/2010/07/23/firefox-tab-candy/">Firefox Just Perfected Tabbed Browsing. It’s Like Apple’s Expose Plus Spaces For The Web</a>
+</li></ul>
+<ul>
+<li><a class="external text" href="http://www.itproportal.com/portal/news/article/2010/7/26/mozilla-firefox-368-update-released/" rel="nofollow" title="http://www.itproportal.com/portal/news/article/2010/7/26/mozilla-firefox-368-update-released/">Mozilla Firefox 3.6.8 Update Released</a> <p></p>
+</li><li><a class="external text" href="http://www.informationweek.com/blog/main/archives/2010/07/mozilla_patches.html" rel="nofollow" title="http://www.informationweek.com/blog/main/archives/2010/07/mozilla_patches.html">Mozilla Patches Critical Firefox Security Patch</a>
+</li></ul>
+<div class="printfooter">
+Retrieved from “<a href="https://wiki.mozilla.org/Firefox/Planning/2010-07-28">https://wiki.mozilla.org/Firefox/Planning/2010-07-28</a>“</div>
+<p></p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 29 Jul 2010 03:00:05 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:17:"Jesper Kristensen";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:74:"Planet Mozilla Interns: Jaclyn Fu: Building Firefox 2.0 Position & Product";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:43:"http://mozmobileintern.wordpress.com/?p=162";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:86:"http://mozmobileintern.wordpress.com/2010/07/28/building-firefox-2-0-position-product/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4524:"<p><em>Back to basics: What does the mobile Web user want in a browser?</em></p>
+<p>I left our mobile product delivery meeting with some thoughts: 1) The competitive landscape is rapidly changing what were many “nice to have” features into mandatory industry standards and 2) positioning a product is much easier if we understood exactly what the user wanted.</p>
+<p>This prompted me to conduct a quick market research survey. I included a research question in Quiz #3 of the <a href="http://bit.ly/aVTG30" target="_blank">Firefox 1.1 for the Nokia N900 Quiz Challenge</a> that asked participants which feature was most important in a mobile Web browser. Here are the results out of a 1800 person sample:</p>
+<p>1) Speed<br />
+2) Battery life/memory usage<br />
+3) Readability/zooming<br />
+4) Tabs<br />
+5) Sync<br />
+6) Social media integration<br />
+7) Add-ons</p>
+<p>It’s interesting to note that in this small sample, many people also wrote “full PC-like capabilities” in the open answer text field. Fennec is built from the same engine as Firefox for desktop and also has the same powerful capabilities as the desktop version. It’s even more interesting to see Tabs rank so high because Firefox is the only mobile Web browser that does tabs right (from experience). Most mobile Web browsers require you to navigate through a maze before you can reach your tabs, but Fennec conveniently stores them to the side of your browser, accessible with a quick swipe across the screen. Firefox Sync and Add-Ons satisfy the 5th and 7th most important features, respectively. Social media integration, or sharing, is the next step in Fennec development. You can view the Fennec planning page<a href="https://wiki.mozilla.org/Mobile/Planning/2.0" target="_blank"> here</a>.</p>
+<p>Most of the sample audience uses Opera Mini, Opera Mobile, IE Mobile, and Android Browser.<em> If you have had experience with these browsers, how do you think Firefox compares with them? </em></p>
+<p>Firefox 2.0 is going to be a full, rich, mobile Web browser. We have all the bells and whistles – but how do we stand with the basics? <a href="https://wiki.mozilla.org/Electrolysis" target="_blank">Electrolysis</a> and <a href="https://wiki.mozilla.org/Layers" target="_blank">layers</a> are going to improve performance, and there are current developments to maximize efficient battery life. The biggest challenge now is to improve readability so that zooming and text formatting is seamless. By the time the final product rolls out, I’m positive Firefox 2.0 will be polished, fast, and ready for daily use.</p>
+<p>The user feedback data was really insightful for gaining a better sense of user needs and expectations. I’ve been trying to apply the concepts I learned from my 8am marketing class from last semester, but of course real-life problems are much more difficult to solve than classroom case studies. Let’s open this up for some discussion – <em>what kind of experience do you have with brand positioning and do you have any tips for an aspiring marketer? How do you feel about Fennec’s current positioning? </em></p>
+<p>Want to experience the nightlies yourself? You can download a nightly build of Fennec 2.0a1pre <a href="http://mzl.la/9C4sh9" target="_blank">here</a>.</p>
+<br />  <a href="http://feeds.wordpress.com/1.0/gocomments/mozmobileintern.wordpress.com/162/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/mozmobileintern.wordpress.com/162/" /></a> <a href="http://feeds.wordpress.com/1.0/godelicious/mozmobileintern.wordpress.com/162/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/mozmobileintern.wordpress.com/162/" /></a> <a href="http://feeds.wordpress.com/1.0/gostumble/mozmobileintern.wordpress.com/162/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/mozmobileintern.wordpress.com/162/" /></a> <a href="http://feeds.wordpress.com/1.0/godigg/mozmobileintern.wordpress.com/162/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/mozmobileintern.wordpress.com/162/" /></a> <a href="http://feeds.wordpress.com/1.0/goreddit/mozmobileintern.wordpress.com/162/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/mozmobileintern.wordpress.com/162/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=mozmobileintern.wordpress.com&amp;blog=13865100&amp;post=162&amp;subd=mozmobileintern&amp;ref=&amp;feed=1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 28 Jul 2010 19:54:45 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:9:"Jaclyn Fu";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:50:"Tristan Nitot: The Web has never been as exciting!";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:40:"urn:md5:a1ccb01dab4e624ce0f065f2b65bd10a";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:76:"http://standblog.org/blog/post/2010/07/28/The-Web-has-never-been-as-exciting";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3497:"<p><em>(This is a quick translation of a <a href="http://standblog.org/blog/post/2010/07/28/Le-Web-n-a-jamais-ete-aussi-excitant">post I wrote in French</a> earlier today)</em></p>
+
+
+<p>Firefox 4 Beta has <a href="http://blog.mozilla.com/blog/2010/07/27/new-update-to-firefox-4-beta-available-now-in-23-languages/">just been released</a>. It brings seed, a better <acronym title="User Interface">UI</acronym> tons on new things for extension developers (hmm, <a href="https://jetpack.mozillalabs.com/">JetPack</a>!) and Web developers.</p>
+
+
+<p>In this post, I'll focus on the Web development part.</p>
+
+
+<p>In my opinion, combining CSS3, new APIs (including WebGL) and HTML5 is enabling the Web as a development platform to make a huge leap forward. I have worked with the amazing <a href="http://www.paulrouget.com/">Paul Rouget</a> in order to have a video of his demos in order to share my excitement.</p>
+
+
+<p>For those who have installed Firefox 4 Beta 2, a good PC with a decent discrete graphic card and have <a href="http://www.basschouten.com/blog1.php/2010/03/02/presenting-direct2d-hardware-acceleratio">enabled Direct2D hardware acceleration</a>, here are 3 spectacular demos:</p>
+
+<ol>
+<li><a href="http://demos.hacks.mozilla.org/openweb/WARMCSS/">Video, CSS Transitions, @font-face and SVG filters</a></li>
+<li><a href="http://demos.hacks.mozilla.org/openweb/LONDONPROJECT/">Video, SVG Clip-path and CSS Transitions</a></li>
+<li><a href="http://demos.hacks.mozilla.org/openweb/CSSMAKESUSICK/">WebGL, video and Transforms</a></li>
+</ol>
+
+<p><a href="http://www.youtube.com/watch?v=gFmuNApHFec"><img alt="Paul Rouget during the demo movie" src="http://farm5.static.flickr.com/4103/4837429865_23324930d7.jpg" /></a></p>
+
+
+<p>For those who are more in a hurry or want more details, please check the <a href="http://hacks.mozilla.org/2010/07/firefox4-beta2/">video and the article on Hacks.mozilla.org</a>.</p>
+
+
+<p>What you see on the screen is just a Web page, using standards that are being specified and implemented (HTML5, CSS3, SVG, WebGL, new APIs…). What I find fascinating is that by combining these technologies, one can do things that were deemed impossible even recently:</p>
+
+<ul>
+<li><strong>Native video</strong> with an Open and unencumbered coded (WebM)</li>
+<li><strong>Good fonts</strong> (<code> @font-face</code>, <a href="http://standblog.org/blog/post/2010/07/28/">WOFF</a>)</li>
+<li><strong>Declarative Animations</strong> (using CSS3, and soon SVG/SMILE)</li>
+<li><strong>SVG Filters and Masks</strong> applied to HTML elements (Gaussian blur effect, a B&amp;W filter on videos, a round-shaped video</li>
+<li><strong>3D</strong> (the WebM video used at the end as a texture to a 3D rotating cube just floored me)</li>
+<li><strong>WebSockets</strong>, for a persistent bi-di communication between the server and the browser, used in this case to control remotely the presentation from an Android phone running a pre-Alpha version of Firefox for Android.</li>
+<li><strong>Drag &amp; Drop, Indexed DB and local storage, the File API, Geolocation and device orientation</strong> and all the <a href="http://standblog.org/blog/post/2010/07/28/Le-Web-n-a-jamais-ete-aussi-excitant">tech features</a> I won't mention.</li>
+</ul>
+
+<p>Of course, the Open Web still has to compete with proprietary approaches such as monopolistic AppStores or proprietary plug-ins. But it never has been has powerful and innovative as it is now, and that's what is making me excited!</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 28 Jul 2010 19:15:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:7:"Tristan";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:41:"Josh Aas: Goodbye iPhone, Hello Nexus One";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:43:"http://boomswaggerboom.wordpress.com/?p=712";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:79:"http://boomswaggerboom.wordpress.com/2010/07/28/goodbye-iphone-hello-nexus-one/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2913:"<p>I got an iPhone 3G two years ago and I loved it. It was fast, easy to use, and beautiful. Since then I’ve fallen out of love and every time it takes the phone 5-10 seconds to show a new text message I have to resist the urge to smash it. I was never very pleased with my high cell phone bill or the accompanying contract, or the fact that it’ll probably be a long time before I’m allowed to run Firefox on the phone.</p>
+<p>I thought long and hard about getting an iPhone 4 because it would solve some major problems (speed, screen quality) and despite the other issues the user experience is just amazing. However, I decided to go with a solution that also solves the other problems. In total I wanted better phone performance, a nicer screen, better network service, the ability to run Firefox, I don’t want a contract, and I want to pay significantly less for service than I do now. I chose to go with a Nexus One from Google on T-Mobile and so far I’m pretty happy.</p>
+<p>The T-Mobile plan I chose has no contract, 1000 any time minutes, unlimited text messaging, and unlimited internet for $70. The AT&amp;T plan I had has a 2-year contract, 900 any time minutes, 1500 text messages, and unlimited internet for $105. T-Mobile reportedly has great service in New York City, so this is an easy choice.</p>
+<p>The Nexus One is sold unlocked, it’s fast, thin, has a beautiful screen, gets Android updates quickly, and runs the only two third party apps I really care about – MLB At Bat and Firefox. My only two issues are that the Android OS is generally less polished than iPhone’s iOS and MLB At Bat for Android is junk compared to the iPhone edition.</p>
+<br />  <a href="http://feeds.wordpress.com/1.0/gocomments/boomswaggerboom.wordpress.com/712/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/boomswaggerboom.wordpress.com/712/" /></a> <a href="http://feeds.wordpress.com/1.0/godelicious/boomswaggerboom.wordpress.com/712/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/boomswaggerboom.wordpress.com/712/" /></a> <a href="http://feeds.wordpress.com/1.0/gostumble/boomswaggerboom.wordpress.com/712/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/boomswaggerboom.wordpress.com/712/" /></a> <a href="http://feeds.wordpress.com/1.0/godigg/boomswaggerboom.wordpress.com/712/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/boomswaggerboom.wordpress.com/712/" /></a> <a href="http://feeds.wordpress.com/1.0/goreddit/boomswaggerboom.wordpress.com/712/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/boomswaggerboom.wordpress.com/712/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=boomswaggerboom.wordpress.com&amp;blog=947345&amp;post=712&amp;subd=boomswaggerboom&amp;ref=&amp;feed=1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 28 Jul 2010 19:10:06 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"Josh Aas";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:40:"Mozilla Labs: Announcing Jetpack SDK 0.6";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:33:"http://mozillalabs.com/feed/3.970";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:69:"http://mozillalabs.com/jetpack/2010/07/28/announcing-jetpack-sdk-0-6/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2380:"<div>Jetpack SDK 0.6 is here, yay!</div>
+<p></p>
+<div>The release includes a couple of notable enhancements:</div>
+<div>
+<ul>
+<li> It is now possible to specify a width for <a href="https://jetpack.mozillalabs.com/sdk/latest/docs/#module/jetpack-core/widget" rel="nofollow" title="https://jetpack.mozillalabs.com/sdk/latest/docs/#module/jetpack-core/widget">widgets</a> to make them wider or narrower as needed.</li>
+<li> Modules requiring access to <code>Components</code> (and <code>Cc</code>, <code>Ci</code>, etc.) must now <a href="https://jetpack.mozillalabs.com/sdk/latest/docs/#guide/chrome" rel="nofollow" title="https://jetpack.mozillalabs.com/sdk/latest/docs/#guide/chrome">explicitly obtain this privilege</a>, which means that modules do not have elevated chrome privileges by default.</li>
+</ul>
+</div>
+<div>Based on the feedback we’ve received from users of earlier versions of the SDK, the release also incorporates a number of bug fixes to improve the reliability of the SDK, including:</div>
+<div>
+<ul>
+<li>Certain tests no longer fail when run against a localized (i.e. non-English) version of Firefox.</li>
+<li>Testing will continue to work against newer Firefox 4 beta builds as they are released.</li>
+</ul>
+</div>
+<div>For more information about the bug fixes and enhancements in this version of the SDK, see its <a href="https://wiki.mozilla.org/Labs/Jetpack/Release_Notes/0.6">release notes</a>. To get started building add-ons with the SDK, <a href="https://ftp.mozilla.org/pub/mozilla.org/labs/jetpack/jetpack-sdk-latest.zip">download the SDK</a> and check out the <a href="https://jetpack.mozillalabs.com/sdk/latest/docs/#guide/getting-started">tutorial</a>.</div>
+<p></p>
+<div>And keep the feedback coming, as it really helps us figure out how to make the experience of building add-ons with the SDK even better!</div>
+<p></p>
+<div>To provide feedback and participate in the Jetpack project:</div>
+<ul>
+<li>Discuss, debate, and get help in the <a href="http://groups.google.com/group/mozilla-labs-jetpack">discussion forum</a>.</li>
+<li>Chat via IRC in #jetpack on irc.mozilla.org.</li>
+<li>Submit a <a href="https://bugzilla.mozilla.org/enter_bug.cgi?product=Mozilla%20Labs&amp;component=Jetpack%20SDK">bug report</a>.</li>
+<li>Grab the <a href="https://hg.mozilla.org/labs/jetpack-sdk/">source code </a>and   fix a bug or add a feature.</li>
+</ul>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 28 Jul 2010 18:21:53 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"mykmelez";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:66:"Planet Mozilla Interns: Brian Louie: Redesigning the MDN (part 1)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"http://mozblouie.wordpress.com/?p=62";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:69:"http://mozblouie.wordpress.com/2010/07/28/redesigning-the-mdn-part-1/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4495:"<p><font size="1">(Redesigning the MDN is a complex project that’s going to take more than one post. In this post, I discuss the reasoning behind some of the more superficial changes I’ve made to the Network.)</font></p>
+<p>Another one of my big projects here at Mozilla has been working on redesigning and re-branding the Mozilla Developer Network (MDN). If you’ve been keeping up with my blog, you’ve already seen some of the work that Jay and I have done with regard to graphically redesigning the network. As I’ll discuss in a bit, we’ve made some important changes since then.</p>
+<p>First, it’s important to understand the impetus for change. The Mozilla Developer Center (the current name for the MDN), as it stands, can be found <a href="http://developer.mozilla.org">here</a>, if you’re not already familiar with it. Although it certainly looks better than it has in years past, it could still use some fixes here and there. Or all over the place. You can find the slide deck with some pictures of our first draft of the redesign <a href="https://wiki.mozilla.org/MDN">here</a>.</p>
+<p>Underneath the superficial overhaul, however, lies a deeper paradigm shift. Although content is pretty well spread out to cover various domains of the open web, the focus currently concentrates on developing on the Mozilla platform specifically. While certainly we want to reward and help those who develop with the tools that we provide them, we feel that perhaps this mindset is a little close-minded. Mozilla’s goal is to advance the open web in every way possible, Mozilla-inspired or not. Consequently a solely inward focus on only Mozilla’s tools is unintuitive and does not allow us to optimize the progress of the open web.</p>
+<p>Ultimately, the goal of the Mozilla Developer Network is to provide a central hub for discussion and documentation for open web developers, regardless of platform. The redesign of the MDN cannot lose sight of this goal.</p>
+<p>With this goal in mind, we took the original .psd files from our web designers and started making tweaks. As previously mentioned, there are four main documentation headers: Web, Mobile, Add-ons, and Applications. In the currently released design, all of those headers are given equal weight, which runs against our fundamental goal.</p>
+<p>Unfortunately, there wasn’t much of a way to change these headlines without breaking the entire header, so we instead decided to revamp the site’s home page to place a greater emphasis on open web technologies at-large. When the new site is live, you’ll be able to see for yourself. There have been several other changes as well; I’ll tour through them on this blog when the new Network goes live.</p>
+<p>One thing I’d like to emphasize: though our presentation of information has changed to fit our goal, none of the documentation has changed. You will still find all the information found on the current MDC, from Gecko to info about Mozilla-specific APIs. These articles will continued to be updated as well. <em>Only the presentation of the information has changed.</em></p>
+<p>Expect the site to go live mid-August. Tomorrow, I’ll write about some of the awesome new features that we can expect to see in the next iteration of the MDN and how we plan to facilitate communication between developers.</p>
+<br />  <a href="http://feeds.wordpress.com/1.0/gocomments/mozblouie.wordpress.com/62/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/mozblouie.wordpress.com/62/" /></a> <a href="http://feeds.wordpress.com/1.0/godelicious/mozblouie.wordpress.com/62/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/mozblouie.wordpress.com/62/" /></a> <a href="http://feeds.wordpress.com/1.0/gostumble/mozblouie.wordpress.com/62/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/mozblouie.wordpress.com/62/" /></a> <a href="http://feeds.wordpress.com/1.0/godigg/mozblouie.wordpress.com/62/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/mozblouie.wordpress.com/62/" /></a> <a href="http://feeds.wordpress.com/1.0/goreddit/mozblouie.wordpress.com/62/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/mozblouie.wordpress.com/62/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=mozblouie.wordpress.com&amp;blog=14429761&amp;post=62&amp;subd=mozblouie&amp;ref=&amp;feed=1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 28 Jul 2010 18:19:27 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Brian Louie";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:43:"William D: Quick Filter – Thunderbird 3.1";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:39:"http://fuzzyfox.mozhunt.com/blog/?p=515";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:70:"http://fuzzyfox.mozhunt.com/blog/2010/07/quick-filter-thunderbird-3-1/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:939:"<p>So for the past few days I have been stuck in Vancouver with nothing to do and nowhere to go. Well…. that would have been true had I not discovered the Mozilla Messaging Vancouver office and the great people inside. They set me a challenge, and I passed with flying colours. This challenge was to tell you about the great new “Quick Filter” toolbar in Thunderbird 3.1.</p>
+<h3>So maybe a short history?</h3>
+<p>After the release of Thunderbird 3.0 the guys here at Mozilla Messaging re-examined the “Quick Search” feature from Thunderbird 2. It was fast but somewhat opaque, but it did allow people to find messages within the current folder. The team then went away and did all their homework (with no excuses about dogs eating it!) and found out that people loved this feature and they decided to make it even better.</p>
+<p>This is why you now have the marvel of the Quick Filter toolbar.<br />
+</p><center></center><p></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 28 Jul 2010 17:30:20 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"FuzzyFox";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:36:"Mark Finkle: The Future of JavaXPCOM";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:40:"http://starkravingfinkle.org/blog/?p=807";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:66:"http://starkravingfinkle.org/blog/2010/07/the-future-of-javaxpcom/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:528:"<p>This is a public service announcement for those people interested in the future of <a href="https://developer.mozilla.org/en/javaxpcom">JavaXPCOM</a>. JavaXPCOM has been disabled and will likely to removed from the Mozilla source tree in the future. See Benjamin Smedberg’s <a href="http://groups.google.com/group/mozilla.dev.extensions/browse_thread/thread/e142c1f4a702b856/054790d894ab05ca?show_docid=054790d894ab05ca">newsgroup post</a> for more details.</p>
+<p>Please follow up (add comments) to the newsgroup post.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 28 Jul 2010 14:19:34 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Mark Finkle";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:53:"Giorgio Maone: ABE Patrols the Routes to Your Routers";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:72:"http://hackademix.net/2010/07/28/abe-patrols-the-routes-to-your-routers/";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:72:"http://hackademix.net/2010/07/28/abe-patrols-the-routes-to-your-routers/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4443:"<p>Web-based <a href="http://www.skyphire.nl/pubs/SKY-2008-03-01.txt" rel="nofollow external" target="_blank">router hacking is hardly a new topic</a>, but new variants pop up from time to time.</p>
+<p>The most obvious attacks against a router which malicious web sites can pull are <a href="http://en.wikipedia.org/wiki/CSRF" rel="nofollow external" target="_blank">CSRF</a>, <a href="http://en.wikipedia.org/wiki/XSS" rel="nofollow external" target="_blank">XSS</a> and <a href="http://en.wikipedia.org/wiki/DNS_Rebinding" rel="nofollow external" target="_blank">DNS Rebinding</a>. Of course changing the default password of your router helps mitigating these threats a lot, but unfortunately it’s not enough if you happen to be already logged in the administrative console, or if your device is affected by any of the commonplace holes which are left open by an unsafe development attitude, on the flawed assumption that just because a vulnerable service is not exposed on the internet side it can’t be reached by an internet attacker (see this <a href="http://www.sourcesec.com/2010/01/09/d-link-routers-one-hack-to-own-them-all/" rel="nofollow external" target="_blank">HNAP D-Link Hack</a> for a glaring example).</p>
+<p><strong><a href="http://noscript.net/abe">NoScript’s ABE module</a></strong> has been protecting routers and  intranet web resources against this kind of attacks for a long time, thanks to the following built-in SYSTEM rule:</p>
+<pre># Prevent Internet sites from requesting LAN resources.
+Site LOCAL
+Accept from LOCAL
+Deny
+</pre>
+<p>However security researcher Craig Heffner, <a href="http://blogs.forbes.com/firewall/2010/07/13/millions-of-home-routers-vulnerable-to-web-hack/" rel="nofollow external" target="_blank">interviewed by Andy Greenberg on his “The Firewall” Forbes blog</a>, recently announced a new DNS Rebinding variant which can be used to remotely control your router and (the scary part) allegedly bypasses the defenses provided by NoScript against this class of attacks.</p>
+<p>Even though the details are still to be presented — together with an automated attack tool! — at the BlackHat USA 2010 conference (today or tomorrow), <strong><a href="http://forums.informaction.com/memberlist.php?mode=viewprofile&amp;u=57" rel="nofollow external" target="_blank">al_9x</a></strong>, one of the most active members of the NoScript community, provided a very convincing speculative assessment of the new threat, based on the sparse data found in <a href="http://www.blackhat.com/html/bh-us-10/bh-us-10-briefings.html#Heffner" rel="nofollow external" target="_blank">this briefing summary</a>, and also a simple and clever suggestion for a remedy:</p>
+<blockquote cite="http://forums.informaction.com/viewtopic.php?p=19950#p19950"><p>
+Many routers will respond to requests to their public ip on the private interface. This allows an external site not merely to load the router config in an iframe by ip (without triggerring ABE LOCAL rule) but also by the site’s name (by dynamically dns binding it to the router’s public ip), thereby bypassing same origin check and gaining access to the router.</p>
+<p><strong>I suppose NoScript could (optionally) lookup the public ip and include it in the abe LOCAL pseudo-list</strong>.
+</p></blockquote>
+<p>And so it does now :)</p>
+<p>Since <a href="http://noscript.net/changelog#2.0rc5">version 2.0rc5</a>, released past week, NoScript detects your public (WAN) IP by sending a completely anonymous query on a secure channel to <strong>https://secure.informaction.com/ipecho</strong>, then treats it as a local address when enforcing its policies against CSRF and DNS Rebinding.</p>
+<p>There are a few optimizations, meant to reduce the traffic to less than two hundreds of bytes per user per day (and prevent my servers from melting down), but if you do notice this background request, now you know what it is about (it is also mentioned in the <a href="https://addons.mozilla.org/en-US/firefox/addon/722/privacy/" rel="nofollow external" target="_blank">NoScript’s Privacy Policy</a>, BTW). This new feature, enabled by default, can be disabled at any time by clearing the <em>NoScript Options|Advanced|ABE|WAN IP ∈ LOCAL</em> checkbox.</p>
+<p>Now, let’s just hope <strong>al_9x</strong>’s guess is correct.<br />
+I’m quite confident it is, but if it’s not, expect a brand new ABE protection feature in a week or so, anyway :)</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 28 Jul 2010 11:14:13 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:7:"Giorgio";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:10;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:27:"Gen Kanai: Browser nail art";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:34:"http://blog.mozilla.com/gen/?p=504";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:56:"http://blog.mozilla.com/gen/2010/07/28/browser-nail-art/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1161:"<p>Japanese girl blogger, Mamipeko, has browser icons custom painted onto her nails.  The nail artist only knew the IE icon, sadly.</p>
+<p><a href="http://d.hatena.ne.jp/Mamipeko/20100723/1279861355">もしかして世界初？痛ネイルアート「ブラウザ」</a></p>
+<p><a href="http://www.flickr.com/photos/45971035@N06/4826436938/in/set-72157624576537840/"><img alt="Tweetup Japan 2010" src="http://farm5.static.flickr.com/4073/4826436938_9e6fa85356.jpg" /></a><br />
+Photo by <a href="http://www.flickr.com/photos/45971035@N06/4826436938/in/set-72157624576537840/">Pietro Zuco</a>.</p>
+<p><a href="http://d.hatena.ne.jp/Mamipeko/20100723/1279861355"><img alt="ドンドン！Firefox！！！" src="http://mamipeko.net/blog/img/mamipeko100723_04.jpg" /><br />
+Photo by Mamipeko.</a></p>
+<p><a href="http://d.hatena.ne.jp/Mamipeko/20100723/1279861355"> </a></p>
+<p><a href="http://d.hatena.ne.jp/Mamipeko/20100723/1279861355"></a><br />
+via <a href="http://asiajin.com/blog/2010/07/24/browser-nail-art-by-geek-japanese-girl/">Asiajin</a> and <a href="http://tutti-cutie.com/Daily-Cute/Daily-Cute/browser-nail-art-by-mamipeko.html">tuttie-cutie</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 28 Jul 2010 07:09:34 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:9:"Gen Kanai";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:11;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:79:"Meeting Notes from the Mozilla community: SeaMonkey Meeting Minutes: 2010-07-27";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/343";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/343";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:40732:"<div>
+<h3>SeaMonkey:StatusMeetings:2010-07-27</h3>
+<h5>From MozillaWiki</h5>
+<div id="contentSub"></div>
+<p><a href="https://wiki.mozilla.org/SeaMonkey:StatusMeetings:2010-07-13" title="SeaMonkey:StatusMeetings:2010-07-13">« last meeting</a> | <a href="https://wiki.mozilla.org/SeaMonkey:StatusMeetings" title="SeaMonkey:StatusMeetings">index</a> | <a class="new" href="https://wiki.mozilla.org/index.php?title=SeaMonkey:StatusMeetings:2010-08-10&amp;action=edit&amp;redlink=1" title="SeaMonkey:StatusMeetings:2010-08-10 (page does not exist)">next meeting »</a></p>
+<p><b>SeaMonkey Meeting Details</b>
+</p>
+<ul>
+<li> Time: <a class="external text" href="http://www.timeanddate.com/worldclock/fixedtime.html?day=27&amp;month=7&amp;year=2010&amp;hour=12&amp;min=0&amp;sec=0&amp;p1=0" rel="nofollow" title="http://www.timeanddate.com/worldclock/fixedtime.html?day=27&amp;month=7&amp;year=2010&amp;hour=12&amp;min=0&amp;sec=0&amp;p1=0">July 27, 2010, 12:00 UTC</a><p></p>
+</li><li> Location: <a class="external text" href="irc://irc.mozilla.org/seamonkey" rel="nofollow" title="irc://irc.mozilla.org/seamonkey">#seamonkey IRC channel</a>
+</li></ul>
+<p><a id="Agenda" name="Agenda"></a><br />
+</p><h4> </h4>
+<ul>
+<li> Who’s taking minutes? -&gt; <b>Ratty</b>
+</li></ul>
+<p><a id="Action_Items" name="Action_Items"></a><br />
+</p><h5> </h5>
+<p>(who needs to do what that hasn’t been recorded in a bug) We should assign people to the open items.</p>
+<p><b>NEW</b></p>
+<p><b>OPEN</b></p>
+<p><b>CLOSED</b></p>
+<p><b>K.I.V.</b>
+</p>
+<ul>
+<li> Get permission from Google to use their geolocation JSON service <b>[KaiRo]</b>. Contact at Google says they don’t want additional specific consumers of the service right now and want to enable some general way of accessing it “some time” – We can only wait right now. No easy solution in sight. Also, discussing a possible open Geolocation service.
+</li></ul>
+<p><a id="SeaMonkey_2.0.6" name="SeaMonkey_2.0.6"></a><br />
+</p><h5> </h5>
+<p><a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?product=Core&amp;product=Toolkit&amp;product=MailNews+Core&amp;product=SeaMonkey&amp;product=Other+Applications&amp;field0-0-0=keywords&amp;type0-0-0=anywords&amp;value0-0-0=fixed-seamonkey2.0.6&amp;field0-0-1=cf_status_191&amp;type0-0-1=anywords&amp;value0-0-1=.11-fixed&amp;field0-0-2=cf_status_thunderbird30&amp;type0-0-2=anywords&amp;value0-0-2=.6-fixed" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?product=Core&amp;product=Toolkit&amp;product=MailNews+Core&amp;product=SeaMonkey&amp;product=Other+Applications&amp;field0-0-0=keywords&amp;type0-0-0=anywords&amp;value0-0-0=fixed-seamonkey2.0.6&amp;field0-0-1=cf_status_191&amp;type0-0-1=anywords&amp;value0-0-1=.11-fixed&amp;field0-0-2=cf_status_thunderbird30&amp;type0-0-2=anywords&amp;value0-0-2=.6-fixed">fixed</a> (48)
+</p>
+<ul>
+<li> Based on Gecko 1.9.1.11, <b>RELEASED</b> on July 20.
+</li></ul>
+<p><a id="SeaMonkey_2.0.7" name="SeaMonkey_2.0.7"></a><br />
+</p><h5> </h5>
+<p><a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?keywords_type=nowords&amp;keywords=fixed-seamonkey2.0.7&amp;field0-0-0=cf_status_191&amp;type0-0-0=nowords&amp;value0-0-0=.11-fixed&amp;field0-1-0=flagtypes.name&amp;type0-1-0=equals&amp;value0-1-0=blocking-seamonkey2.0.7%2B" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?keywords_type=nowords&amp;keywords=fixed-seamonkey2.0.7&amp;field0-0-0=cf_status_191&amp;type0-0-0=nowords&amp;value0-0-0=.11-fixed&amp;field0-1-0=flagtypes.name&amp;type0-1-0=equals&amp;value0-1-0=blocking-seamonkey2.0.7%2B">open blockers</a> (0)<br />
+<a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?keywords_type=nowords&amp;keywords=fixed-seamonkey2.0.7&amp;field0-0-0=cf_status_191&amp;type0-0-0=nowords&amp;value0-0-0=.11-fixed&amp;field0-1-0=flagtypes.name&amp;type0-1-0=equals&amp;value0-1-0=blocking-seamonkey2.0.7%3F" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?keywords_type=nowords&amp;keywords=fixed-seamonkey2.0.7&amp;field0-0-0=cf_status_191&amp;type0-0-0=nowords&amp;value0-0-0=.11-fixed&amp;field0-1-0=flagtypes.name&amp;type0-1-0=equals&amp;value0-1-0=blocking-seamonkey2.0.7%3F">blocker requests</a> (1)<br />
+<a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?product=Core&amp;product=Toolkit&amp;product=MailNews+Core&amp;product=SeaMonkey&amp;product=Other+Applications&amp;field0-0-0=keywords&amp;type0-0-0=anywords&amp;value0-0-0=fixed-seamonkey2.0.7&amp;field0-0-1=cf_status_191&amp;type0-0-1=anywords&amp;value0-0-1=.12-fixed&amp;field0-0-2=cf_status_thunderbird30&amp;type0-0-2=anywords&amp;value0-0-2=.7-fixed" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?product=Core&amp;product=Toolkit&amp;product=MailNews+Core&amp;product=SeaMonkey&amp;product=Other+Applications&amp;field0-0-0=keywords&amp;type0-0-0=anywords&amp;value0-0-0=fixed-seamonkey2.0.7&amp;field0-0-1=cf_status_191&amp;type0-0-1=anywords&amp;value0-0-1=.12-fixed&amp;field0-0-2=cf_status_thunderbird30&amp;type0-0-2=anywords&amp;value0-0-2=.7-fixed">fixed</a> (2)
+</p>
+<ul>
+<li> Based on Gecko 1.9.1.12, target dates TBD, see <a href="https://wiki.mozilla.org/Releases" title="Releases">Releases</a>.<p></p>
+</li><li> Release schedule will be synchronized with the next Firefox 3.5 release (3.5.12).
+</li></ul>
+<p><a id="SeaMonkey_2.1_Alpha_3" name="SeaMonkey_2.1_Alpha_3"></a><br />
+</p><h5> </h5>
+<p><a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?resolution=---&amp;&amp;field0-0-0=cf_blocking_seamonkey21&amp;type0-0-0=equals&amp;value0-0-0=a3%2B" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?resolution=---&amp;&amp;field0-0-0=cf_blocking_seamonkey21&amp;type0-0-0=equals&amp;value0-0-0=a3%2B">open blockers</a> (3)<br />
+<a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?&amp;field0-0-0=cf_blocking_seamonkey21&amp;type0-0-0=equals&amp;value0-0-0=%3F" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?&amp;field0-0-0=cf_blocking_seamonkey21&amp;type0-0-0=equals&amp;value0-0-0=%3F">blocker requests</a> (2)<br />
+<a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?resolution=---&amp;target_milestone=seamonkey2.1a3" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?resolution=---&amp;target_milestone=seamonkey2.1a3">targeted</a> (3)<br />
+<a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED&amp;target_milestone=seamonkey2.1a3" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED&amp;target_milestone=seamonkey2.1a3">fixed</a> (30)</p>
+<p>(Further 2.1 scheduling:)
+</p>
+<ul>
+<li> Please help updating the <a href="https://wiki.mozilla.org/SeaMonkey:Features:2.1" title="SeaMonkey:Features:2.1">New 2.1 Features</a> page as we go.<p></p>
+</li><li> Plans for 2.1: 6-8 weeks per milestone, a3 in late July or early August, b1 in August/September, and a final in October/November.
+</li><li> This seems to match recently presented Firefox 4 plans relatively well – they’ll go for beta really soon now and Final in the same timeframe as we have in those plans right now.
+</li><li> It would be good to get OOPP (Out Of Process Plugins) for SM2.1 but we need some way to build libxul to be able to build OOPP. Various Mailnews work has to be done (and is being done) for that to be possible.
+</li><li> The freeze for Firefox 4.0 Beta 1 has been carried out, and the Mozilla/Gecko version has been bumped to 2.0b2pre.
+</li><li> When can we freeze? When can we land places bookmarks?
+</li><li> Possible freeze date Tuesday 10th. August. This might give Neil enough time to review Places Bookmarks.
+</li></ul>
+<p><a id="Feature_List.2C_Planning" name="Feature_List.2C_Planning"></a><br />
+</p><h5> </h5>
+<p><a class="external text" href="http://dev.seamonkey.at/#bugstats" rel="nofollow" title="http://dev.seamonkey.at/#bugstats">Bug statistics</a> for last two (full) weeks: 50 new, 27 fixed, 24 triaged.
+</p>
+<ul>
+<li> Fix rate is back up, esp. last week!<p></p>
+</li><li> Good further triage targets could come out of looking at the <a class="external text" href="https://bugzilla.mozilla.org/report.cgi?query_format=report-table&amp;format=table&amp;action=wrap&amp;x_axis_field=bug_status&amp;y_axis_field=component&amp;product=SeaMonkey&amp;resolution=---" rel="nofollow" title="https://bugzilla.mozilla.org/report.cgi?query_format=report-table&amp;format=table&amp;action=wrap&amp;x_axis_field=bug_status&amp;y_axis_field=component&amp;product=SeaMonkey&amp;resolution=---">component bug counts</a>, pick yours!
+</li></ul>
+<p>Major wanted/needed features:
+</p>
+<p><a id="2.0.x" name="2.0.x"></a><br />
+</p><h6> </h6>
+<ul>
+<li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=423281" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=423281">bug 423281</a> Help updates.<p></p>
+<ul>
+<li> <i>status/progress?</i>
+</li></ul>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=483282" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=483282">bug 483282</a> Make sure normal SeaMonkey use doesn’t pay a price for having Venkman installed [Mnyromyr].
+<ul>
+<li> Needs at least a core patch landing for 1.9.1.10 <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=364864" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=364864">bug 364864</a> (nsICategoryManager::deleteCategoryEntry does not persist outside of component registration) which depends on <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=480851" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=480851">bug 480851</a> getting fixed on trunk.<p></p>
+</li><li> Mnyromyr hopes to get to look into Venkman now that he’s released Mnenhy 0.8.
+</li><li> <i>status/progress? Any hopes that this will still make 2.0?</i>
+</li></ul>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=471346" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=471346">bug 471346</a> Port GetDefaultFeedReader to SeaMonkey shell service [mcsmurf].
+<ul>
+<li> Landed on trunk, Callek and mcsmurf working to get it onto branch.<p></p>
+</li><li> <i>status/progress?</i>
+</li></ul>
+</li></ul>
+<p><a id="2.1" name="2.1"></a><br />
+</p><h6> </h6>
+<ul>
+<li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=460953" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=460953">bug 460953</a> kill-rdf port [sgautherie].<p></p>
+<ul>
+<li> Postponed until mcsmurf (or sgautherie) can resume work on it.<p></p>
+</li><li> <i>status/progress?</i>
+</li></ul>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=436794" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=436794">bug 436794</a> Enable Mac OS X system address book per default and add UI.
+<ul>
+<li> SM UI needed, unowned, helpwanted.<p></p>
+</li><li> <i>status/progress?</i>
+</li></ul>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=410613" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=410613">bug 410613</a> OpenSearch. <b>helpwanted</b>.
+<ul>
+<li> We need to check if OpenSearch can support all our existing functionality, for example the INTEPRETS section in Sherlock search plugins. Mnyromyr will check on that, and on how extensible the Firefox code is.<p></p>
+</li><li> <i>status/progress?</i>
+</li><li> The current consensus it to get some basic functionality going with OpenSearch first. And then later to see how much of the old functionality we can reimplement in follow-ups.
+</li></ul>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=449728" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=449728">bug 449728</a> Drag tabs between windows.
+<ul>
+<li> Currently unowned, helpwanted.<p></p>
+</li><li> [InvisibleSmiley: I'm looking into this, finished an initial port, but no success yet]
+</li></ul>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=498596" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=498596">bug 498596</a> Places bookmarks. [KaiRo]
+<ul>
+<li> Still waiting on reviews from Neil, patches have been split up into separate bugs per partial issue.
+</li></ul>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=480734" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=480734">bug 480734</a> Satchel data editor (“Form Manager”).
+<ul>
+<li> will be implemented in terms of Data Manager, see below.
+</li></ul>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=569341" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=569341">bug 569341</a> Data Manager [KaiRo]
+<ul>
+<li> Add-on <a class="external text" href="http://home.kairo.at/blog/2010-07/data_manager_feature_complete" rel="nofollow" title="http://home.kairo.at/blog/2010-07/data_manager_feature_complete">now feature complete</a> – please send your feedback to KaiRo!
+</li></ul>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=477845" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=477845">bug 477845</a> Build a standalone (Gecko 2.0) Composer. [kaze]
+<ul>
+<li> kaze will look into that once KompoZer 0.8 is done.<p></p>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=477840" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=477840">bug 477840</a> Backport KompoZer to Composer (Depends on <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=477845" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=477845">bug 477845</a>).
+</li><li> kaze has done a ton of work there. We’re still trying to work out some organizational issues.
+</li><li> At the moment there is no active interest from MoMo for bringing standalone composer into comm-central. That’s something we (KaiRo and kaze) will have to negotiate with the Thunderbird team (dmose).
+</li><li> <i>status/progress?</i>
+</li></ul>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=523274" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=523274">bug 523274</a> Complete new default theme icon set.
+<ul>
+<li> A <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=523274#c0" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=523274#c0">list of TODO icons</a> is up in the bug.<p></p>
+</li><li> Still needs quite a bit of work.
+</li><li> <i>status/progress?</i>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=522023" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=522023">bug 522023</a> is working on improving the browser globe in task icons, etc..
+</li></ul>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=526210" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=526210">bug 526210</a> Update the icon set for the SeaMonkey Modern Theme.
+<ul>
+<li> Some proposed icons got posted, we should take a look how to get that contribution into the product.<p></p>
+</li><li> The rest is unowned so far.
+</li><li> <i>status/progress?</i>
+</li></ul>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=97023" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=97023">bug 97023</a> Search/Find in page UI: toolbar instead of dialog [bfrisch].
+<ul>
+<li> <b>LANDED</b>!
+</li></ul>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=533908" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=533908">bug 533908</a> SeaMonkey Mail: tabs not restored [misak].
+<ul>
+<li> Waiting on feedback requests.
+</li></ul>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=467867" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=467867">bug 467867</a> [META] Implement Firefox TabBrowser API in Seamonkey [misak].
+<ul>
+<li> Misak has ported major items. Follow up bugs and patches have either landed or are in process.<p></p>
+</li><li> Already Fixed: getBrowserAtIndex(), getBrowserIndexForDocument(), loadTabs(), loadOneTab(), change addTab(), getIcon(), selectTabAtIndex(), web progress notifications for all tabs, progress Listener and Tab Progress Listener onLinkIconAvailable callback, Site icons places history and bookmarks.
+</li><li> <i>TODO:</i> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=562649" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=562649">bug 562649</a> set and correctly handle userTypedValue when loading external URIs. <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=570981" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=570981">bug 570981</a> Remove URLBarSetURI’s aValid parameter.
+</li></ul>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=563261" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=563261">bug 563261</a> Lightweight themes / personas [KaiRo].
+<ul>
+<li> <b>LANDED</b> for browser windows! Bugs for a few followups are filed, some have patches.
+</li></ul>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=566138" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=566138">bug 566138</a> Better integration with Windows 7 taskbar.
+<ul>
+<li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=581526" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=581526">bug 581526</a> Add SeaMonkey support for the Windows 7 jump list [mcsmurf].<p></p>
+<ul>
+<li> Work in progress.
+</li></ul>
+</li></ul>
+</li></ul>
+<p>We also should take a look at the other items on <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?resolution=---&amp;&amp;field0-0-0=cf_status_seamonkey21&amp;type0-0-0=equals&amp;value0-0-0=wanted" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?resolution=---&amp;&amp;field0-0-0=cf_status_seamonkey21&amp;type0-0-0=equals&amp;value0-0-0=wanted">2.1-wanted</a><br />
+Also the <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?&amp;field0-0-0=cf_status_seamonkey21&amp;type0-0-0=equals&amp;value0-0-0=%3F" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?&amp;field0-0-0=cf_status_seamonkey21&amp;type0-0-0=equals&amp;value0-0-0=%3F">nominations</a> need triaging.
+</p>
+<ul>
+<li> We need to find a solution for Lightning, which is targeting Thunderbird 3.1 now.<p></p>
+<ul>
+<li> Lightning 1.0 beta 1 is for SM2.0 and TB3.0, 1.0 beta 2 is for TB3.1 (Gecko 1.9.2). Further versions will probably be for 2.0-based releases.
+</li></ul>
+</li></ul>
+<p><a id="Roundtable_-_Personal_Status_Updates" name="Roundtable_-_Personal_Status_Updates"></a><br />
+</p><h5> </h5>
+<p>Status Updates from developers – what are you working on, what’s the progress, any other comments? (feel free to add yourself to the list if your name is missing and you have interesting status).
+</p>
+<p><a id="ajschult" name="ajschult"></a><br />
+</p><h6> </h6>
+<p><a id="Aqualon" name="Aqualon"></a><br />
+</p><h6> </h6>
+<p><a id="asrail" name="asrail"></a><br />
+</p><h6> </h6>
+<p><a id="biesi" name="biesi"></a><br />
+</p><h6> </h6>
+<p><a id="Callek" name="Callek"></a><br />
+</p><h6> </h6>
+<p>Working on:
+</p>
+<ul>
+<li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=576820" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=576820">bug 576820</a> Provide saner Error Console Spew (or none) when Firefox 4 manifest features are used. <p></p>
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579241" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579241">bug 579241</a> Update c-c packaging to account for libangle.so newly added to m-c.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=569839" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=569839">bug 569839</a> Port bug 569365 (kill preprocessor.pl) to comm-central.
+</li></ul>
+<p>Investigating:
+</p>
+<ul>
+<li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=580868" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=580868">bug 580868</a> Status Bar Icons No Longer Display.
+</li></ul>
+<p><a id="ewong" name="ewong"></a><br />
+</p><h6> </h6>
+<ul>
+<li> Fixed: <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579747" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579747">bug 579747</a> Page Info – Permissions, Ineffectual on https: sites.<p></p>
+</li><li> Working on: <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=572389" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=572389">bug 572389</a> Remove gopher references from SeaMonkey code.
+</li></ul>
+<p><a id="IanN" name="IanN"></a><br />
+</p><h6> </h6>
+<ul>
+<li>Usual testing, reviewing and commenting. <p></p>
+</li><li>Bugs fixed:
+<ul>
+<li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=566593" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=566593">bug 566593</a> Add-ons Manager window shows multiple times <p></p>
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=575956" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=575956">bug 575956</a> Customize Address Book toolbars.
+</li></ul>
+</li><li>Bugs being worked on:
+<ul>
+<li>Customize Composer toolbars.
+</li></ul>
+</li></ul>
+<p><a id="InvisibleSmiley" name="InvisibleSmiley"></a><br />
+</p><h6> </h6>
+<ul>
+<li>Fixed: <p></p>
+<ul>
+<li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=568181" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=568181">bug 568181</a> Port <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=566910" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=566910">bug 566910</a> ‘copy password’ context menu item for password manager.
+</li></ul>
+</li><li>Working on:
+<ul>
+<li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=449728" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=449728">bug 449728</a> Drag tabs between windows. <p></p>
+</li><li>Scripts for <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=246405" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=246405">bug 246405</a> mail_help.xhtml should be split to several files
+</li></ul>
+</li></ul>
+<p><a id="KaiRo" name="KaiRo"></a><br />
+</p><h6> </h6>
+<ul>
+<li>Released SeaMonkey 2.0.6. <p></p>
+</li><li>Landed the lightweight themes patch (<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=563261" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=563261">bug 563261</a>).
+</li><li>Filed followups for lwthemes on Mac (<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579737" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579737">bug 579737</a>), in MailNews (<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579738" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579738">bug 579738</a>) and in Composer (<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579739" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579739">bug 579739</a>).
+</li><li>Created and landed patch for security “button” theming improvements (<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579731" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579731">bug 579731</a>).
+</li><li>Worked on a patch for tab bar theming improvements (<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579732" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579732">bug 579732</a>).
+</li><li>Landed packaging fix for XPCOM registration (<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=577859" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=577859">bug 577859</a>).
+</li><li>Landed getFileDisplayName cleanup (<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=572454" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=572454">bug 572454</a>) and tabContainer rename (<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=577756" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=577756">bug 577756</a>).
+</li><li>Discussed GSoC project, did midterm evaluations, and <a class="external text" href="http://home.kairo.at/blog/2010-07/gsoc_mailnews_sync" rel="nofollow" title="http://home.kairo.at/blog/2010-07/gsoc_mailnews_sync">made Harini’s work known to Planet Mozilla readers</a>.
+</li><li>The feature-complete Data Manager version 0.9 is now <a class="external text" href="https://addons.mozilla.org/addon/162068" rel="nofollow" title="https://addons.mozilla.org/addon/162068">public on AMO</a>.
+</li><li>Split place bookmarks work (<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=498596" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=498596">bug 498596</a>) into per-step bugs (<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=580656" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=580656">bug 580656</a>, <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=580658" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=580658">bug 580658</a>, <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=580660" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=580660">bug 580660</a>, <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=580662" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=580662">bug 580662</a>, <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=580663" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=580663">bug 580663</a>) for easier review and updated patches on those. Also worked on tests for that patch set (<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=557496" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=557496">bug 557496</a>)
+</li><li>Fixed plugin notification test (<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=573921" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=573921">bug 573921</a>).
+</li><li>Did some investigation and a small step for addons search test failures (<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=580223" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=580223">bug 580223</a>), real fix came from IanN’s work on toEM() though.
+</li><li>Created a patch to default SeaMonkey to tabbed browsing (<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=505311" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=505311">bug 505311</a>).
+</li><li>Filed a bug for better tab loading indicators (<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=581042" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=581042">bug 581042</a>).
+</li><li>Started a few discussions SeaMonkey developer meeting and my possible visit to MV, both later this year.
+</li><li>As usual, <a class="external text" href="http://home.kairo.at/blog/" rel="nofollow" title="http://home.kairo.at/blog/">my blog</a> has more detailed status about my work, and <a class="external text" href="http://benjamin.smedbergs.us/weekly-updates.fcgi/user/KaiRo/posts" rel="nofollow" title="http://benjamin.smedbergs.us/weekly-updates.fcgi/user/KaiRo/posts">Mozilla Status Board Posts</a> also tell about my next planned steps.
+</li></ul>
+<p><a id="mcsmurf" name="mcsmurf"></a><br />
+</p><h6> </h6>
+<p>Working on:
+</p>
+<ul>
+<li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=581526" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=581526">bug 581526</a> Add SeaMonkey support for the Windows 7 jump list.
+</li></ul>
+<p><a id="Misak" name="Misak"></a><br />
+</p><h6> </h6>
+<p>Fixed (<i>or in-progress</i>) bugs:
+</p>
+<ul>
+<li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=515006" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=515006">bug 515006</a> Port <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=354894" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=354894">bug 354894</a> [Session restore doesn't work if process hasn't exited (Downloads window open)] to SeaMonkey. (browser_bug515006.js) <i>Fixed</i>. <p></p>
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=558614" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=558614">bug 558614</a> Implement Firefox TabBrowser API: loadTabs(), loadOneTab() and change addTab(). <i>Fixed</i>.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579845" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579845">bug 579845</a> Implement Firefox TabBrowser API: selectTabAtIndex(). <i>Fixed</i>.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=533908" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=533908">bug 533908</a> SeaMonkey Mail: tabs not restored.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=564677" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=564677">bug 564677</a> Port <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=539594" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=539594">bug 539594</a> [Middle-clicking back/forward/reload should open the new tab next to the current one].
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=577939" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=577939">bug 577939</a> Port <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=519216" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=519216">bug 519216</a> [Removing a progress listener while it's being called affects subsequent listeners] and followup <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=577320" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=577320">bug 577320</a>.
+</li></ul>
+<p><a id="Mnyromyr" name="Mnyromyr"></a><br />
+</p><h6> </h6>
+<p>Working on:
+</p>
+<ul>
+<li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=254800" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=254800">bug 254800</a> Add additional headers with values based upon identity.
+</li></ul>
+<p><a id="MReimer" name="MReimer"></a><br />
+</p><h6> </h6>
+<p><a id="Neil" name="Neil"></a><br />
+</p><h6> </h6>
+<p>Bugs fixed:
+</p>
+<ul>
+<li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=576745" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=576745">bug 576745</a> Make ChatZilla XPCOM component use new manifests and data tables. <p></p>
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579860" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579860">bug 579860</a> Consider starting bash in its own console window.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579931" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579931">bug 579931</a> libgklayout.so link failure because of undefined GLContext methods.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=581151" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=581151">bug 581151</a> make chrome no longer works.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=581652" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=581652">bug 581652</a> Some versions of gcc won’t compile nsCharSeparatedTokenizer.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=581903" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=581903">bug 581903</a> –enable-xterm-updates disables parallel dirs.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=581909" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=581909">bug 581909</a> Don’t pass -safeseh to ml64 because the behaviour is buggy.
+</li></ul>
+<p>Working on:
+</p>
+<ul>
+<li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=533290" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=533290">bug 533290</a> extApplication.js, _prefs object unexpectedly garbaged collected. <p></p>
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=576869" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=576869">bug 576869</a> Make venkman XPCOM components use new manifests and data tables.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=576900" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=576900">bug 576900</a> Make suite XPCOM components use new manifests and data tables.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579208" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579208">bug 579208</a> Sizes of some XUL elements changes when lightweight themes are applied.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579272" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579272">bug 579272</a> context menu background is transparent [venkman].
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=581307" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=581307">bug 581307</a> XPCOMUtils should provide a convenient way to lazily import modules.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=581309" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=581309">bug 581309</a> Remove unused properties from XPCOMUtils.
+</li></ul>
+<p>Investigated:
+</p>
+<ul>
+<li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=580868" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=580868">bug 580868</a> Status Bar Icons No Longer Display.
+</li></ul>
+<p><a id="Ratty" name="Ratty"></a><br />
+</p><h6> </h6>
+<p>Bugs fixed:
+</p>
+<ul>
+<li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=370387" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=370387">bug 370387</a> In Advanced/General/Choose “en-US” (set via intl.accept_languages) is not match to “en-us”. <p></p>
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=517469" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=517469">bug 517469</a> Port <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=363130" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=363130">bug 363130</a>: make menuitem icons 16×16px consistently on Windows/Linux.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=534322" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=534322">bug 534322</a> PageInfo Dialog is too short.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=570970" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=570970">bug 570970</a> Move the Link Behaviour preferences from the tabs pane to a separate pane.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=571517" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=571517">bug 571517</a> [SeaMonkey] Don’t pass strings to setTimeout.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=572682" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=572682">bug 572682</a> Move popups, panels, and tooltips into popupsets (e.g. mainPopupset).
+<ul>
+<li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578440" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578440">bug 578440</a> Use &lt;menupopup&gt; instead of &lt;popup&gt;.
+</li></ul>
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=577225" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=577225">bug 577225</a> Second getChildList parameter is now optional.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=577514" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=577514">bug 577514</a> Remove redundant pref-offline UI which was commented out since 2001.
+</li></ul>
+<p>Working on:
+</p>
+<ul>
+<li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=518736" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=518736">bug 518736</a> Lightning options button in Add-on window error – looking for preferences.xul. <i>waiting for review</i>. <p></p>
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=529240" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=529240">bug 529240</a> Make drop down menus for back and forward buttons middle/Ctrl-clickable.
+</li></ul>
+<p>Other:
+</p>
+<ul>
+<li>Bug triage, feedback, reviews, and Bug discussions. <p></p>
+</li><li>AgitProp and PR in <a class="external free" href="http://forums.mozillazine.org/" rel="nofollow" title="http://forums.mozillazine.org/">http://forums.mozillazine.org/</a>.
+</li></ul>
+<p><a id="sgautherie" name="sgautherie"></a><br />
+</p><h6> </h6>
+<p><a id="Standard8" name="Standard8"></a><br />
+</p><h6> </h6>
+<ul>
+<li>See <a class="external text" href="http://benjamin.smedbergs.us/weekly-updates.fcgi/user/Standard8/posts" rel="nofollow" title="http://benjamin.smedbergs.us/weekly-updates.fcgi/user/Standard8/posts">Mozilla Status Board Posts</a>.
+</li></ul>
+<p><a id="stefanh" name="stefanh"></a><br />
+</p><h6> </h6>
+<p>Working on:
+</p>
+<ul>
+<li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=536904" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=536904">bug 536904</a> Add toggletoolbar=”true” to the windows that should have a Mac toolbar toggle pill. <p></p>
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579737" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579737">bug 579737</a> Make lightweight themes / personas work with browser on Mac.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=580323" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=580323">bug 580323</a> Fix up autocomplete-history-popup menuitem in mac classic.
+</li><li><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=581686" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=581686">bug 581686</a> Page Info tabs aren’t drawn correctly.
+</li></ul>
+<p><a id="wladow" name="wladow"></a><br />
+</p><h6> </h6>
+<p><a id="Any_other_business.3F" name="Any_other_business.3F"></a><br />
+</p><h5> </h5>
+<ul>
+<li> None.
+</li></ul>
+<div class="printfooter">
+Retrieved from “<a href="https://wiki.mozilla.org/SeaMonkey:StatusMeetings:2010-07-27">https://wiki.mozilla.org/SeaMonkey:StatusMeetings:2010-07-27</a>“</div>
+<p></p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 28 Jul 2010 03:00:08 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:17:"Jesper Kristensen";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:12;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:86:"Meeting Notes from the Mozilla community: Mozilla Platform Meeting Minutes: 2010-07-27";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/341";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/341";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:19214:"<div>
+<h3>Platform/2010-07-27</h3>
+<h5>From MozillaWiki</h5>
+<div id="contentSub"><span class="subpages">&lt; <a href="https://wiki.mozilla.org/Platform" title="Platform">Platform</a></span></div>
+<p><a href="https://wiki.mozilla.org/Platform/2010-07-20" title="Platform/2010-07-20">« previous week</a> | <a href="https://wiki.mozilla.org/Platform" title="Platform">index</a> | <a class="new" href="https://wiki.mozilla.org/index.php?title=Platform/2010-08-03&amp;action=edit&amp;redlink=1" title="Platform/2010-08-03 (page does not exist)">next week »</a>
+</p>
+<p><a id="Notices_.2F_Schedule" name="Notices_.2F_Schedule"></a><br />
+</p><h3> </h3>
+<ul>
+<li> Blackhat is this week
+</li></ul>
+<p><b>Firefox (Supported Branches)</b>
+</p>
+<ul>
+<li> Initial schedule for 3.6.9/3.5.12 is up at <a href="https://wiki.mozilla.org/Releases/Firefox_3.6.9" title="Releases/Firefox 3.6.9">Releases/Firefox_3.6.9</a>.<p></p>
+<ul>
+<li> Code freeze is currently scheduled for Thursday August 12 @ 11:59 pm PST<p></p>
+</li><li> <b>Please let <a class="external text" href="mailto:clegnitto@mozilla.com" rel="nofollow" title="mailto:clegnitto@mozilla.com">christian</a> or <a class="external text" href="mailto:release-drivers@mozilla.org" rel="nofollow" title="mailto:release-drivers@mozilla.org">release-drivers</a> know if there are issues with the schedule</b>
+</li></ul>
+</li><li> Initial post-mortem dates &amp; times have been scheduled
+<ul>
+<li> Firefox 3.6.7/8: 2010-08-03 @ 1:00 pm PST, duration 45 mins<p></p>
+</li><li> Firefox 3.6.4/6: 2010-08-10 @ 1:00 pm PST, duration 1 hour
+</li></ul>
+</li><li>  I know they are in conflict with critsmash meetings, let me know if that is an issue (probably only matters for 3.6.4/6, so I may move that one to a different day)
+</li></ul>
+<p><b>Firefox (Beta)</b>
+</p>
+<ul>
+<li> should be shipping Firefox 4 Beta 2 around noon PT today<p></p>
+</li><li> code freeze for Firefox 4 Beta 3 is set for next Monday, August 2nd, 23:00 PT
+<ul>
+<li> the <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED,VERIFIED&amp;chfieldfrom=2010-07-20%2015%3A00&amp;chfield=resolution&amp;query_format=advanced&amp;chfieldto=Now&amp;product=Core&amp;product=Firefox&amp;product=NSPR&amp;product=NSS&amp;product=Toolkit" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED,VERIFIED&amp;chfieldfrom=2010-07-20%2015%3A00&amp;chfield=resolution&amp;query_format=advanced&amp;chfieldto=Now&amp;product=Core&amp;product=Firefox&amp;product=NSPR&amp;product=NSS&amp;product=Toolkit">changelist as of this moment</a>
+</li></ul>
+</li></ul>
+<p><a id="Blocker_Report" name="Blocker_Report"></a><br />
+</p><h3> </h3>
+<p><b>Firefox 3.6.9</b>
+</p>
+<ul>
+<li> There are <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=ALL%20blocking1.9.2:.9%2B%20-status1.9.2:.9-fixed&amp;order=map_assigned_to.login_name,bugs.bug_id" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=ALL%20blocking1.9.2:.9%2B%20-status1.9.2:.9-fixed&amp;order=map_assigned_to.login_name,bugs.bug_id">22 open blockers</a><p></p>
+<ul>
+<li> Code freeze is currently scheduled for Thursday August 12 @ 11:59 pm PST  <p></p>
+</li><li> Let’s try to not get them all in on the last day. I’ll be bugging people furiously this week and the start of next
+</li></ul>
+</li></ul>
+<p><b>Firefox 3.5.12</b>
+</p>
+<ul>
+<li> There are <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=ALL%20blocking1.9.1:.12%2B%20-status1.9.1:.12-fixed&amp;order=map_assigned_to.login_name,bugs.bug_id" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=ALL%20blocking1.9.1:.12%2B%20-status1.9.1:.12-fixed&amp;order=map_assigned_to.login_name,bugs.bug_id">13 open blockers</a><p></p>
+</li><li> Code freeze is tied to 3.6.9
+</li></ul>
+<p><b>Firefox 4 Beta</b>
+</p>
+<ul>
+<li> a handy list of <a href="https://wiki.mozilla.org/Firefox/4/Triage" title="Firefox/4/Triage">triage queries</a> is available for all!<p></p>
+<ul>
+<li> Beta 3: <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=blocking2.0%3Abeta3" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=blocking2.0%3Abeta3">35 blockers</a><p></p>
+</li><li> Beta N: <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=blocking2.0%3AbetaN" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=blocking2.0%3AbetaN">132 blockers</a>
+</li><li> Final: <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=blocking2.0%3Afinal" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=blocking2.0%3Afinal">218 blockers</a>
+</li><li> nominations: <font color="red"><b><a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=ALL%20blocking2.0%3A%22%3F%22" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=ALL%20blocking2.0%3A%22%3F%22">500+ nominations</a></b></font>
+</li></ul>
+</li></ul>
+<p><a id="Browser_.2F_Front_End" name="Browser_.2F_Front_End"></a><br />
+</p><h3> </h3>
+<p>johnath at BlackHat this week, frontend <a href="https://wiki.mozilla.org/Firefox/Goals/2010Q3#Firefox_Development" title="Firefox/Goals/2010Q3">Q3 Goals</a> updated with team status.
+</p>
+<p><a id="Firefox_Development" name="Firefox_Development"></a><br />
+</p><h3> </h3>
+<p>(from our <a href="https://wiki.mozilla.org/Firefox/Goals/2010Q3" title="Firefox/Goals/2010Q3">goals</a>):</p>
+<p>
+</p>
+<ul>
+<li> <span style="color: grey; font-size: 80%; font-weight: bold;">[NEW]</span> Feature complete Firefox 4<p></p>
+<ul>
+<li> Extension Manager – Functionality there, lots of bugs to fix.<p></p>
+</li><li> Account Manager – Partial work, restaffing to get this one done.
+</li><li> Notification UI – Geo done, WIP patches on others.
+</li><li> TabCandy – Initial reviews. Big patch, might take iteration, but getting traction now
+</li><li> Integrated Sync – Patches up, no reviews yet
+</li><li> New Theme – Substantially done on Windows and Mac, Linux lagging.
+</li><li> App Tabs – Basic UI in place, several functionality follow ups to get to feature complete
+</li><li> Switch to Tab – Done
+</li><li> Inspector – In progress
+</li><li> Web Console – In progress
+</li><li> Silent updates on Windows – In progress
+</li></ul>
+</li></ul>
+<ul>
+<li> <span style="color: grey; font-size: 80%; font-weight: bold;">[NEW]</span> Dirty profile startup within 20% of clean profile startup (modulo extensions, plugins; on windows)<p></p>
+<ul>
+<li> Shawn has a <a class="external text" href="http://shawnwilsher.com/archives/date/2010/07/26" rel="nofollow" title="http://shawnwilsher.com/archives/date/2010/07/26">blog post</a> with preliminary data<p></p>
+</li><li> Session Restore is the <a class="external text" href="http://shawnwilsher.com/wp-content/uploads/2010/07/startup-time.png" rel="nofollow" title="http://shawnwilsher.com/wp-content/uploads/2010/07/startup-time.png">biggest single culprit</a>
+</li><li> Bugs filed for session restore <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=582005" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=582005">bug 582005</a> and excessive cookie i/o <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=572223" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=572223">bug 572223</a>
+</li></ul>
+</li></ul>
+<p>
+</p>
+<p><a id="Platform" name="Platform"></a><br />
+</p><h3> </h3>
+<ul>
+<li> <a href="https://wiki.mozilla.org/Platform/2010-Q3-Goals#GFX" title="Platform/2010-Q3-Goals">GFX Goals</a> Update:<p></p>
+<ul>
+<li> D2D<p></p>
+<ul>
+<li> Down to 33 reftest failures <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578110" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578110">bug 578110</a><p></p>
+</li><li> We’re having some problems with the way gradients are implemented in D2D <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=582236" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=582236">bug 582236</a> and not sure how to solve them at this point. We’ll need to figure out how bad this is and what we can do about it
+</li></ul>
+</li></ul>
+</li><li> <a href="https://wiki.mozilla.org/Platform/2010-Q3-Goals#JS" title="Platform/2010-Q3-Goals">JS</a> Goals Update:
+<ul>
+<li> JaegerMonkey plan is on target<p></p>
+</li><li> VM perf wins (strings, arrays) being checked in
+</li><li> ES5
+<ul>
+<li> Landings<p></p>
+<ul>
+<li> Added U+FEFF to whitespace in <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=581067" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=581067">bug 581067</a> (discovered while writing another test)<p></p>
+</li><li> <code>/a/.lastIndex</code> is now a nearly plain-vanilla property, settable to any value (coerced to number for internal use), <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=465199" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=465199">bug 465199</a>
+</li><li> Killed special handling (except for a new warning) of <code>eval</code> called with two arguments in <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=531675" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=531675">bug 531675</a>
+</li><li> <code>Function.prototype.apply</code> no longer requires arguments to be an array or an arguments value — any array-like object is valid now, <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=562448" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=562448">bug 562448</a> (includes recent spec erratum spawned by work on this)
+</li></ul>
+</li><li> In progress
+<ul>
+<li> Updating <code>parseInt</code> to reject octal input in strict mode (ES5 rejects everywhere, we’re concerned about compatibility) in <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=577536" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=577536">bug 577536</a>; also significantly reorganized/cleaned up decade-old integer parsing code, much more understandable now with fewer mandatory special-case behaviors to internalize<p></p>
+</li><li> Requiring object-literal getters/setters to have 0/1 arguments, <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=536472" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=536472">bug 536472</a>, plus some prerequisite cleanups
+</li><li> Yak-shaving to be able to make JSON.parse reject trailing commas
+</li></ul>
+</li></ul>
+</li></ul>
+</li><li> <a href="https://wiki.mozilla.org/Platform/2010-Q3-Goals#Content" title="Platform/2010-Q3-Goals">Content</a> Goals Update:
+<ul>
+<li> Got a couple of boosts on Dromaeo last week! <a class="external text" href="http://mzl.la/dgNbsw" rel="nofollow" title="http://mzl.la/dgNbsw">graph</a> (peterv and smaug)
+</li></ul>
+</li><li> <a href="https://wiki.mozilla.org/Platform/2010-Q3-Goals#Layout" title="Platform/2010-Q3-Goals">Layout</a> Goals Update:
+</li></ul>
+<p><a id="Windows_7_Test_Status" name="Windows_7_Test_Status"></a><br />
+</p><h3> </h3>
+<p>We must have our trees <b>green</b> on Windows 7 to ship Firefox 4.<br />
+We need owners to make this happen.
+</p>
+<ul>
+<li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=562489#c3" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=562489#c3">bug 562489</a> [tracking bug] for the various win7 32-bit unit tests orange<p></p>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=562955" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=562955">bug 562955</a> – jimm – mochitests-4/5 – test_bug458898.html
+</li><li> <strike><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=574042" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=574042">bug 574042</a>, <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=574040" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=574040">bug 574040</a> – Enn / jimm (toolkit / widget) widgets/test_popupincontent.xul</strike>
+</li><li> <strike><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578448" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578448">bug 578448</a> – Mossop – browser_bug435788.js times out (waiting on manual retest from armen) – underlying issue is <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=542504" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=542504">bug 542504</a></strike>
+</li><li> <strike><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=575748" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=575748">bug 575748</a> – Dão Gottwald – browser_overflowScroll.js (WIP patch posted)</strike>
+</li><li> <strike><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=562967" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=562967">bug 562967</a> – Justin Dolske – test_uriloader_exthandler\unit\test_handlerService.js</strike>
+</li><li> <strike><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=562957" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=562957">bug 562957</a> – Enn</strike>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=581734" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=581734">bug 581734</a> – smontagu?? – mochitest-chrome timeout in toolkit/content/tests/chrome/test_bug558403.xul
+</li><li> <strike>comment 19 of <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=561350" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=561350">bug 561350</a> (but not the rest of the bug) – no owner – xpcshell test failing: test_punicodeURIs.js – underlying issue is <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=542504" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=542504">bug 542504</a></strike>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=582315" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=582315">bug 582315</a> – felipec?? –  intermittent orange in test_taskbarprogress_downloadstates.xul and test_taskbarprogress_service.xul
+</li></ul>
+<p>Direct 2D oranges:
+</p>
+<ul>
+<li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578110#c1" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578110#c1">bug 578110</a> – [tracking bug] reftest Direct 2D oranges<p></p>
+</li><li> <strike><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578127" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578127">bug 578127</a> – no assignee – bidi/visualmarquee.html, logicalmarquee.html</strike>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578134" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578134">bug 578134</a> – jrmuizel -box-shadow/boxshadow-rounded-spread.html
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578135" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578135">bug 578135</a> – jrmuizel -box-shadow/boxshadow-onecorner.html
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578114" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578114">bug 578114</a> – jrmuizel -bugs/289480.html#top
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578116" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578116">bug 578116</a> – Bas Schouten -379349-1b.xhtml, 379349-1c.xhtml
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578118" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578118">bug 578118</a> – Jonathan Kew -385569-1a.html, 385569-1b.html
+</li><li> <strike><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578121" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578121">bug 578121</a> – jrmuizel -456219-1{a,b,c}.html, 456219-2.html</strike>
+</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578124" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578124">bug 578124</a> – jrmuizel -555388-1-ref.html
+</li></ul>
+<p>Mac OS X 10.6/64-bit test oranges:
+</p>
+<ul>
+<li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=561350" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=561350">bug 561350</a> – josh – test_punycodeURIs.js fails (was timing out) on 10.6 opt xpcshell test
+</li></ul>
+<p><a id="Tree_Management" name="Tree_Management"></a><br />
+</p><h3> </h3>
+<p>To be announced:
+</p>
+<ul>
+<li> we want to disable unit test on builders tomorrow Wednesday if no objections (Windows 2003 builder will wait until we have all test suites GREEN)
+</li></ul>
+<p>For reference:
+</p>
+<ul>
+<li> if anyone is curious <a class="external text" href="http://armenzg.blogspot.com/2010/07/releng-what-has-changed-in-last-week.html" rel="nofollow" title="http://armenzg.blogspot.com/2010/07/releng-what-has-changed-in-last-week.html">Releng’s last week changes</a><p></p>
+</li><li> as of today, talos do not run for try server jobs
+</li><li> <a class="external text" href="http://groups.google.com/group/mozilla.dev.planning/browse_thread/thread/7e60fb50e283709c" rel="nofollow" title="http://groups.google.com/group/mozilla.dev.planning/browse_thread/thread/7e60fb50e283709c#">running unit test on minis for all branches and all platforms (except Windows XP)</a>
+</li></ul>
+<p><a id="Roundtable" name="Roundtable"></a><br />
+</p><h3> </h3>
+<ul>
+<li> Hands-up for what’s going into Beta 3 (beltzner)<p></p>
+<ul>
+<li> new JS values – could affect add-ons that use JSAPI<p></p>
+</li><li> OSX uses UNIX filesystem code instead of OSX filesystem code
+</li><li> Sync UI built in (needs review)
+</li><li> SQLite 3.7.0
+</li></ul>
+</li><li> Quick overview of new tree rules (beltzner)
+<ul>
+<li> patches on blocking (mozilla2.0, fennec2.0) bugs are always approved<p></p>
+</li><li> NPOTB and tests are always approved
+</li><li> bustage fixes and backouts are always approved
+</li><li> question: bugs that block blockers – explicit approval/blocking status?
+<ul>
+<li> no explicit approvals/flags needed until we see abuse
+</li></ul>
+</li><li> question: meta bugs allowed to block?
+<ul>
+<li> still no, for now
+</li></ul>
+</li></ul>
+</li></ul>
+<div class="printfooter">
+Retrieved from “<a href="https://wiki.mozilla.org/Platform/2010-07-27">https://wiki.mozilla.org/Platform/2010-07-27</a>“</div>
+<p></p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 28 Jul 2010 03:00:04 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:17:"Jesper Kristensen";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:13;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:81:"Meeting Notes from the Mozilla community: Thunderbird Meeting Minutes: 2010-07-27";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/342";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/342";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:11967:"<div>
+<h3>Thunderbird/StatusMeetings/2010-07-27</h3>
+<h5>From MozillaWiki</h5>
+<div id="contentSub"><span class="subpages">&lt; <a href="https://wiki.mozilla.org/Thunderbird" title="Thunderbird">Thunderbird</a> | <a href="https://wiki.mozilla.org/Thunderbird/StatusMeetings" title="Thunderbird/StatusMeetings">StatusMeetings</a></span></div>
+<p><a href="https://wiki.mozilla.org/Thunderbird/StatusMeetings/2010-07-20" title="Thunderbird/StatusMeetings/2010-07-20">last meeting</a> | <a href="https://wiki.mozilla.org/Thunderbird/StatusMeetings" title="Thunderbird/StatusMeetings">index</a> | <a href="https://wiki.mozilla.org/Thunderbird/StatusMeetings/2010-08-03" title="Thunderbird/StatusMeetings/2010-08-03">next meeting »</a>
+</p>
+<table>
+<caption> <b>Current Release Schedules</b><br />
+</caption>
+<tbody><tr>
+<th width="33%"> Thunderbird 3.2
+</th><th> Thunderbird 3.1.2
+</th><th> Thunderbird 3.0.7<br />
+</th></tr>
+<tr>
+<td> To Be Announced<p></p>
+</td><td> To Be Announced<p></p>
+</td><td> To Be Announced<br />
+</td></tr></tbody></table>
+<p>
+<b>Thunderbird Meeting Details</b> :
+</p>
+<ul>
+<li><a class="external text" href="http://www.timeanddate.com/worldclock/fixedtime.html?year=2010&amp;month=07&amp;day=27&amp;hour=16&amp;min=30&amp;sec=0" rel="nofollow" title="http://www.timeanddate.com/worldclock/fixedtime.html?year=2010&amp;month=07&amp;day=27&amp;hour=16&amp;min=30&amp;sec=0">Tuesday, July 27th, 16:30 UTC</a> (9:30am Pacific, 12:30pm Eastern)<p></p>
+</li><li><a href="https://wiki.mozilla.org/Thunderbird/StatusMeeting/DialInInfo" title="Thunderbird/StatusMeeting/DialInInfo">How to dial-in</a>
+</li></ul>
+<p><b>Remember to press *1 to unmute yourself before talking!</b>
+</p>
+<p><a id="Agenda" name="Agenda"></a><br />
+</p><h4> </h4>
+<ul>
+<li>Who’s taking minutes? –&gt; <b>bienvenu</b> <p></p>
+</li><li><a class="external text" href="http://ascher.ca/thunderbird/minutes_schedule.html" rel="nofollow" title="http://ascher.ca/thunderbird/minutes_schedule.html">Minute taking Schedule</a>. Talk to davida for schedule changes/additions.
+</li></ul>
+<p><a id="Action_Items" name="Action_Items"></a><br />
+</p><h5> </h5>
+<p><a id="Friends_of_the_Tree" name="Friends_of_the_Tree"></a><br />
+</p><h5> </h5>
+<p>Thanks to our <a class="external text" href="http://developer.mozilla.org/en/Glossary#FotT" rel="nofollow" title="http://developer.mozilla.org/en/Glossary#FotT">Friends of the Tree</a>  When adding someone to this section, please get their T-Shirt size and send it to <a class="external text" href="mailto:rebron@mozillamessaging.com" rel="nofollow" title="mailto:rebron@mozillamessaging.com">rebron@mozillamessaging.com</a> so that he can send them a shirt!
+</p>
+<ul>
+<li> FuzzyFox/William D<p></p>
+</li><li> Jonathan Kamens
+</li></ul>
+<p><a id="Conversion_Funnel_.28Priority_0_side_project.29" name="Conversion_Funnel_.28Priority_0_side_project.29"></a><br />
+</p><h5> </h5>
+<ul>
+<li> 31% – 41% ISPDB success rate. Top 10 misses, secureserver.net, psmtp.com, ocn.ad.jp, rr.com, ovh.net, cox.net, att.net, virginmedia.com, ewetel.de, and go2.pl.  Next 20 would add 4.6%.<p></p>
+</li><li> Next funnel cake 2 will be on Tb 3.1.2. <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=582240" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=582240">Bug 582240</a>
+</li><li> Funnel Cake 1: 81% retention rate after 4 months.
+</li></ul>
+<p><a id="Thunderbird_Development" name="Thunderbird_Development"></a><br />
+</p><h5> </h5>
+<p><a id="Feature_Work" name="Feature_Work"></a><br />
+</p><h6> </h6>
+<ul>
+<li> Mail account provisioning development has started, with a repo at <a class="external free" href="http://hg.mozilla.org/users/bwinton_latte.ca/accountprovisioner/" rel="nofollow" title="http://hg.mozilla.org/users/bwinton_latte.ca/accountprovisioner/">http://hg.mozilla.org/users/bwinton_latte.ca/accountprovisioner/</a> Feedback/suggestions/pre-code-reviews welcome.
+</li></ul>
+<p><a id="3.2" name="3.2"></a><br />
+</p><h6> </h6>
+<ul>
+<li> Initial <a class="external text" href="http://groups.google.com/group/tb-planning/browse_frm/thread/f2a72996faae24f6" rel="nofollow" title="http://groups.google.com/group/tb-planning/browse_frm/thread/f2a72996faae24f6">tb-planning thread</a>, quick summary:<p></p>
+<ul>
+<li> 3.2 based off a comm-1.9.2 with mozilla-1.9.2 with limited back-ported features and fixes.<p></p>
+</li><li> Would allow some API changes (many for extensions benefit) and string changes.
+</li><li> Next trunk release would be after FF 4 ships, possibly as little as one month, depending on what state our trunk is in, features landed etc.
+</li></ul>
+</li></ul>
+<p><a id="Major_updates_to_3.1" name="Major_updates_to_3.1"></a><br />
+</p><h6> </h6>
+<ul>
+<li> Expecting a small 3.1.2<p></p>
+</li><li> Then push prompted major updates to TB 3.1.2.
+<ul>
+<li> Initial 3.0.? -&gt; 3.1.2 push planned for ? August.<p></p>
+</li><li> Initial 2.0.0.24 -&gt; 3.1.2 push planned for ? August.
+</li></ul>
+</li></ul>
+<p><a id="Thunderbird_Stability_.26_Security_Releases" name="Thunderbird_Stability_.26_Security_Releases"></a><br />
+</p><h6> </h6>
+<ul>
+<li> Bug Lists: <a class="external text" href="http://hg.mozilla.org/users/bugzilla_standard8.plus.com/drivertools/raw-file/default/bugtracking/index.html?branch=3.1" rel="nofollow" title="http://hg.mozilla.org/users/bugzilla_standard8.plus.com/drivertools/raw-file/default/bugtracking/index.html?branch=3.1">3.1</a>, <a class="external text" href="http://hg.mozilla.org/users/bugzilla_standard8.plus.com/drivertools/raw-file/default/bugtracking/index.html?branch=3.0" rel="nofollow" title="http://hg.mozilla.org/users/bugzilla_standard8.plus.com/drivertools/raw-file/default/bugtracking/index.html?branch=3.0">3.0</a>
+</li></ul>
+<p><a id="Experiments" name="Experiments"></a><br />
+</p><h6> </h6>
+<ul>
+<li> Pushed back release of this weeks add-on (Contacts)<p></p>
+<ul>
+<li> Expected for release later in week (thursday)
+</li></ul>
+</li><li> Will be doing screen casts for add-on experiments
+</li></ul>
+<p><a id="QA_Updates" name="QA_Updates"></a><br />
+</p><h5> </h5>
+<ul>
+<li> Nothing much to report for this week.<p></p>
+</li><li> when shall we start closing (or perhaps asking for retest) of so-called “2.0 only” and older bugs, eg <a class="external text" href="http://bit.ly/dDvQn0" rel="nofollow" title="http://bit.ly/dDvQn0">older crashes</a>?
+</li><li> Planning on having QA seminars in September, to teach volunteers how to do things like regression window discovery.
+</li></ul>
+<p><a id="Marketing_Updates" name="Marketing_Updates"></a><br />
+</p><h5> </h5>
+<ul>
+<li> PR Update: Over 40 stories on Thunderbird and Firefox security update <a class="external text" href="http://news.softpedia.com/news/Thunderbird-Security-Updates-Address-Critical-Vulnerabilities-148508.shtml" rel="nofollow" title="http://news.softpedia.com/news/Thunderbird-Security-Updates-Address-Critical-Vulnerabilities-148508.shtml">1</a>, <a class="external text" href="http://www.v3.co.uk/v3/news/2266844/mozilla-issues-firefox" rel="nofollow" title="http://www.v3.co.uk/v3/news/2266844/mozilla-issues-firefox">2</a>, <a class="external text" href="http://www.h-online.com/security/news/item/Mozilla-releases-Firefox-Thunderbird-security-updates-1042519.html" rel="nofollow" title="http://www.h-online.com/security/news/item/Mozilla-releases-Firefox-Thunderbird-security-updates-1042519.html">3</a><p></p>
+</li><li> Worked with FuzzyFox to come up with a <a class="external text" href="http://fuzzyfox.mozhunt.com/blog/2010/07/how-to-extend-a-free-vacation/" rel="nofollow" title="http://fuzzyfox.mozhunt.com/blog/2010/07/how-to-extend-a-free-vacation/">screen cast for Quick Filter</a>.  Turned out great.
+</li><li> Thunderbird Quarterly Satisfaction Survey, launching this week, on Thunderbird start page.
+</li></ul>
+<p>Next:
+</p>
+<ul>
+<li> Evaluating <a class="external text" href="http://www.spreadfirefox.com/socialmediatoolkit" rel="nofollow" title="http://www.spreadfirefox.com/socialmediatoolkit">Social Media Toolkit for Thunderbird</a> <p></p>
+</li><li> Q3/Q4 marketing planning
+</li></ul>
+<p><a id="IT_update" name="IT_update"></a><br />
+</p><h5> </h5>
+<ul>
+<li> Nightly updates now from dedicated system<p></p>
+</li><li> Build capacity improvements
+</li><li> YVR (minis) network link issues
+</li><li> TryServer almost ready
+<ul>
+<li> won’t get unit tests until we link into libxul
+</li></ul>
+</li></ul>
+<p><a id="Documentation" name="Documentation"></a><br />
+</p><h5> </h5>
+<ul>
+<li> <a class="external text" href="http://en.flossmanuals.net/bin/view/Thunderbird/WebHome" rel="nofollow" title="http://en.flossmanuals.net/bin/view/Thunderbird/WebHome">FLOSS Manual for Thunderbird</a>: outline; Mac OS X installation chapter<p></p>
+</li><li> Mike (practicum student): working on article regarding switching from other mail software (Outlook, etc)
+</li><li> <a class="external text" href="https://support.mozillamessaging.com/en-US/kb/ISP+Database#Can_there_be_multiple_different_sets_of_configuration_data_for_a_single_domain_" rel="nofollow" title="https://support.mozillamessaging.com/en-US/kb/ISP+Database#Can_there_be_multiple_different_sets_of_configuration_data_for_a_single_domain_">ISP DB multiple configs per domain</a>
+</li><li> mozilla.org: moving content, redirects
+</li><li> <a class="external text" href="https://wiki.mozilla.org/Thunderbird/Docs/Sumo-Over-the-Rainbow" rel="nofollow" title="https://wiki.mozilla.org/Thunderbird/Docs/Sumo-Over-the-Rainbow">Sumo Over the Rainbow</a> wish list for new wiki platform
+</li><li> Reminder: I am away for a week starting tonight
+</li></ul>
+<p><a id="Support" name="Support"></a><br />
+</p><h5> </h5>
+<ol>
+<li> <a class="external text" href="https://wiki.mozilla.org/Thunderbird/Thunderbird3.1SupportIssues" rel="nofollow" title="https://wiki.mozilla.org/Thunderbird/Thunderbird3.1SupportIssues">3.1 Support Issues</a> – nothing really major so far, seems to be better than 3.0.x – please add your support issues to the Discussion page of this wiki page <b>still a work in progress</b><p></p>
+</li><li> SuMoMo <a class="external text" href="https://trunk.support.mozillamessaging.com/en-US/kb/tiki-index.php?page=localization" rel="nofollow" title="https://trunk.support.mozillamessaging.com/en-US/kb/tiki-index.php?page=localization">localization dashboard is up on trunk</a>, thanks to Andrei – hope to go live powered by web trends data next week
+</li><li> thanks to <a class="external text" href="http://fuzzyfox.mozhunt.com/blog/2010/07/how-to-extend-a-free-vacation/" rel="nofollow" title="http://fuzzyfox.mozhunt.com/blog/2010/07/how-to-extend-a-free-vacation/">fuzzyfox</a> for upcoming screencast on Quick Filter – will clarify things for lots of people, love to get Thunderbird HowTo Screencasts from others!
+</li><li> See <a href="https://wiki.mozilla.org/Thunderbird/StatusMeetings/2010-07-27/SupportAppendix" title="Thunderbird/StatusMeetings/2010-07-27/SupportAppendix">this week’s Support Appendix</a> for full Get Satisfaction metrics and other support details -
+</li></ol>
+<p><a id="Lightning_Updates" name="Lightning_Updates"></a><br />
+</p><h5> </h5>
+<p><a id="Status_updates" name="Status_updates"></a><br />
+</p><h5> </h5>
+<p>See the <a class="external text" href="http://benjamin.smedbergs.us/weekly-updates.fcgi/project/thunderbird" rel="nofollow" title="http://benjamin.smedbergs.us/weekly-updates.fcgi/project/thunderbird">Mozilla Status Board</a> for status updates specific to developers.
+</p>
+<p><a id="Roundtable_Highlights" name="Roundtable_Highlights"></a><br />
+</p><h5> </h5>
+<p><a id="Attendees" name="Attendees"></a><br />
+</p><h5> </h5>
+<p>dmose rafael standard8 bienvenu clarkbw ludo jenzed gozer roland bwinton
+</p>
+<div class="printfooter">
+Retrieved from “<a href="https://wiki.mozilla.org/Thunderbird/StatusMeetings/2010-07-27">https://wiki.mozilla.org/Thunderbird/StatusMeetings/2010-07-27</a>“</div>
+<p></p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 28 Jul 2010 02:59:58 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:17:"Jesper Kristensen";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:14;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:48:"Joe Drew: What I learned at SIGGRAPH 2010, day 3";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:33:"http://blog.mozilla.com/joe/?p=38";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:77:"http://blog.mozilla.com/joe/2010/07/27/what-i-learned-at-siggraph-2010-day-3/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3231:"<h3>GPU rendering</h3>
+<p>GPUs sample pixels in a perhaps non-intuitive way. For multi-sample anti-aliasing, a pixel that intersects only one triangle is sampled for coverage data several times, but <em>shaded</em> only once, because texture lookups are appropriately filtered, and shading is the most expensive part of the GPU pipeline. The shaded colour is then attenuated by the coverage value. The only time shading happens multiple times per pixel is when multiple triangles cover a single pixel; in that case, the GPU samples each triangle separately.</p>
+<p>In [1], the paper’s authors propose adding another step to the GPU pipeline that merges adjacent triangles that share an edge. This makes it possible to shade only once, reducing the amount of work necessary.</p>
+<h3>“2.5D” cartoons</h3>
+<p>[2] detailed a new technique for generating 2D cartoons that have some of the behaviour of 3D cartoons while maintaining the simple 2D look. It amounted to separating different strokes of the drawing into different layers, each of which could be rotated and occluded to rotate around the character. The key part of this is that each of the separate parts of character were “billboards” that always faced the viewer. They could be occluded by other parts, but you couldn’t look behind them. Further, once you defined what, say, your character looked like from the front and the side (perhaps his nose changes, and one of his ears is invisible, but his mouth probably looks the same), the system automatically lets you rotate between those two positions by interpolating between the drawings, and since it knows the relative ordering of your character’s parts, you can even rotate all the way around the character, and each part of the character will disappear as it’s occluded by the character’s body.</p>
+<h3>ASCII art</h3>
+<p>[3] was a great improvement of the libaa of old, though it did rely on a way of making outlines/vectors out of images that wasn’t detailed. They overlaid the vectorized images with a grid (of the size of the ASCII art image you want to generate), and then matched the line segments in each of those grids the known shapes of the font they use. Because these matches are sometimes close, they then perturb the lines (in a very controlled way) to try to get a better fit. Iterating on this produces some pretty great results which exceed the ability of ASCII artists to reproduce images, though the artists’ results were still preferred by a small majority for overall look.</p>
+<p>1. Fatahalian, K., Boulos, S., Hegarty, J., Akeley, K., Mark, W., Moreton, H., Hanrahan, P. 2010. Reducing Shading on GPUs using Quad-Fragment Merging. ACM Trans. Graph. 29, 4, Article 67 (July 2010), 8 pages. DOI = 10.1145/1778765.1778804 http://doi.acm.org/10.1145/1778765.1778804.</p>
+<p>2. Rivers, A., Igarashi, T., Durand, F. 2010. 2.5D Cartoon Models. ACM Trans. Graph. 29, 4, Article 59 (July 2010), 7 pages. DOI = 10.1145/1778765.1778796 http://doi.acm.org/10.1145/1778765.1778796.</p>
+<p>3. Xu, X., Zhang, L., Wong, T. 2010. Structure-based ASCII Art. ACM Trans. Graph. 29, 4, Article 52 (July 2010), 9 pages. DOI = 10.1145/1778765.1778789 http://doi.acm.org/10.1145/1778765.1778789.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 28 Jul 2010 00:06:57 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"Joe Drew";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:15;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:76:"Wladimir Palant: How do users end up with a misconfigured certificate store?";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:96:"tag:adblockplus.org,2010-07-27:0fd833a6b72d997c53eba671b829aed6/76657def7fea1242f6a392c54adb4682";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:86:"http://adblockplus.org/blog/how-do-users-end-up-with-a-misconfigured-certificate-store";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2426:"<p>I am out of ideas so maybe somebody knows more than me here. I noticed that some Adblock Plus users cannot download <a href="https://easylist.adblockplus.org/easylist.txt">https://easylist.adblockplus.org/easylist.txt</a>. Data from a different filter list which switched to <span class="caps">HTTPS</span> recently indicates that most of these clients cannot establish an <span class="caps">HTTPS</span> connection — most likely the certificate is rejected. I did a very rough estimate, we are talking about something like 0.3% of all Adblock Plus users. Which doesn’t sound like a lot but turns into tens of thousands users in absolute numbers.</p>
+
+	<p>Now this isn’t a new issue, new is only the fact that I managed to somewhat quantify it. We had users report that they cannot install Adblock Plus due to signature verification issues (StartCom root certificate not cleared for object signing) and also that they get errors caused by subscription downloads (StartCom root certificate not cleared to identify web hosts). While the former is somewhat understandable (StartCom only started signing objects relatively recently, many Linux distributions for example still don’t ship the updated <span class="caps">NSS</span> version), the latter isn’t. We are talking about a root certificate that has been included into the Mozilla code <a href="http://www.mozilla.org/projects/security/certs/included/#StartCom">three years ago</a>. I guess that it was included in some of the early Firefox 2 minor releases already.</p>
+
+	<p>So, why won’t it work for so many people? I had a chance to communicate with some of the people affected. The symptoms are apparently that the StartCom root certificate is present but its trust settings have non-default values. In one case I asked the user to remove <del>secmod.db</del> cert8.db from his profile (essentially resetting all built-in certificates to the default values) and it worked. I think that manual configuration change can be excluded as the cause: almost all the people I asked are not aware of ever going to the certificates UI. There was one exception where a guy disabled root certificates to satisfy his strange idea of security but that’s definitely not a common case. What else could it be?</p>
+
+	<p><strong>Update</strong>: Sorry, I mistakenly mentioned secmod.db above — the real file storing trust options is cert8.db, that one was removed.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 27 Jul 2010 21:08:32 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:15:"Wladimir Palant";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:16;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:53:"Joel Maher: types of data we care about in a manifest";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"http://elvis314.wordpress.com/?p=269";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:83:"http://elvis314.wordpress.com/2010/07/27/types-of-data-we-care-about-in-a-manifest/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:5701:"<p>This is a bit controversial (similar to “what OS do you run”), but I want to start outlining what I find as useful metadata to categorize tests with.</p>
+<p><span style="text-decoration: underline;"><strong>DATA:</strong></span></p>
+<p>Currently with Reftest, we have a <a href="http://mxr.mozilla.org/mozilla-central/source/layout/tools/reftest/reftest.js#316">sandbox</a> that provides data the manifest files can use as conditional options.  The majority of the sandbox items used are:</p>
+<ul>
+<li>platform: MOZ_WIDGET_TOOLKIT (cocoa, windows, gtk2, qt)</li>
+<li>platform: xulrunner.OS, XPCOMABI (if “”, we are on ARM)</li>
+<li>environ:  haveTestPlugin, isDebugBuild, windowsDefaultTheme</li>
+<li>config:    getBoolPref, getIntPref, nativeThemePref (could be a getBoolPref)</li>
+</ul>
+<p>This is the type of information that a large portion of our tests care about.  Most of these options are somehow coded into mochitests as well (through getPref calls, checking the OS, or in Makefile conditions).  I would like to figure out how to add this type of data:</p>
+<ul>
+<li>orange:   list of conditions this is random-orange on (but should pass)</li>
+<li>fails:        list of conditions this is expected to fail on</li>
+<li>e10s:       what service is used to cause this to fail under e10s</li>
+<li>fennec:   does this fail when run on fennec, which platforms, what versions</li>
+<li>remote:   does this fail when running tests remotely (required for android, originally for winmo)</li>
+<li>results:    number of failures (if orange or fails above) and number of todo</li>
+<li>runtime:  expected time to run this test (important on mobile)</li>
+<li>product:  product name and version</li>
+<li>future:     anything we find valuable in the future!</li>
+</ul>
+<p>I can think of many ways to add this into the Reftest format or create a new format.  Looking at this data a but further, it really is not adding a lot of new information.  If we take the assumption that all tests are expected to pass in all configurations, any value assigned to a new piece of data would indicate that it fails under that given condition (or list of conditions).  As our supported platforms, configurations, and products grow, we will have a much greater need for this additional metadata.</p>
+<p><span style="text-decoration: underline;"><strong>INTEGRATION: </strong></span></p>
+<p>I would like to make all data pieces as tags vs raw conditions (<a href="http://mxr.mozilla.org/mozilla-central/source/layout/reftests/bidi/reftest.list#18">Reftest does them like C conditions</a>.)  This would allow much greater flexibility and adding data that doesn’t necessarily turn on/off a test.  For example, lets say a test is a random-orange for Firefox 1.9.1 (not 1.9.2), fails on Fennec Maemo 1.1 only, is orange on remote testing on Fennec android and currently is broken by e10s.  We could easily add those conditions to a list:</p>
+<p>fails-if(OS==Maemo) fails-if(e10s==nsIPrefService) random-if(product=Firefox &amp;&amp; xr.version==1.9.1) random-if(os=Android &amp;&amp; remote==true) test_bitrot.html</p>
+<p>So this is doable (please disregard any misused fails-if, random-if statements) and wouldn’t be too hard to add into a reftest.list style format for Mochitest (and even Reftest.)  Initially I thought it would be really cool to just run fails-if, random-if or skip-if statements with a small tweak to the command line.  This would give us the flexibility to turn on and off tests easier, but I realized that it would turn on/off all tests related to the condition.  I think a small adjustment in the format might allow for tags and we could tweak a run in the future with little work.  One example might be like:</p>
+<p>fails(os=Maemo;e10s=nsIPrefService,nsIDOMGeoGeolocation) random(product=Firefox&amp;xr.version=1.9.1;os=Android&amp;remote=true) test_bitrot.html</p>
+<p>This example is a minor change (which might not be needed), but helps simplify the syntax and keep in mind the idea of tags.  The backend details would need to be changed to support a ‘toggle’ of a tag in either scenario.  Maybe we just want to run e10s tests.  We can find all tests that have a e10s=nsiPrefService tag inside a fails tag block and just run those specific tests while maintaining all the other rules (skip on a certain OS or product).</p>
+<p>There are still questions if the Reftest format is the right format for Mochitest.  It has a lot of weight since it works so well for so many of our tests.</p>
+<br />  <a href="http://feeds.wordpress.com/1.0/gocomments/elvis314.wordpress.com/269/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/elvis314.wordpress.com/269/" /></a> <a href="http://feeds.wordpress.com/1.0/godelicious/elvis314.wordpress.com/269/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/elvis314.wordpress.com/269/" /></a> <a href="http://feeds.wordpress.com/1.0/gostumble/elvis314.wordpress.com/269/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/elvis314.wordpress.com/269/" /></a> <a href="http://feeds.wordpress.com/1.0/godigg/elvis314.wordpress.com/269/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/elvis314.wordpress.com/269/" /></a> <a href="http://feeds.wordpress.com/1.0/goreddit/elvis314.wordpress.com/269/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/elvis314.wordpress.com/269/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=elvis314.wordpress.com&amp;blog=7596067&amp;post=269&amp;subd=elvis314&amp;ref=&amp;feed=1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 27 Jul 2010 21:07:55 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"elvis314";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:17;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:70:"Mozilla Developer DevNews: Firefox 4 Beta 2 now available for download";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:44:"http://developer.mozilla.org/devnews/?p=1185";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:103:"https://developer.mozilla.org/devnews/index.php/2010/07/27/firefox-4-beta-2-now-available-for-download/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1552:"<p>The Mozilla community is proud to announce that Firefox 4 Beta 2 is now <a href="http://www.mozilla.com/firefox/beta">available for download on Mac, Windows or Linux</a>.</p>
+<div id="magicdomid8">Firefox 4 Beta 2 includes several <a href="http://www.mozilla.com/firefox/4.0b2/releasenotes/">major features and improvements</a> – by testing them early we’ll be able to respond to your feedback for  future versions of Firefox. The included <a href="http://www.mozilla.com/firefox/beta/#privacy">Feedback Add-On</a> that helps you <a href="http://www.mozilla.com/firefox/beta/feedback">let us know what you think</a> about the new features and technologies in the beta.</div>
+<div></div>
+<div>You can <a href="http://blog.mozilla.com/blog/2010/07/06/firefox-4-beta-1-tell-us-what-you-think">read more about this release on the Mozilla Blog</a>, or at any of the following links:</div>
+<div>
+<div id="magicdomid31">
+<ul>
+<li>Read more about some of the <a href="http://www.mozilla.com/firefox/beta/features/">major features in this beta</a></li>
+<li>Take a look at our <a href="http://www.mozilla.com/firefox/beta/technology">big chart o’ technology</a> that’s included in this beta</li>
+<li>Read the <a href="http://www.mozilla.com/firefox/4.0b2/releasenotes/">release notes</a> for Firefox 4 Beta 1</li>
+</ul>
+</div>
+<p>We  want to thank the Mozilla community of nightly testers for the  amazing  feedback that helped shaped Firefox 4 Beta 2. We appreciate  your  assistance in testing this preview of the next version of Firefox!</p>
+</div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 27 Jul 2010 20:37:30 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"beltzner";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:18;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:54:"Planet Mozilla Interns: Brian Louie: Firefox 4 beta 2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"http://mozblouie.wordpress.com/?p=56";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:59:"http://mozblouie.wordpress.com/2010/07/27/firefox-4-beta-2/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1720:"<p>A quick aside from my summary posts: download <a href="http://mzl.la/1ePD15">the Firefox 4 beta 2</a> to check out application tabs and a sweet new Mac OS X interface. The <a href="http://www.azarask.in/blog/post/tabcandy/">alpha for Tab Candy</a> is also available as an early build of Firefox, if you’re interested in trying that out as well.</p>
+<p>For a more detailed rundown of the new beta, check out the <a href="http://hacks.mozilla.org/2010/07/firefox4-beta2/">Hacks blog</a> for a sweet demo from our very own Paul Rouget!</p>
+<p>Happy developing!</p>
+<br />  <a href="http://feeds.wordpress.com/1.0/gocomments/mozblouie.wordpress.com/56/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/mozblouie.wordpress.com/56/" /></a> <a href="http://feeds.wordpress.com/1.0/godelicious/mozblouie.wordpress.com/56/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/mozblouie.wordpress.com/56/" /></a> <a href="http://feeds.wordpress.com/1.0/gostumble/mozblouie.wordpress.com/56/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/mozblouie.wordpress.com/56/" /></a> <a href="http://feeds.wordpress.com/1.0/godigg/mozblouie.wordpress.com/56/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/mozblouie.wordpress.com/56/" /></a> <a href="http://feeds.wordpress.com/1.0/goreddit/mozblouie.wordpress.com/56/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/mozblouie.wordpress.com/56/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=mozblouie.wordpress.com&amp;blog=14429761&amp;post=56&amp;subd=mozblouie&amp;ref=&amp;feed=1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 27 Jul 2010 20:12:51 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Brian Louie";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:19;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:77:"The Mozilla Blog: New Update to Firefox 4 Beta Available, Now in 23 Languages";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:31:"http://blog.mozilla.com/?p=2143";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:99:"http://blog.mozilla.com/blog/2010/07/27/new-update-to-firefox-4-beta-available-now-in-23-languages/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4374:"<p>Guten Tag! 你好! Cześć! Olá! Привет! Bonjour! Γεια σας! Hello!</p>
+<p>The new <a href="http://www.mozilla.com/firefox/all-beta.html">update of Firefox 4 Beta is now available in 23 languages</a> for testing and feedback. Thanks to the help of the global Mozilla community,  we’re now able to bring  Firefox 4 Beta to more people around the  world. This update to Firefox 4 Beta continues with changes to the look  of Firefox with tabs appearing on the top of the browser and introduces  the ability to turn tabs into App Tabs.</p>
+<p><em><strong>What’s new in this Firefox 4 Beta update?</strong></em></p>
+<p>Continued Evolution of the New Firefox Look – Tabs on Top</p>
+<ul>
+<li>Mac  and Windows users now have all their tabs on the top of the browser. We  moved the tabs to the top to make it easier to focus on the Web content  and easier to control the tools in your Web browser.</li>
+<li>If  you have Windows 7 or Windows Vista, the Menu bar is replaced with a  single Firefox button so you get to the most used options with just one  click.</li>
+</ul>
+<p>App Tabs</p>
+<ul>
+<li>There  are some websites you visit many times throughout your day, such as  your email, social networks, music or game sites. Now you can turn the  websites you use most into App Tabs to easily find the ones you need.</li>
+<li>App  Tabs offer a better way to manage tabs, saving space on the tab bar and  making it easy to find frequently used tabs. Check out <a href="http://www.youtube.com/watch?v=55PnjIfC6cw">this video from Alex Faaborg</a> for  more details on App Tabs.</li>
+</ul>
+<p>New for Developers: Under the Hood</p>
+<p>CSS3 Transitions:</p>
+<ul>
+<li>The  Firefox 4 Beta now has support for new CSS3 features like Transitions  and Transformations, making it fun to add elegant animations to your  websites.</li>
+<li>To show what CSS3 Transitions can do, we added them to the Firefox 4 Beta “What’s New” page. For more information, check out this <a href="http://hacks.mozilla.org/2010/07/firefox4-beta2/">post and demo from Paul Roget</a>.</li>
+</ul>
+<p>Retained Layers:</p>
+<ul>
+<li>Adding  Retained Layers in Firefox 4 Beta allows for super-fast scrolling on  complex websites. See <a href="http://weblogs.mozillazine.org/roc/archives/2010/07/retained_layers.html">Robert O’Callahan’s post</a> for more information.</li>
+</ul>
+<p>XPCOM Framework:</p>
+<ul>
+<li>We made changes to the XPCOM framework that improves start up time when you load Firefox. See <a href="http://blog.mozilla.com/addons/2010/07/21/compatibility-for-firefox-4-time-to-get-started/">Jorge Villalobos post</a> for more information.</li>
+</ul>
+<p>There  are more features to come in future Firefox 4 Beta updates and we  need your help to test them. Already with help from our community of  testers, we were able to get valuable feedback on the first Firefox 4  Beta that enabled us to fix more than 670 issues in this update.</p>
+<p><strong><em>Help build the best Firefox ever!</em></strong></p>
+<p>Firefox 4 Beta includes a new<a href="http://www.mozilla.com/firefox/beta/#privacy"> Feedback Add-on</a> so at any time you can click the<a href="http://www.mozilla.com/firefox/beta/feedback/"> Feedback button</a> to tell us about what you do or don’t like. The Feedback Add-on includes Mozilla Labs Test Pilot, and will ask you to take part in anonymous studies. The <a href="http://mozillalabs.com/testpilot/2010/07/21/firefox-4-beta-interface-study/">latest Test Pilot study</a> explores the ways people interact with the Firefox menu bar, Firefox  button (on Windows Vista and 7) and toolbar controls. You can choose to  opt-out of any or all studies and manage your settings in the Feedback  button (no data will be sent to Mozilla without your permission).</p>
+<p>Testers will receive automatic updates to the Firefox 4 Beta, so stay tuned for the next release in the coming weeks.</p>
+<ul>
+<li><a href="http://www.mozilla.com/firefox/beta/">Download Firefox 4 Beta</a></li>
+<li><a href="http://www.mozilla.com/firefox/beta/features/">Learn more about the features</a></li>
+<li><a href="http://www.mozilla.com/firefox/beta/feedback/">Submit your feedback</a></li>
+<li><a href="https://wiki.mozilla.org/Firefox/4/Beta#Firefox_4_Beta_FAQ">FAQ</a></li>
+<li><a href="http://www.mozilla.com/firefox/4.0b2/releasenotes/">Get the detailed Release Notes</a></li>
+</ul>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 27 Jul 2010 19:37:18 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Mike Beltzner";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:20;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:72:"hacks.mozilla.org: Firefox 4 Beta 2 is here – Welcome CSS3 transitions";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:32:"http://hacks.mozilla.org/?p=5262";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:48:"http://hacks.mozilla.org/2010/07/firefox4-beta2/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:9683:"<p>As we have <a href="https://hacks.mozilla.org/2010/07/firefox-4-beta-1-is-here-whats-in-it-for-web-developers/">explained before</a>, Mozilla is now making more frequent updates to our beta program. So here it is, <a href="http://www.mozilla.com/en-US/firefox/beta/">Firefox Beta 2</a> has just been released, 3 weeks after Beta 1.</p>
+<p>Firefox 4 Beta 1 already brought a large amount of new features (<a href="https://hacks.mozilla.org/2010/07/firefox-4-beta-1-is-here-whats-in-it-for-web-developers/">see the Beta 1 feature list</a>). So what’s new for web developers in this beta?</p>
+<h3>Performance &amp; CSS3 Transitions</h3>
+<p>The two major features for web developers with this release are <strong>Performance improvements and CSS3 Transitions on CSS3 Transforms</strong>.</p>
+<p></p>
+<p><em>This video is hosted by Youtube and uses the HTML5 video tag if you have enabled it (<a href="http://www.youtube.com/html5">see here</a>). Youtube video <a href="http://www.youtube.com/watch?v=gFmuNApHFec">here</a>.</em></p>
+<p><strong>Performance: </strong>In this new Beta, Firefox comes with a new page building mechanism: <a href="http://weblogs.mozillazine.org/roc/archives/2010/07/retained_layers.html">Retained Layers</a>. This mechanism provides noticeable faster speed for web pages with dynamic content, and scrolling is much smoother. Also, we’re still experimenting with hardware acceleration: using the GPU to render and build some parts of the web page.</p>
+<p><strong>CSS3 Transitions on transforms:</strong> The major change for web developers is probably CSS3 Transitions on CSS3 Transformations.</p>
+<p>CSS3 Transitions provide a way to animate changes to CSS properties, instead of having the changes take effect instantly. <a href="https://developer.mozilla.org/en/CSS/CSS_transitions">See the documentation</a> for details.</p>
+<p>This feature was available in Firefox 4 Beta 1, but in this new Beta, you can use Transitions on Transformation.</p>
+<p>A CSS3 Transformation allows you to define a Transformation (scale, translate, skew) on any HTML element. And you can animate this transformation with the transitions.</p>
+
+<div id="victim">
+See this box? Move your mouse over it, and its position <code>transform: rotate(5deg);</code> will transform <code>transform:  rotate(350deg) scale(1.4) rotate(-30deg);</code> through a smooth animation.
+</div>
+
+<div class="wp_syntax"><div class="code"><pre class="css" style="font-family: monospace;"><span style="color: #cc00cc;">#victim</span> <span style="color: #00AA00;">{</span>
+  <span style="color: #000000; font-weight: bold;">background-color</span><span style="color: #00AA00;">:</span> <span style="color: #993333;">yellow</span><span style="color: #00AA00;">;</span>
+  <span style="color: #000000; font-weight: bold;">color</span><span style="color: #00AA00;">:</span> <span style="color: #000000; font-weight: bold;">black</span><span style="color: #00AA00;">;</span>
+ 
+  transition-duration<span style="color: #00AA00;">:</span> 1s<span style="color: #00AA00;">;</span>
+  transform<span style="color: #00AA00;">:</span> rotate<span style="color: #00AA00;">(</span>10deg<span style="color: #00AA00;">)</span><span style="color: #00AA00;">;</span>
+ 
+  <span style="color: #808080; font-style: italic;">/* Prefixes */</span>
+ 
+  -moz-transition-duration<span style="color: #00AA00;">:</span> 1s<span style="color: #00AA00;">;</span>
+  -moz-transform<span style="color: #00AA00;">:</span> rotate<span style="color: #00AA00;">(</span>5deg<span style="color: #00AA00;">)</span><span style="color: #00AA00;">;</span>
+ 
+  -webkit-transition-duration<span style="color: #00AA00;">:</span> 1s<span style="color: #00AA00;">;</span>
+  -webkit-transform<span style="color: #00AA00;">:</span> rotate<span style="color: #00AA00;">(</span>10deg<span style="color: #00AA00;">)</span><span style="color: #00AA00;">;</span>
+ 
+  -o-transition-duration<span style="color: #00AA00;">:</span> 1s<span style="color: #00AA00;">;</span>
+  -o-transform<span style="color: #00AA00;">:</span> rotate<span style="color: #00AA00;">(</span>10deg<span style="color: #00AA00;">)</span><span style="color: #00AA00;">;</span>
+<span style="color: #00AA00;">}</span>
+<span style="color: #cc00cc;">#victim</span><span style="color: #3333ff;">:hover </span><span style="color: #00AA00;">{</span>
+  <span style="color: #000000; font-weight: bold;">background-color</span><span style="color: #00AA00;">:</span> <span style="color: #993333;">red</span><span style="color: #00AA00;">;</span>
+  <span style="color: #000000; font-weight: bold;">color</span><span style="color: #00AA00;">:</span> <span style="color: #993333;">white</span><span style="color: #00AA00;">;</span>
+ 
+  transform<span style="color: #00AA00;">:</span>  rotate<span style="color: #00AA00;">(</span>350deg<span style="color: #00AA00;">)</span> scale<span style="color: #00AA00;">(</span><span style="color: #cc66cc;">1.4</span><span style="color: #00AA00;">)</span> rotate<span style="color: #00AA00;">(</span>-30deg<span style="color: #00AA00;">)</span><span style="color: #00AA00;">;</span>
+ 
+  <span style="color: #808080; font-style: italic;">/* Prefixes */</span>
+ 
+  -moz-transform<span style="color: #00AA00;">:</span>  rotate<span style="color: #00AA00;">(</span>350deg<span style="color: #00AA00;">)</span> scale<span style="color: #00AA00;">(</span><span style="color: #cc66cc;">1.4</span><span style="color: #00AA00;">)</span> rotate<span style="color: #00AA00;">(</span>-30deg<span style="color: #00AA00;">)</span><span style="color: #00AA00;">;</span>
+  -webkit-transform<span style="color: #00AA00;">:</span>  rotate<span style="color: #00AA00;">(</span>350deg<span style="color: #00AA00;">)</span> scale<span style="color: #00AA00;">(</span><span style="color: #cc66cc;">1.4</span><span style="color: #00AA00;">)</span> rotate<span style="color: #00AA00;">(</span>-30deg<span style="color: #00AA00;">)</span><span style="color: #00AA00;">;</span>
+  -o-transform<span style="color: #00AA00;">:</span>  rotate<span style="color: #00AA00;">(</span>350deg<span style="color: #00AA00;">)</span> scale<span style="color: #00AA00;">(</span><span style="color: #cc66cc;">1.4</span><span style="color: #00AA00;">)</span> rotate<span style="color: #00AA00;">(</span>-30deg<span style="color: #00AA00;">)</span><span style="color: #00AA00;">;</span>
+<span style="color: #00AA00;">}</span></pre></div></div>
+
+<p>CSS 3 Transitions are supported by Webkit-based browsers (Safari and Chrome), Opera and now Firefox as well. Degradation (if not supported) is graceful (no animation, but the style is still applied). Therefore, you can start using it right away.</p>
+<h3>Demos</h3>
+<p>I’ve written a couple of demos to show both CSS3 Transitions on Transforms and hardware acceleration (See the video above for screencasts).</p>
+<div style="padding: 10px; margin-bottom: 10px;"><a href="http://demos.hacks.mozilla.org/openweb/WARMCSS/"><img alt="" src="http://demos.hacks.mozilla.org/openweb/WARMCSS/poster.png" style="float: right;" /></a>This demo shows 5 videos. The videos are Black&amp;White in the thumbnails (<a href="https://developer.mozilla.org/en/applying_svg_effects_to_html_content">using a SVG Filter</a>) and colorful when real size (click on them). The “whirly” effect is done with CSS Transitions. Move you mouse over the video, you’ll see a question mark (?) button. Click on it to have the details about the video and to see another SVG Filter applied (<a href="http://www.w3.org/TR/SVG11/filters.html#feGaussianBlurElement">feGaussianBlur</a>).</div>
+<div style="padding: 10px; margin-bottom: 10px;"><a href="http://demos.hacks.mozilla.org/openweb/LONDONPROJECT/"><img alt="" src="http://demos.hacks.mozilla.org/openweb/LONDONPROJECT/poster.png" style="float: left; margin-right: 5px;" /></a>This page shows 2 videos. The top left video is a round video (<a href="https://developer.mozilla.org/En/Applying_SVG_effects_to_HTML_content">thanks to SVG clip-path</a>) with SVG controls. The main video is clickable (magnifies the video). The text on top of the video is clickable as well, to send it to the background using CSS Transitions.</div>
+<div><a href="http://demos.hacks.mozilla.org/openweb/CSSMAKESUSICK/"><img alt="" src="http://demos.hacks.mozilla.org/openweb/CSSMAKESUSICK/poster.png" style="float: right;" /></a>This page is a simple list of images, video and canvas elements. Clicking on an element will apply a CSS Transform to the page itself with a transition. White elements are clickable (play video or bring a WebGL object). I encourage you to use a hardware accelerated and a <a href="http://blog.vlad1.com/2009/09/18/webgl-in-firefox-nightly-builds/">WebGL </a>capable browser. For Firefox on Windows, <a href="http://www.basschouten.com/blog1.php/2010/03/02/presenting-direct2d-hardware-acceleratio">you should enable Direct2D</a>.</div>
+<p><strong>Credits</strong></p>
+<p><strong>Creative Commons videos:</strong></p>
+<ul>
+<li><a href="http://www.flickr.com/photos/ianbroyles/4498340824/">Ian Broyles</a></li>
+<li><a href="http://www.flickr.com/photos/transcendent/4024024153/">Spoony Mushroom</a></li>
+<li>Mark Sebastian: <a href="http://www.flickr.com/photos/markjsebastian/3727252404/">[1]</a> <a href="http://www.flickr.com/photos/markjsebastian/3528096655/">[2]</a></li>
+<li><a href="http://www.flickr.com/photos/swanky-hsiao/4036499457/">Swanky</a></li>
+<li><a href="http://spiralproductions.com/">Spiral Production</a></li>
+</ul>
+<p><strong>The multicolor cloud effect (MIT License)</strong></p>
+<ul>
+<li><a href="http://www.professorcloud.com/mainsite/canvas-nebula.htm">Professor Cloud</a></li>
+</ul>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 27 Jul 2010 19:34:41 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Paul Rouget";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:21;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:66:"Rock Your Firefox: Firefox Sync (and Firefox Home for your iPhone)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:34:"http://rockyourfirefox.com/?p=2091";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:77:"http://rockyourfirefox.com/2010/07/firefox-sync-firefox-home-for-your-iphone/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3857:"<p><img alt="" class="attachment-large wp-post-image" height="242" src="http://rockyourfirefox.com/rockyourfirefox_content/uploads/2010/07/06b3fecf1d5a19af915cf036fa0e9feb-1279327436-566-1.jpg" title="" width="367" /></p><p>You love Firefox.  You love it so much, in fact, that you have it installed on every machine you use to surf the web.  It’s the first thing you open at the office and the last thing you look at before you head home.  Your browser is like your favorite pair of jeans – it’s familiar, comfortable and the perfect fit – with your web history, passwords, and bookmarks.</p>
+<p>Wouldn’t it be great if you could have that “favorite jeans” feeling on every device you use whether that’s on a computer or mobile device?  With Firefox Sync you can access your history, passwords, bookmarks and even open tabs across all your devices.  Imagine reading a nice long article on the migratory patterns of manatees, right when the (imaginary) bell rings at 6 and you have to head out to start your commute home.</p>
+<p>In the pre-Sync world, you’d have to remember the web address of that page and type it in on your home computer.  With Firefox Sync, the manatee article is ready to go on your home computer – no memorization required.  You don’t even have to leave your work computer on- your information is synced automatically.  It just works- open your web browser at home and click “Tabs from other computers”, and there’s that manatee article for your reading enjoyment.  It’s as if you brought your work computer home with you.</p>
+<p>Get the tabs that were open on your other computer (in addition to bookmarks, passwords and web history):<br />
+<a href="http://rockyourfirefox.com/2010/07/firefox-sync-firefox-home-for-your-iphone/sync-tabs/" rel="attachment wp-att-2093"><img alt="" class="aligncenter size-medium wp-image-2093" height="312" src="http://rockyourfirefox.com/rockyourfirefox_content/uploads/2010/07/Sync-Tabs-444x312.png" title="Sync Tabs" width="444" /></a></p>
+<p>To have this ability to get up and go without a second thought, install the free Firefox Sync Add-On and it will get you set up easily.  Install it on every computer where you use Firefox, and your bookmarks, tabs and web history will automatically sync.  So if you visited a cool web page at work that you want to show to your family, simply start typing in your Awesome Bar and it will show matches based on all synced computers.  It even works as an easy backup for your browser- simply install Firefox Sync on any computer with Firefox installed, and it will update your browser with all your personal preferences if your computer crashes.</p>
+<p></p>
+<p>Firefox Sync works wherever you have Firefox, whether that’s a desktop, laptop, or mobile phone.  If you happen to use an iPhone, you can access all your Firefox Sync history, bookmarks and tabs with the free Firefox Home app.</p>
+<p>Firefox Home for your iPhone uses Firefox Sync so you can access your bookmarks, tabs and search history from anywhere:</p>
+<p></p>
+<p>If you love Firefox and you use the web from more than one device, give Firefox Sync a shot — let Firefox help you get to your favorite parts of the Web in an instant.</p>
+<hr /><p><strong><a href="https://addons.mozilla.org/addon/10868?src=rockyourfirefox" title="Get this add-on for Firefox">Get It Now</a></strong></p><p>Firefox Sync has been tested and approved by Mozilla. <a href="http://rockyourfirefox.com/faq/#review">learn more</a></p><p>Developed by <a href="http://www.mozilla.com/en-US/firefox/sync/">Mozilla</a></p><p><a href="http://www.mozilla.com/en-US/firefox/sync/">Visit this Add-on's Home Page</a></p><hr /><p>Post from Mayumi Matsuno, who has too many nicknames and usernames (not to mention their passwords) to remember and thinks manatees are unbelievably adorable.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 27 Jul 2010 19:19:34 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"Guest Author";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:22;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:37:"Axel Hecht: Porcupine, meet Churchill";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://blog.mozilla.com/axel/?p=296";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:65:"http://blog.mozilla.com/axel/2010/07/27/porcupine-meet-churchill/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3361:"<p>I’ve been talking with Seth today on how we can answer questions about the status of l10n. My grumpy argument was that I wouldn’t know how to make graphs over time actually show progress, instead of just “failure”. I had two naive graphs, one is showing all missing strings summed up over all locales. That graph would be dominated by the long tail of several dozen locales with a few hundred strings each, and you wouldn’t see a dozen fighting over a few strings each.</p>
+<p>The other is what I nick-name “porcupine graph”, show how many locales have no missing strings, vs those that have some missing strings. This is what’s actually implemented on the l10n dashboard as tree progress graphs. But how ever small a string change would be, it goes to all red. And it doesn’t help that one can’t mix green and red color gradients, so the graph usually shows spikes of red and a little black.</p>
+<p><a href="http://www.flickr.com/photos/axelhecht/4834738435/" title="porcupine by Axel Hecht, on Flickr"><img alt="porcupine" height="378" src="http://farm5.static.flickr.com/4090/4834738435_c1dac145a2_z.jpg" width="640" /></a></p>
+<p>Who’d want that as their progress stats, huh?</p>
+<p>Now, during the chat with Seth I came up with the idea to just give a little bit of leeway, and accept some missing strings to be OK, at least for some time. I filed <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=582280">bug 582280</a> on that, and made a rough initial implementation of it. Nothing fancy, just a constant ignored bound of missing strings. Let’s see how the past two weeks of Firefox 4 look now, with just a total of 5 missing strings being OK, <code>?bound=5</code>:</p>
+<p><a href="http://www.flickr.com/photos/axelhecht/4834738689/" title="two weeks good and bad by Axel Hecht, on Flickr"><img alt="two weeks good and bad" height="378" src="http://farm5.static.flickr.com/4106/4834738689_45d9cb4219_z.jpg" width="640" /></a></p>
+<p>Now Churchill won over the porcupine, but it’s still pretty red. Which is OK, we haven’t even branched yet, right? So I went ahead and figured I’d add an option <code>hideBad</code>:</p>
+<p><a href="http://www.flickr.com/photos/axelhecht/4834738881/" title="two weeks good by Axel Hecht, on Flickr"><img alt="two weeks good" height="383" src="http://farm5.static.flickr.com/4085/4834738881_2b3beba630_z.jpg" width="640" /></a></p>
+<p>Wow, progress. This graph actually looks like our community rocks as much as it does. Gets me grumpy, because this was really just about half an hour of work, plus a few years of thinking.</p>
+<p>Now, how do we look on the long run, say, well over half a year? Bumping the bound up to 15, we’re doing like</p>
+<p><a href="http://www.flickr.com/photos/axelhecht/4834746465/" title="half year progress by Axel Hecht, on Flickr"><img alt="half year progress" height="382" src="http://farm5.static.flickr.com/4105/4834746465_c9cd423d83_z.jpg" width="640" /></a></p>
+<p>Pretty good, heh? You can <a href="https://l10n-stage-sj.mozilla.org/dashboard/tree-status/fx40x?starttime=1255682183&amp;bound=15&amp;hideBad">play with it on the dashboard</a>, too. The overall take aways would be:</p>
+<p>We have about 20 locales that really track trunk.</p>
+<p>We didn’t have that many landings with a high amount of added strings.</p>
+<p>I like both :-).</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 27 Jul 2010 19:16:28 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:10:"Axel Hecht";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:23;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:54:"Robert Kaiser: SeaMonkey Defaulting To Tabs (Umm, Yes)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:70:"http://home.kairo.at/blog/2010-07/seamonkey_defaulting_to_tabs_umm_yes";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:70:"http://home.kairo.at/blog/2010-07/seamonkey_defaulting_to_tabs_umm_yes";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1344:"I just <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=505311">landed a change today</a> that switches SeaMonkey to tabbed browsing by default. Umm, yes, that sounds like a message from years ago, but it really is of today.<br />
+<br />
+The Mozilla suite has been supporting tabbed browsing for a very long time, and SeaMonkey inherited that support right from the start. Still, what we also inherited and had not even changed in our huge modernizing effort in 2.0 is that the default preferences favored opening new windows in all kinds of cases. Whoever wants to use tabbed browsing in stable version of SeaMonkey up to 2.0.x need to explicitely open tabs and/or change preferences to make SeaMonkey open tabs by default.<br />
+<br />
+Finally, that changes with tomorrows nightlies, SeaMonkey 2.1 Alpha 3 and the final 2.1 release expected later this or very early next year (i.e. at a very similar time to Firefox 4).<br />
+<br />
+From now on, SeaMonkey will default to open links and other new pages in tabs, just like Firefox already does. Anyone who still wants windows to be opened is now the one who needs to change preferences or do it explicitely.<br />
+<br />
+Thanks to Neil for swift reviews on that preferences change. This is another step towards making SeaMonkey actually show that it really is a modern browser - and more.";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 27 Jul 2010 18:01:38 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:5:"KaiRo";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:24;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:43:"Mitchell Baker: Brief Update — CEO Search";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:38:"http://blog.lizardwrangler.com/?p=2555";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:66:"http://blog.lizardwrangler.com/2010/07/27/brief-update-ceo-search/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3623:"<p>A while back <a href="http://blog.lizardwrangler.com/2010/05/11/planned-leadership-transition/">we announced</a> that we were starting to look for a new CEO for the Mozilla Corporation as <a href="http://john.jubjubs.net/2010/05/11/whats-next-for-me-but-not-yet/">John Lilly moves</a> to Greylock Partners sometime later this year. Here’s an update of what’s going on.</p>
+<p>First, there are a lot of exceptional people interested in Mozilla. Mozilla is in an exciting and challenging place. There’s a lot to do, the opportunities in front of us are immense, and the need for excellent leadership and execution is as great as it has ever been. Firefox on the desktop is strong and effective, we’re moving into the mobile space (<a href="http://blog.mozilla.com/blog/2010/07/15/get-firefox-home-on-your-iphone/">Firefox Home</a> for iPhone release this month, Firefox browser on Android phones coming later this year), <a href="http://mozillalabs.com/sync/">Sync</a> in Firefox 4 and related services in development. The Internet environment is changing, and Mozilla has a unique role. </p>
+<p>Second, we know that a great CEO needs a combination of a bunch of different characteristics, such as: </p>
+<ul>
+<li>great executive skills — able to cause us to get things done, to get the right things done, and to get them done effectively and efficiently</li>
+<li>able to lead in a complex strategic environment</li>
+<li>collaborative, good at making others better</li>
+<li>great technology sense</li>
+<li>and of course, phenomenally attuned to the nature of Mozilla — who we are, why we do things, the centrality of the mission and the community building it</li>
+</ul>
+<p>We decided to start by getting to know people across a wide range of backgrounds skill sets. We’re fortunate that we have flexibility and aren’t pushed into making a hasty decision so we can do this. This means that our recruiters are talking to people with software backgrounds, Internet backgrounds, consumer backgrounds, open source backgrounds, platform backgrounds, engineering, strategy, start-up, big company and community backgrounds. The recruiters and John also spend a lot of time working together, and John has talked to a broad set of people as well. </p>
+<p>A few people have been surprised that John is so central to this process. I think that’s because it’s a bit rare to let the world know what’s happening at this stage. Often the first hint is the announcement of a new CEO, or that the old CEO is gone. In our case John is still here, still deeply engaged day-to-day and still our CEO in fact as well as name. He’s also the person closest to the CEO role and so a really good source for the candidates and recruiters.</p>
+<p>The next step in the transition process is to bring a much smaller number of people in to meet members of the MoCo Steering Committee — the management and leadership and strategy group for our product efforts, and if that goes well, to expand the number of people a candidate meets from there. We’re still in the very early stages of this part of the process. Members of the Steering Committee have met a handful of people and we expect to meet more in the coming weeks. So far this step has helped us figure out that a few candidates don’t fit, and some we’re quite eager to talk to more. It’s hard to predict what the right set of traits will turn out to be; the search is highly individualistic. John is fond of saying that he wouldn’t have looked like a particularly good candidate on paper either. That’s in part why we want to meet a wide variety of people.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 27 Jul 2010 18:00:38 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"mitchell";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:25;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:70:"Planet Mozilla Interns: Brian Louie: A global picture of the open web";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"http://mozblouie.wordpress.com/?p=51";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:75:"http://mozblouie.wordpress.com/2010/07/27/a-global-picture-of-the-open-web/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3919:"<p>Hey there! Sorry for the long delay since my previous post; it’s been a busy past few weeks. Since coming back from the summit, my internship has been full of twists and turns, leaving me little time to write.</p>
+<p>I’ve been assigned to work on a whole lot of different things. To give equal exposure to all of them, I’ll write several posts to update you on my work these past few weeks.</p>
+<p>One of my big projects thus far has been designing an industry-wide web developer survey. Some of you might have seen one of my previous blog entries about the results of the survey we distributed this past March. The findings, while interesting, don’t paint a complete picture of the state of the open web and the developer tools you all like to use. Thus far the surveys we’ve released – the one previously mentioned and one that was released last November – have been distributed via Mozilla channels and have only really inquired about Mozilla platform technologies. We hope to change that.</p>
+<p>We hope to get a wider snapshot of the web development community, not just for us, but for you. A panorama, if you will.</p>
+<p>The survey will be released in a few weeks – sometime before the end of August – so check back frequently for the opportunity to take the survey and help us paint the picture of the open web. Thus far I’ve iterated through several drafts of the survey and talked to several market research consultants to determine how to best distribute and design the survey. It will be ready soon!</p>
+<p>On a more interesting note, I’ve also been reaching out to infographic designers. Although the data obtained from the survey will certainly help us, we want it to help you, too. We want to present our data and conclusions in an aesthetically awesome way. Right now, I’m talking over our goals and the possibilities of an end design with several artists. They all have some pretty good stuff going on; they’ve won awards and made some pretty interesting designs. Stay tuned!</p>
+<p>Because we expect such a large audience to be taking the survey, there has been a lot of pressure to get every word and every question right. I never realized just how much goes into designing a questionnaire: figuring out the average time spent to read and answer each question, the best way to structure a question, the most efficient reconciliation of details and the big picture, etc. Given the impact we expect this survey to have on our engagement efforts, the survey must determine with exact precision the information that we’re looking for. Such a statistical conquest, I have discovered, isn’t as easy as it looks.</p>
+<p>More blog posts about the other things I’m working on will be coming soon! Thanks for reading.</p>
+<br />  <a href="http://feeds.wordpress.com/1.0/gocomments/mozblouie.wordpress.com/51/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/mozblouie.wordpress.com/51/" /></a> <a href="http://feeds.wordpress.com/1.0/godelicious/mozblouie.wordpress.com/51/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/mozblouie.wordpress.com/51/" /></a> <a href="http://feeds.wordpress.com/1.0/gostumble/mozblouie.wordpress.com/51/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/mozblouie.wordpress.com/51/" /></a> <a href="http://feeds.wordpress.com/1.0/godigg/mozblouie.wordpress.com/51/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/mozblouie.wordpress.com/51/" /></a> <a href="http://feeds.wordpress.com/1.0/goreddit/mozblouie.wordpress.com/51/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/mozblouie.wordpress.com/51/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=mozblouie.wordpress.com&amp;blog=14429761&amp;post=51&amp;subd=mozblouie&amp;ref=&amp;feed=1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 27 Jul 2010 17:54:53 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Brian Louie";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:26;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:49:"Mozilla Labs: The Crowdsourcing Project: Kick-Off";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:33:"http://mozillalabs.com/feed/5.382";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:83:"http://mozillalabs.com/conceptseries/2010/07/27/the-crowdsourcing-project-kick-off/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4415:"<p><a href="http://mozillalabs.com/conceptseries/files/2010/07/logo.png"><img alt="" class="alignleft size-full wp-image-386" height="171" src="http://mozillalabs.com/conceptseries/files/2010/07/logo.png" title="logo" width="650" /></a></p>
+<p><em>This is a guest post from Coleman Foley, one of the participants in Mozilla Labs’ <a href="http://mozillalabs.com/conceptseries/crowdsourcing/">Crowdsourcing Project</a>:</em></p>
+<p>Today, volunteers from California to Sweden came together to discuss how to improve crowdsourcing, responding to a call from Mozilla Labs for volunteers to “<a href="http://mozillalabs.com/conceptseries/crowdsourcing/">Crowdsource Crowdsourcing</a>“.  We are practicing what we preach here.  Pretty much everybody had a say in our initial discussion. Pascal Finette of Mozilla Labs got us going by telling us we should split up into three groups.  From there, we took over.  We got into the groups we wanted, then each group chose its own way of communicating and decided how to proceed until all the groups reconvene in two weeks.<span id="more-5339"></span></p>
+<p>For example, my group, which is trying to define best practices for crowdsourcing, decided to sign up for and participate in some crowdsourcing sites, and to report back on Thursday with initial findings.  A second group is analyzing past Mozilla Labs Design Challenges to figure out what went wrong and what went right.  The third is diving into crowdsourcing theory.  We plan to fuse our findings when we get back together.</p>
+<p>We have a wide variety of interests and backgrounds here, with an entrepreneur, a biophysicist, an electrical engineer, a couple of psychology majors, and, of course, many designers and programmers.</p>
+<ul>
+<li>I am a computer science major at Chico State who is all about usability. I blog at <a href="http://colemanfoley.posterous.com">colemanfoley.posterous.com</a>.</li>
+<li>Roei Yellin is an Israeli entrepreneur working on a crowdsourcing startup.</li>
+<li>Matt Evans is Mozilla’s QA Director.</li>
+<li>Jan Dittrich is studying for a Media Arts &amp; Design B.F.A. at the Bauhaus University in Weimar.</li>
+<li>Abraham Taherivand has an Information Systems BS and an Information Management and Engineering MS.  He has done a ton of things in innovation, which you can learn more about at <a href="http://www.taherivand.net">his website</a>.</li>
+<li><a href="http://www.myhippocamp.us">Jimmy Chion</a> has a bachelors’s degree in Cognitive Science Stanford and is now near completing a Master’s in Mechanical Engineering.</li>
+<li>Chao Xu is majoring in Computer Science and Mathematics at Stony Brook University.</li>
+<li>Piyush Kumar majored in Electrical Engineering and minored in Computer Science for his BS and is going to get an MS in Computer Science at Carnegie Mellon University.</li>
+<li>Ryan Bubinski is studying studying biophysics and computer science at Columbia.</li>
+<li>Peter Organisciak is working on an MA in Digital Humanities at the University of Alberta and is going on to study Information Science at the University of Illinois.  His thesis is on the motivations of crowdsourcing participants.</li>
+<li>Zach Williams is a Psychology major at Tarleton State University in Texas, with a passion for web design and user experience, which you can see at his <a href="http://zachwill.com/">beautiful website</a>.</li>
+<li><a href="http://joaom.tumblr.com">Joao Menezes</a> studies Graphics/Interaction Design at UNIVILLE University, Brazil.  He has participated in several Mozilla projects.</li>
+<li>Ola Moller studies Social/Digital Media &amp; Concept Development at Hyper Island in Stockholm.  He has led and participated in two creativity crowdsourcing projects in Sweden, which you can learn more about at his <a href="http://olamoller.se/">website</a>.</li>
+<li>Eugenia Ortiz (who goes by Euge) is another student from Argentina.  She is big on User Experience.  Learn more about her at <a href="http://www.eugeniaortiz.com.ar/">http://www.eugeniaortiz.com.ar/</a>.</li>
+<li>Ajay Roopakalu is a computer science major and applied mathematics minor at Princeton University.  He blogs at <a href="http://jrupac.wordpress.com/">http://jrupac.wordpress.com/</a>.</li>
+</ul>
+<p>This is how you crowdsource crowdsourcing:  gather volunteers from every part of the world and many backgrounds, let them organize themselves, and watch the magic.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 27 Jul 2010 17:26:12 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Pascal Finette";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:27;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:111:"about:mozilla: Social media, icon makeover, Firefox 4, Tab Candy, documentation, FSOSS, JavaScript, and more…";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:44:"http://blog.mozilla.com/about_mozilla/?p=470";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:136:"http://blog.mozilla.com/about_mozilla/2010/07/27/social-media-icon-makeover-firefox-4-tab-candy-documentation-fsoss-javascript-and-more/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:11938:"<p><strong>In this issue…</strong></p>
+<ul>
+<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/27/social-media-icon-makeover-firefox-4-tab-candy-documentation-fsoss-javascript-and-more/#mozilla">Mozilla Social Media Toolkit</a></li>
+<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/27/social-media-icon-makeover-firefox-4-tab-candy-documentation-fsoss-javascript-and-more/#addon">Add-on icon makeover voting open!</a></li>
+<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/27/social-media-icon-makeover-firefox-4-tab-candy-documentation-fsoss-javascript-and-more/#firefox">Firefox 4 add-on compatibility</a></li>
+<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/27/social-media-icon-makeover-firefox-4-tab-candy-documentation-fsoss-javascript-and-more/#tab">Tab Candy</a></li>
+<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/27/social-media-icon-makeover-firefox-4-tab-candy-documentation-fsoss-javascript-and-more/#writing">Writing awesome documentation</a></li>
+<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/27/social-media-icon-makeover-firefox-4-tab-candy-documentation-fsoss-javascript-and-more/#speak">Speak at FSOSS 2010</a></li>
+<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/27/social-media-icon-makeover-firefox-4-tab-candy-documentation-fsoss-javascript-and-more/#designing">Designing for sharing</a></li>
+<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/27/social-media-icon-makeover-firefox-4-tab-candy-documentation-fsoss-javascript-and-more/#using">Using Firefox at work</a></li>
+<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/27/social-media-icon-makeover-firefox-4-tab-candy-documentation-fsoss-javascript-and-more/#a">A brief history of JavaScript</a></li>
+<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/27/social-media-icon-makeover-firefox-4-tab-candy-documentation-fsoss-javascript-and-more/#software">Software releases</a></li>
+<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/27/social-media-icon-makeover-firefox-4-tab-candy-documentation-fsoss-javascript-and-more/#upcoming">Upcoming events</a></li>
+<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/27/social-media-icon-makeover-firefox-4-tab-candy-documentation-fsoss-javascript-and-more/#devcal">Developer calendar</a></li>
+<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/27/social-media-icon-makeover-firefox-4-tab-candy-documentation-fsoss-javascript-and-more/#about">About about:mozilla</a></li>
+</ul>
+<p><a name="mozilla"></a><strong>Mozilla Social Media Toolkit</strong><br />
+Over the past few months, Sarah Doherty has been putting together a set of tools and best practices related to social media, which she launched yesterday as the Mozilla Social Media Toolkit.  The Toolkit, “allows you to leverage social media to market Mozilla and Firefox in your region and beyond.  One of the coolest parts of the Toolkit are the social media design asset kits.  Collaborating with The Royal Order, we are releasing a set of 5 Facebook Profile Images and 4 Twitter designs that include a Twitter background, design color palette and profile picture.  With these design kits you are able to instantly identify your page as a Mozilla community-supported group.”  More information is available through <a href="http://www.sarahdoherty.net/blog/2010/07/26/huzzah-social-media-toolkit-launched/">Sarah’s blog post</a>.</p>
+<p><a name="addon"></a><strong>Add-on icon makeover voting open!</strong><br />
+Developers <a href="http://blog.mozilla.com/addons/2010/07/26/add-on-icon-makeover-voting-open/">nominated 83 of their add-ons</a> to receive an icon makeover and now it’s time to cast your vote!  Choose up to 5 add-ons in <a href="http://www.surveygizmo.com/s3/337124/Add-on-Icon-Makeover-Contest-Voting">the voting booth</a> with missing icons or graphics that could use some work.  Our illustrator will work with the winners to produce shiny new top-notch icons they can be proud of.  Voting ends August 6, 2010 at 11:59pm Pacific time.  Please vote only once each for up to 5 add-ons.</p>
+<p><a name="firefox"></a><strong>Firefox 4 add-on compatibility</strong><br />
+Firefox 4 Beta 1 was released a few weeks ago, Beta 2 is coming soon, and the final release of Firefox 4 is expected later this year.  “This relatively long transition period is great for add-on developers, because it gives us plenty of time to update and test our add-ons for Firefox 4.  On the other hand, this new major release is going to sport a ton of new features, and it will break a great deal of stuff we need, so it won’t be trivial to upgrade most add-ons to support it.”  Jorge Villalobos has written the first of a series of posts that will help add-on developers get their add-ons updated and tested in time for the Firefox 4 release.  <a href="http://blog.mozilla.com/addons/2010/07/21/compatibility-for-firefox-4-time-to-get-started/">Head over to the Add-ons blog</a> to check it out.</p>
+<p><a name="tab"></a><strong>Tab Candy</strong><br />
+Tab Candy is a new experiment towards an evolution of tabbed browsing.  “We need a way to organize browsing, to see all of our tabs at once, and focus on the task at hand.  With one keystroke, Tab Candy shows you an overview of all tabs to allow you to quickly locate and switch between them.  Tab Candy also lets you group tabs to organize your work flow.”  Read more about this experiment, see the demo video, and download an alpha version at <a href="http://www.azarask.in/blog/post/tabcandy/">Aza Raskin’s weblog</a>.</p>
+<p><a name="writing"></a><strong>Writing awesome documentation</strong><br />
+Michael Verdi recently joined the SUMO Firefox support team and is hard at work on improving the quality of our Firefox Knowledge Base.  At the Mozilla Summit he talked about how to write awesome documentation, which he has also posted about on his blog including a summary of his main tips.  If you have to write documentation, or if you would like to help make Mozilla’s documentation better, you should <a href="http://blog.mozilla.com/sumo/2010/07/23/writing-awesome-documentation/">read Michael’s post</a> and learn how you can get started.</p>
+<p><a name="speak"></a><strong>Speak at FSOSS 2010</strong><br />
+The 9th Annual Free Software and Open Source Symposium (FSOSS) is coming up on October 28th and 29th at Seneca College in Toronto.  The FSOSS organizers are <a href="http://blog.chris.tylers.info/index.php?/archives/239-Come-and-Speak-at-FSOSS-2010.html">still looking for interesting workshops and presentations</a> on a variety of open source topics, so if you’re involved with open source in any way, this could be a great chance to get involved with the conference.  Check out the <a href="http://fsoss.ca/">FSOSS website</a> and submit a presentation proposal today!</p>
+<p><a name="designing"></a><strong>Designing for sharing</strong><br />
+Madhava Enros presented a lightning talk at the Mozilla Summit called, “Designing for Sharing”, and he has now <a href="http://madhava.com/egotism/archive/005051.html">written that presentation up in blog form</a>.  “The point has pretty substantially been made that ’social’ is a very big deal, and that a major part of our role is going to be to make the internet a better fit for the extremely social creatures that we humans are.  We’ve been taking some steps towards this in designing the next version of Fennec — Firefox on mobile devices — by introducing the ability to share, by which we mean the ability to take things you find or create on the internet and show them to your friends.  In doing so, we’ve found that it’s critical to remember that social networks are not a new online phenomenon; we have always existed and acted within social networks.  It’s been very useful, therefore, to look at how we are social and share in the ‘real’ offline world.”</p>
+<p><a name="using"></a><strong>Using Firefox at work</strong><br />
+Kev Needham is leading a drive to re-examine how Mozilla can work with organizations to make it easier for them to deploy and use Firefox in their workplaces.  “We’ve had some good press in the last month or two, notably <a href="http://www.sutor.com/c/2010/07/ibm-moving-to-firefox-as-default-browser/">IBM’s announcement</a> of Firefox as its default browser, and a <a href="http://www.pcworld.idg.com.au/article/347493/forrester_windows_7_enterprise_use_rises_ie_falls/">Forrester Research report</a> stating that Firefox has a 20% share in the companies they surveyed.  I think it’s important that we have a good story for getting Firefox into the hands of people in the work environment, but the story needs to be put together.  Our mission is to promote openness, innovation, and opportunity on the web.  Making it easier for organizations to use our products in their workplace is a great opportunity to take that message to them.  There are a lot of people who use us at home, but who would also love to use us at work.  I want to help make that happen and, thankfully, I’m not alone.”  Read more on <a href="http://kev.deadsquid.com/?p=914">Kev’s weblog</a>, and find out how you can jump in and get involved.</p>
+<p><a name="a"></a><strong>A brief history of JavaScript</strong><br />
+Brendan Eich gave a “surprise keynote” at the JSConf 2010 conference in April, and has now <a href="http://brendaneich.com/2010/07/a-brief-history-of-javascript/">posted the video to his blog</a>.  Highlights include: What would happen in a battle between Chuck Norris and Bruce Campbell, and a discussion of where JS has been and what lies in its immediate future.</p>
+<p><a name="software"></a><strong>Software releases</strong><br />
+* <a href="https://developer.mozilla.org/devnews/index.php/2010/07/23/firefox-3-6-8-now-available-for-download/">Firefox 3.6.8</a><br />
+* Thunderbird <a href="http://www.rumblingedge.com/2010/07/23/thunderbird-3-1-1-released/">3.1.1</a> &amp; <a href="http://www.rumblingedge.com/2010/07/23/thunderbird-3-0-6-released/">3.0.6</a><br />
+* <a href="http://processingjs.org/blog/?p=242">Processing.js 0.9.6</a></p>
+<p><a name="upcoming"></a><strong>Upcoming events</strong><br />
+* Aug 7, New York, <a href="http://www.johndbritton.com/post/2010/july/22/mozilla_drumbeat_nyc">Mozilla Drumbeat NYC</a><br />
+* Aug 14-15, Taipei, <a href="http://coscup.org/2010/en/">COSCUP/GNOME.Asia</a><br />
+* Oct 1-2 – New York City – <a href="http://www.openvideoconference.org/?l=en">Open Video Conference</a><br />
+* Oct 28-29, Toronto, <a href="http://fsoss.senecac.on.ca/2010/">FSOSS</a><br />
+* Nov 4-6 – Barcelona – <a href="http://www.drumbeat.org/blog/drumbeat-festival-2010-save-date">Drumbeat Festival 2010</a><br />
+* Nov 5-7 – <a href="http://www.andreasn.se/blog/?p=131">Free Society Conference and Nordic Summit (FSCONS)</a></p>
+<p><a name="devcal"></a><strong>Developer calendar</strong><br />
+For an up-to-date list of the coming week’s Mozilla project meetings and events, please see the <a href="http://wiki.mozilla.org/Community_Calendar">Mozilla Community Calendar</a> wiki page.  Notes from previous meetings are linked to through the Calendar as well.</p>
+<p><a name="about"></a><strong>About about:mozilla</strong><br />
+about:mozilla is by, for and about the Mozilla community, focusing on major news items related to all aspects of the Mozilla Project.  The newsletter is written by Deb Richardson and is published every Tuesday morning.</p>
+<p>If you have any news, announcements, events, or software releases you would like to have included in our next issue, please send them to: about-mozilla[at]mozilla.com.</p>
+<p>If you would like to get this newsletter by email, just head on over to the <a href="http://list-manage.com/subscribe.phtml?id=3be22ac12d">about:mozilla newsletter subscription form</a>. Fresh news, every Tuesday, right to your inbox.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 27 Jul 2010 15:20:36 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:3:"deb";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:28;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:38:"Robert O'Callahan: Unexpected Downtime";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:72:"http://weblogs.mozillazine.org/roc/archives/2010/07/unexpected_down.html";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:72:"http://weblogs.mozillazine.org/roc/archives/2010/07/unexpected_down.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:134:"<p>I seem to have picked up some sort of virus. I'm mostly offline while I wait for this to clear up. Please forgive any delays...</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 27 Jul 2010 05:39:54 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:3:"roc";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:29;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:41:"William D: How To: Extend A Free Vacation";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:39:"http://fuzzyfox.mozhunt.com/blog/?p=511";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:71:"http://fuzzyfox.mozhunt.com/blog/2010/07/how-to-extend-a-free-vacation/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4147:"<p>The answer is simple! Just have a spontaneous pneumothorax <img alt=":P" class="wp-smiley" src="http://fuzzyfox.mozhunt.com/blog/wp-includes/images/smilies/icon_razz.gif" /> </p>
+<p>Okay so the title for this entry is a bit of a giggle and I strongly recommend that you do not try this. I did and it turns out that having a collapsed lung is not that fun. There is a whole heap of stuff that has to be done and a lot of needles, tubes and other such things.</p>
+<p>The after effect is a nice little side effect though provided you have the energy after all the nastiness to get up in the morning.</p>
+<p>So these two weeks (almost [minimum waiting time before being allowed to fly]) have been great. The first evening (the Wednesday after the summit) out of hospital I did what I was told and took it easy. Relaxed, had a few laughs with some of the Mozilla Community that came over for a social gathering and pizza. Nothing too special. Some introductions, some get well soons, some meet you in the office tomorrow, etc…</p>
+<p>I met a few old friends who came to visit the Mozilla Messaging offices on the Thursday (they actually came to find out where I was, so a big thank-you to them for being so nice). <a href="http://www.7is7.com/">Ottodv</a> came back on the Friday and we went out and did some touristy things in Vancouver. Such as visit Gas Town (named after a man’s bodily functions [<a href="http://en.wikipedia.org/wiki/John_Deighton">Gassy Jack</a>]), as well as take in the sunset and city at night from the top of <a href="http://en.wikipedia.org/wiki/Harbour_Centre">Vancouver Lookout</a>.</p>
+<p><a href="http://fuzzyfox.mozhunt.com/blog/wp-content/uploads/DSC02535.jpg"><img alt="" class="aligncenter size-large wp-image-513" height="337" src="http://fuzzyfox.mozhunt.com/blog/wp-content/uploads/DSC02535-1024x576.jpg" title="Vancouver Sunset" width="600" /></a></p>
+<p>The next few days were spent in the office, followed by a weekend in the house on my own. I spent most of Saturday down at the beach catching some rays with a big dressing on my side, with James Burke (Mozilla Messaging web developer) and family. The Sunday I slept.</p>
+<p>Another week in the office and this time with a mission. To create and produce a screencast for the new Quick Filters feature in Thunderbird 3.1. This has now been completed and will soon be public. I have also spent the week (same week not this week) working on a little side project which I will hopefully be able to disclose to you all soon. For now though, I will tell you that it is a Mobile web app created entirely off my own back that makes reading Planet Mozilla enjoyable on smart phones.</p>
+<p>The people here at Mozilla Messaging couldn’t be nicer. I have been taken to lunch and eaten food I would never have considered before now. I have been partial to conversations that would never normally be heard outside the office (not due to lack of openness but want not to disappoint if things do not end up the way they are planned).</p>
+<p><a href="http://fuzzyfox.mozhunt.com/blog/wp-content/uploads/133544005.jpg"><img alt="" class="aligncenter size-full wp-image-512" height="450" src="http://fuzzyfox.mozhunt.com/blog/wp-content/uploads/133544005.jpg" title="Black Pepper Beef Something" width="600" /></a></p>
+<p>So we are now 2 days away from the safe to fly marker. All I have to do is wait for a response from the doctor telling me that my x-ray I had last Thursday was good, and that she will write me a “Fit-To-Fly” letter. If I do not get this then I will never be able to set foot on any airline again. So the only other way home is to go by boat. I’m thinking if it comes to it I want to go home in some style. Maybe the <a href="http://en.wikipedia.org/wiki/RMS_Queen_Elizabeth_2">Q.E. II</a> would be a good start?</p>
+<div class="wp-caption aligncenter" style="width: 610px;"><a href="http://www.flickr.com/photos/lostcase_gib/3030437938/in/photostream/"><img alt="" height="449" src="http://farm4.static.flickr.com/3039/3030437938_5048de9960_z.jpg" title="QE II" width="600" /></a><p class="wp-caption-text">Image by Mark Galliano</p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 27 Jul 2010 03:23:44 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"FuzzyFox";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:30;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:85:"Meeting Notes from the Mozilla community: Mozilla Project Meeting Minutes: 2010-07-26";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/340";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/340";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:20852:"<div>
+<h3>WeeklyUpdates/2010-07-26</h3>
+<h5>From MozillaWiki</h5>
+<div id="contentSub"><span class="subpages">&lt; <a href="https://wiki.mozilla.org/WeeklyUpdates" title="WeeklyUpdates">WeeklyUpdates</a></span></div>
+<p><a href="https://wiki.mozilla.org/WeeklyUpdates/2010-07-12" title="WeeklyUpdates/2010-07-12">« previous week</a> | <a href="https://wiki.mozilla.org/WeeklyUpdates" title="WeeklyUpdates">index</a> | <strong>next week »</strong>
+</p>
+<p><a id="Video_for_today.27s_meeting" name="Video_for_today.27s_meeting"></a><br />
+</p><h3> </h3>
+<p>&lt;video controls=”controls”&gt;&lt;source src=”http://videos.mozilla.org/serv/air_mozilla/monday_meetings/status-2010-07-26.ogg” type=”video/ogg; codecs=”theora, vorbis”"/&gt;&lt;/video&gt;
+</p>
+<p><a id="Friends_of_the_Tree" name="Friends_of_the_Tree"></a><br />
+</p><h3> </h3>
+<p><a id="Upcoming_Events" name="Upcoming_Events"></a><br />
+</p><h3> </h3>
+<p><b>This Week</b> </p>
+<p><b>Monday, 26 July</b>
+</p>
+<ul>
+<li>Black Hat (July 24 – 29, 2010) is the premier North American security conference. Mozilla will be in attendance at the event as well as having our own “<a class="external text" href="https://wiki.mozilla.org/Black_Hat_2010" rel="nofollow" title="https://wiki.mozilla.org/Black_Hat_2010">Milk and Cookies</a>” Party on 7/28.
+</li></ul>
+<p>
+<b>Tuesday, 27 July</b>
+</p>
+<ul>
+<li>Black Hat (July 24 – 29, 2010) is the premier North American security conference. Mozilla will be in attendance at the event as well as having our own “<a class="external text" href="https://wiki.mozilla.org/Black_Hat_2010" rel="nofollow" title="https://wiki.mozilla.org/Black_Hat_2010">Milk and Cookies</a>” Party on 7/28.
+</li></ul>
+<p>
+<b>Wednesday, 28 July</b><br /> 
+</p>
+<ul>
+<li>Black Hat (July 24 – 29, 2010) is the premier North American security conference. Mozilla will be in attendance at the event as well as having our own “<a class="external text" href="https://wiki.mozilla.org/Black_Hat_2010" rel="nofollow" title="https://wiki.mozilla.org/Black_Hat_2010">Milk and Cookies</a>” Party on 7/28.
+</li></ul>
+<p>
+<b>Thursday, 29 July</b>
+</p>
+<ul>
+<li>Black Hat (July 24 – 29, 2010) is the premier North American security conference. Mozilla will be in attendance at the event as well as having our own “<a class="external text" href="https://wiki.mozilla.org/Black_Hat_2010" rel="nofollow" title="https://wiki.mozilla.org/Black_Hat_2010">Milk and Cookies</a>” Party on 7/28.
+</li></ul>
+<p> <b>Friday, 30 July</b>
+</p>
+<ul>
+<li>Black Hat (July 24 – 29, 2010) is the premier North American security conference. Mozilla will be in attendance at the event as well as having our own “<a class="external text" href="https://wiki.mozilla.org/Black_Hat_2010" rel="nofollow" title="https://wiki.mozilla.org/Black_Hat_2010">Milk and Cookies</a>” Party on 7/28.
+</li></ul>
+<p> <b>Next Week</b>
+</p>
+<p><a id="Product_Status_Updates" name="Product_Status_Updates"></a><br />
+</p><h3> </h3>
+<p><a id="Firefox_4" name="Firefox_4"></a><br />
+</p><h4> </h4>
+<ul>
+<li> due to the chemspill, we’re a bit behind on schedule for <a href="https://wiki.mozilla.org/Releases/Firefox_4.0b2" title="Releases/Firefox 4.0b2">beta 2</a><p></p>
+</li><li> getting a QA update today, hoping for release tomorrow
+</li><li> beta 3 planning and landings going on this week
+</li><li> a set of <a href="https://wiki.mozilla.org/Firefox/4/Beta#Milestones" title="Firefox/4/Beta">planned milestones and release dates</a> for beta revisions is available
+</li></ul>
+<p><a id="Firefox_3.6" name="Firefox_3.6"></a><br />
+</p><h4> </h4>
+<ul>
+<li> Released Firefox 3.6.7 on last Tuesday<p></p>
+</li><li> Saw a high-volume crash regression with certain combinations of object and embed tags (<a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=575836" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=575836">bug 575836</a>)
+</li><li> Released Firefox 3.6.8 with the fix on Friday…an amazingly quick turnaround!
+</li><li> Post-mortems for 3.6.(7|8) will be happening the week of the 1st and 3.6.(4|6) will be happening the week of August 9th. Exact dates will be sent out today
+</li><li> We are ready to do a chemspill release if anything comes up at BlackHat, though there are no talks we are too concerned about for Firefox
+</li><li> The <a class="external text" href="https://wiki.mozilla.org/Releases/Firefox_3.6.9" rel="nofollow" title="https://wiki.mozilla.org/Releases/Firefox_3.6.9">Firefox 3.6.9 schedule</a> will be out today
+</li><li> Any approvals for 1.9.2.<b>8</b> are now for 1.9.2.<b>9</b>
+</li></ul>
+<p><a id="Mobile_Firefox" name="Mobile_Firefox"></a><br />
+</p><h4> </h4>
+<p><a id="Thunderbird" name="Thunderbird"></a><br />
+</p><h4> </h4>
+<ul>
+<li> Released Thunderbird 3.1.1 and 3.0.6<p></p>
+</li><li> Found a bad crasher; we expect to need to spin 3.1.2 before offering advertised major updates to 3.1.x from older versions
+</li></ul>
+<p><a id="Older_Branch_Work" name="Older_Branch_Work"></a><br />
+</p><h4> </h4>
+<p><a id="Speakers" name="Speakers"></a><br />
+</p><h3> </h3>
+<p>The limit is 3 minutes per speaker. It’s like a lightning talk, but don’t feel that you have to have slides in order to make a presentation.
+</p>
+<table class="fullwidth-table">
+<tbody><tr>
+<th> Title<p></p>
+</th><th> Presenter<p></p>
+</th><th> Topic<p></p>
+</th><th> Media<p></p>
+</th><th> More Details<br />
+</th></tr>
+<tr>
+<td> Mozilla Social Media Toolkit<p></p>
+</td><td> Sarah Doherty<p></p>
+</td><td> Mozilla Social Media Toolkit<p></p>
+</td><td> <a class="external free" href="http://mozilla.sarahdoherty.net/temp/MozillaSocialMediaToolkit.zip" rel="nofollow" title="http://mozilla.sarahdoherty.net/temp/MozillaSocialMediaToolkit.zip">http://mozilla.sarahdoherty.net/temp/MozillaSocialMediaToolkit.zip</a><p></p>
+</td><td> <a class="external text" href="http://mzl.la/sfxsocialmediatoolkit" rel="nofollow" title="http://mzl.la/sfxsocialmediatoolkit">mzl.la/sfxsocialmediatoolkit</a><br />
+</td></tr>
+<tr>
+<td> Firefox 3.6.8 in almost 24 hours<p></p>
+</td><td> John O’Duinn<p></p>
+</td><td> FF3.6.8<p></p>
+</td><td>
+</td><td> <a class="external text" href="http://oduinn.com/blog/2010/07/26/firefox-3-6-8-by-the-wall-clock-numbers" rel="nofollow" title="http://oduinn.com/blog/2010/07/26/firefox-3-6-8-by-the-wall-clock-numbers">blog post</a><br />
+</td></tr>
+<tr>
+<td> Your Title Here<p></p>
+</td><td> Your Name Here<p></p>
+</td><td> What are you going to talk about?<p></p>
+</td><td> Links to slides or images you want displayed on screen<p></p>
+</td><td> Link to where audience can find out more information<br />
+</td></tr>
+<tr>
+<td>
+</td><td>
+</td><td>
+</td><td>
+</td><td>
+</td></tr></tbody></table>
+<p><a id="Status_Updates_By_Team" name="Status_Updates_By_Team"></a><br />
+</p><h3> </h3>
+<p><a id="Firefox" name="Firefox"></a><br />
+</p><h4> </h4>
+<ul>
+<li> Announced Tab Candy on Friday. Over the weekend we had:<p></p>
+<ul>
+<li> 28 press articles, including dream headlines: “Firefox Just Perfected Tabs Browsing” from Techcrunch and “With FireFox’s Tab Candy Feature, We’ll Finally Achieve Tab Nirvana” from Gizmodo.<p></p>
+</li><li> 3 million views of the video, with half a million watching all the way through.
+</li><li> Tens of thousands of tweets, with many saying they’ll never look at another browser again.
+</li><li> 30k+ installs of the Tab Candy alpha build of Firefox.
+</li><li> Hundreds of feature suggestions and votes for them, not all of which say Opera did it first.
+</li><li> Dozens of direct emails, some of which expressing a desire to have babies with Firefox.
+</li></ul>
+</li><li> The Tab Candy team (especially Ian Gilman, Edward Lee, and Mitcho Erlewine) deserve all the credit for pushing long and hard to get Tab Candy this far.
+</li><li> Please do some dogfooding with our <a class="external text" href="http://azarask.in/projects/tabcandy/build.php" rel="nofollow" title="http://azarask.in/projects/tabcandy/build.php">Tab Candy build</a>.
+</li><li> <a href="https://wiki.mozilla.org/Firefox/Projects/2010Q3_Dirty_Startup_Reduction" title="Firefox/Projects/2010Q3 Dirty Startup Reduction">“Dirty” startup goal</a> work underway with <a class="external text" href="http://shawnwilsher.com/archives/421" rel="nofollow" title="http://shawnwilsher.com/archives/421">interesting results</a>.
+</li></ul>
+<p><a id="Platform" name="Platform"></a><br />
+</p><h4> </h4>
+<p><a id="Messaging" name="Messaging"></a><br />
+</p><h4> </h4>
+<ul>
+<li> Raindrop is rebooting: the backend is being rewritten for simplicity and speed on top of SQLAlchemy &amp; MySQL/sqlite<p></p>
+</li><li> related to Tb participation work, dmose held BOF at OSCON about community &amp; contribution metrics, will blog soon
+</li></ul>
+<p><a id="Mobile" name="Mobile"></a><br />
+</p><h4> </h4>
+<p><a id="IT" name="IT"></a><br />
+</p><h4> </h4>
+<p><b> Last Week</b>
+</p>
+<ul>
+<li> Working through Firefix Sync scaling issues<p></p>
+</li><li> Pre-planning for Amsterdam datacenter move (could happen as soon as Friday)
+</li><li> Wrapped up long-delayed Firewall upgrades in San Jose
+</li></ul>
+<p><b>This Week</b>
+</p>
+<ul>
+<li> Performance problems with the generic web server cluster this morning<p></p>
+<ul>
+<li> Affected <code>wiki.mozilla.org</code> as well as others
+</li></ul>
+</li></ul>
+<p><a id="Release_Engineering" name="Release_Engineering"></a><br />
+</p><h4> </h4>
+<p><a id="QA" name="QA"></a><br />
+</p><h4> </h4>
+<ul>
+<li> <b>Desktop QA</b>:<p></p>
+<ul>
+<li> 3.6.8 chemspill release testing. Shipped next day (Friday).<p></p>
+</li><li> 4.0beta2, ongoing testing. Should ship tomorrow.
+</li></ul>
+</li><li> <b>Browser Technologies QA</b>:
+<ul>
+<li> <a class="external text" href="https://wiki.mozilla.org/QA/Fennec/Milestones/2.0" rel="nofollow" title="https://wiki.mozilla.org/QA/Fennec/Milestones/2.0">Fennec 2.0 features</a> are landing and specs are getting assigned.  looking to eta an alpha end of month<p></p>
+</li><li> Sync 1.4.2b1 tested and pushed to AMO
+</li><li> Firefox Home 1.0.1 tested and submitted to App Store
+</li></ul>
+</li><li> <b>WebQA</b>:
+<ul>
+<li> Pushed <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578053" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578053">AMO 5.11.4</a> on 7/13<p></p>
+</li><li> Shipped a <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579341" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579341">new version</a> of <a class="external text" href="http://input.mozilla.com/en-US/" rel="nofollow" title="http://input.mozilla.com/en-US/">Input</a> last week
+</li><li> Pushed a <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579983" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579983">small change</a> to fix some galleries in Personas
+</li><li> Released the <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED&amp;classification=Other&amp;query_format=advanced&amp;component=plugins.mozilla.org&amp;product=Websites&amp;target_milestone=1.1" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED&amp;classification=Other&amp;query_format=advanced&amp;component=plugins.mozilla.org&amp;product=Websites&amp;target_milestone=1.1">1.1 version</a> of the plugin directory
+</li></ul>
+</li><li> <b>QA Services</b>:
+<ul>
+<li>Meetup next week in NYC: <a class="external free" href="http://www.meetup.com/Mozilla-in-the-Big-Apple/calendar/14115600/" rel="nofollow" title="http://www.meetup.com/Mozilla-in-the-Big-Apple/calendar/14115600/">http://www.meetup.com/Mozilla-in-the-Big-Apple/calendar/14115600/</a> as part of BlogHer – all NYC community welcome to attend! As part of the action packed weekend there will also be a Drumbeat Festival in NYC on August 7
+</li></ul>
+</li></ul>
+<p><a id="Automation_.26_Tools" name="Automation_.26_Tools"></a><br />
+</p><h4> </h4>
+<ul>
+<li> Lots of things in progress:<p></p>
+<ul>
+<li> Android work finalizing apace<p></p>
+</li><li> Mozmill moving quickly toward 1.4.2
+</li><li> Cycle collector talos runs in progress
+</li><li> Cross weave full automation should be ready for production at the end of the week
+</li></ul>
+</li><li> Held test day on grafx bot on Friday, submitted it to AMO.
+</li><li> More info <a class="external text" href="https://wiki.mozilla.org/Auto-tools/Meetings/2010-07-26" rel="nofollow" title="https://wiki.mozilla.org/Auto-tools/Meetings/2010-07-26">here</a>.
+</li></ul>
+<p><a id="Security" name="Security"></a><br />
+</p><h4> </h4>
+<p><a id="Engagement" name="Engagement"></a><br />
+</p><h4> </h4>
+<p><b>PR</b>
+</p>
+<ul>
+<li><a class="external text" href="http://www.mercurynews.com/breaking-news/ci_15587773?nclick_check=1" rel="nofollow" title="http://www.mercurynews.com/breaking-news/ci_15587773?nclick_check=1">Mercury News interview: Mitchell Baker, chairwoman, Mozilla</a>
+</li></ul>
+<ul>
+<li><a class="external text" href="http://techcrunch.com/2010/07/23/firefox-tab-candy/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29" rel="nofollow" title="http://techcrunch.com/2010/07/23/firefox-tab-candy/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+Techcrunch+%28TechCrunch%29">Firefox Just Perfected Tabbed Browsing. It’s Like Apple’s Expose Plus Spaces For The Web</a> <p></p>
+</li><li> <a class="external text" href="http://www.theregister.co.uk/2010/07/23/firefox_tab_candy/" rel="nofollow" title="http://www.theregister.co.uk/2010/07/23/firefox_tab_candy/">Mozilla tames Firefox tab monster with Candy</a>
+</li><li><a class="external text" href="http://gizmodo.com/5595017/with-firefoxs-tab-candy-feature-well-finally-achieve-tab-nirvana" rel="nofollow" title="http://gizmodo.com/5595017/with-firefoxs-tab-candy-feature-well-finally-achieve-tab-nirvana">With Firefox’s Tab Candy Feature, We’ll Finally Achieve Tab Nirvana</a>
+</li><li><a class="external text" href="http://www.webmonkey.com/2010/07/firefox-offers-a-taste-of-tabcandy/" rel="nofollow" title="http://www.webmonkey.com/2010/07/firefox-offers-a-taste-of-tabcandy/">Firefox Offers a Taste of Tab Candy</a>
+</li><li><a class="external text" href="http://mashable.com/2010/07/23/tab-candy-firefox/" rel="nofollow" title="http://mashable.com/2010/07/23/tab-candy-firefox/">Tab Candy: Firefox Invents a Better Way to Manage Tabs [VIDEO</a>
+</li></ul>
+<ul>
+<li><a class="external text" href="http://www.ghacks.net/2010/07/24/firefox-3-6-8-released/" rel="nofollow" title="http://www.ghacks.net/2010/07/24/firefox-3-6-8-released/">Firefox 3.6.8 Released</a> <p></p>
+</li><li><a class="external text" href="http://www.h-online.com/open/news/item/Mozilla-delays-second-Firefox-4-beta-1045234.html" rel="nofollow" title="http://www.h-online.com/open/news/item/Mozilla-delays-second-Firefox-4-beta-1045234.html">Mozilla delays second Firefox 4 beta</a>
+</li><li><a class="external text" href="http://www.itproportal.com/portal/news/article/2010/7/26/mozilla-firefox-368-update-released/" rel="nofollow" title="http://www.itproportal.com/portal/news/article/2010/7/26/mozilla-firefox-368-update-released/">Mozilla Firefox 3.6.8 Update Released</a>
+</li><li><a class="external text" href="http://www.computerworld.com/s/article/9179638/Mozilla_re_patches_Firefox_3.6_to_fix_plug_in_problem" rel="nofollow" title="http://www.computerworld.com/s/article/9179638/Mozilla_re_patches_Firefox_3.6_to_fix_plug_in_problem">Mozilla re-patches Firefox 3.6 to fix plug-in problem</a>
+</li></ul>
+<p> <b>Events</b>
+</p>
+<ul>
+<li><a class="external text" href="http://www.blackhat.com/html/bh-us-10/bh-us-10-home.html" rel="nofollow" title="http://www.blackhat.com/html/bh-us-10/bh-us-10-home.html">Black Hat USA 2010</a> July 24-29, 2010; Las Vegas, NV – We will be hosting our “traditional” Mozilla milk &amp; cookies party on 7/28.  Check out the information on the <a class="external text" href="https://wiki.mozilla.org/Black_Hat_2010" rel="nofollow" title="https://wiki.mozilla.org/Black_Hat_2010">wiki</a>. <p></p>
+</li><li><a class="external text" href="http://www.guadec.org/index.php/guadec/2010" rel="nofollow" title="http://www.guadec.org/index.php/guadec/2010">GUADEC 2010</a> – July 24-30, 2010; Netherlands.  We are sponsoring at the bronze level.  No Mozilla talks scheduled.
+</li><li><a class="external text" href="http://www.blogher.com/blogher-10" rel="nofollow" title="http://www.blogher.com/blogher-10">BlogHer ‘10</a> – August 6-7, 2010 – We will be having a hotel suite and a presence in the GeekLab as well as a meetup on Thursday (open to non BlogHer folk)  – sign up for the meetup <a class="external text" href="http://www.meetup.com/Mozilla-in-the-Big-Apple/calendar/14115600/" rel="nofollow" title="http://www.meetup.com/Mozilla-in-the-Big-Apple/calendar/14115600/">here</a>. <br /> 
+</li><li><a class="external text" href="http://www.openvideoconference.org/" rel="nofollow" title="http://www.openvideoconference.org/">Open Video Conference 2010</a> – October 1-2, 2010; New York, NY  – Looking over sponsorship opportunities.
+</li><li><a class="external text" href="http://makerfaireafrica.com/" rel="nofollow" title="http://makerfaireafrica.com/">Maker Faire Africa</a> – August 27-28, 2010; Nairobi, Kenya – Looking into sponsorship opportunties.
+</li><li><a class="external text" href="http://www.renegadecraft.com/chicago" rel="nofollow" title="http://www.renegadecraft.com/chicago">Renegade Craft Fair Chicago 2010</a> – September 11-12, 2010 – We will have a booth and be doing some innovative activities.  Check out the <a class="external text" href="https://wiki.mozilla.org/RenegadeCraftFair2010_Chicago" rel="nofollow" title="https://wiki.mozilla.org/RenegadeCraftFair2010_Chicago">wiki</a> for more details Looking into sponsorship opportunities.
+</li></ul>
+<p> <b>Creative Team</b> </p>
+<p> <b>Community Marketing</b>
+</p>
+<ul>
+<li>Community Marketing Call: Next call is Wednesday July 28th at 10 a.m. PST/17:00 UTC. Please send agenda items to mary at mozilla dot com.
+</li></ul>
+<p><a id="Support" name="Support"></a><br />
+</p><h4> </h4>
+<p><a id="Metrics" name="Metrics"></a><br />
+</p><h4> </h4>
+<p><a id="Evangelism" name="Evangelism"></a><br />
+</p><h4> </h4>
+<p><a id="Labs" name="Labs"></a><br />
+</p><h4> </h4>
+<p><a id="Developer_Tools" name="Developer_Tools"></a><br />
+</p><h4> </h4>
+<p><a id="Add-ons" name="Add-ons"></a><br />
+</p><h4> </h4>
+<p><a id="Webdev" name="Webdev"></a><br />
+</p><h4> </h4>
+<p><a id="L10n" name="L10n"></a><br />
+</p><h4> </h4>
+<ul>
+<li>  The L10n-drivers and Firefox Home team are finalizing a plan to localize the application.  An announcement to the l10n newsgroup on instructions is forthcoming, hoping to post this week.<p></p>
+</li><li>  Firefox 4 beta 2 will ship with 23 locales, some taking advantage of our “l10n-merge” technology.
+</li><li>  Firefox 4 beta web l10n work has been led by Pascal C. (Excellent work by Pascal)   This <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578126" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578126">tracking bug</a> gives a good summary of the status of pages.
+</li><li>  KaiRo (Robert Kaiser) posted <a class="external text" href="http://groups.google.com/group/mozilla.dev.platform/msg/611e83f34faba1f7" rel="nofollow" title="http://groups.google.com/group/mozilla.dev.platform/msg/611e83f34faba1f7">an explanation about the goals of the l20n project</a> in the dev.platform newsgroup.  Thanks, KaiRo!
+</li><li>  Congrats to the Malayalam localization for moving out of beta and into “official” status
+<ul>
+<li>  Oriya, es-CL, and es-MX will be next to de-beta<p></p>
+</li><li>  L10n-drivers have a quarterly goal to reduce the number of locales in beta
+</li></ul>
+</li><li>  Several new locales are expected for Firefox 4 as the l10n-drivers team starts afresh with outreach to long-standing contributors trying to make it into an official release.
+<ul>
+<li>  Because of that, the team is refining the process by articulating more clearly what it takes to enter an official release, what is expected from both the l10n-drivers and the community proposing the new localization, and what are the consequences if all to-do items are not completed.
+</li></ul>
+</li></ul>
+<p><a id="Introducing_New_Hires" name="Introducing_New_Hires"></a><br />
+</p><h3> </h3>
+<ul>
+<li> Laura Forrest
+</li></ul>
+<p><a id="Foundation_Updates" name="Foundation_Updates"></a><br />
+</p><h3> </h3>
+<p><a id="Roundtable" name="Roundtable"></a><br />
+</p><h3> </h3>
+<div class="printfooter">
+Retrieved from “<a href="https://wiki.mozilla.org/WeeklyUpdates/2010-07-26">https://wiki.mozilla.org/WeeklyUpdates/2010-07-26</a>“</div>
+<p></p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 27 Jul 2010 02:59:57 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:17:"Jesper Kristensen";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:31;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:54:"Joe Drew: What I learned today at SIGGRAPH 2010, day 2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:33:"http://blog.mozilla.com/joe/?p=33";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:83:"http://blog.mozilla.com/joe/2010/07/26/what-i-learned-today-at-siggraph-2010-day-2/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3793:"<h3>User interfaces for tweakable settings</h3>
+<p>For those unfamiliar with the field, tweaking a computer graphics rendering often involves playing with dozens of values, some with obvious meanings (colour), some less obvious (randomness). Lots of people have spent lots of time trying to refine these models, but today at SIGGRAPH 2010 a paper about user studies on a subset of these parameter-tweaking interfaces was presented.</p>
+<p>In this study, three types of interfaces were evaluated: two which amounted to tweaking numeric values using sliders, and one which involved searching for the type of effect you’re looking for visually. The study consisted of users trying to match given outputs using the three methods as well as creating an entirely new rendering to fit in with an existing scene. The users who were participating in this study were all novices: they’d never done any rendering before this study.</p>
+<p>Everyone involved followed the same pattern: playing with the controls to get a handle on what each of them does, then “blocking out” the values (getting them in the neighbourhood of correct) and moving on to the next set. Then, once each of the values was sort of correct, you go back and tweak the rendering by smaller and smaller amounts until you converge on the correct output.</p>
+<p>Interestingly, though, users found (and the amount of time spent to get the correct value agreed with them) the slider interfaces about equally easy, and much easier than the visual search. In many cases, users artificially constrained their visual search to a slider-like couple of results in order to make their search easier. The visual search was found too cumbersome; while blocking was around as easy, tweaking was much more difficult.</p>
+<p>However, precisely the opposite was found when the task was to generate something new to fit in with an existing scene. While the visual search was still just as difficult to tweak, its more unconstrained nature made it much easier for users to find something they liked as a starting point, and in the end users were happier with their results than with the slider-based approach.</p>
+<p>What is the take-away message? In my mind, it’s that, when you need to make small changes iterating towards a goal, providing a highly granular and more easily tweakable interface is of utmost importance; however, when you’re just starting to create something, providing a more visceral, less controllable interface gives users a good starting point. Ideally, you’d provide a hybrid of both approaches, allowing users to define their direction in broad strokes and then tweak it quickly using more detailed controls.</p>
+<h3>Computer Graphics in history</h3>
+<p>I went to a presentation given by Richard Chuang (formerly from PDI) and Ed Catmull (from Pixar, and CG lore). It focused on a course that Catmull and Jim Blinn taught at Berkeley in 1980, and which Chuang audited via a microwave link to his workplace at HP. There was a lot of history of computer graphics in this course, and it was quite transformational in Chuang’s life; a year later he helped found PDI, which was later bought by Dreamworks.</p>
+<p>The most important thing I took from this panel presentation was that you should always start with the hardest part of your project, because the easier parts will be informed by the choices you make. The specific example given was the choice many initial implementers of hidden-surface algorithms (occlusion, depth buffers, etc) made to ignore anti-aliasing, figuring it was a simple extension of their work. As it turns out, anti-aliasing is hard, and it is made even harder if your hidden-surface algorithm throws away data that you’d need to anti-alias, like the specific points in your polygons.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 27 Jul 2010 01:05:48 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"Joe Drew";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:32;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:54:"Mozilla Add-ons Blog: Upcoming changes to AMO accounts";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:38:"http://blog.mozilla.com/addons/?p=1707";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:75:"http://blog.mozilla.com/addons/2010/07/26/upcoming-changes-to-amo-accounts/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2933:"<p>There are two big changes coming to addons.mozilla.org user accounts in the near future:</p>
+<h3>New username and display name fields</h3>
+<p>We are introducing two new fields (username and display name) and removing three old fields (first name, last name, and nickname). The username field will be used to uniquely identify a user across the site in add-on reviews, developed add-ons, forums, collections, etc. and must not have spaces or other special characters. The display name field is optional and, if set, will be used in place of the username in those publicly displayed places. Display names do not have restrictions on which characters can be used.</p>
+<p>These new fields will be populated from the existing fields in a way that should not cause any changes to the way names are currently displayed across the site:</p>
+<ul>
+<li>Display names will be populated with the name we currently display for you, which is your nickname if set, otherwise your first and last name fields.</li>
+<li>Username will be populated from your nickname if set or your first and last names, but with spaces and special characters removed and made unique if necessary.</li>
+</ul>
+<p>For example, if my nickname is currently “Justin Scott (fligtar)”, my new username will be “justin-scott-fligtar” and my display name will remain “Justin Scott (fligtar)”.</p>
+<p>Why are we doing this? A few reasons:</p>
+<ul>
+<li>Our current system is overly complicated, requiring at least one of nickname, first name, or last name and having to figure out which to display in each place. Users don’t understand the purpose of each field, and this new system makes it much easier to understand.</li>
+<li>Our forums confusingly require you to log in with your nickname, which you can’t use to log in to AMO</li>
+<li>We want to start using usernames in URLs, such as for our upcoming collections revamp, and we don’t currently have a URL-safe name to use</li>
+</ul>
+<h3>Deleting inactive accounts</h3>
+<p>AMO has accumulated 4.5 million user accounts over the years, many of which were only created to be able to download experimental add-ons and then forgotten about. We’d like to begin implementing a policy of deleting inactive accounts after a long period of time to increase performance of the site as we start to add more features that are personalized for each user.</p>
+<p>In the next few weeks we plan to delete any accounts that have not logged in since April 2009 who don’t have any add-ons, collections, or reviews associated with them. This will reduce our 4.5 million accounts to a more manageable 800,000.</p>
+<p>If you haven’t written any reviews, created a collection, or developed an add-on and want to ensure your account stays active, the easiest way is to just log in to addons.mozilla.org and you’ll be marked as active.</p>
+<p>If you have feedback on either of these changes, please let us know. Thanks!</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 23:59:10 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:22:"Justin Scott (fligtar)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:33;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:55:"Mozilla Add-ons Blog: Add-on Icon Makeover Voting Open!";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:38:"http://blog.mozilla.com/addons/?p=1723";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:75:"http://blog.mozilla.com/addons/2010/07/26/add-on-icon-makeover-voting-open/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:845:"<p>Developers <a href="http://blog.mozilla.com/addons/2010/07/15/add-on-icon-makeover-contest/">nominated</a> 83 of their add-ons to receive an icon makeover and now it’s time to cast your vote! <strong>Choose up to 5 add-ons in the voting booth below with missing icons or graphics that could use some work.</strong> Our illustrator will work with the winners to produce shiny new top-notch icons they can be proud of.</p>
+<p style="font-size: 15px; font-weight: bold; text-align: center;"><a href="http://www.surveygizmo.com/s3/337124/Add-on-Icon-Makeover-Contest-Voting">Vote Now</a></p>
+<p>Voting ends August 6, 2010 at 11:59:59pm Pacific. Please only vote once for up to 5 add-ons.</p>
+<p style="text-align: center;"><img alt="Add-on receiving a makeover" height="250" src="http://blog.mozilla.com/addons/files/2010/07/perfume.png" /></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 23:51:26 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:22:"Justin Scott (fligtar)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:34;a:6:{s:4:"data";s:22:"
+	
+	
+	
+	
+	
+	
+        
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:76:"Mozilla Web Development: RegisterProtocolHandler Enhancing the Federated Web";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:38:"http://blog.mozilla.com/webdev/?p=1179";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:94:"http://blog.mozilla.com/webdev/2010/07/26/registerprotocolhandler-enhancing-the-federated-web/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:10924:"<p>Paul Osman, Dan Mills, and I recently attended the <a href="http://status.net/2010/07/21/federated-social-web-summit-wrapup">Federated Social Web Summit</a> and a commonly mentioned problem was discovery in a de-centralized environment. How do you get website A to talk to website B without a centralized service to coordinate? This post takes a stab at solving this problem with a progressive enhancement that works on Firefox 3.5 and later.</p>
+<p>Here is a short screencast to describe an example problem and showing the solution in action.</p>
+<p><video controls="controls" width="720"> <source src="http://people.mozilla.org/~aking/registerProtocolHandler/webdev_post/720/RegisterProtocolHandler.m4v" type="video/mp4" /> <source src="http://people.mozilla.org/~aking/registerProtocolHandler/webdev_post/720/RegisterProtocolHandler.webm" type="video/webm" /> <source src="http://people.mozilla.org/~aking/registerProtocolHandler/webdev_post/720/RegisterProtocolHandler.theora.ogv" type="video/ogg" /></video></p>
+<h3>Mo Federation Mo Problems</h3>
+<p>The basic issue is that due to web browser’s same origin policy,<code>http://bob.example.com</code> cannot know that Alice uses <code>http://alice.status.net</code> as her preferred Social Networking application for <strong><a href="http://ostatus.org/">OStatus</a> interactions</strong>. This isn’t an issue on today’s monoculture social networking web, but as we move to embrace website diversity, we need a way to discover URLs and other details that are personalized to the current user.</p>
+<h3>The registerProtocolHandler postMessage Pattern</h3>
+<p>So what’s in the magic sauce in the video, you ask? Two JavaScript methods: <a href="https://developer.mozilla.org/en/DOM/window.navigator.registerProtocolHandler">registerProtocolHandler</a> and <a href="https://developer.mozilla.org/en/DOM/window.postMessage">postMessage</a>.</p>
+<p>After Alice logs in on <code>http://alice.status.net</code>, the following JavaScript code runs:</p>
+<pre>if ('navigator' in window &amp;&amp;
+    'registerProtocolHandler' in window.navigator) {
+           navigator.registerProtocolHandler(
+               "ostatus", "http://alice.status.net/follow?uri=%s", "OStatus");
+}
+</pre>
+<p>When Alice visits <code>http://bob.example.com/bob</code> and clicks Subscribe, an <code>&lt;iframe&gt;</code> is created with its URL pointed to <code>ostatus://bob.example.com/bob/follow</code>. Note the scheme in the URL is ostatus and not http.</p>
+<pre>$(window).bind('message', function(event) {
+    $('input[name=profile]').attr('value', event.originalEvent.data);
+});
+$('body').append("&lt;iframe id='ostatus_follow_frame' src='ostatus://bob.example.com/bob/follow'&gt;&lt;/iframe&gt;");
+</pre>
+<p></p>
+<p>Firefox invokes Alice’s protocol handler and the actual request is for <code>http://alice.status.net/follow?uri=ostatus%3A%2F%2Fbob.example.com%2Fbob%2Ffollow</code>. Alice is an anonymous user to <code>http://bob.example.com/bob</code>, but <code>http://alice.status.net/follow</code> receives all of her normal cookies and other headers, so <code>alice.status.net</code> knows she is Alice. </p>
+<p>This handler page then uses the <a href="http://www.whatwg.org/specs/web-apps/current-work/multipage/comms.html#web-messaging">postMessage API</a> to communicate safely with bob.example.com to notify it that Alice’s username is alice@alice.status.net.</p>
+<pre>&lt;html&gt;
+&lt;body&gt;
+&lt;script&gt;
+//This could talk to http://bob.example.com instead of '*' for better security
+window.parent.window.postMessage('alice@alice.status.net', '*');
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</pre>
+<p>With this last piece in place, Alice is free to subscribe to Bob without remembering arcane credentials, urls, or codes. The two federated websites are able to automatically coordinate how Alice will follow Bob.</p>
+<h3>Protocol Design</h3>
+<p>A note on the protocol design: This is a rough prototype to show the design pattern and how it solves the problem. I’ve spent only a few minutes designing the ostatus:// protocol, it is not a standard.  <strong>Note:</strong> There is an existing server to server protocol <a href="http://ostatus.org/sites/default/files/ostatus-1.0-draft-1-specification.html">OStatus 1.0 Draft 1</a>, but this demo client side protocol isn’t a part of that spec currently.</p>
+<p><a href="http://www.rfc-editor.org/rfc/rfc4395.txt">We have to be careful with creating new URI scheme names</a>. We should be thoughtful with protocol designs as we want to make extensible designs that can be given new capabilities without breaking old clients.</p>
+<p>There are at least two pieces to play with: The protocol url and then the postMessage interaction. You can design very simple interactions or complex dances back and forth between site A and B via the iframe. Protocols should probably include a version number, etc.</p>
+<p>Another design decision is the granularity of protocols: Should we have a new scheme <code>follow://</code> that handles only one method? Or an <code>ostatus://</code> scheme that bundles several methods? How many methods should <code>ostatus://</code> include in it’s initial specification?</p>
+<p>This demo is a simple one way communication in the iframe, but could be two way with negotiations and taking protocol versioning into account, much like HTTP is an extensible protocol (content negotiation, very few assumptions, etc).</p>
+<p>This demo implements two actions: test and follow. This is enough of the OStatus protocol to kick the tires on the idea, there are other useful actions that would be baked into the real ostatus protocol handler.</p>
+<h3>UX Problem</h3>
+<p>A Google search for registerProtocolHandler shows 26,600 results, so it isn’t widely used or discussed currently. Why?</p>
+<p>In the video we show what happens if the user doesn’t have an <code>ostatus</code> protocol handler registered. There is no way to query this ahead of time. You can detect the failure and show some help describing how to get an OStatus enabled service, etc. At the end of this post I’ll sketch out some UX improvements to make this less painful.</p>
+<p>It would be nice if there was a <code>navigator.isProtocolRegistered('ostatus')</code> that returned true if one or more handlers were registered. This would help solve this issue. <strong>Update:</strong> dmose points out <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=440620">Bug#440620 which suggests a protocolRegistered</a> function.</p>
+<h3>General Solution</h3>
+<p>This federated website discover technique really improves the user experience for Firefox 3.5+ users. No other browsers implement registerProtocolHandler, but that’s okay as this is a progressive enhancement. Once they do, the awesome sauce will start flowing for them too. The <a href="http://code.google.com/p/chromium/issues/detail?id=11359">Chromium project</a> is also working on implementing this feature.</p>
+<p>Assuming good UX norms can be built around how to use registerProtocolHandler-then-postMessage, It’s quite possible that this technique can be used to solve the following hard problems:</p>
+<ul>
+<li>Nascar problems
+<ul>
+<li><a href="http://factoryjoe.com/blog/2009/04/06/does-openid-need-to-be-hard/">OpenID</a></li>
+<li>"Share this" and "Universal Like button"</li>
+</ul>
+</li>
+<li>Bookmark using my Bookmark service</li>
+<li>Repost to my blogging service</li>
+<li>Tweet this URL with my microstatus service</li>
+<li>Save this recipie to my cookbook app</li>
+<li>Add this contact to my address book</li>
+</ul>
+<p>A lot of smart people have done great work in solving this problem. Other solutions that depend on a centralized service, such as <a href="http://blog.meebo.com/?p=2391">Meebo’s XAuth</a> can still be used as fallbacks… Progressive enhancement FTW.</p>
+<h3>Smoothing out the Gotchas</h3>
+<p>There is some work to be done around the best user workflow. Below we will use localStorage to remember where we are at in registering a protocol handler so we don’t bug the user over and over for a missing protocol handler.</p>
+<p>Here is a sketch at fixing <code>registerProtocolHandler</code> gotchas. We keep track of the protocol handler by testing it at various stages and caching the answer across page loads. Something much better can be created per website to help ease adoption and explain to the user why they see the protocol dialog.</p>
+<pre>    var isProtocolRegistered = 'unknown';
+    if ('localStorage' in window &amp;&amp; window['localStorage'] !== null) {
+        if ('ostatus_handler_state' in localStorage) {
+            isProtocolRegistered = localStorage['ostatus_handler_state'];
+        } else {
+            // first time... initialize
+            localStorage['ostatus_handler_state'] = isProtocolRegistered;
+        }
+        if ('unknown' == isProtocolRegistered) {
+            if ('navigator' in window &amp;&amp;
+                'registerProtocolHandler' in window.navigator) {
+                    // Hack url below would be Status.net JS or PHP emitting the url instead of hardcoding to the user alice
+                    navigator.registerProtocolHandler("ostatus",
+                                                      "http://alice.status.net/follow?uri=%s",
+                                                      "OStatus");
+                    localStorage['ostatus_handler_state'] = 'shown';
+            }
+        }
+        var testProtocol = function() {
+            $(window).bind('message', function(event){
+                    localStorage['ostatus_handler_state'] = 'working';
+            });
+            $('body').append("&lt;iframe id='ostatus_test_frame' src='ostatus://alice.status.net/test'&gt;&lt;/iframe&gt;");
+            var frame = $('#ostatus_test_frame');
+        }
+        if ('shown' == localStorage['ostatus_handler_state']) {
+              // Is the handler still working?
+            localStorage['ostatus_handler_state'] = 'optout';
+            setTimeout(testProtocol, 5000);
+        } else if ('working' == localStorage['ostatus_handler_state']) {
+            // At one time we had a working protocolHandler... is it still working?
+            // This handles the case were user removes handler via browser preferences
+            // We'll want to try to registerProtocolHandler again on next page load
+            localStorage['ostatus_handler_state'] = 'unknown';
+            setTimeout(testProtocol, 5000);
+        }
+    }
+}
+</pre>
+<h3>Your Turn</h3>
+<p>What do you think? Can we use <strong>re</strong>gisterProtocolHandler and <strong>po</strong>stMessage (<strong>repo</strong> for short) as the new plumbing for federating web applications? If so, these primitives can be the building blocks of your future protocol designs.</p>
+<h3>Editors Note</h3>
+<p>A big thanks to korge (Wilson Lee), Paul Osman, and Ryan Snyder for editing and feedback on this post.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 22:53:23 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"enclosure";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:3:"url";s:101:"http://people.mozilla.org/~aking/registerProtocolHandler/webdev_post/720/RegisterProtocolHandler.webm";s:6:"length";s:8:"11229126";s:4:"type";s:10:"video/webm";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Austin King";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:35;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:48:"Mozilla Web Development: Moving Socorro to HBase";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:38:"http://blog.mozilla.com/webdev/?p=1230";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:66:"http://blog.mozilla.com/webdev/2010/07/26/moving-socorro-to-hbase/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4512:"<p>We’ve been incredibly busy over on the Socorro project, and I have been remiss in blogging.  Over the next week or so I’ll be catching up on what we’ve been doing in a series of blog posts.  If you’re not familiar with Socorro, it is the crash reporting system that catches, processes, and presents crash data for Firefox, Thunderbird, Fennec, Camino, and Seamonkey.  You can see the output of the system at <a href="http://crash-stats.mozilla.com">http://crash-stats.mozilla.com</a>.   The project’s code is also being used by people outside Mozilla: most recently <a href="http://www.vigilgames.com/">Vigil Games</a> are using it to catch crashes from <a href="http://www.vigilgames.com/videos/dark-millennium-online">Warhammer 40,000: Dark Millenium Online</a>.</p>
+<p>Back in June we launched Socorro 1.7, and we’re now approaching the release of 1.8.  In this post, I’ll review what each of these features represents on our roadmap.</p>
+<p>First, a bit of history on data storage in Socorro.  Until recently, when crashes were submitted, the collector placed them into storage in the file system (NFS).  Because of capacity constraints, the collector follows a set of throttling rules in its configuration file in order to make a decision about how to disseminate crashes.   Most crashes go to deferred storage and are not processed unless specifically requested.  However, some crashes are queued into standard storage for processing.  Generally this has been all crashes from alpha, beta, release candidate and other “special” versions;  all crashes with a user comment; all crashes from low volume products such as Thunderbird and Camino; and a specified percentage of all other crashes.  (Recently this has been between ten and fifteen percent.)</p>
+<p>The monitor process watched standard storage and assigned jobs to processors. A processor would pick up crashes from standard storage, process them, and write them to two places: our PostgreSQL database, and back into file system storage.  We had been using PostgreSQL for serving data to the webapp, and the file system storage for serving up the full processed crash.</p>
+<p>For some time prior to 1.7, we’d been storing all crashes in HBase in parallel with writing them into NFS.  The main goal of 1.7 was to make HBase our chief storage mechanism.  This involved rewriting the collector and processor to write into HBase.  The monitor also needed to be rewritten to look in HBase rather than NFS for crashes awaiting processing.  Finally, we have a web service that allows users to pull the full crash, and this also needed to pull crashes from HBase rather than NFS.</p>
+<p>Not long before code freeze, we decided we should add a configuration option to the processor to continue storing crashes in NFS as a fallback, in case we had any problems with the release.  This would allow us to do a staged switchover, putting processed crashes in both places until we were confident that HBase was working as intended.</p>
+<p>During the maintenance window for 1.7 we also took the opportunity to upgrade HBase to the latest version.  We are now using Cloudera’s CDH2 Hadoop distribution and HBase 0.20.5.</p>
+<p>The release went fairly smoothly, and three days later we were able to turn off the NFS fallback.</p>
+<p>We’re now in the final throes of 1.8.  While we now have crashes stored in HBase, we are still capacity constrained by the number of processors available.  In 1.8, the processors and their associated minidump_stackwalk processes will be daemonized and move to run on the Hadoop nodes.  This means that we will be able to horizontally scale the number of processors with the size of the data.  Right now we are running fifteen Hadoop nodes in production and this is planned to increase over the rest of the year.</p>
+<p>Some of the associated changes in 1.8 are also really exciting.  We are introducing a new component to the system, called the registrar.  This process will track heartbeats for each of the processors.  Also in this version, we have added an introspection API for the processors.  The registrar will act as a proxy, allowing us to request status and statistical information for each of the processors.  We will need to rebuild the status page (visible at http://crash-stats.mozilla.com/status) to use this new API, but we will have much better information about what each processor is doing.</p>
+<p>We will freeze on 1.8 later this week, and expect release in about two weeks’ time.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 21:33:04 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Laura Thomson";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:36;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:53:"Vladimir Vukićević: EGL & OpenGL ES Come to Windows";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:28:"http://blog.vlad1.com/?p=325";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:63:"http://blog.vlad1.com/2010/07/26/egl-opengl-es-come-to-windows/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2520:"<p>It’s SIGGRAPH time, and this means all sorts of interesting announcements in the graphics world.  One of these came today from AMD, who <a href="http://blogs.amd.com/developer/2010/07/26/opengl-es-2-0-coming-to-a-desktop-near-you/">announced that they plan on shipping</a> both <a href="http://www.khronos.org/egl/">EGL</a> and <a href="http://www.khronos.org/opengles/">OpenGL ES</a> drivers on Windows for their recent GPUs.</p>
+<p>One of the most challenging things in getting Firefox working with WebGL and hardware graphics acceleration has been dealing with platform-specific pieces to get access to OpenGL.  In many cases similar functionality works differently (often in subtle ways), requiring both lots of testing and lots of very specific codepaths.  EGL replaces all of these with a modern system designed with portability in mind.  Until now, however, EGL has only been adopted in the mobile space.  On the desktop, the older GLX, CGL, and WGL subsystems have held this role; in the case of GLX and WGL in particular, they bring along years of accumulated cruft.  </p>
+<p>Having a native EGL driver will allow us to ship one particular hardware acceleration provider that will work and be tested across various desktop and mobile platforms.  Additionally, the same provider can connect to the <a href="http://code.google.com/p/angleproject/">ANGLE project</a>, which implements EGL and OpenGL ES on top of Direct3D 9. Having OpenGL ES will allow us to test and develop truly identical code across desktop and mobile.  As mobile graphics development has become important (not just to Mozilla, but in general!), having the same API implemented on the desktop will make it easier to catch problems and portability issues in an environment that’s much more conducive to development and debugging.</p>
+<p>Native OpenGL ES on the desktop will also mean that we can tie our <a href="http://webgl.org/">WebGL</a> implementation directly to it, instead of going through the desktop OpenGL driver.  Because WebGL follows the OpenGL ES specification, the native ES driver on the desktop will allow us to make a more efficient binding between WebGL and the underlying platform, potentially leading to higher performance.</p>
+<p>As with any such change, it will be a while before we can depend on the presence of these APIs on the desktop.  These first steps are important to making that change happen.  I’m looking forward to seeing other vendors following AMD here, both on Windows and on other platforms.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 21:05:48 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"vladimir";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:37;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:53:"Axel Hecht: Looking at a l10n bugzilla classification";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://blog.mozilla.com/axel/?p=289";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:82:"http://blog.mozilla.com/axel/2010/07/26/looking-at-a-l10n-bugzilla-classification/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2086:"<p>We intend to move from components per locale in the “Mozilla Localizations” product to a matrix of products per locale, and components for each of Firefox, Thunderbird, et al. I’ve created an add-on to set up the products and components and laid out in the <a href="http://groups.google.com/group/mozilla.governance/msg/011a024c7fb39360">newsgroup thread</a>. I wanted to share some screen shots on how things look locally now.</p>
+<p><code>enter_bug.cgi?classification=Mozilla in Your Language</code> looks like this:</p>
+<p><a href="http://www.flickr.com/photos/axelhecht/4831080567/" title="enter_bug.cgi by Axel Hecht, on Flickr"><img alt="enter_bug.cgi" height="1024" src="http://farm5.static.flickr.com/4122/4831080567_ef7019129b_b.jpg" width="540" /></a></p>
+<p>Localizers can edit the descriptions on <a href="https://localize.mozilla.org/projects/bugzilla_components/">localize.m.o</a>. I’m not totally convinced that the current formatting of the products are great. The double () braces disturb me, both here and on the actual bug form (see below). I might prefer “l10n:ab-CD Language (Region)”.</p>
+<p><a href="http://www.flickr.com/photos/axelhecht/4831739790/" title="Enter bug by Axel Hecht, on Flickr"><img alt="Enter bug" height="170" src="http://farm5.static.flickr.com/4132/4831739790_1f525c5582.jpg" width="500" /></a></p>
+<p>This is the actual bug entry form, and shows the localized component description. It also shows a rather confusing line wrapping of the product name.</p>
+<p>Another aspect that we were concerned about was how it’d look if you changed the product of a bug. Locally, this looks like this now:</p>
+<p><a href="http://www.flickr.com/photos/axelhecht/4831739950/" title="Re-productize bug by Axel Hecht, on Flickr"><img alt="Re-productize bug" height="375" src="http://farm5.static.flickr.com/4102/4831739950_47e0b37a3c.jpg" width="500" /></a></p>
+<p>Got comments? Please leave them in the <a href="http://groups.google.com/group/mozilla.governance/browse_frm/thread/5983760ed8357cfc">original newsgroup thread</a>, or here.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 20:44:58 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:10:"Axel Hecht";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:38;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:45:"Robert Kaiser: Weekly Status Report, W29/2010";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:63:"http://home.kairo.at/blog/2010-07/weekly_status_report_w29_2010";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:63:"http://home.kairo.at/blog/2010-07/weekly_status_report_w29_2010";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4339:"Here's a summary of SeaMonkey/Mozilla-related work I've done in week 29/2010 (July 19 - 25, 2010):<br />
+<ul><li><span style="font-weight: bold;">Releases</span>:<br />
+I did finish the relnotes, announcements and everything else needed and could push <a href="http://www.seamonkey-project.org/releases/seamonkey2.0.6">SeaMonkey 2.0.6</a> on Tuesday.</li><li><span style="font-weight: bold;">Lightweight Themes / Personas</span>:<br />
+The main <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=563261">lightweight themes</a> patch landed, they should work fine on trunk now!<br />
+The next step, some <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=579731">security button fixup</a> also could land this week, that status bar panel will now work nicely with lightweight themes and, esp. for sites with EV certificates, will even look much better on the normal default theme.<br />
+I've started work on <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=579732">improving tab bar look</a> as well, which should make the default theme look more modern and make lightweight themes nicer as well (no solid background image stripe between tabs and web content any more).</li><li><span style="font-weight: bold;">Automated tests</span>:<br />
+A fix for the <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=573921">plugin notifications test</a> I had done some work on got tested and could land, my first step for <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=580223">addons searching test failures</a> did prove to be worthwhile for users but not helping the test, but IanN fixed the function calling the add-ons manager, and that fixed those tests finally.<br />
+A number of automated test failures remain on trunk builds, any help to fix those is appreciated!</li><li><span style="font-weight: bold;">Tabbed Browsing</span>:<br />
+I figured we should finally <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=505311">default to tabbed browsing</a> in SeaMonkey (prefs for using windows still exist) and created a patch to sync up our default tab setting with those used by Firefox.<br />
+I also filed a bug for <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=581042">better tab loading indicators</a> when I stumbled over what Firefox has in the tab bar theming work.</li><li><span style="font-weight: bold;">Data Manager</span>:<br />
+I didn't get around to look into much this week, but I heard no negative feedback so far.<br />
+Please continue testing <a href="https://addons.mozilla.org/addon/162068">version 0.9</a> and give me any feedback you can!</li><li><span style="font-weight: bold;">Places</span>:<br />
+This week, I finally did split <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=498596">places bookmarks</a> work into several bugs, <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=580656">one for</a> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=580658">each part</a> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=580660">of the</a> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=580662">patch</a> <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=580663">series</a>. I hope that eases reviews by isolating comments about a single topic in a single bug.</li><li><span style="font-weight: bold;">Various Discussions</span>:<br />
+SeaMonkey find bar, SeaMonkey Development Meeting, security bug, automated updates, user agent string changes, bugzilla platform fields, possible organization for SeaMonkey, L20n file format and overview, etc.</li></ul><br />
+A number of good things landed this week in SeaMonkey in general, my lightweight themes patch is just one of them - others are e.g. support for findbar instead of an extra modal "find in page" window, add-ons manager being able to open to a certain list again and not opening more than once, address book toolbar customization, support of selectTabAtIndex() function in tabbed browser, test fixes and completion of the deprecation of &lt;popup&gt; in our code. Thanks to everyone who has worked on reporting those bugs, finding out solutions, creating those patches, testing and reviewing them as well as finally getting them into the source!<br />
+I hope we'll continue in such a pace in the future, as then the upcoming 2.1 will be a very great product (and I have no doubts that it will be).";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 19:35:10 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:5:"KaiRo";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:39;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:60:"Christian Legnitto: Side projects for me in the coming weeks";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:40:"http://christian.legnitto.com/blog/?p=71";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:87:"http://christian.legnitto.com/blog/2010/07/26/side-projects-for-me-in-the-coming-weeks/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2446:"<p>I am going to focus on these side projects in the coming weeks, in addition to driving the Firefox security releases. If you see anything missing or something that needs my attention, please let me know.</p>
+<h3>Projects in order of importance</h3>
+<ol>
+<li><strong>Patch for Bugzilla to <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=537749">add rich bug relations</a>.</strong><br />
+This will give us greater confidence that bugs aren’t missed/overlooked. It will also help development by organizing bugs consistently and allow for richer tools, processes, and progress reporting</li>
+<li><strong>Create a new “release management” system that will manage all aspects of a release.</strong><br />
+This will allow consistent processes between different teams/releases, make sure nothing is missed, add checking tools, and generally become the “truth” when it comes to release metadata (schedule, state, status, etc)</li>
+<li><strong>Get Mozilla Pulse (<a href="http://pulse.mozilla.org/">http://pulse.mozilla.org</a>) solid, usable, and useful.</strong><br />
+Pulse has the opportunity to make all systems at Mozilla better. I hit some bumps with RabbitMQ but will be working on ironing them out and providing a scalable, HA system that can later be handed over to another team</li>
+<li><strong>Create a triage reporting tool.</strong><br />
+This will make the approval processes more open by publishing triage notes and results. It will also be a place to put action items so that they are acted upon before the next triage session</li>
+<li><strong>Finish new release note framework.<br />
+</strong>I started this when I first came but got tied up in other projects. The way we do release notes involves a lot of copy and paste, it is difficult for QA to create automated tests, etc. I intend to fix this</li>
+<li><strong>Patch for TabCandy to <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=568908">support user-defined rules</a>.</strong><br />
+The response to TabCandy has been great, but I think having this feature will be essential for power users and those who don’t want to manually organize tab groups. I’ve looked at the TabCandy code a bit and this shouldn’t be <em>too</em> hard to hack in. I may work on this a bit as a breather from the above projects (but probably not)</li>
+</ol>
+<p>If you have any ideas about these systems (or others you think release management needs), please let me know!</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 19:01:12 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:9:"Christian";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:40;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:104:"Mozilla Web-Tech Blog: Determining with absolute accuracy whether or not a JavaScript object is an array";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:45:"https://developer.mozilla.org/web-tech/?p=346";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:132:"https://developer.mozilla.org/web-tech/2010/07/26/determining-with-absolute-accuracy-whether-or-not-a-javascript-object-is-an-array/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:8422:"<h3>Typing problems in JavaScript</h3>
+<p>JavaScript’s <code>typeof</code> operator is well known to have confusing behavior: <code>typeof null === "object"</code>, and <code>typeof null !== "null"</code>.  This mistake trips up newcomers, and every so often it’ll trip up a seasoned yet forgetful veteran, but we’ve basically grown used to it.  Perhaps more important, there’s a failsafe workaround: simply compare directly as <code>v === null</code> to eliminate <code>null</code> from the possibilities under consideration.</p>
+<h3>Determining whether a value is an array</h3>
+<p><code>typeof null === "object"</code> is perhaps the most common typing mistake in JavaScript, but there are others as well.  A much less common but no less confusing problem is that of determining whether an object is an array.  Surely, say you, this is a simple problem with a simple solution, like so:</p>
+<pre>if (o instanceof Array)
+{
+  // <span title="Hey, a rhyme!  jorendorff, are you reading this?  ;-)">Oh frabjous day!</span>
+}
+</pre>
+<p>Under certain circumstances, the above code is perfectly functional; considering the history of the web, it’s not surprising the issue wasn’t quickly apparent.  The problem arises when one considers an aspect of JavaScript in browsers not contemplated by ECMAScript: multiple globals.</p>
+<p>The ECMAScript specification describes the environment and mechanisms involved in executing a string of code.  The syntax and basic semantics of language constructs are certainly important, but without the built-in methods and objects coding in ECMAScript wouldn’t be much fun.  These methods and objects are accessed through the global object, and it is here where things go astray.  The ECMAScript 3 environment implicitly assumes the existence of a single global (or, perhaps, of islands each of which is its own environment, with no interaction between them) and does not in any manner address the idea of multiple globals.</p>
+<p>Multiple globals, however, are fundamental to the browser; each <code>window</code> object is the global object for the scripts its page contains or references.  What about arrays in different windows?  The shared-mutation hazard of having arrays in two coordinating windows be instances of the same <code>Array</code> constructor, sharing the same <code>Array.prototype</code>, is enormous when either page augments <code>Array.prototype</code> (not to mention the security problems when one page is malicious!), so <code>Array</code> and <code>Array.prototype</code> in each window must be different.  Therefore, by the semantics of <code>instanceof</code>, <code>o instanceof Array</code> works correctly only if <code>o</code> is an array created by that page’s original <code>Array</code> constructor (or, equivalently, by use of an array literal in that page).  <span title="NB: this is a valid word in Scrabble — play it!">Pfui</span>.</p>
+<p>Are there any other methods of determining whether a value is an array that might work around this?  <code>o.constructor === Array</code> is one, with the same problem as an <code>instanceof</code> check.  Another option relies on so-called “duck typing”, where if a value <del>quacks</del><ins>looks</ins> like <del>a duck</del><ins>an array</ins> then it <em>is</em> <del>a duck</del><ins>an array</ins>.  Along the <code>constructor</code>-checking lines, you could check for other array methods like <code>push</code> or <code>concat</code>, or perhaps for a <code>length</code> property, but these properties could exist in the same fashion on a non-array object.  If you’re willing to have false positives and negatives (assuming unconstrained input) that might be acceptable, but of course that won’t always be the case.  One test in this style is <code>Object.prototype.toString.call(o) === "[object Array]"</code>, but that relies on <code>Object.prototype.toString</code> and <code>Function.prototype.call</code> not being changed (probably a good assumption but still fragile).  It’s also a bit more of an obvious hack than any of the other ideas.</p>
+<h3>Enter <code>Array.isArray</code></h3>
+<p>For these reasons, ECMAScript 5 defines a method, <code>Array.isArray</code>, to completely address the problem.  If the first argument provided is an array object created in any window at all, it returns <code>true</code>; if no arguments were provided or if the first argument wasn’t an array object, it returns <code>false</code>.</p>
+<pre>function test(fun, expect) { if (fun() !== expect) alert("FAIL: " + fun); }
+test(function() { return Array.isArray([]); }, true);
+test(function() { return Array.isArray(new Array); }, true);
+test(function() { return Array.isArray(); }, false);
+test(function() { return Array.isArray({ constructor: Array }); }, false);
+test(function() { return Array.isArray({ push: Array.prototype.push, concat: Array.prototype.concat }); }, false);
+test(function() { return Array.isArray(17); }, false);
+Object.prototype.toString = function() { return "[object Array]"; };
+test(function() { return Array.isArray({}); }, false);
+test(function() { return Array.isArray({ __proto__: Array.prototype }); }, false);
+test(function() { return Array.isArray({ length: 0 }); }, false);
+
+var w = window.open("about:blank");
+w.onload = function()
+{
+  test(function() { return Array.isArray(arguments); }, false);
+  test(function() { return Array.isArray(new w.Array); }, true);
+};
+</pre>
+<p>Does this method provide any additional functionality beyond the hacks?  One important use is for implementing variadic methods.  Consider, for example, MochiKit’s <a href="http://mochikit.com/doc/html/MochiKit/Base.html#fn-flattenarray"><code>MochiKit.Base.flattenArray</code></a> method, whose documentation states that it:</p>
+<blockquote><p>Return a new Array consisting of every item in lst with Array items expanded in-place recursively. This differs from flattenArguments in that it only takes one argument and it only flattens items that are instanceof Array.</p>
+</blockquote>
+<p>If you happen to be writing JavaScript that crosses window boundaries passing around arrays, you’re out of luck trying to use <code>flattenArray</code>.  From the <a href="http://mochikit.com/examples/interpreter/index.html">MochiKit interpreter</a>, note the <code>instanceof Array</code> check, with a little reformatting:</p>
+<pre>&gt;&gt;&gt; MochiKit.Base._flattenArray.toSource()
+(function (res, lst) {
+  for (var i = 0; i &lt; lst.length; i++) {
+    var o = lst[i];
+    if (o instanceof Array) {
+      arguments.callee(res, o);
+    } else {
+      res.push(o);
+    }
+  }
+  return res;
+})
+</pre>
+<p>This is currently <em>cross-window FAIL</em>.  <img alt=":-)" class="wp-smiley" src="https://developer.mozilla.org/web-tech/wp-includes/images/smilies/icon_smile.gif" />   MochiKit can’t actually implement exactly what a strict reading of its documentation would claim.  Using <code>Array.isArray</code> with a feature-detection guard, however, will make it work correctly on arrays not from the window in which MochiKit.Base is being used.</p>
+<p>It’s worth noting that MochiKit’s not the only framework out there that tries to hackily determine whether a value is an array.  Dojo, for example, has <a href="http://docs.dojocampus.org/dojo/isArray#caveats"><code>dojo.isArray</code></a> with similar limitations, and I suspect this is a common problem across many JS codebases.</p>
+<h3>When can I use it?</h3>
+<p>Technically, the answer to this question is: as soon as you want!  The usual feature-testing for <code>Array.isArray</code> allows you to use this method if it exists and ignore it if it doesn’t.  You will be able to <em>meaningfully</em> use it, however, starting with Firefox 3.6.  WebKit nightlies have also added support for it, so it will presumably be in future Safari and Chrome releases.  I don’t know about other vendors, but <code>Array.isArray</code>‘s utter triviality to implement (it was a 15-line patch for Mozilla with no complexity whatsoever, and a good bit of that was SpiderMonkey coding idioms) suggests that if you ask, they will provide.</p>
+<h3>Acknowledgements</h3>
+<p>I found <a href="http://thinkweb2.com/projects/prototype/instanceof-considered-harmful-or-how-to-write-a-robust-isarray/">this article</a> helpful in examining some of the hacks to determine whether or not an object is “most likely” an array.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 18:10:04 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Jeff Walden";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:41;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:28:"Siddharth Agarwal: js-ctypes";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:70:"tag:blogger.com,1999:blog-7376220592903881040.post-1175956948828856072";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:50:"http://monogatari.doukut.su/2010/07/js-ctypes.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2804:"<p>Over the weekend, I decided to learn <a href="https://developer.mozilla.org/en/js-ctypes">js-ctypes</a>. The best way to learn an API is by using it for something non-trivial, so I wrote a patch to move a bit of code calling Win32 functions I had written a few months ago from <a href="http://mxr.mozilla.org/comm-central/source/mailnews/test/LargeOfflineStoreHelper.cpp?rev=6368a42a985a">C</a> to <a href="https://bugzilla.mozilla.org/attachment.cgi?id=460164&amp;action=diff#a/mailnews/test/resources/mailTestUtils.js_sec2">JavaScript</a>. Overall, I was pleasantly surprised at how simple it is to use.</p>  <ul>   <li>The documentation sucks a bit at the moment – I found that the best way to experiment was to use the <a href="https://developer.mozilla.org/en/XPConnect/xpcshell">xpcshell</a> REPL. I’m sure this will be fixed in time for Firefox 4.0. </li>    <li>The js-ctypes type hierarchy makes complete sense. I haven’t used any other equivalents (python ctypes, .NET P/Invoke), but I hope they’re similar. </li>    <li>There is a good deal of type checking built into the API – more than I’m used to from a dynamic language, at any rate. If only JavaScript were statically typed… </li>    <li>Declaring Win32 types and functions is simple enough – just look them up on MSDN. Declaring constants can be harder, since not all constant values are provided on MSDN. To get some of them, I had to resort to grepping the Microsoft SDK include directory, and in a couple of cases writing and compiling small C programs to print the value. </li>    <li>Comparing pointers is annoying. That was probably what I spent the most time figuring out. I ultimately cast my <code>voidptr_t</code> into an <code>intptr_t</code> and worked with its value, which is a <code>ctypes.Int64</code>. </li>    <li>I hit one major gotcha – in JavaScript, the operands of bitwise operators are <a href="https://developer.mozilla.org/en/Core_JavaScript_1.5_Reference/Operators/Bitwise_Operators#Signed_32-bit_integers"><em>signed</em> 32-bit integers</a>. In particular, <code>0x80000000 | 0x40000000 = –0x40000000</code> and not <code>0xC0000000</code>. This impacts how bit flags work. Ways to avoid this include adding up the flags instead (as long as you know all the flags you’re adding are mutually exclusive) or simply using the composite flag. </li> </ul>  <p>Other than these two things, if you already have the C code in front of you, translating it to JavaScript line by line is quite straightforward. I didn’t deal with callbacks, so I’m sure there will be some added complexity there.</p>  <div class="blogger-post-footer"><img alt="" height="1" src="https://blogger.googleusercontent.com/tracker/7376220592903881040-1175956948828856072?l=monogatari.doukut.su" width="1" /></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 17:57:44 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:25:"noreply@blogger.com (Sid)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:42;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:55:"John O'Duinn: Firefox 3.6.8 by the (wall-clock) numbers";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:29:"http://oduinn.com/blog/?p=575";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:74:"http://oduinn.com/blog/2010/07/26/firefox-3-6-8-by-the-wall-clock-numbers/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2406:"<p>Firefox3.6.8 was released on Friday 23-jul-2010, at 13:31PST. That was our second time shipping a release inside of 24hours.</p>
+<p>From “Dev says go” to “release is now available to public” was 23h 17m wall-clock time. The Release Engineering portion of that was 15h 12m. This was slightly slower than our fastest ever release <a href="http://oduinn.com/blog/2010/06/29/firefox-3-6-6-by-the-wall-clock-numbers/">FF3.6.6</a>, but still well inside of 24 hours from start to finish. For FF3.6.8, the times were:</p>
+<p>14:14 22jun: Dev says “go” for FF3.6.8<br />
+14:37 22jun: FF3.6.8 builds started<br />
+17:04 22jun: FF3.6.8 linux, mac, unsigned-win32 builds handed to QA<br />
+19:55 22jun: FF3.6.8 signed-win32 builds handed to QA<br />
+03:55 23jun: FF3.6.8 update snippets available on test update channel<br />
+09:51 23jun: Dev &amp; QA says “go” for Release; ok to start mirror absorption<br />
+10:20 23jun: mirror absorption started<br />
+11:17 23jun: mirror absorption good enough for testing<br />
+13:06 23jun: website changes finalized and visible. Build given “go” to make updates snippets live.<br />
+13:11 23jun: update snippets available on live update channel<br />
+13:31 23jun: release announced</p>
+<p>Notes:</p>
+<p>1) This was an interesting release in that it started off as a super-low urgency just-in-case release, so was being worked on in/around other time-critical housekeeping in progress. Mid-way through, the release was declared a chemspill release, and became top priority for all groups involved. If this release had been declared a chemspill release from the outset, the initial RelEng portions would have been treated as high priority, and FF3.6.8 would have been yet another record-breaking release, even faster then FF3.6.6.</p>
+<p>2) As usual, our blow-by-blow scribbles are public, so you can read all the details <a href="https://wiki.mozilla.org/index.php?title=Releases%2FFirefox_3.6.8%2FBuildNotes" target="_blank">here</a> or in tracking bug#<a href="https://bugzilla.mozilla.org/show_bug.cgi?id=581165" target="_blank">581165</a>.</p>
+<p>Being able to consistently ship releases in such a fast turnaround shows how FF3.6.6 and FF3.6.8 were not unusual – they are the new reality. Not that we want to do that all the time – however, its nice to know that we can move fast if we have to. Really really nice.</p>
+<p>Thank you<br />
+John.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 17:36:02 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:4:"John";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:43;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:39:"Shawn Wilsher: Startup Time in the Wild";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:30:"http://shawnwilsher.com/?p=421";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:36:"http://shawnwilsher.com/archives/421";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4188:"<p>Over the weekend I spent some serious time with my computer running a bunch of tests with <a href="https://wiki.mozilla.org/StandaloneTalos">standalone talos</a> in 11 different situations.  First, a disclaimer: these tests were only designed to give some insight on the areas we should focus on for <a href="https://wiki.mozilla.org/Firefox/Projects/2010Q3_Dirty_Startup_Reduction">the goal</a>.  Each of these tests was reproduced at least once before I moved onto the next one in order to make sure the numbers were stable.</p>
+<h3>The Tests</h3>
+<ul>
+<li>Clean profile.  This is just the standard profile that we normally run Ts with on tinderbox.  This is basically used a baseline for best possible performance.</li>
+<li>Dirty profile.  This is actually my daily profile, with eight tabs that will open through session restore during startup.  Because of how talos works, these tabs don’t all have to load for the number to be generated.  Even so, you’ll notice a substantial slowdown.  Sadly, I fear I modified the profile I was using in a bad way because I can no longer reproduce the numbers I got (but the numbers recorded were reproduced four times before I moved on to the rest of the tests initially).</li>
+<li>Bookmarks toolbar disabled.  This is a variation on the dirty profile test that just disables the bookmarks toolbar.</li>
+<li>No places.  This is a variation on the dirty profile test that removes places files from the profile.</li>
+<li>No <code>sessionstore.js</code>.  This is a variation on the dirty profile test that removes <code>sessionstore.js</code> from the profile.  This has the side effect of also not making the eight tabs load at startup.</li>
+<li>No urlclassifier.  This is a variation on the dirty profile test that removes the urlclassifier related files from the profile.</li>
+<li>No <code>cookies.sqlite</code>.  This is a variation on the dirty profile test that removes <code>cookies.sqlite</code> from the profile.</li>
+<li>No extensions.  This is a variation on the dirty profile test that removes all add-on manager bits in the profile.</li>
+<li>No <code>formhistory.sqlite</code>.  This is a variation on the dirty profile test that removes <code>formhistory.sqlite</code> from the profile.</li>
+<li>No <code>downloads.sqlite</code>.  This is a variation on the dirty profile test that removes <code>downloads.sqlite</code> from the profile.</li>
+<li>No <code>content-prefs.sqlite</code>.  This is a variation on the ditry profile test that removes <code>content-prefs.sqlite</code> from the profile.</li>
+</ul>
+<h3>Results</h3>
+<p>I’m going to let some graphs do the talking here.  The first shows the raw test run data (which isn’t terribly interesting).  The second compares the reported startup time for each test.  You will probably want to click to zoom in.</p>
+<div align="center"><a href="http://shawnwilsher.com/wp-content/uploads/2010/07/startup-data.png"><img alt="Data of the startup time runs" class="alignnone size-medium wp-image-428" height="196" src="http://shawnwilsher.com/wp-content/uploads/2010/07/startup-data-300x196.png" title="Startup Data" width="300" /></a></div>
+<p><br /></p>
+<div align="center"><a href="http://shawnwilsher.com/wp-content/uploads/2010/07/startup-time.png"><img alt="Startup time of the various tests" class="alignnone size-medium wp-image-429" height="196" src="http://shawnwilsher.com/wp-content/uploads/2010/07/startup-time-300x196.png" title="Startup Time" width="300" /></a></div>
+<h3>Conclusions</h3>
+<p>It looks like the best wins that we can get are related to fixing session restore to not scale linearly with the number of tabs it is restoring, and reduce the startup time costs of loading places files and <code>cookies.sqlite</code>.  It should be noted that this test was not measuring the load time for each tab, so something like <a href="https://addons.mozilla.org/en-US/firefox/addon/67651/">BarTab</a> would not help in this case.  The other good news is that <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=572223" title="too much cookies.sqlite io">we already have work underway to make cookies.sqlite load time not hurt</a> us so much during startup.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 17:31:14 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Shawn Wilsher";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:44;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:50:"Michael Coates: BlackHat USA 2010 - Talk Selection";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:70:"tag:blogger.com,1999:blog-8004175896926148334.post-3254982404444789512";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:106:"http://feedproxy.google.com/~r/MichaelCoates/security/~3/ieMq_YFNoWI/blackhat-usa-2010-talk-selection.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3746:"Here is the selection of talks I'll be looking forward to seeing. I won't be there in person, so don't worry if you can't seem to find me. One recurring compliant I have with black hat is that small focus on web application security.  However, if you are looking to completely focus on web app sec, then you should be attending the <a href="http://www.owasp.org/index.php/Category:OWASP_AppSec_Conference">OWASP conferences</a> anyway.<br />
+<br />
+Day 1 - 1115-1230 Val Smith, Colin Ames &amp; Anthony Lai:<a href="http://www.blackhat.com/html/bh-us-10/bh-us-10-briefings.html#Smith"><br />
+Balancing the Pwn Trade Deficit</a><br />
+<br />
+Day 1 - 1345-1500 Neil Daswani:<br />
+<a href="http://www.blackhat.com/html/bh-us-10/bh-us-10-briefings.html#Daswani">mod_antimalware: A Novel Apache Module for Containing web-based Malware Infections</a><br />
+<br />
+Day 1 - 1515 - 1630  Arshan Dabirsiaghi:<br />
+<a href="http://www.blackhat.com/html/bh-us-10/bh-us-10-briefings.html#Dabirsiaghi">JavaSnoop: How to Hack Anything Written in Java</a><br />
+<ul><li>I've previewed this tool and it looks awesome. Make sure to check this out.</li>
+</ul>Day 1 - 1645 - 1800 Alex Hutton, Allison Miller:<br />
+<a href="http://www.blackhat.com/html/bh-us-10/bh-us-10-briefings.html#Hutton">Ushering in the Post-GRC World: Applied Threat Modeling </a><br />
+<ul><li>Probably not going to be earth shattering, but if you aren't doing threat modeling then you should see this and get your act together.</li>
+</ul>Day 2 - 1000 - 1100 Nathan Hamiel, Marcin Wielgoszewski:<br />
+<a href="http://www.blackhat.com/html/bh-us-10/bh-us-10-briefings.html#Hamiel">Constricting the Web: Offensive Python for Web Hackers</a><br />
+<br />
+Day 2 - 1115 - 1230 Robert Hansen, Josh Sokol:<br />
+<a href="http://www.blackhat.com/html/bh-us-10/bh-us-10-briefings.html#Hansen">HTTPS Can Byte Me<br />
+</a><br />
+<ul><li>Good 'ole HTTPS. Its fun to track the problems.  Also check out these resources. <a href="http://www.owasp.org/index.php/Transport_Layer_Protection_Cheat_Sheet">OWASP TLS Cheat Sheet</a> and my <a href="https://docs.google.com/uc?export=download&amp;id=0BxSfMVkfLvslNzlhOGVkMmItNDkyMi00YzJlLWE4OTAtMDM4MTJkNzI2MjAx">Thotcon presentation</a> on SSL</li>
+</ul><br />
+-<a href="http://michael-coates.blogspot.com/">Michael Coates</a><div class="blogger-post-footer"><img alt="" height="1" src="https://blogger.googleusercontent.com/tracker/8004175896926148334-3254982404444789512?l=michael-coates.blogspot.com" width="1" /></div><div class="feedflare">
+<a href="http://feeds.feedburner.com/~ff/MichaelCoates/security?a=ieMq_YFNoWI:D9cbKDo2Lo4:4cEx4HpKnUU"><img border="0" src="http://feeds.feedburner.com/~ff/MichaelCoates/security?i=ieMq_YFNoWI:D9cbKDo2Lo4:4cEx4HpKnUU" /></a> <a href="http://feeds.feedburner.com/~ff/MichaelCoates/security?a=ieMq_YFNoWI:D9cbKDo2Lo4:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/MichaelCoates/security?i=ieMq_YFNoWI:D9cbKDo2Lo4:V_sGLiPBpWU" /></a> <a href="http://feeds.feedburner.com/~ff/MichaelCoates/security?a=ieMq_YFNoWI:D9cbKDo2Lo4:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/MichaelCoates/security?i=ieMq_YFNoWI:D9cbKDo2Lo4:gIN9vFwOqvQ" /></a> <a href="http://feeds.feedburner.com/~ff/MichaelCoates/security?a=ieMq_YFNoWI:D9cbKDo2Lo4:F7zBnMyn0Lo"><img border="0" src="http://feeds.feedburner.com/~ff/MichaelCoates/security?i=ieMq_YFNoWI:D9cbKDo2Lo4:F7zBnMyn0Lo" /></a> <a href="http://feeds.feedburner.com/~ff/MichaelCoates/security?a=ieMq_YFNoWI:D9cbKDo2Lo4:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/MichaelCoates/security?d=yIl2AUoC8zA" /></a>
+</div><img height="1" src="http://feeds.feedburner.com/~r/MichaelCoates/security/~4/ieMq_YFNoWI" width="1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 17:21:27 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:45:"michaelcoates.blog@gmail.com (Michael Coates)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:45;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:53:"Sarah Doherty: Huzzah! Social Media Toolkit Launched!";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://www.sarahdoherty.net/?p=2379";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:81:"http://www.sarahdoherty.net/blog/2010/07/26/huzzah-social-media-toolkit-launched/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2600:"<p><a href="http://mzl.la/sfxsocialmediatoolkit"><img alt="" src="http://farm5.static.flickr.com/4142/4823146626_22c687f591.jpg" style="border: 0pt none;" width="525" /></a></p>
+<p>Today, I definitely don’t have a “<a href="http://www.youtube.com/watch?v=lV7DzFP6FUY">case of the Mondays</a>” because it’s Social Media Toolkit launch time!  Over the last few months I’ve been working on putting together a grouping of tools and best practices around social media – think of it as a sister site to the <a href="http://bit.ly/sfxedutoolkit" id="s6x2" title="Spread  Firefox Education Toolkit">Spread Firefox Education Toolkit</a>.</p>
+<p>The <a href="http://mzl.la/sfxsocialmediatoolkit"><strong>Mozilla Social Media Toolkit</strong></a> is a set of tools that allows you to  leverage social media to market Mozilla and Firefox in your region and  beyond.  The toolkit contains everything you’ll need from best  practices, tips and tricks, to design assets for both Facebook and  Twitter.</p>
+<p>Are you a Mozillian that has a community or localized Mozilla/Firefox  social media account?  Or are you interested in setting one up?  Then  this toolkit is for you!</p>
+<p>One of the coolest parts of the Toolkit (in my humble opinion) are the social media design asset kits.  Collaborating with <a href="http://www.theroyalorder.com/">The Royal Order</a> we are releasing a set of 5 Facebook Profile Images and 4 Twitter Designs (2 Mozilla, 2  Firefox) that include a Twitter background, design color palette and  profile picture.  With these designs kits you are able to instantly identify your page as a Mozilla  community-supported group <em>(while looking pretty sexy too)</em>!</p>
+<p><img alt="socialmediatoolkit1" src="http://farm5.static.flickr.com/4102/4831475948_e62a276340.jpg" width="455" /></p>
+<p><img alt="socialmediatoolkit2" src="http://farm5.static.flickr.com/4101/4823146664_aed6a951b7.jpg" width="455" /></p>
+<p>Of course this project could not have come together without great synergy and collaboration from many different people.  I want to give a huge thanks to <a href="http://www.graphicsguru.com/">Jamey Boje</a>, <a href="http://chickswhoclick.wordpress.com/">Mary Colvig</a>, <a href="http://www.intothefuzz.com/">John Slater</a>, <a href="http://musingt.com/">Tara Shahian</a> and the fine folks over at <a href="http://www.theroyalorder.com/">The Royal Order</a>.</p>
+<p>Thanks so much and can’t wait to see these new design assets all over the <a href="http://www.youtube.com/watch?v=PN2HAroA12w">Twittersphere</a> (and other social networks too)!</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 17:01:18 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Doherty";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:46;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:48:"The Mozilla Blog: Social Media Toolkit Launched!";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:31:"http://blog.mozilla.com/?p=2137";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:70:"http://blog.mozilla.com/blog/2010/07/26/social-media-toolkit-launched/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:948:"<p><a href="http://bit.ly/sfxedutoolkit"><img alt="" src="http://blog.mozilla.com/files/2010/07/sfx-socialmedia.png" title="socialmediatoolkitheader" width="600" /></a></p>
+<p>Today we’re excited to announce the launch of the <a href="http://mzl.la/sfxsocialmediatoolkit">Social Media Toolkit</a>.</p>
+<p>The Mozilla Social Media Toolkit is a set of tools that allows you to leverage social media to market Mozilla and Firefox in your region and beyond.  The toolkit contains everything you’ll need from best practices, tips and tricks, to design assets for both Facebook and Twitter.</p>
+<p>Are you a Mozillian that has a community or localized Mozilla/Firefox social media account?  Or are you interested in setting one up?  Then this toolkit is for you!</p>
+<p>Go check out the <a href="http://mzl.la/sfxsocialmediatoolkit" id="em4c" title="materials">toolkit</a>! We’re excited to see an increase in the Mozilla social media space!</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 16:59:44 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Doherty";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:47;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:88:"Mozilla Web-Tech Blog: Firefox 3.1 beta 1 – an overview of features for web developers";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:44:"http://developer.mozilla.org/web-tech/?p=103";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:111:"https://developer.mozilla.org/web-tech/2008/10/14/firefox-31-beta-1-an-overview-of-features-for-web-developers/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:9297:"<p>Firefox 3.1 Beta 1 is out and with it comes a huge pile of new features for developers.  While those of you who follow Mozilla’s <a href="http://developer.mozilla.org/web-tech/">web-tech blog</a> might know about some of them we thought that with the release of the first beta of 3.1 that it would be good to try to summarize just some of the bigger features for web developers that are part of this beta.</p>
+<p><em>Note: the <a href="http://developer.mozilla.org/en/Firefox_3.1_for_developers">Firefox 3.1 for Developers</a> page in the wiki is the canonical source for new features in Firefox 3.1.</em></p>
+<p><strong>Geolocation</strong></p>
+<p><a href="http://dev.w3.org/geo/api/spec-source.html">Mozilla has implemented the draft spec for Geolocation</a>.  Geolocation is a JavaScript API that lets a web page query the browser’s location via JavaScript.  It can be used to plot maps, give directions, attach location information to pictures, give a location for a weblog post and a pile of other things.</p>
+<p><img alt="Geolocation Screenshot" class="alignnone" height="178" src="http://img.skitch.com/20081007-tpincf3jx2x13ib2ng26dtyw98.jpg" width="325" /></p>
+<p>The Geolocation API in Firefox 3.1 exposes a single API to web developers, but can potentially be backed by a number of different location sources.  Examples include the <a href="http://www.skyhookwireless.com/">Skyhook</a> service, which guesses your location based on nearby access points, a GPS device in your mobile computer or hand-setting a fixed location where your desktop lives.  Developers who want to write a location provider for Firefox need to implement the <a href="http://developer.mozilla.org/en/nsIGeolocationProvider">nsIGeolocationProvider</a> as part of a component and include it as an extension.</p>
+<p>People who want to try out Geolocation in Beta 1 can install Doug Turner’s <a href="https://addons.mozilla.org/en-US/firefox/addon/8420">Geolocation</a> add-on which adds a fixed Geolocation provider.  Once you’ve installed it you can visit <a href="http://whatismygeolocation.com/">http://whatismygeolocation.com/</a> to get your location and update the preference in Tools -&gt; Add-ons -&gt; Geolocation with your latitude and longitude.  There are a number of examples of the API you can try on the <a href="http://labs.mozilla.com/2008/10/introducing-geode/">Geode Labs Welcome page</a>.</p>
+<p><a href="http://developer.mozilla.org/En/Using_geolocation">Mozilla Labs recently announced </a><a href="http://labs.mozilla.com/2008/10/introducing-geode/">Geode</a>, which is an extension that adds Geolocation support to Firefox 3.  Geode added one type of Geolocation support to Firefox 3, based on Skyhook, and was built only as an example.  Aza Raskin recently <a href="http://www.azarask.in/blog/post/mozilla-labs-geode-follow-up/">did a post on the differences</a>.  Geode and the Geolocation support in Firefox 3.1 should be <a href="http://developer.mozilla.org/En/Using_geolocation">API compatible</a> and the end-user experience should be the same.</p>
+<p>Geolocation is pretty hot right now and it will be great to see what people do once this is added directly to the browser.</p>
+<p><strong>@font-face</strong></p>
+<p>One of our most widely-request features is to add support for the <a href="http://developer.mozilla.org/index.php?title=En/CSS/%40font-face">CSS @font-face</a> property.  This property allows you to specify a <a href="http://en.wikipedia.org/wiki/True_Type_Font">true type font</a> file that includes a specific font you want to use to render a web page.  This is important not only for designers to get more consistent formatting and layout, but is also important to web developers for non-english websites who often have users that may or may not have access to high-quality fonts.  Beta 1 includes support for @font-face.</p>
+<p><img alt="" class="alignnone" height="212" src="http://farm4.static.flickr.com/3174/2942234212_a06a054b38_o.jpg" width="417" /></p>
+<p>Right now the fonts must be located at the same origin as the page that includes it.</p>
+<p>@font-face support is implemented for Windows and Mac, but not for Linux.  Linux support is underway and will be done by Firefox 3.1 final.</p>
+<p><strong>Video and Audio</strong></p>
+<p>This is the first beta from Mozilla to include support for the <a href="http://developer.mozilla.org/En/HTML/Element/Video">&lt;video&gt;</a> and <a href="http://developer.mozilla.org/En/HTML/Element/Audio">&lt;audio&gt;</a> elements.  This beta includes support for the <a href="http://en.wikipedia.org/wiki/Theora">OGG Theora</a> and <a href="http://en.wikipedia.org/wiki/Vorbis">OGG Vorbis</a> formats on all platforms.  There are quite a few free tools for <a href="http://en.wikipedia.org/wiki/Theora#Encoding">encoding to OGG Theora and OGG Vorbis</a>.  We are also working on backend support for GStreamer for Linux, QuickTime for Mac and Windows Media for Windows.  However it’s not clear if those backends will land before 3.1 final is ready.</p>
+<p><img alt="" class="alignnone" height="435" src="http://farm4.static.flickr.com/3156/2941415941_7b35f3b1e2.jpg" width="500" /></p>
+<p>Our goal with adding support for audio and video has been to make it as easy to post a video as it is to post an image.  Along with that ease of use being able to mix audio and video elements with other rich media elements such as <a href="http://developer.mozilla.org/En/HTML/Canvas">&lt;canvas&gt;</a>, <a href="http://developer.mozilla.org/web-tech/2008/10/10/svg-external-document-references/">SVG</a> and <a href="http://weblogs.mozillazine.org/roadmap/archives/2008/08/tracemonkey_javascript_lightsp.html">super-fast JavaScript</a> means that we’re able to get video out of the plugin prison and let it interact with the rest of the content on pages.  This is a huge step forward for the web.</p>
+<p>This beta has quite a few unimplemented features, as noted in the developer pages for <a href="http://developer.mozilla.org/En/HTML/Element/Audio">audio</a> and <a href="http://developer.mozilla.org/En/HTML/Element/Video">video</a>, but fixes for many of those missing features will land before 3.1 final.</p>
+<p><a href="http://www.bluishcoder.co.nz/">Chris Double</a> has created a <a href="http://www.double.co.nz/video_test/">site with a bunch of sample videos</a> up on it.</p>
+<p><strong>XHR Progress Notification</strong></p>
+<p>We’ve added a better way to get progress notifications for XML HTTP Requests.  We’ve implemented the <a href="http://dev.w3.org/2006/webapi/progress/Progress.html">W3C Draft Spec</a> on progress events.  In Firefox 3 the events available on the <a href="http://developer.mozilla.org/En/XMLHttpRequest">XHR object</a> were progress, uploadprogress, load, abort and error.  For 3.1 we now support the loadstart, progress, load, abort and error events.  (uploadprogress is also supported, but is deprecated.)</p>
+<p>There’s a <a href="http://mozilla.pettay.fi/xhr_upload/xhr_upload_demo.html">great example of the new progress events by Olli Pettay</a>.  It’s very simple and does everything in a single script.</p>
+<p><strong>XHR Cross-site Access Control</strong></p>
+<p>We’ve implemented the <a href="http://dev.w3.org/2006/waf/access-control/">draft specification for access-control for cross-site requests</a>.  Web developers have long wanted to be able to get data from one site on another but <a href="http://en.wikipedia.org/wiki/Same_origin_policy">same-origin restrictions</a> on many types of requests prevent many developers from mashing up content.  This new access control mechanism offers the ability for servers, content and web clients to cooperate to make a lot of new things possible on an opt-in basis.  The spec is complex, and support is new, so if you’re interested reading <a href="http://dev.w3.org/2006/waf/access-control/">the spec</a> is probably the best thing to do.  It contains examples and uses cases.</p>
+<p><strong>TraceMonkey</strong></p>
+<p>Beta 1 does include <a href="https://wiki.mozilla.org/JavaScript:TraceMonkey">TraceMonkey, our super-fast JavaScript engine</a>, but it’s not turned on by default.  If you do want to turn it on, go to <code>about:config</code>, set <code>javascript.options.jit.content</code> to <code>True</code>, restart your browser and try it out.</p>
+<p>This is an early beta, of course, so there will be issues.  Please <a href="http://bugzilla.mozilla.org/">file bugs</a> if you find sites that don’t work or cause crashes or hangs.  The more testing we get, the better it will be when we turn it on.</p>
+<p><strong>And more…</strong></p>
+<p>There are several other features that are scheduled for Firefox 3.1 Beta 2 and are partially implemented in this beta that we’ll talk about more once Beta 2 is available.  Some of the things you can expect are Worker Threads for JavaScript, new graphics, SVG and CSS capabilities and probably other things as well.  <a href="http://developer.mozilla.org/en/Firefox_3.1_for_developers">The Firefox 3.1 for Developers</a> page is the full source for new stuff that’s coming for 3.1 and it’s size tells the full tale of everything that’s new.</p>
+<p>So stay tuned – we’ve got lots of new stuff coming up for Firefox 3.1!</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 16:42:36 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:20:"Christopher Blizzard";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:48;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:42:"Mozilla Web-Tech Blog: Web Workers, Part 2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:44:"http://developer.mozilla.org/web-tech/?p=193";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:69:"https://developer.mozilla.org/web-tech/2008/12/04/web-workers-part-2/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2569:"<p>Firefox Beta 2 is due out very shortly, and with it comes some significant changes to Web Workers.</p>
+<p>First, we’ve moved away from the old <a href="http://code.google.com/apis/gears/api_workerpool.html">Gears</a>-esque API that we had in Alpha 2 (see <a href="https://developer.mozilla.org/web-tech/2008/09/04/web-workers-part-1/">previous post</a>) in favor of the emerging <a href="http://www.whatwg.org/specs/web-workers/current-work/">Web Workers</a> standard. We’ve been hard at work with folks from Google, Apple, and others to get this new spec nailed down.</p>
+<p>Most of the missing features I identified in <a href="https://developer.mozilla.org/web-tech/2008/09/04/web-workers-part-1/">Part 1</a> have been added with the exception of auto-JSON. There will be a very few small changes between Beta 2 and Firefox 3.1 final (most of which have already landed) and I’ll post about those again once we’re close to shipping.</p>
+<p>So what’s available in Beta 2? We currently implement <a href="https://wiki.mozilla.org/DOMWorkerThreads_current">this subset of the Web Workers spec</a>. Very briefly, creating a new worker is as simple as adding the following line to your web page’s script:</p>
+<p><code> var worker = new Worker("workerScript.js");</code></p>
+<p>Your <code>workerScript.js</code> file can do almost anything, really, including using <code>XMLHttpRequest</code>, importing additonal scripts, spawning new workers, setting timeouts/intervals, and passing complex messages via JSON. Further information can be found in <a href="https://developer.mozilla.org/En/Using_DOM_workers">Using DOM Workers</a>.</p>
+<p>And, in case anyone is interested in a more real-world example, I ported <a href="http://www.bluishcoder.co.nz/">Chris Double</a>‘s <a href="http://www.bluishcoder.co.nz/2008/09/javascript-space-invaders-emulator.html">JavaScript 8080 emulator</a> to use Workers. The nice thing about using workers here is that all the actual emulation is happening on a background thread (or, on my machine, a second CPU). Keystrokes are sent as messages to the emulator thread and then emulator sends screen updates back (all using JSON).  It also uses the <code>importScripts</code> function to load Chris’s hosted files rather than having to copy them around. Note that I didn’t bother with very serious error checking so unless you’re using Firefox 3 Beta 2 or newer then it most likely won’t work at all. Check it out <a href="http://people.mozilla.com/~bturner/spaceinvaders/backgroundSpaceInvaders.html">here</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 16:42:20 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:10:"Ben Turner";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:49;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:59:"Mozilla Web-Tech Blog: Firefox 3.1 Beta 2 – what’s new?";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:44:"http://developer.mozilla.org/web-tech/?p=173";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:78:"https://developer.mozilla.org/web-tech/2008/12/08/firefox-31-beta-2-whats-new/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:6844:"<p>Just as we did for <a href="http://developer.mozilla.org/web-tech/2008/10/14/firefox-31-beta-1-an-overview-of-features-for-web-developers/">Firefox 3.1 Beta 1</a>, we thought it would be good to give an overview of what’s changed in Beta 2 for web developers and add-on authors, as well as cover some stuff we didn’t include in the Beta 1 overview.</p>
+<p><strong>Stable for Add-ons Updates</strong></p>
+<p>First and foremost, Firefox 3.1 Beta 2 should be stable enough for add-ons developers to start updating their add-ons for 3.1 compatibility.  There will be a 3rd beta, but in between B2 and the RCs we will avoid changes that affect add-ons.</p>
+<p>You can see more information about the status of add-ons at our <a href="https://addons.mozilla.org/en-US/firefox/compatibility">compatibility page</a>, the <a href="https://developer.mozilla.org/En/Updating_extensions_for_Firefox_3.1">Updating Extensions for Firefox 3.1</a> page and the <a href="https://developer.mozilla.org/en/Firefox_3.1_for_developers">Firefox 3.1 for Developers</a> page.  If you’re an add-ons developer we strongly suggest that you follow the <a href="http://blog.mozilla.com/addons/">Mozilla add-ons weblog</a> and subscribe to the <a href="https://addons.mozilla.org/newsletter/subscribe.html">about:addons newsletter</a>.</p>
+<p>We’re hoping that with Beta 3 and the first RC release that we’ll have enough add-ons migrated that users will be able to migrate with little discomfort.</p>
+<p><strong>TraceMonkey: It’s On </strong></p>
+<p>The super-fast <a href="https://wiki.mozilla.org/JavaScript:TraceMonkey">TraceMonkey</a> JavaScript engine is now on by default in Beta 2.  Stability and performance are improved over Beta 1.  Please try it out and report bugs if you find sites that have stopped working with TraceMonkey enabled.</p>
+<p><strong>DOM Worker Threads </strong></p>
+<p>More and more people are using the web for CPU-intensive applications, including doing a lot of that computation on the client.  However, writing a CPU-intensive JavaScript application would often block the UI of the web app from updating while a specific computation was taking place.  This is because there is only one thread of execution for a particular web page so calls into JavaScript would often block changes or updates to the UI.</p>
+<p>In Firefox 3.1 we’re including “DOM Worker Threads” based on a <a href="http://www.whatwg.org/specs/web-workers/current-work/">recent draft spec</a>.  This allows you to move JavaScript execution for a discrete chunk of code from the UI thread to another thread of execution.  This means that while a long-running piece of code is executing your web app can do other things and the UI will continue to operate normally.</p>
+<p>We have an article up on the Mozilla Developer Center on <a href="https://developer.mozilla.org/En/Using_DOM_workers">DOM Worker Threads</a>.  It contains an overview of the new top level <code>Worker</code> object and examples of working code.  Ben Turner also posted an update on <a href="https://developer.mozilla.org/web-tech/2008/12/04/web-workers-part-2/">what’s included in Beta 2 in a recent post to web-tech</a>.</p>
+<p><strong>Audio and Video Improvements</strong></p>
+<p>Support for &lt;audio&gt; and &lt;video&gt; have improved in Beta 2.  There is now support for duration-related events as media is downloaded.  Please see the article on <a href="https://developer.mozilla.org/En/Using_audio_and_video_in_Firefox">using audio and video</a> on the Mozilla Developer Center for more information about events.</p>
+<p>In addition to support for OGG Theora and OGG Vorbis there’s a new &lt;audio&gt; backend for .wav files, as required by the spec.</p>
+<p>Note that the built-in controls in Beta 2 for &lt;video&gt; don’t include a duration slider.  The underlying mechanisms support it, but the UI does not.  This is something that will be fixed before final release.</p>
+<p><strong>DNS Pre-fetching</strong></p>
+<p>Firefox 3.1 Beta 2 now does DNS pre-fetching for resources as they are loaded on a page.  Pre-fetching can reduce the time it takes to load a page by pre-loading DNS lookups early in a page load.  When external resources are loaded the browser doesn’t have to wait for the round trip for a DNS lookup to complete before starting the HTTP request, which reduces the overall page load time.  <a href="http://bitsup.blogspot.com/2008/11/dns-prefetching-for-firefox.html">Pat McManus has a blog post about the new feature</a>.</p>
+<p><strong>XHR Cross-site Access Control</strong></p>
+<p>It was mentioned in the Beta 1 notes, but we’ve implemented more of the new <a href="http://dev.w3.org/2006/waf/access-control/">Access Control for Cross-Site Requests</a> specification from the W3C.  This functionality allows Firefox to make <code>XMLHttpRequest</code> (XHR) calls across sites, much like how images and scripts can be loaded from different sites today.  However, unlike calls that load images and scripts, the XHR requests are done such that servers must participate for complex calls that share certain kinds of data in order to protect both users and servers.  This potentially allows for some really interesting data mashups to take place on the web with Firefox.</p>
+<p>We have two documents up that describe this functionality in Beta 2.  First, you can look at the <a href="https://developer.mozilla.org/En/HTTP_Access_Control">HTTP Access Control</a> document in the Mozilla Developer Center.  This is an overview of the client side parts that make up Access Control for XHR.  The second document is a <a href="https://developer.mozilla.org/En/Server-Side_Access_Control">Server-Side Access Control</a> document that gives examples of PHP that you can use to enable some of the more complex access control functionality on your server.</p>
+<p><strong>@font-face Changes</strong></p>
+<p>The new <a href="https://developer.mozilla.org/en/CSS/@font-face">@font-face</a> functionality that we included in Beta 1 now uses the same access control mechanisms as XMLHttpRequest.  If you want to load a font from a server other than the origin server, the server must choose to participate and explicitly permit the browser to load the font.</p>
+<p><strong>Private Browsing</strong></p>
+<p>Private Browsing is now included in Beta 2.  This affects add-ons developers more than web developers and is worth a mention.  Add-ons that save data on the user’s machine should also respect the user moving in and out of private browsing mode.  Ehsan Akhgari has made a <a href="http://ehsanakhgari.org/blog/2008-11-08/prepare-your-add-private-browsing">post in his weblog about what’s required of add-ons developers in order to support private browsing mode</a>.  If you’re an add-on developer it’s worth reading.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 16:42:11 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:20:"Christopher Blizzard";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:50;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:69:"Armen Zambrano Gasparnian: RelEng - what has changed in the last week";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:59:"tag:blogger.com,1999:blog-18323498.post-6249362102347296143";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:77:"http://armenzg.blogspot.com/2010/07/releng-what-has-changed-in-last-week.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2642:"Every week we report changes to our infrastructure in various status meetings and speak them out loud on the Tuesday's planning meeting. The purpose of this blog post is to consolidate changes that have happened over the last week in the Release Engineering infrastructure and that can affect developer's work scenarios. This status updates might not be the way to go but let's see how it goes and how much it helps.<br /><br />I will try to keep it short and simple. I am purposely not listing *everything* that gets fixed but listing *only* things that are new or that affects your workflow and maybe certain milestones for us.<br /><br />Please let me know if you have any suggestions on how to improve the format or if it is tooooooo short.<br /><br /><b>Changes from July 19th to July 26th:</b><br /><ul><li><a href="http://groups.google.com/group/mozilla.dev.planning/browse_thread/thread/402306d36d838d50">Do not run automatically talos jobs for try by default</a></li><ul><li>You can <a href="http://groups.google.com/group/mozilla.dev.planning/browse_thread/thread/07a7feee234a7d59">ask</a> your fellow buildduty to run it if you need the talos run</li></ul><li><a href="http://blog.mozilla.com/rail/2010/07/23/64-bit-l10n-nightly-builds-for-macos-x-and-linux-are-live/">L10n nightly repacks for Linux 64 and Mac 64</a></li><li><a href="http://groups.google.com/group/mozilla.dev.planning/browse_thread/thread/cda593f7751bb328">Running unit tests on the minis by default for all branches</a></li><ul><li>We are running them in both the minis and the builders. We want to run it only on the minis starting this week</li></ul><li><a href="http://drkscrtlv.livejournal.com/320620.html">Changes on how we upload mobile builds</a> </li><li><a href="http://coop.deadsquid.com/2010/07/reclaiming-space-on-stage-mozilla-org-space-reclaimed/">Space on ftp reclaimed</a></li></ul><br />NOTE: I am using dev.planning and blog posts to compose this post<br /><br /><br /><hr /><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" style="border-width: 0pt;" /></a><br />This work by <a href="http://armenzg.blogspot.com/" rel="cc:attributionurl">Zambrano Gasparnian, Armen</a> is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license">Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License</a>.<div class="blogger-post-footer"><img alt="" height="1" src="https://blogger.googleusercontent.com/tracker/18323498-6249362102347296143?l=armenzg.blogspot.com" width="1" /></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 16:18:04 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:36:"noreply@blogger.com (Armen Zambrano)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:51;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:42:"Mozilla Web-Tech Blog: Web Workers, Part 3";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:44:"http://developer.mozilla.org/web-tech/?p=216";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:69:"https://developer.mozilla.org/web-tech/2009/01/05/web-workers-part-3/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:5285:"<p>Beta 3 marks the end of the worker changes we expect for Firefox 3.1, so here’s a rundown of what has changed since Beta 2:</p>
+<ol>
+<li>The <code>navigator</code> object has been added to the worker scope. It contains the following strings that identify the browser, just as from normal script:
+<ul>
+<li><code>appName</code></li>
+<li><code>appVersion</code></li>
+<li><code>platform</code></li>
+<li><code>userAgent</code></li>
+</ul>
+</li>
+<li>Workers can now be forcefully killed via the <code>terminate</code> function. Calling this function on a worker will <em>immediately</em> stop the worker’s execution.</li>
+<li>Workers may only be created from a worker script that is hosted within the same origin as the parent page.</li>
+<li>URIs for subworker scripts and imported scripts are now resolved relative to the parent worker script location instead of the owning page.</li>
+<li>Error handling has been reworked according to recent spec changes. A worker script can now define an <code>onerror</code> handler that will be called with an error event with details about the exception. If the handler calls <code>preventDefault</code> on the event object then nothing else happens. If <code>preventDefault</code> is not called then the error event propagates to the parent scope’s (either a worker or the parent page) <code>onerror</code> handler.</li>
+<li>Numbers, booleans, and even objects may be passed to <code>postMessage</code> in addition to strings. The only restriction is that objects may not contain functions or cyclical references (since we use JSON under the hood). This simplifies previous code that needed to use the JSON object to manually encode/decode the strings passed to <code>postMessage</code>.</li>
+</ol>
+<p>To illustrate some of these new features I decided to use workers to decrypt <a href="http://labs.mozilla.com/projects/weave/">Weave</a> user data (bookmarks, cookies, etc.). Using some <a href="http://hg.mozilla.org/labs/weaveweb">code</a> that <a href="http://www.kix.in/blog/">Anant Narayanan</a> created a while ago for the 0.2 version of the Weave server (which is deprecated, by the way – the 0.3 server has recently emerged!) I created an app that works on real data that I copied from <a href="https://services.mozilla.com/">services.mozilla.com</a>. Check it out <a href="http://people.mozilla.com/~bturner/weaveworker/weaveDecryptor.html">here</a>, but make sure that you’re using the <a href="http://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/latest-mozilla-1.9.1/">latest branch nightly</a> (or Beta 3 as soon as it is available). And many thanks to <a href="http://blog.sandmill.org/">Dan Mills</a> for helping me get this all working.</p>
+<p>Continue on to the full post to see how it works.</p>
+<p><span id="more-216"></span>Weave data decryption requires a username and a private key passphrase. If the data still lived on the services.mozilla.com server it would also require a server password, but I didn’t go that far for this demo. All user data is encrypted with a private key that is itself encrypted, so decrypting the private key must be the first step. After the private key is decrypted then all requested user data is tackled independently and in parallel. For details about the way Weave stores user data please see <a href="http://www.toolness.com/wp/?p=41">this excellent post</a> by <a href="http://www.toolness.com">Atul Varma</a>.</p>
+<p>First, the page collects username, password, and server information, as well as the types of user data that should be decrypted. It then spawns the main worker. This worker spawns a subworker to decrypt the private key, then spawns multiple workers to handle each type of user data. Subworkers are used so that the process can be canceled at any time.</p>
+<p>Here’s an overview of each file involved in the process:</p>
+<ol>
+<li><strong><code>weaveDecryptor.html</code></strong>
+<ul>
+<li>Launches the main worker, <code>weaveDecryptorWorker</code>, and communicates the form data (username, passphrase, server location, and the types of data that should be decrypted) to it.</li>
+<li>Informs the worker that it should cancel subworkers if the Cancel button is pressed.</li>
+<li>Updates the UI as messages are received from the worker.</li>
+</ul>
+</li>
+<li><strong><code>weaveDecryptorWorker.js</code></strong>
+<ul>
+<li>Launches the <code>keyDecryptor</code> subworker to decrypt the user’s private key.</li>
+<li>Once the private key has successfully been decrypted it launches a <code>dataDecryptor</code> subworker for each type of weave data that was requested.</li>
+<li>Maintains a list of currently running workers so that they can be canceled.</li>
+<li>Also maintains some state, like a cached copy of the decrypted private key and whether or not the passphrase was correct.</li>
+</ul>
+</li>
+<li><strong><code>keyDecryptor.js</code></strong>
+<ul>
+<li>Username and passphrase info is passed into the worker from the parent.</li>
+<li>Decrypts the user’s private key and sends the key bits back to the parent.</li>
+</ul>
+</li>
+<li><strong><code>dataDecryptor.js</code></strong>
+<ul>
+<li>The parent passes in the private key bits and the type of data that should be decrypted.</li>
+<li>Decrypted data is passed out to the parent.</li>
+</ul>
+</li>
+</ol>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 16:10:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:10:"Ben Turner";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:52;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:65:"Mozilla Web-Tech Blog: The Indeterminator – A new checkbox type";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:44:"http://developer.mozilla.org/web-tech/?p=244";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:70:"https://developer.mozilla.org/web-tech/2009/02/05/a-new-checkbox-type/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1250:"<p>If you do any web development, chances are you know checkboxes and radio buttons can have two states: checked and unchecked. But in the case of checkboxes, you may want to indicate to the user that they are half-way between those states, for example when you have a master checkbox above many other checkboxes of singular items. This is now possible on Trunk (Firefox 3.2) thanks to the implementation of the HTML5 “indeterminate” DOM property. All it takes is a bit of script:</p>
+<p>document.getElementById(“check1″).indeterminate = true;</p>
+<p>And you can use this third state on your checkbox:</p>
+<p><img alt="indeterminatedemo" class="alignnone size-full wp-image-245" height="530" src="http://developer.mozilla.org/web-tech/wp-content/uploads/2009/02/indeterminatedemo.png" width="769" /></p>
+<p>So that’s three-quarters of his rant ready for the bin <img alt=";)" class="wp-smiley" src="https://developer.mozilla.org/web-tech/wp-includes/images/smilies/icon_wink.gif" />  As for the CSS3 :indeterminate pseudoclass, we don’t support that at this stage but it doesn’t look hard so it will probably take me less than a day to do. In the meantime, happy <a href="http://en.wikipedia.org/wiki/Waitangi_Day">Waitangi Day</a>!</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 16:09:31 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:15:"Michael Ventnor";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:53;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:49:"Mozilla Web-Tech Blog: Native JSON in Firefox 3.1";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:44:"http://developer.mozilla.org/web-tech/?p=247";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:76:"https://developer.mozilla.org/web-tech/2009/02/17/native-json-in-firefox-31/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3655:"<p>[ Note: this was original posted to the <a href="http://blog.mozilla.com/webdev/2009/02/12/native-json-in-firefox-31/">webdev blog by Ryan Doherty</a>.  Re-posted here with his permission. ]</p>
+<p>In case you haven’t heard, one of Firefox 3.1’s awesome new features will be <a href="https://developer.mozilla.org/web-tech/2009/02/En/Using_JSON_in_Firefox">native JSON</a> support. This is totally sweet for two reasons:</p>
+<ol>
+<li>eval’ing JSON in the browser is <a href="http://yuiblog.com/blog/2007/04/10/json-and-browser-security/">unsafe</a>. Using native JSON parsing protects you against possible code execution.</li>
+<li>Safely eval’ing JSON with a 3rd party library can be orders of magnitude <a href="http://starkravingfinkle.org/blog/2008/02/extension-developers-native-json-parsing/">slower</a>. Native JSON parsing is much faster.</li>
+</ol>
+<p>How does native JSON work compared to plain old eval? Simple:</p>
+<blockquote>
+<pre>var jsonString = '{"name":"Ryan", "address":"Mountain View, CA"}';
+var person = JSON.parse(jsonString);
+// 'person' is now a JavaScript object with 2 properties; name and address</pre>
+</blockquote>
+<p>Pretty easy huh? And here’s how to get a JSON string from an object:</p>
+<blockquote>
+<pre>var personString = JSON.stringify(person);
+// 'personString' now holds the string '{"name":"Ryan", "address":"Mountain View, CA"}'</pre>
+</blockquote>
+<p>“But wait!”, you say. “How is it safer? How much faster is it compared to eval?”. Ok, I’ll show you.</p>
+<p>Native JSON parsing in Firefox 3.1 is safer because it does not support objects with functions. Attempting to convert an object with functions into a JSON string will only convert its properties and not its functions. And any malformed JSON string will result in a parse error instead of possible code execution.</p>
+<p>Now, regarding speed, native JSON parsing is faster, <strong>much</strong> faster. Instead of pretty charts and graphs, I’ll give you a real-world example.</p>
+<p>The <a href="http://graphs-stage2.mozilla.org/">new Graph Server</a> uses a JSON API to fetch test information and results, so I figured it would be a good application to benchmark. So I wrapped our code that parses the JSON response with some Firebug profiler calls:</p>
+<pre>    console.time('parsejson');
+    var obj = eval('(' + resp + ')');
+    console.timeEnd('parsejson');</pre>
+<p>Loading a test’s results (array with 3,000 indexes, 24k gzipped) gave me a time of 125ms. (Repeated tests yielded results +/- 5ms). Then I changed eval to JSON.parse:</p>
+<pre>    console.time('parsejson');
+    var obj = JSON.parse(resp);
+    console.timeEnd('parsejson');</pre>
+<p>Which resulted in an average time of 40ms! That’s about 2.7 times faster with 1 line of code changed. Not bad!</p>
+<p>Granted, a difference of 80ms isn’t that much, but in an AJAX (or, more accurately, AJAJ?) application, it can add up.</p>
+<p>What’s the use of native JSON if it’s only available in Firefox? Luckily, IE8 has implemented it in RC1, which is rumored to be released in March. Hopefully other browsers will follow suit too, but for now it’s best to use a JSON parser such as the one on <a href="http://www.json.org/js.html">json.org</a>. It’s small, safe and will not override native JSON implementation if detected.</p>
+<p>Points to remember:</p>
+<ul>
+<li>Plain old eval is unsafe (especially if you don’t trust the source), use a JSON library to protect yourself.</li>
+<li>Use native JSON when available.</li>
+<li>Bug other <a href="http://webkit.org/">browser</a> <a href="http://www.opera.com/">vendors</a> to implement native JSON</li>
+</ul>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 16:09:07 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:20:"Christopher Blizzard";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:54;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:93:"Mozilla Web-Tech Blog: Object and array initializers should not invoke setters when evaluated";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:44:"http://developer.mozilla.org/web-tech/?p=252";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:121:"https://developer.mozilla.org/web-tech/2009/04/29/object-and-array-initializers-should-not-invoke-setters-when-evaluated/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:5468:"<p>Back in the day when everything was more hardcore, a website that needed to request data outside of a page load typically did so using <a href="https://developer.mozilla.org/En/XMLHttpRequest"><code>XMLHttpRequest</code></a> and translation of the requested data from an <abbr title="Extensible Markup Language">XML</abbr> <abbr title="document object model">DOM</abbr> or from a custom format into internal data structures.  The translation involved either cumbersome DOM <abbr title="application programming interface">APIs</abbr> or custom parsing code — much tedium either way.  The invention of <a href="https://developer.mozilla.org/En/JSON"><abbr title="JavaScript Object Notation">JSON</abbr></a> simplified this process considerably by cutting out the DOM and custom parsing code, reducing data interpretation to simple inspection of JavaScript objects.</p>
+<p>The JSON format, however, has the characteristic that its syntax is nearly that of a JavaScript program.  As a consequence JSON is more than just data: it’s code that can be <a href="https://developer.mozilla.org/en/Core_JavaScript_1.5_Reference/Global_Functions/eval#Don%27t_use_eval">unsafely</a> executed by <a href="https://developer.mozilla.org/en/Core_JavaScript_1.5_Reference/Global_Functions/eval"><code>eval</code></a> or by sourcing it like you would any other JavaScript file.</p>
+<p>Of course, then, it’s best practice to sanity-check any JSON string’s syntax before evaluating it to avoid evaluating embedded expressions.  As it turns out, tho, even this isn’t quite sufficient in most browsers today due to an extension to JavaScript present in most browsers today — setters.  Setters provide a way for JavaScript properties to be more than just making a property with a given value exist on an object.  They allow extra actions (such as validation of a value) to be performed at the same time.  For example, consider this partial implementation of an object to represent a customer during account registration for a site:</p>
+<pre>function Customer()
+{
+  this._phoneNumber = "000-000-0000";
+}
+Customer.prototype.__defineSetter__("phoneNumber", function(phoneNumber) {
+  if (!/^\d\d\d-\d\d\d-\d\d\d\d$/.test(phoneNumber))
+    throw new Error("invalid phone number provided for customer: " + phoneNumber);
+  return this._phoneNumber = phoneNumber;
+});
+
+var c = new Customer();
+c.phoneNumber = "<span title="Who you gonna call?">555-555-2368</span>";</pre>
+<p>The <code>phoneNumber</code> property on any <code>Customer</code> object is magical and will verify that the format of the number being specified matches the standard American telephone number format.  It’s a convenient (and familiar, since many DOM properties work already work in exactly this manner) syntactic sugar for a method call.</p>
+<p>Here’s where it starts to get interesting: what if we don’t just define setters on individual objects but rather define them on <em>all</em> objects?  Specifically, let’s see what happens if we put a setter on <code>Object.prototype</code>:</p>
+<pre>/*
+Copy the following URL to test in your browser:
+data:text/html,%3Cscript%3Ealert(%22start%22);%20Object.prototype.__defineSetter__(%22foo%22,%20function(v)%20{%20alert(%22setting%20foo%20to%20%22%20+%20v);%20});%20var%20o%20=%20{%20foo%3A%2017%20};%20alert(%22finish%22);%3C/script%3E
+*/
+alert("start");
+Object.prototype.__defineSetter__("foo", function(v) { alert("setting foo to " + v); });
+var o = { foo: 17 };
+alert("finish");</pre>
+<p>In the most recent releases of most browsers (Internet Explorer being the notable exception as it doesn’t support <code>__defineSetter__</code>) that link should result in three separate alerts, not two.</p>
+<p>Now pretend you’re malicious and combine setters with cross-site JSON.  You can’t use <code>XMLHttpRequest</code> to get the data (at least not without <a href="https://developer.mozilla.org/En/HTTP_Access_Control">cross-site XHR</a>), so what cross-site script “vulnerability” will you exploit to load and evaluate the JSON, then using setters to steal the data therein?  This one’s easy: the <code>script</code> element!  In fact this has attack has <a href="http://www.thespanner.co.uk/2009/01/07/i-know-what-your-friends-did-last-summer/">already been done against Twitter</a>, with the result being that any site could find out who your friends are and what they’re doing if you use Twitter — not cool.</p>
+<p>Setters are incredibly useful, and they’re being added to the next version of ECMAScript (the skin-disease-sounding industry standard on which JavaScript is based) in a somewhat different form from that demonstrated here, so not supporting setters is off the table.  However, it’s a safe bet to say that when most developers write <code>var x = { bar: 42 };</code>, they expect to get back a plain old object with a <code>bar</code> property whose value is <code>42</code> and not call any functions while doing it.  What if we made the implicit property sets in object and array initializers ignore setters?  (Note, however, that evaluating the property’s value might still have side effects.)  In fact this is what the next version of ECMAScript will specify — and it’s what Firefox 3.1 beta 3 and 3.5 beta 4 already do and what the eventual release of Firefox 3.5 will do.  By making initializers ignore setters, Firefox 3.5 will make browsing sites that serve JSON in this matter just a little bit safer.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 16:08:52 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Jeff Walden";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:55;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:60:"Mozilla Web-Tech Blog: Geolocation in Firefox 3.5 and Fennec";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:45:"https://developer.mozilla.org/web-tech/?p=289";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:87:"https://developer.mozilla.org/web-tech/2009/05/01/geolocation-in-firefox-35-and-fennec/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:249:"<p>Check out the Geolocation feature we added to Firefox 3.5 and Fennec!</p>
+<p><a href="http://dougt.wordpress.com/2009/04/30/geolocation-in-firefox-35-and-fennec/">http://dougt.wordpress.com/2009/04/30/geolocation-in-firefox-35-and-fennec/</a></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 16:08:23 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:17:"Douglas Turner II";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:56;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:118:"Mozilla Web-Tech Blog: Background images no longer restricted to original size: explore the space with background-size";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:45:"https://developer.mozilla.org/web-tech/?p=291";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:145:"https://developer.mozilla.org/web-tech/2009/08/04/background-images-no-longer-restricted-to-original-size-explore-the-space-with-background-size/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:14413:"<h3>Background images: stuck at their original size</h3>
+<p><abbr title="Cascading Stylesheets">CSS</abbr> has long allowed web developers to use images as the backgrounds for elements.  Background images can be repeated in either or both directions, their position can be adjusted from a default top-left position, and they can be attached to the element or fixed with respect to the browser window.  Add in the ability to specify a background color that underlies the background image and you can do quite a bit using only CSS 2-level features supported for years in all browsers.</p>
+<p>One thing you can’t do with CSS 2 background support, however, is <em>resize</em> the image.  Consider, for example, adding a background image to your personal site and stretching it to cover the width of the page, or the height of the page, or both: it’s impossible.  You could fake up such a background using an <code>&lt;img&gt;</code> element, <code>z-index</code>, and absolute positioning, but if the window is resized you’ll have to manually resize the image to accommodate using JavaScript — hardly a clean separation of content from display.  It may even be impossible if you can’t shoehorn an extra <code>&lt;script&gt;</code> into your site’s page templates.</p>
+<h3>CSS3 to the rescue with <code>background-size</code>!  (<code>-moz-background-size</code> for now in Mozilla)</h3>
+<p>The good news is that CSS2 is not the end of the world, and <a href="http://dev.w3.org/csswg/css3-background/" title="NB: editor's draft, not necessarily finalized">CSS3 Backgrounds and Borders</a> adds support for resizing images used in backgrounds through the aptly-named <code>background-size</code> property.  Even better: now that <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=189519">bug 189519</a> is fixed, the Mozilla tree includes support for it, under the name <a href="https://developer.mozilla.org/en/CSS/-moz-background-size"><code>-moz-background-size</code></a> (prefixed because the specification is still in flux, although we think this part of it shouldn’t change much going forward).  With <code>background-size</code>, you can stretch or compress the background image horizontally or vertically, either absolutely or relative to the dimensions of the background area in which the image resides, with the option to preserve image proportion if desired.  The effect is as though a scaled version of the image were being used directly.</p>
+<h3>The syntax</h3>
+<p>The syntax for <code>background-size</code> is pretty simple:</p>
+<pre>background-size: &lt;nonnegative-width-or-auto&gt; [ &lt;nonnegative-height-or-auto&gt; ];
+background-size: contain;
+background-size: cover;</pre>
+<p>The first syntax allows the author to specify a specific width and height for the image.  Each dimension is the keyword <code>auto</code>, a length, or a percentage; if the second dimension is omitted, it is implicitly <code>auto</code>.  The meaning of <code>auto</code> is to stretch the image in the relevant direction as needed to preserve its aspect ratio; for example, if a 50×100-pixel image is to be scaled to 75 pixels wide and the height is given as <code>auto</code>, the image’s rendered height would be 150 pixels.  (The initial value for <code>background-size</code>, <code>auto auto</code>, renders images with their intrinsic dimensions, just as previous CSS levels would have rendered them.)  Lengths have the obvious interpretation.  Percentages are a little trickier to interpret because they specify that dimension relative to the corresponding dimension of the <a href="http://dev.w3.org/csswg/css3-background/#background-positioning-area">background positioning area</a> (as CSS 3 calls it), hereinafter abbreviated <abbr title="background positioning area">BPA</abbr>.</p>
+<h4>Aside: the background positioning area</h4>
+<div class="wp-caption aligncenter" id="attachment_301" style="width: 440px;"><img alt="The familiar CSS box model" class="size-full wp-image-301" height="280" src="https://developer.mozilla.org/web-tech/wp-content/uploads/2009/08/background-positioning-area.png" width="430" /><p class="wp-caption-text">The familiar CSS box model</p></div>
+<p>For any background with <code>background-attachment: fixed</code>, the BPA is simply the whole browser window, not including space occupied by scrollbars.  Otherwise, the BPA is determined by the <a href="https://developer.mozilla.org/en/CSS/-moz-background-origin"><code>background-origin</code> property</a>, whose possible values area <code>border-box</code>, <code>padding-box</code>, and <code>content-box</code>.  (As this property isn’t finalized, and as Gecko’s support predates these specification names, for now the property in Mozilla is <code>-moz-background-origin</code> and its values are <code>border</code>, <code>padding</code>, and <code>content</code>.)  <code>padding</code>, the default, is the light purple and white areas of the above diagram: the content plus the area occupied by padding.  <code>border</code> is the outermost rectangle: content plus padding plus border.  <code>content</code> is just the content, without padding or border.</p>
+<p>Returning to <code>background-size</code> itself, we have two remaining syntaxes:</p>
+<pre>background-size: contain;
+background-size: cover;</pre>
+<p>These syntaxes allow you to scale the image relative to the smaller or larger of the width and height of the BPA, even if you don’t know beforehand which is smaller and which is larger (or if you don’t know the same about the background image, although this seems less common).  Stated more simply but less precisely, <code>contain</code> means, “Stretch this image until the BPA’s dimensions exactly contain it”.  <code>cover</code> means, “Stretch this image until it covers the entire BPA’s dimensions.”  Of course, if you know the element whose background is being set is always taller than it is wide (or vice versa), these keywords aren’t necessary, but when that’s not the case the extra functionality of these keywords is invaluable.</p>
+<h3>Examples</h3>
+<p>Regrettably, WordPress seems to strip unrecognized CSS properties, so you’ll have to click through to view the examples.  <a href="http://whereswalden.com/files/mozilla/background-size/page-cover.html" target="_blank">This demonstration of <code>background-size: cover</code></a> and <a href="http://whereswalden.com/files/mozilla/background-size/page-contain.html" target="_blank">this demonstration of <code>background-size: contain</code></a> are meant to be opened in new windows so that you can see how <code>contain</code> and <code>cover</code> behave when the BPA’s width-to-height ratio is less than or more than one.  Finally, <a href="http://whereswalden.com/files/mozilla/background-size/more-examples.html">this series of demos of how <code>background-size</code> works and interacts with other <code>background-*</code> properties</a> should pretty much cover the remaining ground in how to use <code>background-size</code> alone and in conjunction with other properties.  Unfortunately, for reasons listed below, these examples are Gecko-only (or, if such engines exist, they work in any engine which implements the background properties without prefixes) for the moment.</p>
+<h3>Keeping it short</h3>
+<p></p>
+<p>Many of the <code>background-*</code> properties can be specified by the <code>background</code> shorthand.  Eventually, <code>background-size</code> may be one of them; however, due to the partially-conflicting need to also support <code>background-position</code> in the shorthand and the ongoing unresolved discussions on the www-style list over how to address this, Gecko currently doesn’t support specifying <code>background-size</code> within the <code>background</code>.  (Other browsers seem to be taking a similar approach to supporting <code>background-size</code> in the <code>background</code> shorthand.)  Once this aspect of the spec becomes more stable we’ll add it, but for now we’re not including it in case the spec has more changes in this respect.</p>
+<h3>Browser support</h3>
+<p>Full support for <code>-moz-background-size</code> is now in the mozilla-central repository, and it will be in Firefox 3.6.  Yay!  However, web authoring features are generally useful primarily to the extent that multiple browsers support them in the same manner.  Sadly, other browsers have varying levels of support for <code>background-size</code> (none as part of the <code>background</code> shorthand and none in unprefixed form, which is of course the same as Gecko now implements it).</p>
+<h4>Internet Explorer</h4>
+<p>Internet Explorer doesn’t support <code>background-size</code> in prefixed or unprefixed form.</p>
+<h4>WebKit</h4>
+<p>WebKit-based browsers support the property through the <code>-webkit-background-size</code> property.  They have full support for an explicitly specified width and height.  However, it appears that support for just a width, leaving height implicit, is based upon a roughly year-old draft of CSS 3 backgrounds that has different behavior from the latest draft.  (A note to would-be early adopter web developers: this is one reason why Mozilla sometimes holds off on implementing features that are part of a working draft; implement it when it’s too new and you’ll find the carpet pulled out from underneath you.  [Edit: To be clear, this particular change wasn't a carpet-pull; a pure painting change like this one probably wouldn't be.  Modifications of features which interact with more complicated concepts like positioning, however, are still much more likely to have complex interactions that make substantial changes more likely.  Also to be clear, this isn't a complaint about other browsers implementing things like this early; they can implement whatever they want, whenever they want, <em>especially</em> in CSS through the vendor-prefix mechanism.  It's simply pointing out that a browser runs a risk of implementing something substantially different from the finalized form, which is also a potential, if perhaps small, source of confusion for web developers.])  Thus, instead of preserving proportions when only one value is specified, it applies the single value to <em>both</em> dimensions (<code>-webkit-background-size: 50%</code> is deemed equivalent to <code>-webkit-background-size: 50% 50%</code>, not to <code>-webkit-background-size: 50% auto</code>).  WebKit-based browsers also don’t support the <code>contain</code> and <code>cover</code> keywords, apparently for the same reason.</p>
+<h4>Opera</h4>
+<p>Opera’s support appears very experimental at the moment.  It lacks <code>contain</code>/<code>cover</code> support, but more oddly, specifying two values seems to treat the first as an aspect-preserving scale factor and the second as a vertical clipping dimension that also causes a non-repeating image to repeat in the vertical direction (!).  Also, its determination of the BPA for <code>fixed</code> backgrounds appears wrong (vertical percents resolved with respect to the full height of a page, not with respect to the browser window size).</p>
+<p>(If I had to guess, I’d bet the non-repeating image becoming repeating is due to swapping the “clipY” and “scaleY” arguments in a call to an <span title="But will it blend?">image-scaling, -tiling, -clipping Swiss army knife function</span>.  If any Opera developers are reading, I’d be intrigued to hear what the mistake actually was after you’ve investigated it, because I don’t see an obvious explanation.)</p>
+<h4>But don’t panic!</h4>
+<p>Support may be spotty, but the differences in other browsers are probably not difficult to fix.  With respect to the non-keyword forms, it should be fairly simple for browser vendors who partially implement <code>background-size</code> to adjust their code to match the latest working draft.  <code>contain</code> and <code>cover</code> are probably more difficult (because they change the scale-storage from a pair of numbers to something conceptually larger), but they should still be reasonably straightforward.  I’ll bet the other browsers can and will make the necessary fixes before their next releases.</p>
+<h3>Acknowledgements</h3>
+<p>Historically I’ve worked on very little layout code in Gecko (and nothing which changed rendering), and I needed advice and help from a handful of different people to implement this.  As always, <a href="http://weblogs.mozillazine.org/bz/">bz</a>, <a href="http://dbaron.org/">dbaron</a>, and <a href="http://weblogs.mozillazine.org/roc/">roc</a> were extremely helpful in answering questions, pointing out my occasional stupidities, and reviewing versions of the patch.  I also understand that I owe a debt of thanks to Mozilla’s image and graphics maintainers for relatively recent changes which made the process of scaling an image for use in <code>background-size</code> extremely simple.  Thanks everyone!</p>
+<p>As in <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=postMessage">the past</a> when I’ve implemented browser features, I implemented <code>background-size</code> to scratch an itch: using an image as the background of <a href="http://whereswalden.com/">my own site</a> and having it fill the browser window.  The behavior prescribed by CSS for painting backgrounds is intricate, and I had to keep careful track of the details, but neither the code itself nor the changes I made were difficult to understand.  Hacking layout features isn’t something only seasoned Gecko hands can do: other people with no prior knowledge of Gecko <a href="http://xph.us/2009/02/02/rem-in-firefox.html">have done the same</a> in the past when they needed something that wasn’t already implemented.  If you’re a web developer in need of more CSS hotness, we’d love to help you implement it!  Hop on Mozilla’s <abbr title="Internet relay chat">IRC</abbr> server, <code>irc.mozilla.org</code>, and ask questions in the <a href="irc://irc.mozilla.org/developers">#developers</a> channel; we’re always willing to answer any questions you might have about Gecko code or the development process.</p>
+<p>With that, web developers, enjoy the new toy — I certainly will!  <img alt=":-)" class="wp-smiley" src="https://developer.mozilla.org/web-tech/wp-includes/images/smilies/icon_smile.gif" /> </p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 16:07:50 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Jeff Walden";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:57;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:52:"Paul Rouget: How to embed a HTML5 video with youtube";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:40:"urn:md5:671e06e5893e2550aca49dcfb23449f3";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:78:"http://blog.mozbox.org/post/2010/07/26/How-to-embed-a-HTML5-video-with-youtube";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:488:"<ol>
+<li>Upload a 720p (at least) video to youtube</li>
+<li>Wait at least one hour (to have your video encoded in WebM)</li>
+<li>Add this code to your page:</li>
+</ol>
+<pre>&lt;iframe width="640" height="385" src="http://www.youtube.com/embed/VIDEO_ID" frameborder="0"&gt;
+</pre>
+<p>That's all. It works with all the browsers (WebM / h264 / Flash).</p>
+<p>The HTML5 video tag is used if the visitor use the Youtube HTML5 beta:
+<a href="http://youtube.com/html5">youtube.com/html5</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 15:36:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Paul Rouget";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:58;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:60:"Sarah Doherty: Recapping Mozilla Summit 2010 in Whistler, BC";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://www.sarahdoherty.net/?p=3430";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:62:"http://www.sarahdoherty.net/blog/2010/07/26/mozillasummit2010/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:5724:"<p><img alt="" src="http://farm5.static.flickr.com/4101/4829947758_7b890d2859.jpg" width="455" /></p>
+<p>The fact that Summit is over still hasn’t hit me.  I think it’s the same  feeling at the end of a really great family reunion or wedding that many months of planning and preparation went into – how can it be already over?</p>
+<p>Now after 2 weeks of reuniting myself with the “normalcy,” I feel like I’m ready to recollect and recapture three memorable days of Summit in written format.  Before I go into too much detail, for my non-Mozillian blog audience think of Summit as 3 mind-blowing days, focusing on the  future of the web with 600 of your best friends in beautiful Whistler, BC.  I think that sums it up pretty well!</p>
+<h3>Open Web Goosebumps</h3>
+<p>Close  your eyes and think about try to recall some amazing experience that  gave you goosebumps and chills.  Maybe it was a  trip to a Broadway show where the singer just hits that perfect pitch, or the feeling when you climb to the top of a mountain and see a sunset.  These moments are rare and remind your senses what you find truly incredible.  Shaver’s keynote and presentation of Flight of the Navigator did it for me.  I’m an incredibly visual person and while  there were so many keynotes talking about the changes to the open web  platform, being able to see it all converge into one solid presentation gave me chills up my spine.</p>
+<p></p>
+<p>Why is this so cool?  Normally video/audio requires plugins like Flash in a browser.  This video is a perfect demonstration about the power of HTML5  with WebGL, JavaScript and the use of the Audio API — no  plug-ins required!  (<a href="http://www.processingjs.org">Processing.js</a> is used for  animated textures, WebM video for videos and <a href="http://www.beatdetektor.com">BeatDetektor.js</a> for audio analysis and visualization).  Simply stunning.</p>
+<h3>Session + Lightning Talk = WIN</h3>
+<p><strong> Session: Moving from Local Events to Strong Local Communities</strong><a href="http://www.flickr.com/photos/sarahfriedlander/4829984708/in/set-72157624449618857/"><img alt="" src="http://farm5.static.flickr.com/4101/4829984708_abc6fa9582.jpg" style="border: 10px solid #dbdbdb;" width="455" /></a></p>
+<p>I  was incredibly fortunate at Summit to be able to have both a session as  well as a lightning talk.  My session, “<a href="https://wiki.mozilla.org/Summit2010/B054_notes">Moving from Local Events to  Strong Local Communities</a>”  was co-presented with <a href="http://nathanieljames.org/">Nathaniel James</a> from the Mozilla  Foundation/Drumbeat.  We discussed best practices from a local community level and how to uplift this information.  Some of our key takeaways were:</p>
+<ol>
+<li>There  are many types of events that the community and Mozilla are hosting and organizing, and there is inconsistent deployment around the  world.  This means the people in the various countries have varying levels of  skills.</li>
+<li>Community (local community participants around the globe) need assistance in best practices for event management, as frequently they are not marketing experts, nor do we expect them to be.</li>
+<li>Organizers on different ends of the Mozilla enterprise can’t reach each other communities – a shared community contact database would be very helpful.</li>
+</ol>
+<p>There  are a number of great pieces of information that arose from this  session – keep your eyes peeled over the next few months for some cool new additions that I think will make planning and organizing events  around the world a lot easier.</p>
+<p><strong>Lightning Talk:  Host Your Own Firefox Education Event!</strong><a href="http://www.flickr.com/photos/sarahfriedlander/4825384544/"><img alt="" src="http://farm5.static.flickr.com/4142/4825384544_3a035e2a12.jpg" style="border: 10px solid #dbdbdb;" width="455" /></a></p>
+<p>What  can I say?  Being able to stand up on a stage and talk to 600 people  about something I’m passionate about is a blast (and more-so to get such great feedback and interest after the talk put a silly grin on my  face for the rest of Summit).  I’ve spoken in front of large groups  before, but nothing at this size and with this amount of lights (seriously, the lights were so bright that I couldn’t see anyone in  their seats).  I think my short presentation speaks for itself so I’ll let you page through it below.</p>
+<p id="__ss_4836744" style="width: 425px;"></p>
+<h3>Community, Community, Community</h3>
+<p>This is the section where I get emotional and I find myself at a loss for words.</p>
+<p>Sure the sessions were great, we’re changing the web, and we’re awesome, but we wouldn’t be anywhere near where we are today without so many people that spend countless hours contributing to our codebase, marketing our products, and localizing our content.</p>
+<p>Our community (I believe) is made up of some of the most humble and amazing people I have ever met in my life.  Thank you.  You are the reason I wake up every morning and want to work so hard at my job.</p>
+<p>At the top of the beautiful mountain in Whistler I became so clearly aware of how lucky I am – At what other time in my life would I be able to have a conversation with someone from México, Paraguay, Bolivia and Serbia?  I’ve learned so much from all of you, and see you as my peers, mentors, friends and most importantly, my inspiration.  Together I truly feel that we can make a difference in the world.</p>
+<p><a href="http://www.flickr.com/photos/sarahfriedlander/4825395920/"><img alt="" src="http://farm5.static.flickr.com/4097/4825395920_f1e2e5b8e1.jpg" width="455" /></a></p>
+<p>Thanks and here’s to the next few years!</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 07:01:02 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Sarah Doherty";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:59;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:63:"Robert Strong: App Update / Win Installer status – 2010-07-25";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:38:"http://blog.mozilla.com/rstrong/?p=301";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:96:"http://blog.mozilla.com/rstrong/2010/07/25/app-update-win-installer-status-%e2%80%93-2010-07-25/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2796:"<p>Progress:<br />
+</p><hr />
+<ul>
+<li>Spent most of the week working on <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=523410">Bug 523410</a> [Core] – Disable LSPs in WinSock for Firefox [Windows]. I now have a pretty good understanding of the implications of implementing this and believe the benefits are worthwhile.</li>
+<li>Landed on trunk <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=540537">Bug 540537</a> [Firefox] – In China, set default browser does not work [Windows]. This might not fix all of the issues but it definitely fixes one of the issues.</li>
+<li>Landed on trunk <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=580579">Bug 580579</a> [Toolkit] – While creating services from category ‘profile-after-change’, service for entry ‘nsUpdateServiceStub’, contract ID ‘@mozilla.org/updates/update-service-stub;1′ does not implement nsIObserver. [All].</li>
+<li>Created builds using 1.9.1 and 1.9.2 for Thunderbird, SeaMonkey, and Sunbird just to be sure that landing <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=367539">Bug 367539</a> [Toolkit] – When upgrading an existing install use the uninstall.log to uninstall the previous version before install [Windows] on 1.9.1 and 1.9.2 won’t adversely affect them and all is clear to fix this bug on 1.9.1 and 1.9.2.</li></ul>
+<p>Future:<br />
+</p><hr />
+<ul>
+<li>Finish the patch for <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=523410">Bug 523410</a> [Core] – Disable LSPs in WinSock for Firefox [Windows].</li>
+<li>Fix <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=544442">Bug 544442</a> [Toolkit] – Add support for signed AUS update snippets [All]. I wanted to get this done last week but the first two items in the progress section got in the way.</li>
+<li>Land on 1.9.1 and 1.9.2 <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=367539">Bug 367539</a> [Toolkit] – When upgrading an existing install use the uninstall.log to uninstall the previous version before install [Windows].</li>
+<li>Fix <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=577563">Bug 577563</a> [Toolkit] – Consider renaming log files so they don’t have a .log file extension [Windows]. This bug breaks uninstalls after running a utility that removes log files… meh.</li>
+<li>Get review / land <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=570689">Bug 570689</a> [Toolkit] – Convert preprocess-locale.pl to a python script [Windows].</li>
+<li>Get review / land <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=575838">Bug 575838</a> [Toolkit] – Build scripts should be able to handle @BINPATH@/extensions/testpilot@labs.mozilla.com/* in package-manifest.in for the installer [Windows].</li>
+<li>Continue work on silent updates for windows.</li></ul>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 05:27:09 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:7:"rstrong";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:60;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:50:"Chris Pearce: WebM video support in Firefox 4 Beta";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:70:"tag:blogger.com,1999:blog-5537325711190185140.post-7319068184166001614";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:75:"http://blog.pearce.org.nz/2010/07/webm-video-support-in-firefox-4-beta.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2242:"The new <a href="http://www.mozilla.com/firefox/all-beta.html">Firefox 4 Beta 1</a> includes support for HTML5 video elements playing <a href="http://webmproject.org/">WebM</a> videos. This is exciting, as much of the industry is getting behind WebM. Opera is shipping WebM support in Opera 10.6, Google Chrome's "early access release channel" builds include WebM support. <a href="http://windowsteamblog.com/windows/b/bloggingwindows/archive/2010/05/19/another-follow-up-on-html5-video-in-ie9.aspx">Microsoft said they'd support WebM</a> in their HTML5 video implementation in their upcoming IE9, provided appropriate codecs are installed on the user's system. Adobe has announced that they'll support WebM playback in Flash, which will provide fallback playback of WebM in any older or otherwise non WebM supporting browsers. <a href="http://arstechnica.com/gadgets/news/2010/05/intel-to-hardware-accelerate-webm-if-it-becomes-popular.ars">Intel</a> says it will move towards hardware support for WebM once it becomes popular.<br /><br />Google has freely licensed the VP8 video codec used in WebM, and provided a <a href="http://review.webmproject.org/gitweb?p=libvpx.git;a=blob;f=PATENTS;hb=HEAD">royalty free patent grant</a>. This is great news for the future of the internet. We now have a royalty free video codec, with quality which is competitive with proprietary alternatives. This means anyone can freely use high quality internet video, without having to worry about getting sued or having to negotiate a patent license.<br /><br />All this will hopefully contribute to increased adoption of WebM and HTML5 video, coupling all the power of the modern web browser's rendering pipeline with high quality video.<br /><br />If you want to try out our new WebM support in Firefox, the easiest way is to <a href="http://www.mozilla.com/firefox/all-beta.html">download the Firefox 4 beta</a>, and <a href="http://googlesystem.blogspot.com/2010/05/how-to-play-webm-video-on-youtube.html">watch WebM videos on YouTube's "HTML5 Experiment" program</a>.<div class="blogger-post-footer"><img alt="" height="1" src="https://blogger.googleusercontent.com/tracker/5537325711190185140-7319068184166001614?l=blog.pearce.org.nz" width="1" /></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 04:21:35 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:34:"noreply@blogger.com (Chris Pearce)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:61;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:51:"Planet Mozilla Blog: Planet Addition: Kevin Dangoor";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:37:"http://blog.mozilla.com/planet/?p=320";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:72:"http://blog.mozilla.com/planet/2010/07/25/planet-addition-kevin-dangoor/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:587:"<p><a href="http://www.blueskyonmars.com/">Kevin Dangoor</a> (<a href="http://www.blueskyonmars.com/category/mozilla/feed/">feed</a>) – Kevin has been working on developer tools for Mozilla since January 2009. He managed the Bespin project before becoming the manager of developer tools in general at Mozilla. He has been involved in open source web development for a decade, starting some reasonably popular projects including TurboGears, CommonJS and Paver. He writes about all kinds of software development topics, these days mostly of interest to web and JavaScript developers.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 26 Jul 2010 00:36:11 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:10:"raccettura";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:62;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:47:"Joe Drew: What I learned today at SIGGRAPH 2010";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:33:"http://blog.mozilla.com/joe/?p=29";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:77:"http://blog.mozilla.com/joe/2010/07/25/what-i-learned-today-at-siggraph-2010/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2093:"<ul>
+<li>Sharp has a prototype 5-colour display (RGBYC) that is simply gorgeous, and will make people who just bought their 4-colour (RGBY) display jealous.</li>
+</ul>
+<h3>Image Statistics</h3>
+<ul>
+<li>If you make your image’s  histogram flat, or its cumulative histogram have a roughly 45-degree slope (these are equivalent), its contrast will be higher and people will like how it looks.</li>
+<li>However, matching histograms between images, while it can make one image have the colour palette of another, doesn’t produce pleasing results.</li>
+<li>If you calculate the x and y gradients of a large volume of natural images (pictures of the real world), there is a large peak at a gradient value of zero. This implies that most of the natural world is composed of large homogenous surfaces instead of having lots of edges.</li>
+<li>Further, the distribution of those gradients, both in x and y, falls off very quickly, implying that those edges that exist are mostly low contrast.</li>
+<li>Finally, the distribution of those gradients is symmetric about 0, meaning that surfaces are mostly on top of the same background, like a window in a house.</li>
+<li>If you take the power spectrum of an image, on average it follows the power law: A = 1 / f<sup>β</sup>. If you plot these spectra on a logarithmic scale, you get a straight line with a slope of β.</li>
+<li>Human beings are most sensitive to slopes of β = 2.8 to 3.2, but the average spectral slope of images is about 2.0. This implies that we’re tuned to see things that are really coarse, even though the average scene isn’t that way.</li>
+<li>If you control for orientation, you figure out what an image is a picture of very effectively just by looking at their 2D power spectra!</li>
+<li>PCA, Principal Component Analysis, is simply a method of computing the eigenvalues and eigenvectors of a set of data. This lets you figure out (by looking at which eigenvalue is the largest) where most of the variance of a set of data is; by sorting the values, you can figure out what your most important components are.</li>
+</ul>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sun, 25 Jul 2010 23:09:30 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"Joe Drew";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:63;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:44:"Instantbird: Major update to Instantbird 0.2";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:41:"http://blog.instantbird.org/nocomm27.html";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:68:"http://blog.instantbird.org/n27-major-update-to-instantbird-0-2.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:785:"<p>As no critical issues have been reported in the <a href="http://blog.instantbird.org/a25-instantbird-0-2-released.html">recently released Instantbird 0.2</a>, we have turned on major updates for users of Instantbird 0.1.2 and 0.1.3. If you are still using one of these old versions, you will receive a major update offer to get the newer Instantbird 0.2. It will look like this:</p>
+
+<p><img alt="Major update offer dialog" src="http://blog.instantbird.org/images/major-update-to-0.2.png" /></p>
+
+<p>Unfortunately, due to a bug of the updater that shipped in the Windows version of Instantbird 0.1.3.1, the update won't be automatic for these users, who should <a href="http://www.instantbird.com/">download the full installer</a> themselves. We are sorry for the inconvenience.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sun, 25 Jul 2010 20:59:32 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:33:"florian@instantbird.org (Florian)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:64;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:26:"L. David Baron: colorDepth";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:41:"http://dbaron.org/log/20100725-colorDepth";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:41:"http://dbaron.org/log/20100725-colorDepth";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1812:"<div>
+
+<p>PPK <a href="http://www.quirksmode.org/blog/archives/2010/07/the_firefox_pro.html">complained</a>
+today that Firefox is buggy because it reports
+<code>window.screen.colorDepth</code> as <code>24</code>, whereas other
+browsers report it as <code>32</code>.  At first glance, it sounds like
+Firefox is making the situation worse for authors.</p>
+
+<p>However, the situation before the <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=466669">fix</a> in
+Firefox that he's complaining about was that, for the same color depth
+as it affects everything that Web authors do, browsers would report:</p>
+<ul>
+  <li><code>24</code> on Mac</li>
+  <li><code>24</code> on Linux</li>
+  <li><code>24</code> for some video drivers on Windows</li>
+  <li><code>32</code> for other video drivers on Windows</li>
+</ul>
+
+<p>It just so happens that PPK's machine has one of the video drivers
+that reports 32.</p>
+
+<p>In this case, it's also quite clear that <a href="http://dev.w3.org/csswg/cssom-view/#dom-screen-colordepth">the
+spec says</a> that browsers should report <code>24</code>, since they
+should return “number of bits allocated to colors in the output
+device.”</p>
+
+<p>This quirk used to be present across all browsers because the obvious
+Windows API for getting the color depth, GetDeviceCaps(<i>dc</i>,
+BITSPIXEL), exposed how the video card prefers to pack color data.  This
+is relevant to C programmers, but it's not relevant to Web authors, so
+we shouldn't make Web authors have to check for 32 or 24 to see if there
+are 24 bits of color data per pixel.</p>
+
+<p>I believe the Firefox behavior of reporting
+<code>screen.colorDepth</code> consistently across platforms and video
+cards is better for authors.  I hope other browser vendors will make the
+same change (and I expect they will).</p>
+
+</div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sun, 25 Jul 2010 18:20:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"David Baron";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:65;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
 ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:71:"Planet Mozilla Interns: Frank Yan: Hello, Mozilla; Goodbye, Paper Cuts!";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://frankyan.wordpress.com/?p=21";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:74:"http://frankyan.wordpress.com/2010/07/24/hello-mozilla-goodbye-paper-cuts/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2501:"<p>Hello, Planet Mozilla! I’m Frank Yan, and I’m working as a Firefox engineering intern. This means that I get to spend my summer making Firefox more awesome! As one of my side projects, I’ve been hacking on “<a href="http://limi.net/articles/papercuts">paper cut</a>” issues, which are small bugs that get in your way and little features that you wish your browser had.</p>
 <p>The first <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=565783">paper cut</a> that I tackled finds its origins in 2006. That year, tabbed browsing was becoming all the rage, and Mozilla shipped Firefox 2 as its first release to handle tab overflow. Since most mouse wheels only supported vertical scrolling, we enabled the horizontal tab bar to be scrolled by vertical scroll events too. After laptops started rolling out with multi-touch trackpads, users could scroll in both axes simultaneously using two fingers. An unexpected side effect was that, when scrolling with the trackpad even slightly diagonally, the tab bar would sometimes try to scroll both left and right, resulting in sporadic bounces. The effect wasn’t exactly spectacular, so I added logic to scroll the bar only when scroll events are consistently along a particular axis. This will provide a smoother scrolling experience in Firefox 4.</p>
 <p>Stay tuned for more patched-up papercuts!</p>
-<br />  <a href="http://feeds.wordpress.com/1.0/gocomments/frankyan.wordpress.com/21/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/frankyan.wordpress.com/21/" /></a> <a href="http://feeds.wordpress.com/1.0/godelicious/frankyan.wordpress.com/21/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/frankyan.wordpress.com/21/" /></a> <a href="http://feeds.wordpress.com/1.0/gostumble/frankyan.wordpress.com/21/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/frankyan.wordpress.com/21/" /></a> <a href="http://feeds.wordpress.com/1.0/godigg/frankyan.wordpress.com/21/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/frankyan.wordpress.com/21/" /></a> <a href="http://feeds.wordpress.com/1.0/goreddit/frankyan.wordpress.com/21/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/frankyan.wordpress.com/21/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=frankyan.wordpress.com&amp;blog=9379684&amp;post=21&amp;subd=frankyan&amp;ref=&amp;feed=1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 24 Jul 2010 21:41:06 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"frankyan";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:1;a:6:{s:4:"data";s:13:"
+<br />  <a href="http://feeds.wordpress.com/1.0/gocomments/frankyan.wordpress.com/21/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/frankyan.wordpress.com/21/" /></a> <a href="http://feeds.wordpress.com/1.0/godelicious/frankyan.wordpress.com/21/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/frankyan.wordpress.com/21/" /></a> <a href="http://feeds.wordpress.com/1.0/gostumble/frankyan.wordpress.com/21/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/frankyan.wordpress.com/21/" /></a> <a href="http://feeds.wordpress.com/1.0/godigg/frankyan.wordpress.com/21/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/frankyan.wordpress.com/21/" /></a> <a href="http://feeds.wordpress.com/1.0/goreddit/frankyan.wordpress.com/21/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/frankyan.wordpress.com/21/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=frankyan.wordpress.com&amp;blog=9379684&amp;post=21&amp;subd=frankyan&amp;ref=&amp;feed=1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 24 Jul 2010 21:41:06 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"frankyan";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:66;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -105,7 +3002,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 <p>Unfortunately, I immediately hit a bit of a speed bump.  I think a picture best explains this:</p>
 <div align="center"><a href="http://shawnwilsher.com/wp-content/uploads/2010/07/startup.png"><img alt="chart of dirty startup" class="size-medium wp-image-412" height="218" src="http://shawnwilsher.com/wp-content/uploads/2010/07/startup-300x218.png" title="Dirty Startup Chart" width="300" /></a></div>
 <p>This is a chart of the 20 runs talos does when measuring startup time.  As you can see, the dirty profile kept on increasing each and every run.  After about a day of investigating this, the cause is finally known: tabs.  Turns out, talos tries to quit the browser before calling <code>window.close()</code>, which results in the tabs not closing.  As a result, at the end of the 20 cycles, we were loading 19 more tabs than the first cycle.  I <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=581711" title="goQuitApplication called before window.close()">filed a bug about this behavior against talos</a>.  It does not matter now, but if we ever decide to change the default preference in Firefox to load your windows and tabs from last time this will come back to bite us.</p>
-<p>I did learn something useful out of all of this though: startup time scales linearly with the number of tabs session restore has to restore.  I confirmed this by running talos with 200 cycles instead of the normal 20, and it was clearly a linear increase.  We should probably figure out a way to mitigate that, but I have not filed a bug on it (yet!).</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 24 Jul 2010 21:09:32 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Shawn Wilsher";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:2;a:6:{s:4:"data";s:13:"
+<p>I did learn something useful out of all of this though: startup time scales linearly with the number of tabs session restore has to restore.  I confirmed this by running talos with 200 cycles instead of the normal 20, and it was clearly a linear increase.  We should probably figure out a way to mitigate that, but I have not filed a bug on it (yet!).</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 24 Jul 2010 21:09:32 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Shawn Wilsher";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:67;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -113,7 +3010,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 	
 	
 ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:34:"Mozilla Labs: Feedback for Add-ons";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:34:"http://mozillalabs.com/feed/15.160";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:65:"http://mozillalabs.com/messaging/2010/07/24/feedback-for-add-ons/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:395:"<p>We’ve setup a space on the user voice forums for <a href="https://mozillalabs.uservoice.com/forums/68185-messaging-add-ons">Messaging Add-ons Feedback</a>.  If you have ideas, requests, or issues regarding any of the add-ons we release through this site please leave them there.</p>
-<p>We’ll make sure the link is available from each add-on as it is released.  Thanks for the support!</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 24 Jul 2010 17:50:44 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:7:"clarkbw";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:3;a:6:{s:4:"data";s:13:"
+<p>We’ll make sure the link is available from each add-on as it is released.  Thanks for the support!</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 24 Jul 2010 17:50:44 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:7:"clarkbw";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:68;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -126,7 +3023,36 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 <p>I’ve modified my extension to call runw() instead of run() and everything worked like a charm, also the process name (ie the program to launch) can contain Unicode characters, this is a rare case but run() never worked with similar insane scenarios (IWinProcess supports Unicode also on program name).</p>
 <p>New methods are very welcomed considering IWinProcess needs to be modified to work with the new <a href="https://developer.mozilla.org/en/XPCOM/XPCOM_changes_in_Gecko_2.0">XPCOM Registration</a> mechanism and I’ve not enough energies/time/skill to make it compatible with Gecko 2.x.</p>
 <p>IWinProcess can be dropped in flavor of native runw()/runwAsync() but to be sure I prefer to wait news from Gecko team and I hope to see soon the <a href="https://developer.mozilla.org/en/nsIProcess">nsIProcess page on MDN</a> documenting these new methods.</p>
-<br />  <a href="http://feeds.wordpress.com/1.0/gocomments/dafizilla.wordpress.com/1043/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/dafizilla.wordpress.com/1043/" /></a> <a href="http://feeds.wordpress.com/1.0/godelicious/dafizilla.wordpress.com/1043/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/dafizilla.wordpress.com/1043/" /></a> <a href="http://feeds.wordpress.com/1.0/gostumble/dafizilla.wordpress.com/1043/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/dafizilla.wordpress.com/1043/" /></a> <a href="http://feeds.wordpress.com/1.0/godigg/dafizilla.wordpress.com/1043/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/dafizilla.wordpress.com/1043/" /></a> <a href="http://feeds.wordpress.com/1.0/goreddit/dafizilla.wordpress.com/1043/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/dafizilla.wordpress.com/1043/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=dafizilla.wordpress.com&amp;blog=887576&amp;post=1043&amp;subd=dafizilla&amp;ref=&amp;feed=1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 24 Jul 2010 16:55:49 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:4:"dafi";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:4;a:6:{s:4:"data";s:13:"
+<br />  <a href="http://feeds.wordpress.com/1.0/gocomments/dafizilla.wordpress.com/1043/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/dafizilla.wordpress.com/1043/" /></a> <a href="http://feeds.wordpress.com/1.0/godelicious/dafizilla.wordpress.com/1043/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/dafizilla.wordpress.com/1043/" /></a> <a href="http://feeds.wordpress.com/1.0/gostumble/dafizilla.wordpress.com/1043/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/dafizilla.wordpress.com/1043/" /></a> <a href="http://feeds.wordpress.com/1.0/godigg/dafizilla.wordpress.com/1043/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/dafizilla.wordpress.com/1043/" /></a> <a href="http://feeds.wordpress.com/1.0/goreddit/dafizilla.wordpress.com/1043/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/dafizilla.wordpress.com/1043/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=dafizilla.wordpress.com&amp;blog=887576&amp;post=1043&amp;subd=dafizilla&amp;ref=&amp;feed=1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 24 Jul 2010 16:55:49 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:4:"dafi";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:69;a:6:{s:4:"data";s:13:"
+	
+	
+	
+	
+	
+	
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:48:"Shawn Wilsher: sdwilsh Status Update: 2010-07-24";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"http://shawnwilsher.com/archives/420";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:36:"http://shawnwilsher.com/archives/420";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1629:"<div class="postdata">
+          <div class="completed">
+            <h4 class="posthead">Done:</h4> <ul>
+<li>Caught up on bugmail after vacation</li>
+<li>A few reviews</li>
+<li>Started to work on <a href="https://wiki.mozilla.org/index.php?title=Firefox/Projects/2010Q3_Dirty_Startup_Reduction">"dirty" profile startup goal</a>.  <a href="http://shawnwilsher.com/archives/410">Found an issue with the testing methodology</a>, so I'm revising it and trying again.  Target is to get some ideas on what we need to fix for the goal by Tuesday's platform meeting.</li>
+<li>Fixed the following blockers:<ul>
+<li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=581000">Bug 581000</a> - Upgrade to SQLite 3.7.0</li>
+<li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=578939">Bug 578939</a> - Storage service cannot be initialized off of the main thread</li>
+</ul></li>
+<li>Fixed the following bugs:<ul>
+<li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=575667">Bug 575667</a> - split about:memory reporting into more detailed sections for SQLite (<a href="http://shawnwilsher.com/archives/405">blog post about it</a>)</li>
+</ul></li>
+</ul>
+          </div>
+          <div class="planned">
+            <h4 class="posthead">Next:</h4> <ul>
+<li>Get a plan of attack together for <a href="https://wiki.mozilla.org/index.php?title=Firefox/Projects/2010Q3_Dirty_Startup_Reduction">"dirty" profile startup goal</a>.</li>
+<li>Tackle some of the 15 reviews in my review queue (blockers first!)</li>
+<li>Look into fixing another blocker (I have no more b3 blockers, just beta N ones.)</li>
+</ul>
+          </div>
+      </div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 24 Jul 2010 15:03:09 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Shawn Wilsher";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:70;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -155,7 +3081,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 </li>
 </ul>
 <p>* This entire paragraph is a joke**; no flaming necessary.</p>
-<p>** ediosk is not a joke though.  I seriously have a touch-screen monitor hooked up to my windows build machine to the right of my two monitors hooked up to my linux/primary development machine.  While c-x b (<a href="http://www.emacswiki.org/emacs/Icicles">icicle</a> mode) will still be my dominant buffer switching mechanism, I expect ediosk to prove useful/amusing for cases where the number of buffers greatly exceeds my mental stack, when I am switching contexts, or when I am working in multiple branches simultaneously.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 24 Jul 2010 09:32:59 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:17:"Andrew Sutherland";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:5;a:6:{s:4:"data";s:13:"
+<p>** ediosk is not a joke though.  I seriously have a touch-screen monitor hooked up to my windows build machine to the right of my two monitors hooked up to my linux/primary development machine.  While c-x b (<a href="http://www.emacswiki.org/emacs/Icicles">icicle</a> mode) will still be my dominant buffer switching mechanism, I expect ediosk to prove useful/amusing for cases where the number of buffers greatly exceeds my mental stack, when I am switching contexts, or when I am working in multiple branches simultaneously.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 24 Jul 2010 09:32:59 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:17:"Andrew Sutherland";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:71;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -176,7 +3102,7 @@ a:4:{s:5:"child";a:1:{s:0:"";a:1:{s:3:"rss";a:1:{i:0;a:6:{s:4:"data";s:3:"
 <li>A good <a href="http://blog.ericgoldman.org/archives/2010/07/judge_denies_fa.htm">legal analysis</a> from Eric Goldman, law professor at Santa Clara University School of Law and transactional attorney.</li>
 <li>EFF <a href="http://www.eff.org/deeplinks/2010/07/court-violating-terms-service-not-crime-bypassing">post analyzing the decision</a>.</li>
 </ul>
-<br />  <a href="http://feeds.wordpress.com/1.0/gocomments/lockshot.wordpress.com/556/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/lockshot.wordpress.com/556/" /></a> <a href="http://feeds.wordpress.com/1.0/godelicious/lockshot.wordpress.com/556/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/lockshot.wordpress.com/556/" /></a> <a href="http://feeds.wordpress.com/1.0/gostumble/lockshot.wordpress.com/556/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/lockshot.wordpress.com/556/" /></a> <a href="http://feeds.wordpress.com/1.0/godigg/lockshot.wordpress.com/556/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/lockshot.wordpress.com/556/" /></a> <a href="http://feeds.wordpress.com/1.0/goreddit/lockshot.wordpress.com/556/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/lockshot.wordpress.com/556/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=lockshot.wordpress.com&amp;blog=3541200&amp;post=556&amp;subd=lockshot&amp;ref=&amp;feed=1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 24 Jul 2010 01:42:44 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"lockshot";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:6;a:6:{s:4:"data";s:13:"
+<br />  <a href="http://feeds.wordpress.com/1.0/gocomments/lockshot.wordpress.com/556/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/lockshot.wordpress.com/556/" /></a> <a href="http://feeds.wordpress.com/1.0/godelicious/lockshot.wordpress.com/556/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/lockshot.wordpress.com/556/" /></a> <a href="http://feeds.wordpress.com/1.0/gostumble/lockshot.wordpress.com/556/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/lockshot.wordpress.com/556/" /></a> <a href="http://feeds.wordpress.com/1.0/godigg/lockshot.wordpress.com/556/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/lockshot.wordpress.com/556/" /></a> <a href="http://feeds.wordpress.com/1.0/goreddit/lockshot.wordpress.com/556/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/lockshot.wordpress.com/556/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=lockshot.wordpress.com&amp;blog=3541200&amp;post=556&amp;subd=lockshot&amp;ref=&amp;feed=1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Sat, 24 Jul 2010 01:42:44 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"lockshot";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:72;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -233,14 +3159,14 @@ And then I closed by pointing out these two sources, both definitely worth readi
 
 <p>Oh, if it helps, this is what I looked like while giving the original talk. <i>Intense.</i></p>
 
-<p></p><center><a href="http://www.flickr.com/photos/gen/4776810872/" title="Madhava Enros by Gen Kanai, on Flickr"><img alt="Madhava Enros" height="160" src="http://farm5.static.flickr.com/4099/4776810872_5e4e69ddb5_m.jpg" width="240" /></a></center><p></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 21:30:26 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:7:"madhava";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:7;a:6:{s:4:"data";s:13:"
+<p></p><center><a href="http://www.flickr.com/photos/gen/4776810872/" title="Madhava Enros by Gen Kanai, on Flickr"><img alt="Madhava Enros" height="160" src="http://farm5.static.flickr.com/4099/4776810872_5e4e69ddb5_m.jpg" width="240" /></a></center><p></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 21:30:26 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:7:"madhava";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:73;a:6:{s:4:"data";s:13:"
 	
 	
 	
 	
 	
 	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:46:"Mozilla Add-ons Blog: AMO Downtime Rescheduled";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:38:"http://blog.mozilla.com/addons/?p=1718";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:67:"http://blog.mozilla.com/addons/2010/07/23/amo-downtime-rescheduled/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:221:"<p>The AMO downtime <a href="http://blog.mozilla.com/addons/2010/07/19/addons-mozilla-org-planned-downtime/">planned</a> for tomorrow has been rescheduled to next Saturday, July 31 due to the release of Firefox 3.6.8.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 21:06:40 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:22:"Justin Scott (fligtar)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:8;a:6:{s:4:"data";s:13:"
+";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:46:"Mozilla Add-ons Blog: AMO Downtime Rescheduled";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:38:"http://blog.mozilla.com/addons/?p=1718";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:67:"http://blog.mozilla.com/addons/2010/07/23/amo-downtime-rescheduled/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:221:"<p>The AMO downtime <a href="http://blog.mozilla.com/addons/2010/07/19/addons-mozilla-org-planned-downtime/">planned</a> for tomorrow has been rescheduled to next Saturday, July 31 due to the release of Firefox 3.6.8.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 21:06:40 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:22:"Justin Scott (fligtar)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:74;a:6:{s:4:"data";s:13:"
 	
 	
 	
@@ -249,3247 +3175,4 @@ And then I closed by pointing out these two sources, both definitely worth readi
 	
 ";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:67:"Mozilla Developer DevNews: Firefox 3.6.8 now available for download";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:44:"http://developer.mozilla.org/devnews/?p=1182";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:100:"https://developer.mozilla.org/devnews/index.php/2010/07/23/firefox-3-6-8-now-available-for-download/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1116:"<p>Firefox 3.6.8 is now available as a free download for Windows, Mac, and Linux from <a href="http://www.firefox.com/">www.firefox.com</a>.  As always, we recommend that users keep up to date with the latest   stability and support versions of Firefox, and encourage all our users   to upgrade to the very latest version. If you already have Firefox, you will receive an automated  update notification within 24 to 48 hours. This updates can also be  applied manually by selecting “Check for Updates…” from the Help menu.</p>
 <p>This release fixes a stability problem that affected some pages with embedded plugins. For a list of changes and more information, please review the <a href="http://www.mozilla.com/firefox/3.6.8/releasenotes/">Firefox 3.6.8 release notes</a>.</p>
-<p>Note: All Firefox 3 and 3.5 users are strongly encouraged to upgrade to Firefox 3.6 by downloading it from <a href="http://firefox.com/">www.firefox.com</a> or by selecting “Check for Updates…” from the Help menu and clicking on  “Get the New Version”, then checking for updates again once Firefox 3.6  is installed.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 20:27:06 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"beltzner";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:9;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:49:"Shane Caraveo: revisiting addons, tb sync updated";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:30:"http://shane.caraveo.com/?p=60";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:70:"http://shane.caraveo.com/2010/07/23/revisiting-addons-tb-sync-updated/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:603:"<p>Over the past couple months I’ve been distracted by a little project called <a href="http://mozillalabs.com/raindrop">Raindrop</a> and have neglected the <a href="http://mozillalabs.com/messaging">thunderbird addons</a> a bit, but this week I’ve updated <a href="http://mozillalabs.com/sync">sync</a>.  You can pull the latest from my <a href="http://bitbucket.org/mixedpuppy/">bitbucket</a>, get the tb-sync branch in weave-ext, and the default branch of weaver.  The <a href="http://hg.mozilla.org/labs/people/">oauth branch for Contacts</a> also got a couple small fixes for thunderbird.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 19:04:27 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:10:"mixedpuppy";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:10;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:51:"Firefox Support Blog: Writing Awesome Documentation";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"http://blog.mozilla.com/sumo/?p=1196";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:70:"http://blog.mozilla.com/sumo/2010/07/23/writing-awesome-documentation/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:8192:"<p><a href="http://www.flickr.com/photos/roland/4773305223/" title="Mozilla-Summit-Day2-20100707-IMG_3682.jpg by roland, on Flickr"><img alt="Mozilla-Summit-Day2-20100707-IMG_3682.jpg" height="333" src="http://farm5.static.flickr.com/4141/4773305223_e5afc293a3.jpg" width="500" /></a><br />
-<em><a href="http://www.flickr.com/photos/roland/4773305223/">Image by Roland Tanglao</a></em></p>
-<p>For those of you who didn’t go to the Mozilla Summit (<a href="http://www.flickr.com/search/?q=moz10&amp;ss=2&amp;z=t">which was amazing BTW</a>)  or didn’t see my presentation, I wanted to recap it for you because  it’s the basis for some of the things I’d like to do with the Knowledge  Base moving forward.</p>
-<p>Last quarter, we worked on finding ways to <a href="https://wiki.mozilla.org/Support/Q2HelpfulnessTests">increase the helpfulness of our articles by 2%</a>.  We started to run some multivariate tests but found that they’d take  too long to give us results that we could use. So about 2 weeks before  the end of the quarter, we decided to try rewriting some of our most  popular articles. Instead of running this test through the metrics  team’s tools (and only sending a fraction of the SUMO traffic to each  article) we just made the new articles live for everyone. This allowed  us to get enough results from the survey at the bottom of each article  to get some meaningful results.</p>
-<p><strong>What  we found was that the rewrite increased the helpfulness of these  articles by over 8% translating into helping about 800,000 more people  each year.</strong> This  is really important for us because helping more people with knowledge  base articles is the only way we can keep up with our 400 million (and  growing) users in dozens of languages.</p>
-<p>So here are some examples of the techniques I used in the rewrite of the <a href="http://support.mozilla.com/kb/How+to+set+the+home+page">How to set the home page article</a>. You can see the <a href="http://sumo.graymattergravy.com/slides/betterfm/">slides from the presentation here</a>.  The main idea I focused on was to use techniques that keep your brain  engaged. These mostly involve trying to keep things sounding like an  actual human conversation which is more difficult than you might think.</p>
-<p><span id="more-1196"></span><strong>Conversational writing style</strong><br />
-Before:</p>
-<blockquote><p>Firefox  shows the home page when you start it. You can change the home page to  any web site, several web sites, or even a blank page.</p></blockquote>
-<p>That’s accurate information.</p>
-<p>After:</p>
-<blockquote><p>Setting  your home page in Firefox is easy. Can’t decide on just one page? No  problem. Firefox lets you set a group of websites as your home page.  This article will give you some examples and step-by-step instructions  for customizing your home page settings to best fit how you work.</p></blockquote>
-<p>This  version sounds a little more friendly. It also doesn’t try to list  everything the article explains but instead gives you an overview of the  types of information included. This way a reader can quickly say, “Yes,  I want examples and step-by-step instructions.”</p>
-<p><strong>Humor, emotion! and motivation</strong><br />
-Using  humor is great if you can make it work. In our case, it’s a little  difficult because we translate everything into dozens and dozens of  languages. I cut many of the funny lines I tried to write because they  would be difficult or impossible to make work in another language. In  one draft of this article I had a nice pun (if you like puns) about  keeping “tabs” on things. David – the native Swedish speaker – pointed  out that by definition, English puns don’t work in other languages. But  there are other emotions you can touch. “I didn’t know that!” or “I  Rule!” are a couple.</p>
-<p>Example:</p>
-<blockquote><p>This  is the way to have one click access to all of your favorite websites.  For example, you can set the Firefox home button to open your email,  favorite news site and Facebook all at once.</p></blockquote>
-<p>When  you can take something complex and break it down into simple chunks or  show someone how they can make their life easier, you give them the  experience of kicking ass. People don’t care so much that you can set 52  pages as your home page in Firefox. What people care about is that you  can open your email, news and Facebook by clicking one button.</p>
-<p><strong>Multiple learning styles and repetition</strong></p>
-<blockquote><p>I want the big picture<br />
-Give me an example – how will this help me?<br />
-Just give me the steps to get it done.</p></blockquote>
-<p>Here  we get to kill two birds with one stone. We address multiple learning  styles while repeating things. If you can repeat information in  different ways and use different media if possible it has a better  chance of sticking in somebody’s brain. In this section of the home page  article we quickly give the big picture, an example and some  step-by-step instructions.</p>
-<blockquote><p><strong>Set more than one website as your home page</strong></p>
-<p>This  is the way to have one click access to all of your favorite websites.  For example, you can set the Firefox home button to open your email,  favorite news site and Facebook all at once.</p>
-<ol>
-<li>Open a new window and load up the first website you want to be your home page.</li>
-<li>Click  the new tab button and open the next website you want to be part of  your home page group. Repeat this step until you’re done opening all the  pages that you want in new tabs.</li>
-<li>At the top of the Firefox window, click on the Tools menu, and select Options….</li>
-<li>Select the General panel (Main panel in Firefox 3.5).</li>
-<li>Click on Use Current Pages.</li>
-<li>Click OK to close the Options window.</li>
-</ol>
-</blockquote>
-<p><strong>Assignments, Challenges, Questions</strong><br />
-Another  natural part of conversations is a little back and forth. You don’t  usually just talk at people, you ask questions, they respond – it’s a  dialog and that’s something that keeps your brain working. Also, just  because you gave someone step by step instructions doesn’t mean they  actually did them. If they’re like me, they’d of just read over them at  least once to make sure you we’re going to tell them to do anything  crazy. This is an opportunity to give them a little challenge. Reading  about how to do something is different than actually doing it.</p>
-<blockquote><p><strong>Try it out: </strong> Go ahead and close all of your tabs and click the home button. Watch  all of your chosen pages open up in tabs. Do it again; you know you want  to.</p></blockquote>
-<p><strong>But people don’t read webpages!</strong><br />
-They  scan them for keywords. They look for the pieces that are important to  them (and if they don’t see them right away they hit the back button).</p>
-<p>That’s  all true but it doesn’t mean we can’t make those little bits that they  do read engaging and effective. With practice you can do a lot with just  a single sentence. The weekend before my first day at Mozilla I was  reading a wiki page for new hires and there, under the Don’t Panic  section, was written, “People here are busy, but they’re also really  friendly, and they have all gone through it before. Ask. Learn. <strong>We already like you, don’t worry.</strong>”  That last little sentence did it for me. It made me laugh and I called  my friend to read the paragraph back to her. It let me know that I was  in the right place.</p>
-<p><strong>Wrapping up</strong><br />
-After the presentation we had a good discussion about the difficulties of localizing language like this. It was suggested that some good guidelines for localizers are needed and I agree. In fact my plan for this quarter is to work on the contributor documentation – especially guides for writing and localizing. This presentation is that first part of that. <a href="https://support.mozilla.com/en-US/forums/contributors/704535">So what do you think? Let’s talk about it in the contributor forum.</a></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 18:52:22 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Michael Verdi";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:11;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:25:"Mitchell Baker: ICUC 2010";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:38:"http://blog.lizardwrangler.com/?p=2541";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:47:"http://blog.lizardwrangler.com/2010/07/23/2541/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4321:"<p>Last weekend I attended the Internet Cowboy UnConference in Wyoming, organized by Yossi Vardi.  It’s a collection of people hand-picked for some combination of technology or media or advertising or investment  savvy and so it’s wildly eccentric.  It’s an “unconference” meaning that rooms and times and projectors and organization are provided, but all content is created by the participants by adding your topic to the schedule, which is kept on erasable whiteboards.  Since this is in Wyoming the mornings are optional outdoor activities, and the afternoons and evenings are “school.”   It starts Thursday evening and goes through Monday morning, though I leave Sunday night because Monday is generally a busy day at Mozilla.    </p>
-<p>Some of the sessions are tightly related to the Internet, technology and media industries, and some wander wildly afield depending on who brings things — last year there was a fascinating video of a dance club and its members in Israel for example, plus some “let’s go do interesting photography” sessions.  This year included Segway sessions, education for the modern world, the nature of conferences and events, and “21st century statecraft” in addition to the Internet-focused sessions.   Plus an evening talent show, a gadget-a-thon and the local rodeo.  It’s amazing what one learns about people while watching them paddle on a raft in (mild) white-water!</p>
-<p>Last year there was a lot of erasing and rearranging and combining of topics, this year it seemed much less so to me.  Last year I joined Don Levy of Sony and Rachel  Masters in jointly hosting a session on creativity and synthesis — I even took a piece of in process fabric artwork with me since it had caused the topic to be top-of-mind for me.    This year I didn’t expect to lead a session until I got there and a few people were disappointed.  </p>
-<p>I decided to host a session on a topic of interest to me where I’m still thinking things through.  This leads to more of a discussion than a presentation, and allows me to learn at least as much as anyone else.   I opted for what I called “Delivering the Internet Experience — browsers, “apps,” TV, the “web.”   I wanted to explore the question of how we get the characteristics that have made the “web” so innovative and explosive as new use cases develop.   The session turned out to fit in well with a few of the other sessions.   We started with one on big trends — search, social, for example, what has made search so successful, how do the underlying concepts relate to today’s big trends.  Then Jeff Pulver lead a session on the real-time web called “Connected Me.”  Then my session, and then one on the ways in which “the titans” of different areas of the industry are likely to end up competing more and more with each other.   It was a pretty interesting set of conversations.  In part because a similar group of people self-selected to attend this arc and so we could push ideas around from different perspectives over the course of a few days.  </p>
-<p>A good part of the discussion about apps, browsers, the web was not surprising — local execution is fast, it’s easy to like the current “app” model as long as there’s only one platform, much harder if the Internet remains heterogeneous or new technologies/ platforms develop, web platform not (yet) as rich in accessing capabilities of the devices.  </p>
-<p>Much less crisp (and also more interesting to me) was the discussion about the traits of the web that we don’t have with the current app model, ranging from the ability of developers to reach a potential audience without centralized control to the ease with which one can move from consumption to creation on the web.  We also talked a bit about how and where a human being has the ability to integrate, mange, filter, change and “own” his or her online life.   To me, this is an often-hidden but essential aspect of a browser.  The obvious part of a browser is that it delivers the web, and this is a massive task.  The less obvious piece of the browser is its ability to give an individual the ability to integrate, manage, and change our experiences across the range of sites we visit and apps we use.  </p>
-<p>Thought-provoking and fun as well. </p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 18:50:53 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"mitchell";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:12;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:47:"Dave Townsend: Mossop Status Update: 2010-07-23";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:72:"http://www.oxymoronical.com/blog/2010/07/Mossop-Status-Update-2010-07-23";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:72:"http://www.oxymoronical.com/blog/2010/07/Mossop-Status-Update-2010-07-23";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:450:"<div class="postdata">
-          <div class="completed">
-            <h4 class="posthead">Done:</h4> <ul>
-<li>Got undo support for all add-ons working properly</li>
-<li>Assigned all remaining add-ons blockers</li>
-<li>Cleared out some reviews</li>
-</ul>
-          </div>
-          <div class="planned">
-            <h4 class="posthead">Next:</h4> <ul>
-<li>Triaging blocker requests</li>
-<li>Finalizing b3 bits</li>
-</ul>
-          </div>
-      </div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 16:56:51 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:6:"Mossop";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:13;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:28:"Firebug Blog: Firebug 1.6a18";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:33:"http://blog.getfirebug.com/?p=881";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:53:"http://blog.getfirebug.com/2010/07/23/firebug-1-6a18/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:891:"<p>getfirebug.com has <a href="http://getfirebug.com/releases/firebug/1.6X/firebug-1.6X.0a18.xpi">Firebug 1.6a18</a>, the don’t-plan-beta-releases-in-summer release.  The major new feature here is ‘<a href="http://feedproxy.google.com/~r/SoftwareIsHardPlanetMozilla/~3/1Z4AbV7fLaM/">switch to default locale</a>‘, support for en-US user interface labels even if you are running on a localized version of Firefox.</p>
-<p><a href="http://code.google.com/p/fbug/issues/list?can=1&amp;q=label%3Afixed-1.6a18">12 more bugs fixed</a>.</p>
-<p>All of our tests pass on Firefox 3.6.8, so we are hoping that the <a href="http://getfirebug.com/testresults">Firebug automatic testbot</a> will begin to show us “green” for 3.6 once we get it updated to 1.6a18.</p>
-<p>jjb</p>
-<p><a href="http://groups.google.com/group/firebug/t/ef29a3dcbd5b46ab">Please post comments in the newsgroup</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 16:06:22 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"johnjbarton";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:14;a:6:{s:4:"data";s:22:"
-	
-	
-	
-	
-	
-	
-        
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:48:"Aza Raskin: Tab Candy: Making Firefox Tabs Sweet";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:34:"http://www.azarask.in/blog/?p=1026";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:41:"http://www.azarask.in/blog/post/tabcandy/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:6564:"<div class="pics left two"><img alt="" src="http://img.skitch.com/20100723-dx921xgang3ef2hf81p2et8y1f.png" /></div>
-<p>The power of the browser has grown substantially in the last ten years. We now use the Web to multi-task the activities we juggle every day, like vacation plans, purchases, sharing pictures, listening to music, reading email, and writing a blog post.</p>
-<p>It’s hard to keep everything straight with dozens of tabs all crammed into a little strip along the top of your browser. Your tab with a search to find a pizza parlor gets mixed up with your tabs on your favorite band. Often, it’s easier to open a new tab than to try to find the open tab you already have. Worse, how many of us keep tabs open as reminders of something we want to do or read later? We’re all suffering from <em>infoguilt</em>.</p>
-<p>We need a way to organize browsing, to see all of our tabs at once, and focus on the task at hand. In short, we need a way to  get back control of our online lives.</p>
-<p><strong>Enter: Tab Candy.</strong></p>
-<p><span id="more-1026"></span></p>
-<p>With one keystroke Tab Candy shows an overview of all tabs to allow you to quickly locate and switch between them. Tab Candy also lets you group tabs to organize your work flow. You can create a group for your vacation, work, recipes, games and social sites, however it makes sense to you to group tabs. When you switch to a grouped tab only the relevant tabs are shown in the tab bar, which helps you focus on what you want.</p>
-<p></p>
-<p><span> </span></p>
-<p class="caption">Link to the video <a href="http://vimeo.com/13560319">here</a> or download the video <a href="http://people.mozilla.org/~araskin/movies/tabcandy.mov">here</a>.</p>
-<p><b>One more thing</b>. Tab Candy is made <i>entirely</i> with HTML, Javascript, and CSS. There is no native code—just the open Web. That is how powerful the web has become.</p>
-<p>Tab Candy is in early development. We’re at the point where we’d like more people to try it out and let us know what they <a href="http://feedback.mozillalabs.com/forums/56804-tabcandy">think</a>. There’s work to be done on some <a href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=%3Atabcandy">existing bugs</a> and performance issues, and we’re building a motivated group to attack those issues head-on.</p>
-<p><a href="http://bit.ly/ciU6xa"><img alt="Download" src="http://img.skitch.com/20100723-ruibrgg1728ingt52r3ynnyay1.png" /></a></p>
-<p class="caption">This is not an extension. This is a super-early  build of Firefox with Tab Candy enabled.</p>
-<h3>A Walkthrough of Tab Candy’s Features</h3>
-<h5>Instant Overview—Never lose a tab again</h5>
-<div class="left two pic"><img alt="" src="http://img.skitch.com/20100723-t3751uj9epuw6tpqitahppu78c.png" /></div>
-<p>Tap Option-Space on the Mac or Control-Space on Windows to zoom out and see thumbnails of all open tabs. Click on one to zoom back in. It’s a quick visual way to search for that one tab you need with work research or directions to the restaurant.</p>
-<h5>Lightweight Grouping</h5>
-<p>Drag two tabs together to create a group to keep related tabs together. You can even name groups for all your videos, research, social sites or whatever you need. If need a group from one tab just click and drag to create one. You can easily rearrange tabs and drag them anywhere inside a group or between groups.</p>
-<p>Right now there is no automatic grouping, but it is a feature we are working to deliver.</p>
-<h5>Only the Tabs You Want</h5>
-<div class="left two pic"><img alt="" src="http://img.skitch.com/20100723-8r78hsbs49qt8f9g2h8kj7ayqh.png" /></div>
-<p>When you go to a tab in a group, you’ll only see the tabs from that group in the tab strip. That means you can focus on the task you are doing. Work tabs stay separate from play tabs. Clean tab bar, clean mind.</p>
-<h5>Organize Your Space</h5>
-<p>Tab Candy is not just the ability to move tabs around, you can move groups so that they fit your needs. Make the group with your calendar and email bigger so that you can see what’s new just by zooming out to Tab Candy. Hide the group with distractions in a corner. Keep things to read in a long vertical list. Because Tab Candy is in early development, there are lots of <a href="http://azarask.in/projects/tabcandy/#todo">user experience changes and bugs to fix</a>. We want your <a href="http://feedback.mozillalabs.com/forums/56804-tabcandy">feedback</a>. While Tab Candy is fairly stable, it might still lose your groupings or cause Firefox to operate more slowly.</p>
-<h3>Next Steps</h3>
-<p>Our current goals are focused on overall and start-up performance, unit tests, code documentation and refactoring. Next, we will focus on user feedback and polishing the user experience.</p>
-<p>The Tab Candy team is working to get Tab Candy into nightly development builds of Firefox. You can <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=574217">follow along</a> as we work to improve the code.</p>
-<h4>Get Involved</h4>
-<p>Start by reading the <a href="https://wiki.mozilla.org/Firefox/Projects/TabCandy/FAQ">Tab Candy FAQ</a>.</p>
-<p>* Visit the <a href="http://azarask.in/projects/tabcandy/">project page</a> or the <a href="https://wiki.mozilla.org/Firefox/Projects/TabCandy">project wiki</a><br />
-* Give us <a href="http://feedback.mozillalabs.com/forums/56804-tabcandy">feedback</a><br />
-* Submit a <a href="https://bugzilla.mozilla.org/enter_bug.cgi?product=Mozilla%20Labs&amp;component=TabCandy">bug report</a> and see what bugs <a href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=%3Atabcandy">need to be fixed</a><br />
-* Grab the <a href="http://azarask.in/projects/tabcandy/#code">source code</a> and get a <a href="https://wiki.mozilla.org/Firefox/Projects/Tabcandy/CodeGuide">walkthrough</a> of the code<br />
-* Download a <a href="http://azarask.in/projects/tabcandy/build.php">Tab Candy-enabled build</a></p>
-
-
-<p>Related posts:</p><ol><li><a href="http://www.azarask.in/blog/post/firefoxnext-tabs-on-the-side/" rel="bookmark" title="Permanent Link: Firefox.next: Tabs on the side?">Firefox.next: Tabs on the side?</a></li>
-<li><a href="http://www.azarask.in/blog/post/tabs-in-the-awesome-bar/" rel="bookmark" title="Permanent Link: Firefox 3.1 Proposal: Tabs in the Awesome Bar">Firefox 3.1 Proposal: Tabs in the Awesome Bar</a></li>
-<li><a href="http://www.azarask.in/blog/post/firefox_20_tabs_gone_wrong/" rel="bookmark" title="Permanent Link: Firefox 2.0: Tabs Gone Wrong">Firefox 2.0: Tabs Gone Wrong</a></li>
-</ol><p></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 15:26:56 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:9:"enclosure";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:3:"url";s:54:"http://people.mozilla.org/~araskin/movies/tabcandy.mov";s:6:"length";s:8:"37828300";s:4:"type";s:15:"video/quicktime";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:10:"Aza Raskin";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:15;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:45:"WoMoz: Links about Women in Computing & FLOSS";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:32:"http://www.womoz.org/blog/?p=464";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:63:"http://www.womoz.org/blog/links-about-women-in-computing-floss/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1664:"<p>
-</p><p>Here are some links to articles, blog posts and websites about women in computing and FLOSS. We will be publishing these kinds of links for time to time concerning these topics, in order to have an overview of what’s new and what is currently going on.</p>
-<ul>
-<li><a href="http://www.womensenews.org/story/women-in-science/100623/it-jobs-offer-growth-women-are-bailing-out">IT Jobs Offer Growth, But Women Are Bailing Out</a></li>
-<li><a href="http://www.ncwit.org/pdf/NCWIT_TheFacts_rev2010.pdf" target="_self">Women in IT: The Facts</a>: A summary of recent research on women in the IT workforce that makes  the business case for increased participation from women and provides  recommendations for action</li>
-<li><a href="http://lwn.net/Articles/396174/">Women in Free Software: Recommendations from the Women’s Caucus</a></li>
-<li><a href="https://digiphile.wordpress.com/2010/04/18/why-including-women-matters-for-the-future-of-technology-and-society/">Why Including Women Matters for the Future of Technology</a></li>
-<li><a href="http://fr.readwriteweb.com/2010/06/21/analyse/femmes-ntic-declin/?utm_source=feedburner&amp;utm_medium=feed&amp;utm_campaign=Feed%3A+readwriteweb-france+%28ReadWriteWeb+France%29">Le Rôle des Femmes dans les NTIC en Déclin</a> (fr)</li>
-<li><a href="http://conferences.ted.com/TEDWomen/">TEDWomen</a></li>
-<li><a href="http://blog.johnath.com/2010/07/13/kathleen-a-faq/">Kathleen, a FAQ</a></li>
-</ul>
-<p>That’s it for this time! Please let us know of any interesting links in comments of this blog, or on our <a href="http://lists.womoz.org/mailman/listinfo/womoz">mailing list</a>. Thanks!</p>
-<p></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 14:43:43 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"Delphine";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:16;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:50:"Rumbling Edge - Thunderbird: Summit 2010, Whistler";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://www.rumblingedge.com/?p=1638";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:59:"http://feedproxy.google.com/~r/rumblingedge/~3/8Dd87u0sWa8/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2059:"<p>#moz10</p>
-<p>So here’s a short little reflection of the recent Summit 2010 at Whistler. I had the chance to meet up with many people, made lots of new friends, and chatted with a couple of acquaintances, especially since I met some at the last Summit. Shoutouts go to wsmwk, davida, dmose, _Tsk_, rebron, Standard8, sid0, jcranmer, gozer, bwinton, rtanglao, (the rest of the Thunderbird team!), Jesse, dvander, gal, dmandelin, jorendorff, brendan, Lucas, pvnick, (the rest of the Security / JS folks!), humph, Gregorio, Julie, (the rest of the Education folks!), Zhang Jinghua, Wen Shaohua, Mozilla China, Amie, mitchell, shaver, lilly, and everyone else I forgot to mention..</p>
-<p>It’s the conversations at such conferences that make all the differences, the private chats by the wayside of all the interesting talks (QA and Fuzz talks were of familiar topics, while Rust seemed really brilliant because I couldn’t really comprehend the entire gist of it). I fully encourage any fellow student (undergraduate or otherwise) to attend these conferences if possible – you don’t fully realize what you’ve brought out of it until it’s over.</p>
-<p>Bear stories seem so commonplace that they no longer seem unique. All was quiet on the rockslide front – they had this new highway into Whistler when the Winter Olympics was held in Whistler, and Fairmont was equally good compared to Westin (sans the power outage!) But of course, we had the party at Roundhouse, and that was epic. <img alt=":)" class="wp-smiley" src="http://www.rumblingedge.com/wp-includes/images/smilies/icon_smile.gif" /> </p>
-<p>And oh, I played Rock Band for the first time after Summit 2008.</p>
-<p>On the way back, the flight to Hong Kong landed after the last connecting flight to Singapore left, so I stayed over at the Marriott Sky City for a night. Internet was expensive (so I didn’t go online), but I could watch Spain win the World Cup 2010 over the Netherlands!</p><img height="1" src="http://feeds.feedburner.com/~r/rumblingedge/~4/8Dd87u0sWa8" width="1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 06:33:29 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:10:"Gary Kwong";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:17;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:68:"Rumbling Edge - Thunderbird: ViewAbout 2.0 broken on Firefox 4 Betas";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://www.rumblingedge.com/?p=1635";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:59:"http://feedproxy.google.com/~r/rumblingedge/~3/1fQB6zSROxc/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:767:"<p>ViewAbout 2.0 seems to be broken on Firefox 4 Beta 1. The about: windows now only show up as grey panes.</p>
-<p>I suspect they might be due to the <a href="http://blog.mozilla.com/addons/2010/07/21/compatibility-for-firefox-4-time-to-get-started/">following</a> <a href="https://developer.mozilla.org/en/XPCOM/XPCOM_changes_in_Gecko_2.0">changes</a>, but I don’t know for sure and might not have much time with the impending school semester ahead of me.</p>
-<p>Patches are welcome at <a href="http://code.google.com/p/viewabout/">Google Code</a> though. <img alt=":)" class="wp-smiley" src="http://www.rumblingedge.com/wp-includes/images/smilies/icon_smile.gif" /> </p><img height="1" src="http://feeds.feedburner.com/~r/rumblingedge/~4/1fQB6zSROxc" width="1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 06:07:03 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:10:"Gary Kwong";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:18;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:55:"Rumbling Edge - Thunderbird: Thunderbird 3.1.1 Released";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://www.rumblingedge.com/?p=1632";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:59:"http://feedproxy.google.com/~r/rumblingedge/~3/b4Hq9i6hQTo/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:6238:"<p><a href="http://www.rumblingedge.com/2010/06/25/thunderbird-3-1-released/">Changelog
-for previous release (Thunderbird 3.1)</a> | <a href="http://www.rumblingedge.com/2005/06/05/thunderbird-release-changelogs/">Changelogs
-for other Thunderbird releases</a></p>
-<p><span style="font-style: italic;">Released on 20 Jul 10, and this
-changelog was last updated on 23 Jul 10.</span></p>
-<p><a href="http://www.rumblingedge.com/2010/07/23/thunderbird-3-1-1-released/">Thunderbird
-3.1.1</a> has been released. Release notes <a href="http://www.mozillamessaging.com/en-US/thunderbird/3.1.1/releasenotes/">are
-available</a>. This post lists the improvements in Thunderbird
-3.1.1
-over Thunderbird 3.1. This list encompasses almost every single
-known fix that went into this release, but excludes platform-wide
-fixes. Do check out the <a href="http://www.mozillamessaging.com/en-US/thunderbird/3.1.1/releasenotes/#issues">known
-issues</a> as well.</p>
-<p>Impact key for security issues (fixed in this version) that are
-listed on the
-<a href="http://www.mozilla.org/security/known-vulnerabilities/thunderbird31.html#thunderbird3.1.1">Mozilla
-Foundation Security Advisories</a> webpage: </p>
-<ul>
-<li><span style="font-weight: bold;">Critical</span>: Vulnerability
-can be used to run attacker code and install software, requiring no
-user interaction beyond normal browsing. <br />
-</li>
-<li><span style="font-weight: bold;">High</span>: Vulnerability can
-be used to gather sensitive data from sites in other windows or inject
-data or code into those sites, requiring no more than normal browsing
-actions.<br />
-</li>
-<li>Moderate: Vulnerabilities that would otherwise be High or
-Critical except they <span style="font-weight: bold;">only work in
-uncommon non-default configurations</span> or require the user to
-perform complicated and/or unlikely steps.</li>
-<li>Low: Minor security vulnerabilities such as Denial of Service
-attacks, minor data leaks, or spoofs. (Undetectable spoofs of SSL
-indicia would have “High” impact because those are generally used to
-steal sensitive data intended for other sites.)<br />
-</li>
-</ul>
-<p style="font-weight: bold;"><big>Other changes in Thunderbird 3.1.1:
-(16)</big></p>
-<p>Thunderbird-specific: (10)</p>
-<ul class="good">
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=309932">309932</a>
-- mail imported from Outlook Sent folder has wrong date (timezone
-confusion)</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=534814">534814</a>
-- Cmd-1 shortcuts doesn’t unminimize (due to change in cocoa widget
-event handling)</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=558543">558543</a>
-- Return receipt notification bar should not be displayed again if user
-chose to ignore/confirm a request (Local Folders / POP3 only)</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=566825">566825</a>
-- Multiple signatures when switching between accounts (signature of
-previously selected account is not removed) in plaintext editor</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=569139">569139</a>
-- Personas/Lightweight themes footer image not shown in Thunderbird 3.1
-statusbar</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=569789">569789</a>
-- PCA complains when installer is cancelled</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=571239">571239</a>
-- Can’t open attachments of certain saved messages</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=572084">572084</a>
-- Thunderbird Text gets background shadow with some
-personas/Lightweight themes</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=575385">575385</a>
-- Empty notification popup upon focus to unavailable mailbox folder</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=577343">577343</a>
-- Errors/warnings should only be alerted if there is a msgWindow
-associated (i.e. as a result of a user action rather than a background
-action)</li>
-</ul>
-<p>MailNews Core: (6)</p>
-<ul class="good">
-<li><strong>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=482432">482432</a>
-- crash [@ nsImapFolderCopyState::OnStopRunningUrl(nsIURI*, unsigned
-int)]</strong></li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=534158">534158</a>
-- mail not send Thunderbird 3 STARTTLS+AUTH (SMTP server retruns AUTH
-to EHLO for connection from external, but doesn’ return AUTH to EHLO
-for connection from internal)</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=534448">534448</a>
-- Folder dropdown for newsgroup filters no longer shows server</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=553353">553353</a>
-- test_offlinePlayback.js intermittently failing</li>
-<li><strong>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=562104">562104</a>
-- Crash on logging into AOL IMAP account [@ NS_MsgHashIfNecessary]</strong></li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=571800">571800</a>
-- undo delete gives IMAP error: “Error in IMAP command UID: Invalid UID
-messageset”</li>
-</ul>
-<p class="windows builds"> <img alt="Windows builds" src="http://www.rumblingedge.com/files/osicons/winicon.png" style="width: 18px; height: 18px;" title="Windows builds" /> <a href="http://www.mozillamessaging.com/thunderbird/download/?product=thunderbird-3.1.1&amp;os=win&amp;lang=en-US">Official
-Windows installer</a></p>
-<p class="linux builds"> <img alt="Linux builds" src="http://www.rumblingedge.com/files/osicons/linuxicon.png" style="width: 18px; height: 18px;" title="Linux builds" /> <a href="http://www.mozillamessaging.com/thunderbird/download/?product=thunderbird-3.1.1&amp;os=linux&amp;lang=en-US">Official
-Linux (i686)</a></p>
-<p class="mac builds"> <img alt="Mac builds" src="http://www.rumblingedge.com/files/osicons/macosx.png" style="width: 18px; height: 18px;" title="Mac builds" /> <a href="http://www.mozillamessaging.com/thunderbird/download/?product=thunderbird-3.1.1&amp;os=osx&amp;lang=en-US">Official
-Mac (Universal binary)</a></p><img height="1" src="http://feeds.feedburner.com/~r/rumblingedge/~4/b4Hq9i6hQTo" width="1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 05:58:54 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:10:"Gary Kwong";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:19;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:55:"Rumbling Edge - Thunderbird: Thunderbird 3.0.6 Released";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://www.rumblingedge.com/?p=1630";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:59:"http://feedproxy.google.com/~r/rumblingedge/~3/HG6Z9AkvQEE/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3843:"<p><a href="http://www.rumblingedge.com/2010/05/29/thunderbird-3-0-5-released/">Changelog
-for previous release (Thunderbird 3.0.5)</a> | <a href="http://www.rumblingedge.com/2005/06/05/thunderbird-release-changelogs/">Changelogs
-for other Thunderbird releases</a></p>
-<p><span style="font-style: italic;">Released on 20 Jul 10, and this
-changelog was last updated on 23 Jul 10.</span></p>
-<p><a href="http://www.rumblingedge.com/2010/07/23/thunderbird-3-0-6-released/">Thunderbird
-3.0.6</a> has been released. Release notes <a href="http://www.mozillamessaging.com/en-US/thunderbird/3.0.6/releasenotes/">are
-available</a>. This post lists the improvements in Thunderbird
-3.0.6
-over Thunderbird 3.0.5. This list encompasses almost every single
-known fix that went into this release, but excludes platform-wide
-fixes. Do check out the <a href="http://www.mozillamessaging.com/en-US/thunderbird/3.0.6/releasenotes/#issues">known
-issues</a> as well.</p>
-<p>Impact key for security issues (fixed in this version) that are
-listed on the
-<a href="http://www.mozilla.org/security/known-vulnerabilities/thunderbird30.html#thunderbird3.0.6">Mozilla
-Foundation Security Advisories</a> webpage: </p>
-<ul>
-<li><span style="font-weight: bold;">Critical</span>: Vulnerability
-can be used to run attacker code and install software, requiring no
-user interaction beyond normal browsing. <br />
-</li>
-<li><span style="font-weight: bold;">High</span>: Vulnerability can
-be used to gather sensitive data from sites in other windows or inject
-data or code into those sites, requiring no more than normal browsing
-actions.<br />
-</li>
-<li>Moderate: Vulnerabilities that would otherwise be High or
-Critical except they <span style="font-weight: bold;">only work in
-uncommon non-default configurations</span> or require the user to
-perform complicated and/or unlikely steps.</li>
-<li>Low: Minor security vulnerabilities such as Denial of Service
-attacks, minor data leaks, or spoofs. (Undetectable spoofs of SSL
-indicia would have “High” impact because those are generally used to
-steal sensitive data intended for other sites.)<br />
-</li>
-</ul>
-<p style="font-weight: bold;"><big>Other changes in Thunderbird 3.0.6:
-(3)</big></p>
-<p>Thunderbird-specific: (1)</p>
-<ul class="good">
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=569789">569789</a>
-- PCA complains when installer is cancelled</li>
-</ul>
-<p>MailNews Core: (2)</p>
-<ul class="good">
-<li><strong>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=482432">482432</a>
-- crash [@ nsImapFolderCopyState::OnStopRunningUrl(nsIURI*, unsigned
-int)]</strong></li>
-<li><strong>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=537815">537815</a>
-- crash [@ morkRowObject::CloseRowObject(morkEnv*)]</strong></li>
-</ul>
-<p class="windows builds"> <img alt="Windows builds" src="http://www.rumblingedge.com/files/osicons/winicon.png" style="width: 18px; height: 18px;" title="Windows builds" /> <a href="http://www.mozillamessaging.com/thunderbird/download/?product=thunderbird-3.0.6&amp;os=win&amp;lang=en-US">Official
-Windows installer</a></p>
-<p class="linux builds"> <img alt="Linux builds" src="http://www.rumblingedge.com/files/osicons/linuxicon.png" style="width: 18px; height: 18px;" title="Linux builds" /> <a href="http://www.mozillamessaging.com/thunderbird/download/?product=thunderbird-3.0.6&amp;os=linux&amp;lang=en-US">Official
-Linux (i686)</a></p>
-<p class="mac builds"> <img alt="Mac builds" src="http://www.rumblingedge.com/files/osicons/macosx.png" style="width: 18px; height: 18px;" title="Mac builds" /> <a href="http://www.mozillamessaging.com/thunderbird/download/?product=thunderbird-3.0.6&amp;os=osx&amp;lang=en-US">Official
-Mac (Universal binary)</a></p><img height="1" src="http://feeds.feedburner.com/~r/rumblingedge/~4/HG6Z9AkvQEE" width="1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 05:52:25 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:10:"Gary Kwong";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:20;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:59:"Rumbling Edge - Thunderbird: 2010-07-22 Calendar 1.0 builds";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://www.rumblingedge.com/?p=1627";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:59:"http://feedproxy.google.com/~r/rumblingedge/~3/5Yf5wrepie4/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:17119:"<p><a href="http://www.rumblingedge.com/2010/06/26/lightning-1-0-beta-2-released/">Previous
-Lightning release</a> (1.0 Beta 2) | Next planned Lightning (1.0 beta
-3?) | <a href="http://www.rumblingedge.com/2006/11/20/sunbird-release-changelogs/">Previous
-releases</a> | <a href="http://www.rumblingedge.com/mozilla-mercurial-source-bundles/">Mercurial
-source bundles</a> (mozilla-central &amp; comm-central)</p>
-<p>Common (excluding Website bugs): (3)</p>
-<ul class="good">
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=568455">568455</a>
-- CalDAV: Momentarily not available calendars are not refreshed</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=572153">572153</a>
-- [zh-TW] No recurrence previews and no saving of task edition when
-range of recurrence is set to be “Repeat until someday”</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=577492">577492</a>
-- new/updated events not always shown when caldav server does not
-support webdav sync</li>
-</ul>
-<p>Outstanding bugs (marked <a href="https://bugzilla.mozilla.org/buglist.cgi?field0-0-0=flagtypes.name;resolution=---;query_format=advanced;type0-0-0=equals;value0-0-0=blocking-calendar1.0%2B;product=Calendar" target="_blank">blocking-calendar1.0+</a>): (91)</p>
-<ul class="bad">
-<li>Since 2004-04-29: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=242112">242112</a>
-- Make calendar keyboard accessible</li>
-<li>Since 2004-09-17: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=260121">260121</a>
-- Make datepicker and timepicker keyboard accessible</li>
-<li>Since 2004-11-17: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=270501">270501</a>
-- the list of events for the listbox (unifinder) is sorted three times</li>
-<li>Since 2004-12-05: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=273279">273279</a>
-- no visual status mark on tentative or cancelled events/tasks</li>
-<li>Since 2005-11-01: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=314594">314594</a>
-- No error message if invalid URL used for new calendar, creates
-invalid calendars</li>
-<li>Since 2005-11-10: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=315959">315959</a>
-- profile ICS calendar reading</li>
-<li>Since 2006-03-04: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=329387">329387</a>
-- Dismissed alarm behave erratically when event is moved</li>
-<li>Since 2006-03-20: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=331112">331112</a>
-- RFC description of WKST does not appear to be followed</li>
-<li>Since 2006-06-14: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=341537">341537</a>
-- Leaking factories/modules for some components</li>
-<li>Since 2006-07-28: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=346278">346278</a>
-- Allow building localized lightning langpacks</li>
-<li><strong>Since 2006-08-22: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=349641">349641</a>
-- Lightning asks for master password again</strong></li>
-<li>Since 2006-08-22: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=349673">349673</a>
-- Alarm dialog shown for new events that are scheduled in the past</li>
-<li>Since 2006-09-30: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=354935">354935</a>
-- undo after moving a single occurrence does the wrong thing</li>
-<li>Since 2006-10-18: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=357112">357112</a>
-- Drag and drop of multiday-event doesn’t drop on days the shadow
-suggests</li>
-<li>Since 2006-11-16: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=360916">360916</a>
-- Snoozed alarm fires at old event time although event time has been
-changed</li>
-<li>Since 2006-11-21: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=361424">361424</a>
-- month view day boxes should draw eventboxes in a batch</li>
-<li>Since 2007-01-06: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=366139">366139</a>
-- Wrong end time set on multi-day events</li>
-<li>Since 2007-01-16: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=367131">367131</a>
-- Allow click and drag event creation in time scale (hours column)</li>
-<li>Since 2007-03-02: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=372424">372424</a>
-- iTIP/iMIP invitation bar doesn’t disappear after changing e-mail
-folder</li>
-<li>Since 2007-03-08: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=373251">373251</a>
-- Can open multiple windows of a single event/task from Agenda, Task
-lists and Unifinder</li>
-<li>Since 2007-03-24: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=375210">375210</a>
-- Revisit alarm dialog dismissal/snooze user experience</li>
-<li>Since 2007-07-23: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=389281">389281</a>
-- Write to read-only ICS store creates event on screen</li>
-<li>Since 2007-07-31: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=390293">390293</a>
-- Event/task dialog does nothing upon “Save and close” when
-Thunderbird/Sunbird main window is closed</li>
-<li>Since 2007-08-29: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=394195">394195</a>
-- Dialogs need a scroll bar or minimum height/width</li>
-<li>Since 2007-09-08: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=395504">395504</a>
-- Allow to have localized default values for some preferences
-(lightning-l10n.js not shipped)</li>
-<li>Since 2007-09-24: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=397323">397323</a>
-- Invite Attendees dialog: cannot move/resize the splitter between
-attendees and grid</li>
-<li>Since 2007-10-18: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=400267">400267</a>
-- short events besides a whole-day spanning event are leaving the time
-scale grid</li>
-<li>Since 2007-10-30: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=401731">401731</a>
-- Modified Occurrence Shown twice in alarm dialog</li>
-<li>Since 2007-11-03: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=402376">402376</a>
-- Custom reminder dialog is hardly localizable</li>
-<li>Since 2007-11-15: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=403922">403922</a>
-- Multiweek scroll / next / previous is too slow with multiple calendars</li>
-<li>Since 2007-11-21: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=404900">404900</a>
-- Add Accept/Decline to Calendar item’s context menu</li>
-<li>Since 2007-11-22: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=405007">405007</a>
-- Create unittest buildbots for Calendar</li>
-<li>Since 2008-01-17: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=412803">412803</a>
-- Add selector of writeable calendars to the “click here to create a
-task” line</li>
-<li><strong>Since 2008-01-18: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=412914">412914</a>
-- Enable offline caching for a calendar with many events -&gt; startup
-horrible slow</strong></li>
-<li>Since 2008-01-18: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=412963">412963</a>
-- [Offline] Disabled cached calendars become visible after
-synchronization</li>
-<li>Since 2008-01-23: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=413641">413641</a>
-- Launch Lightning Release Notes on update of extension</li>
-<li>Since 2008-03-10: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=421986">421986</a>
-- Adding events to invisible CalDAV calendars does not force visibility</li>
-<li>Since 2008-03-24: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=424808">424808</a>
-- addItem in calendar-month-day-box scales badly</li>
-<li>Since 2008-04-06: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=427403">427403</a>
-- CTRL+Cursor Down for selecting multiple items from a list of Mail
-messages or Tasks loses focus (need new keyboard shortcut for
-Lightning’s Today tab)</li>
-<li>Since 2008-04-27: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=431076">431076</a>
-- Add keyboard navigation/accessibility for the calendar views</li>
-<li>Since 2008-04-28: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=431265">431265</a>
-- No error messages or status if network calendar is unavailable</li>
-<li>Since 2008-06-10: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=438369">438369</a>
-- Create database backup before performing a database upgrade</li>
-<li>Since 2008-06-26: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=441992">441992</a>
-- caldav calendar isn’t switched off after canceling the login dialog</li>
-<li>Since 2008-06-29: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=442607">442607</a>
-- Reminder details link does not work if calendar window is closed</li>
-<li>Since 2008-09-01: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=453186">453186</a>
-- Drag and drop issues in day/week view if mouse leaves the calendar
-view (with exceptions)</li>
-<li>Since 2008-09-12: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=455045">455045</a>
-- current day highlight should trump currently selected day</li>
-<li>Since 2008-09-14: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=455260">455260</a>
-- Present CalDAV parsing error messages in activity manager</li>
-<li>Since 2008-09-20: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=456208">456208</a>
-- Disabling calendars autorefresh does not prevent cached calendar sync</li>
-<li>Since 2008-09-24: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=456706">456706</a>
-- Replying to a CalDAV invitation returns MODIFICATION_FAILED but
-succeeds.</li>
-<li>Since 2008-10-13: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=459641">459641</a>
-- Tabs and tab shortcut buttons should perform as drop target to
-convert events tasks, e-mail messages</li>
-<li>Since 2008-10-15: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=460027">460027</a>
-- Check what files can be removed during upgrade to 1.0 and add them to
-removed-files.in</li>
-<li>Since 2008-10-15: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=460075">460075</a>
-- Consolidate logging, support fine-grained logging</li>
-<li>Since 2008-10-29: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=462277">462277</a>
-- Turn on experimental cache by default</li>
-<li>Since 2008-10-29: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=462280">462280</a>
-- profile Tb startup time with and without Lightning</li>
-<li>Since 2008-10-30: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=462305">462305</a>
-- Lots of warning messages in Error Console when in offline mode</li>
-<li>Since 2008-11-04: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=463030">463030</a>
-- Until date of recurrence rule can set before start date of event</li>
-<li>Since 2008-11-05: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=463275">463275</a>
-- Edit Recurrence dialog shows wrong rule when editing event</li>
-<li>Since 2008-11-18: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=465512">465512</a>
-- New navigation bar contains some flaws under MacOS</li>
-<li>Since 2008-11-20: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=466032">466032</a>
-- Reminder dialog without events appears when experimental cache is
-enabled</li>
-<li>Since 2008-11-25: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=466742">466742</a>
-- Event color changing actions shouldn’t need re-calculation of
-calendar view [i.e. changing calendar of event]</li>
-<li>Since 2008-12-10: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=468863">468863</a>
-- The richlistbox item for a reminder has two buttons with empty
-accessible names</li>
-<li>Since 2008-12-28: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=471378">471378</a>
-- Create gnome theme (gnomestripe)</li>
-<li>Since 2009-01-07: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=472448">472448</a>
-- Minimonth missing accessible name and navigation</li>
-<li>Since 2009-01-21: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=474607">474607</a>
-- Events with start times and titles starting with a digit are
-truncated in all calendar views</li>
-<li>Since 2009-01-26: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=475376">475376</a>
-- Unify wording: “reminder” instead of “alarm”</li>
-<li>Since 2009-05-02: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=491118">491118</a>
-- reminder for recurring non-dismissed events fire again after
-hibernation (double/twice in alarm popup)</li>
-<li>Since 2009-05-08: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=492069">492069</a>
-- Lightning corrupts ATTENDEE / ORGANIZER with CN parameter that
-contains a comma</li>
-<li>Since 2009-05-23: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=494598">494598</a>
-- Update Lightning icons to match Thunderbird 3.0 default theme</li>
-<li>Since 2009-06-08: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=496893">496893</a>
-- The displaying of many alarms seems to take excessive resources</li>
-<li>Since 2009-06-09: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=497095">497095</a>
-- faulty operations retains the new ctag</li>
-<li>Since 2009-06-17: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=498968">498968</a>
-- Create a new, faster storage provider</li>
-<li>Since 2009-06-24: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=500156">500156</a>
-- Investigate the influence of native theming of groupboxes on Windows</li>
-<li>Since 2009-06-27: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=500916">500916</a>
-- Access key conflict in menu “Events and Tasks”</li>
-<li>Since 2009-06-29: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=501302">501302</a>
-- Improve View performance by removing unneeded boxes (fixes
-regression: alarm icon cropped, misplaced)</li>
-<li>Since 2009-07-01: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=501689">501689</a>
-- Investigate making storage asynchronous</li>
-<li>Since 2009-07-02: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=502095">502095</a>
-- “Write” popup menu and Today pane statusbar item have odd icons</li>
-<li>Since 2009-07-07: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=502936">502936</a>
-- cached calendars should not be refreshed at launch time</li>
-<li>Since 2009-09-15: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=516802">516802</a>
-- Refactor &amp; cleanup mode and calendar view switching + today pane
-code</li>
-<li>Since 2009-10-05: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=520667">520667</a>
-- Pressing Select All (Ctrl + A) in the tasks view selects all the
-items in the calendar view</li>
-<li>Since 2009-10-22: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=523860">523860</a>
-- Do not escape double quote character ” to \” in iCalendar output
-(potential RFC 2445 violation)</li>
-<li>Since 2009-11-03: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=526288">526288</a>
-- keyboard short cuts used to zoom message body only work after zooming
-using the view/zoom menu item</li>
-<li>Since 2009-11-07: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=527254">527254</a>
-- Lightning Command Controller tracker</li>
-<li>Since 2009-11-12: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=528329">528329</a>
-- Alarm is not fired when dismissed and later set reminder again</li>
-<li>Since 2009-11-22: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=530423">530423</a>
-- The m√©ga awful slowness of sunbird with caldav schedules</li>
-<li>Since 2009-12-04: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=532874">532874</a>
-- Unable to add new events or tasks because units for alarm preferences
-are missing</li>
-<li>Since 2009-12-05: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=533096">533096</a>
-- Consolidate theming to make more css common</li>
-<li>Since 2010-02-12: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=545838">545838</a>
-- Run mozmill tests as part of the build process</li>
-<li><strong>Since 2010-02-18: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=547168">547168</a>
-- crash [@ libgobject-2.0.so.0.2200.4@0xc2c0] [@ wait_for_retrieval] on
-double-click, instead of opening New Event dialog</strong></li>
-<li>Since 2010-05-09: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=564697">564697</a>
-- Provide debug symbols of calendar binaries for crash report analyses</li>
-<li>Since 2010-05-20: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=567197">567197</a>
-- Most of entities calendar.context.delete* are useless</li>
-<li style="font-style: italic;"><strong>Since 2010-06-29: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=575782">575782</a>
-- Lightning 1.0 beta 2 does not work with non-ASCII characters in event
-names</strong></li>
-</ul>
-<p>One can get the latest Lightning .xpis <a href="http://ftp.mozilla.org/pub/mozilla.org/calendar/lightning/nightly/latest-comm-1.9.2/">here</a>.</p>
-<p>Sunbird <a href="http://weblogs.mozillazine.org/calendar/2010/04/sunbird_10_beta1_now_available.html">will
-no longer be actively developed</a> by the Calendar team.</p><img height="1" src="http://feeds.feedburner.com/~r/rumblingedge/~4/5Yf5wrepie4" width="1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 05:31:37 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:10:"Gary Kwong";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:21;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:71:"Rumbling Edge - Thunderbird: 2010-07-22 Thunderbird comm-central builds";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://www.rumblingedge.com/?p=1625";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:59:"http://feedproxy.google.com/~r/rumblingedge/~3/UAGTYgQZjzs/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:5037:"<p><a href="http://www.rumblingedge.com/2010/07/23/thunderbird-3-1-1-released/">Previous
-TB release</a> – 3.1.1 | Current TB pre-release – 3.2a1? | <a href="http://www.rumblingedge.com/2005/06/05/thunderbird-release-changelogs/">Previous
-releases</a> | <a href="http://www.rumblingedge.com/mozilla-mercurial-source-bundles/">Mercurial
-source bundles</a> (mozilla-central &amp; comm-central)</p>
-<p>Thunderbird-specific: (9)</p>
-<ul class="good">
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=472069">472069</a>
-- Make assertions fatal on Thunderbird leak/bloat boxes</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=526842">526842</a>
-- Test major upgrade from 2.0.0.x to 3.0.x</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=531052">531052</a>
-- Folder pane scrolling lags/slow after gloda “search all messages”
-leaves folders open with increased memory</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=534814">534814</a>
-- Cmd-1 shortcuts doesn’t unminimize (due to change in cocoa widget
-event handling)</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=545630">545630</a>
-- Moving message from IMAP folder with no delete access retries
-indefinitely</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=561427">561427</a>
-- protocol errors on libnotify-based systems show only empty popup
-notification windows</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=571239">571239</a>
-- Can’t open attachments of certain saved messages</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=574952">574952</a>
-- Thunderbird 3.1 account list / folder pane slow to scroll on Mac</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=575385">575385</a>
-- Empty notification popup upon focus to unavailable mailbox folder</li>
-</ul>
-<p>MailNews Core: (8)</p>
-<ul class="good">
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=522633">522633</a>
-- Migration results in useSecAuth set for SMTP servers even though
-secure connection is selected</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=550812">550812</a>
-- Attachment isn’t show</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=575156">575156</a>
-- Apply the needed NS_NEWXPCOM/NS_DELETEXPCOM changes from Bug 562387
-to Comm-Central</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=575197">575197</a>
-- Apply the needed NS_NEWXPCOM/NS_DELETEXPCOM changes from Bug 562387
-to Comm-Central’s directory/</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=575740">575740</a>
-- Make comm-central XPCOM components use new manifests and data tables</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=576708">576708</a>
-- Receiving error – The current operation did not succeed. The mail
-server for account [name] responded: [CANNOT] Mailbox isn’t selectable:
-[Parent Folder].</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=577896">577896</a>
-- morkParser::ParseMore doesn’t need rv</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=577897">577897</a>
-- morkTable::GetPort doesn’t need ev</li>
-</ul>
-<p>Outstanding bugs (marked <a href="https://bugzilla.mozilla.org/buglist.cgi?negate1=1;type1-0-0=substring;field0-0-0=cf_blocking_thunderbird32;resolution=---;query_format=advanced;value1-0-0=security;type0-0-0=equals;value0-0-0=alpha1%2B;field1-0-0=bug_group" target="_blank">blocking-thunderbird3.2</a> marked as “alpha1+”): (0)</p>
-<p class="windows builds"> <img alt="Windows builds" src="http://www.rumblingedge.com/files/osicons/winicon.png" style="width: 18px; height: 18px;" title="Windows builds" />
-<a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/2010-07-22-03-comm-central-trunk/thunderbird-3.2a1pre.en-US.win32.zip">Official
-Windows</a>, <a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/2010-07-22-03-comm-central-trunk/thunderbird-3.2a1pre.en-US.win32.installer.exe">Official
-Windows installer</a> (<a href="http://forums.mozillazine.org/viewtopic.php?f=29&amp;t=1953095" target="_blank">discussion</a>)</p>
-<p class="linux builds"> <img alt="Linux builds" src="http://www.rumblingedge.com/files/osicons/linuxicon.png" style="width: 18px; height: 18px;" title="Linux builds" />
-<a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/2010-07-22-03-comm-central-trunk/thunderbird-3.2a1pre.en-US.linux-i686.tar.bz2">Official
-Linux (i686)</a></p>
-<p class="mac builds"> <img alt="Mac builds" src="http://www.rumblingedge.com/files/osicons/macosx.png" style="width: 18px; height: 18px;" title="Mac builds" />
-<a href="http://ftp.mozilla.org/pub/mozilla.org/thunderbird/nightly/2010-07-22-06-comm-central-trunk/thunderbird-3.2a1pre.en-US.mac.dmg">Official
-Mac (Universal binary)</a></p><img height="1" src="http://feeds.feedburner.com/~r/rumblingedge/~4/UAGTYgQZjzs" width="1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 05:25:20 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:10:"Gary Kwong";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:22;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:47:"Burning Edge - Firefox: 2010-07-22 Trunk builds";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:44:"http://www.squarefree.com/burningedge/?p=869";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:73:"http://www.squarefree.com/burningedge/2010/07/22/2010-07-22-trunk-builds/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:5705:"<div class="burningedge">
-
-<p>Fixes:</p>
-<ul class="good">
-<li><strong>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=564991">564991</a> - <a href="http://weblogs.mozillazine.org/roc/archives/2010/07/retained_layers.html">Retain layers and layer contents</a>.</strong></li>
-<li><strong>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=563878">563878</a> - Allow documents in the same view manager hierarchy to have different zoom.</strong></li>
-<li><strong>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=475530">475530</a> - Support X-FRAME-OPTIONS header for <a href="http://en.wikipedia.org/wiki/Clickjacking">clickjacking</a> defense.</strong></li>
-<li><strong>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=511339">511339</a> - Implement experimental support for -moz-font-feature-opentype.</strong></li>
-<li><strong>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=518663">518663</a> - ES5: Object.getOwnPropertyNames.</strong></li>
-<li><strong>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=576553">576553</a> - Don't restart for extension installation any more (No EM restart).</strong></li>
-<li><strong>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=558287">558287</a> - Add support for searching add-ons on AMO via the addon manager's search bar.</strong></li>
-
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=560692">560692</a> - Create style panel for web page inspector.</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=575560">575560</a> - Hook up session restore with app tabs.</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=553576">553576</a> - Implement css resize property behaviour (change -moz-resize to resize).</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=549475">549475</a> - Implement HTML5-specified value sanitization algorithm for HTMLInputElement.</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=289384">289384</a> - Rich text editor: cmd+left should go to beginning of line, not back in history.</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=575896">575896</a> - Bookmark Toolbar context menu does not work after customize.</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=322736">322736</a> - Reorder menus so "New Tab" items are above "New Window" items.</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=514739">514739</a> - Remove "Block images from www.site.com".</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=556400">556400</a> - Implement asyncable VisitURI.</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=578696">578696</a> - Stop holding strong refs to mutation observers.</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=577309">577309</a> - Stop using indices into content child lists in frame construction.</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=574517">574517</a> - Separate inner and outer window classes.</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=516832">516832</a> - Conservative Stack Scanning for JS GC.</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=574299">574299</a> - TM: implement a runtime-wide wrap hook.</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=574539">574539</a> - TM: implement new chrome wrappers (aka COW).</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=574502">574502</a> - TM: implement new content wrappers (aka SJOW).</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=574924">574924</a> - TM: implement remaining wrappers.</li>
-
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=575222">575222</a> - [Windows] Exiting out of fullscreen always restores window.</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=575005">575005</a> - [Windows] Status bar disappears when enabling the menu bar.</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=573412">573412</a> - [Mac] Remove the toggle toolbar (pill) button from the main window.</li>
-</ul>
-
-<p>Fixes for recent regressions:</p>
-<ul class="good">
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=557225">557225</a> - [Mac] [OOPP] plugin processes should not show up in the dock.</li>
-<li>Fixed: <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=574511">574511</a> - Make bookmarks button customize-able (movable and removable by users).</li>
-</ul>
-
-<p><a href="http://hg.mozilla.org/mozilla-central/pushloghtml?startdate=2010-07-05+04%3A00%3A00&amp;enddate=2010-07-22+04%3A00%3A00">All changes between 2010-07-05 04:00 and 2010-07-22 04:00</a></p>
-
-<p class="windows builds">
-<img alt="Windows builds:" height="18" src="http://www.squarefree.com/burningedge/winicon.png" width="18" />
-
-<a href="https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2010/07/2010-07-22-04-mozilla-central/">Windows nightly</a>
-
-(<a href="http://forums.mozillazine.org/viewtopic.php?t=1952711">discussion</a>)</p>
-
-
-<p class="mac builds">
-<img alt="Mac builds:" height="18" src="http://www.squarefree.com/burningedge/macosx.png" width="18" />
-
-<a href="https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2010/07/2010-07-22-03-mozilla-central/">Mac nightly</a>
-
-</p>
-
-
-<p class="linux builds">
-
-<img alt="Linux builds:" height="18" src="http://www.squarefree.com/burningedge/linuxicon.gif" width="18" />
-
-<a href="https://ftp.mozilla.org/pub/mozilla.org/firefox/nightly/2010/07/2010-07-22-03-mozilla-central/">Linux nightly</a>
-
-</p>
-
-
-</div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 04:00:11 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:14:"Jesse Ruderman";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:23;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:65:"Mozilla Add-ons Blog: Mozilla Add-ons Workshop – London Wrap-up";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:38:"http://blog.mozilla.com/addons/?p=1711";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:82:"http://blog.mozilla.com/addons/2010/07/22/mozilla-add-ons-workshop-london-wrap-up/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1502:"<p>Three weeks ago we held our <a href="https://wiki.mozilla.org/MozAdd-onsWorkshop:2010:London">Mozilla Add-ons Workshop</a> in London. Speaking for the presenters, we had a blast and were excited to see so many engaged people from the community in attendance. And judging from the blog posts and tweets about the event, most people enjoyed the event and found the talks very helpful.</p>
-<p>A number of the speakers have written summaries of their talks and included slides, videos, and links mentioned during their presentations:</p>
-<ul>
-<li>Nick Nguyen – <a href="http://osunick.com/2010/07/16/london-add-ons-workshop/">Opening Keynote</a> (slides)
-</li><li>Justin Scott – <a href="http://blog.fligtar.com/2010/07/02/making-add-ons-people-will-love/">Making Add-ons People Will Love</a> (slides and video)</li>
-<li>Myk Melez – <a href="http://mykzilla.blogspot.com/2010/07/my-recent-jetpack-presentations.html">Jetpack SDK and Add-on Builder demo</a> (slides and video)</li>
-</ul>
-<p>Chris Heilmann also has a <a href="http://www.wait-till-i.com/2010/07/01/mozilla-add-on-workshop-and-firefox4-with-html5-css3-and-svg/">great write-up</a> on his blog with notes on every talk and several videos.</p>
-<p>We hope everyone enjoyed the event and can’t wait until our next Mozilla Add-ons Workshop!</p>
-<p style="text-align: center;"><a href="http://www.flickr.com/photos/fligtar/4754464036/in/set-72157624279632549"><img src="http://blog.mozilla.com/addons/files/2010/07/london.jpg" /></a></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 00:45:47 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:22:"Justin Scott (fligtar)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:24;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:26:"Rock Your Firefox: Sxipper";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:34:"http://rockyourfirefox.com/?p=1294";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:43:"http://rockyourfirefox.com/2010/07/sxipper/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3762:"<p>Forget your passwords! Sxipper fills in forms and manages passwords and OpenIDs, accurately and securely.</p>
-<p><img alt="" class="attachment-large wp-post-image" height="150" src="http://rockyourfirefox.com/rockyourfirefox_content/uploads/2010/05/Sxipper_Image1.png" title="" width="200" /></p><p><a href="https://addons.mozilla.org/en-US/firefox/addon/4865/" target="_blank">Sxipper</a> has been with me from the beginning. It’s hard enough to crank out an array of original, high-security passwords laced with numerals and characters, but then you have to remember them? Not anymore.</p>
-<p>Usernames can vary too—from your email address (which one?!) to first name/last initial or first name only, and autogenerated choices like elise876. Yikes.</p>
-<p>Sxipper is a secure and simple add-on that saves my username <em>and</em> password for any given site and remembers them the next time I visit. Even if that visit is months later. If I have two accounts for the same site, Sxipper prompts me with different possible usernames. I don’t even have to remember the first letter:</p>
-<p><a href="http://rockyourfirefox.com/2010/07/sxipper/sxipper_image1/" rel="attachment wp-att-1295"><img alt="" class="aligncenter size-full wp-image-1295" height="150" src="http://rockyourfirefox.com/rockyourfirefox_content/uploads/2010/05/Sxipper_Image1.png" title="Sxipper_Image1" width="200" /></a></p>
-<p>These days Firefox has Password Manager built in, and it covers some of the same bases as Sxipper. But Sxipper takes things a bit further, like helping you with forms. You create “personas” (not to be confused with the <a href="http://www.getpersonas.com/en-US/" target="_blank">Personas</a> we feature occasionally to dress up your Firefox) which include info like your name and address. Each Sxipper persona saves the name, address, phone, and other info you designate. Users might have a “business” and a “personal” persona, for example:</p>
-<p><a href="http://rockyourfirefox.com/2010/07/sxipper/sxipper_image2/" rel="attachment wp-att-1296"><img alt="" class="aligncenter size-medium wp-image-1296" height="329" src="http://rockyourfirefox.com/rockyourfirefox_content/uploads/2010/05/Sxipper_Image2-444x329.png" title="Sxipper_Image2" width="444" /></a></p>
-<p><a href="http://rockyourfirefox.com/2010/07/sxipper/sxipper_image3/" rel="attachment wp-att-1297"><img alt="" class="aligncenter size-medium wp-image-1297" height="307" src="http://rockyourfirefox.com/rockyourfirefox_content/uploads/2010/05/Sxipper_Image3-443x307.png" title="Sxipper_Image3" width="443" /></a></p>
-<p>And you always have the option of choosing the “dummy” email for added privacy:</p>
-<p><a href="http://rockyourfirefox.com/2010/07/sxipper/sxipper_image4/" rel="attachment wp-att-1298"><img alt="" class="aligncenter size-medium wp-image-1298" height="328" src="http://rockyourfirefox.com/rockyourfirefox_content/uploads/2010/05/Sxipper_Image4-443x328.png" title="Sxipper_Image4" width="443" /></a></p>
-<p>Some users may find the Password Manager that’s built into Firefox to be plenty, but give <a href="https://addons.mozilla.org/en-US/firefox/addon/4865/" target="_blank">Sxipper</a> a try and see if the extra help makes your life easier.</p>
-<hr /><p><strong><a href="https://addons.mozilla.org/addon/4865?src=rockyourfirefox" title="Get this add-on for Firefox">Get It Now</a></strong></p><p>Sxipper  2.3.3 has been tested and approved by Mozilla. <a href="http://rockyourfirefox.com/faq/#review">learn more</a></p><p>Developed by <a href="http://www.sxipper.com">Sxipper, Inc.</a></p><p><a href="http://www.sxipper.com">Visit this Add-on's Home Page</a></p><hr /><p>Post from Elise Allen, who thinks it's great when a shortcut keeps you secure.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 00:14:30 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Elise Allen";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:25;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:30:"Taras Glek: File Fragmentation";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"http://blog.mozilla.com/tglek/?p=330";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:60:"http://blog.mozilla.com/tglek/2010/07/22/file-fragmentation/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:5217:"<p>Files are considered fragmented when they aren’t laid out in a continuous chunk on disk. This causes extra seeks even if the file is being read sequentially.</p>
-<p>I was discussing startup over dinner, someone  asked about how much of an issue fragmentation is in Firefox.</p>
-<p>Early on I decided to pretend that fragmentation does not exist as we had bigger fish to fry. We were opening too many files on startup, effectively causing our own high-level fragmentation. Luckily, that problem should be mostly solved in Firefox 4 once <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=556644">omnijar</a> and <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=561842">fat xul</a> bugs land (unfortunately, extensions can cause similar issues until we stick em into a <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=533038">single file</a>).</p>
-<p>To measure fragmentation I used my SystemTap <a href="http://hg.mozilla.org/users/tglek_mozilla.com/startup/file/782c42e1d6a4/kernelio.stp">script</a> to get a list of files opened (one could also use strace or any similar tool) and piped the results to filefrag. Filefrag is a Linux fragmentation-measuring utility. On Windows one can use <a href="http://technet.microsoft.com/en-us/sysinternals/bb897428.aspx">contig</a> and Mac OS X features <a href="http://www.osxbook.com/software/hfsdebug/">hfsdebug</a>. I’m using ext4 on Linux.</p>
-<p>My top offenders were:<code><br />
-places.sqlite: 34 extents<br />
-cookies.sqlite: 18 extents<br />
-XPC.mfasl: 11 extents<br />
-Cache/_CACHE_003_: 11 extents<br />
-urlclassifier3.sqlite: 6 extents<br />
-Cache/_CACHE_002_: 6 extents<br />
-Cache/_CACHE_001_: 6 extents<br />
-XUL.mfasl: 5 extents<br />
-formhistory.sqlite: 5 extents<br />
-content-prefs.sqlite: 4 extents<br />
-libxul.so: 4 extents<br />
-signons.sqlite: 3 extents<br />
-icon-theme.cache: 2 extents<br />
-libatk-1.0.so.0.2809.1: 2 extents<br />
-libflashplayer.so: 2 extents<br />
-Cache/_CACHE_MAP_: 2 extents<br />
-</code></p>
-<p>I did an informal poll of my friends and it seems that the order of fragmentation is similar among them, only the magnitude differs. For example, XFS tends to be 10-20 times more fragmented than ext4 <img alt=":)" class="wp-smiley" src="http://blog.mozilla.com/tglek/wp-includes/images/smilies/icon_smile.gif" /> . I don’t have any numbers for HFS+, but I suspect XFS takes the crown as most fragmentation-prone filesystem to run Firefox.</p>
-<p>Interestingly, my friend running NTFS reported similar fragmentation to ext4. That was disappointing as Windows Prefetch supposedly defragments files used with the first 10 seconds of startup. Clearly, isn’t keeping up in this case.</p>
-<p><strong>Preliminary Conclusions</strong></p>
-<p>places.sqlite is the largest and most performance-critical file in Firefox. It contains browser history and bookmarks. It is the brains behind the AwesomeBar.The fact that it is severely affected by fragmentation significantly impacts Firefox responsiveness. There are no easy fixes for fragmentation there. mak suggested moving history to a separate file to mitigate this, but that isn’t an easy change.</p>
-<p>In contrast, cookies.sqlite is tiny(&lt;1mb for me) and probably so fragmented  due to cookie expiration. I am guessing that easiest workaround here is to write a new sqlite file every time there is a mass update to the file.</p>
-<p>urlclassifier.sqlite is a large file that may be mitigated similarly to cookies.</p>
-<p><a href="http://www.sqlite.org/releaselog/3_7_0.html">SQLite 3.7.0</a> came out today which features WAL logging, which may reduce fragmentation (or make battling it easier). In general, sqlite’s VACUUM (used to clean and compact the database) command does not help with fragmentation, we really need to be doing something like hot backup which would create a new database file every VACUUM.</p>
-<p>Our cache code is ancient and sucks. The cache files get fragmented immediately and severely. They are accessed in insane patterns and they get laid out insanely on disk. There are some efforts to improve the code, but I suspect that’s equivalent to putting <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=513008">lipstick</a> on a pig.</p>
-<p>*.mfasl files are due to be obsoleted by a <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=520309">startup cache</a> jar. It may get less fragmented. Should be a straight-forward fix it if it does get fragmented.</p>
-<p>I’m disappointed to see the .so files get fragmented. This might be an ext4 bug or has something to do with how the updater works (both ours and yum on Fedora).</p>
-<p><strong>Further Work</strong></p>
-<p>I would like to see more data on fragmentation on Windows/OSX. Feel free to leave a comment with fragmentation numbers for cache, mfasl, sqlite and .dll files in your Firefox. We should look into online <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=556326">defragmentation API</a>s in modern OSes.</p>
-<p><strong>Workarounds?</strong></p>
-<p>Easiest way to fix fragmented files is to make a copy of the original file, delete the original and then rename the copy. This works on sane filesystems, apparently it doesn’t work too well on OS X.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 22 Jul 2010 22:55:44 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:5:"tglek";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:26;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:34:"Gervase Markham: Intermittent Gerv";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:48:"tag:weblogs.mozillazine.org,2010:/gerv//25.20626";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:85:"http://feedproxy.google.com/~r/HackingForChrist/~3/8VL188vuEgM/intermittent_gerv.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:913:"<p>I will be around only very intermittently for at least the next six weeks, because I will be doing the following things:</p>
-
-<ul>
-<li>Helping run a <a href="http://www.canalcruise.org/">Christian kids camp on canal boats</a>
-</li><li><a href="http://weblogs.mozillazine.org/gerv/archives/2010/07/kidneying_around.html">Getting one of my kidneys pierced</a>
-</li><li>Relaxing on my fiancée's family's holiday
-</li><li>Preparing to get married
-</li><li><a href="http://www.gervandruthwedding.net/">Getting married</a>
-</li><li><a href="http://www.no-way-jose-its-a-state-secret.net/">Going on honeymoon</a>
-</li><li>Moving in to our new flat
-</li></ul>
-
-<p>So, if you are hoping for me to do something, please expect highly delayed service. We thank you for your patience. See you in September :-)</p>
-      
-    <img height="1" src="http://feeds.feedburner.com/~r/HackingForChrist/~4/8VL188vuEgM" width="1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 22 Jul 2010 22:26:03 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:23:"gerv@mozilla.org (gerv)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:27;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:60:"Firefox Support Blog: Another support home run: Firefox Home";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"http://blog.mozilla.com/sumo/?p=1213";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:78:"http://blog.mozilla.com/sumo/2010/07/22/another-support-home-run-firefox-home/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2278:"<p><a href="http://blog.mozilla.com/sumo/files/2010/07/feature-home.png"><img alt="" class="alignnone size-full wp-image-1214" height="301" src="http://blog.mozilla.com/sumo/files/2010/07/feature-home.png" title="feature-home" width="200" /></a><br />
-<a href="http://www.mozilla.com/en-US/mobile/home/">Firefox Home</a> hit the Apple App Store late last Thursday night and quickly shot up to number 10 on the free apps list. So early on Friday we were getting lots of questions from users in the forums. Here’s how we were able to identify common issues, take care of everyone and help the developers prepare an update within the first 24 hours.</p>
-<p>Our preparation began more than a month ago.  I was one of the beta testers for the app and used that experience to create four articles for the Knowledge Base. Cheng got a new <a href="https://support.mozilla.com/en-US/forum/6">Firefox Home support forum</a> in place and  began meeting regularly with the Firefox Home team.</p>
-<p>Then, on release day, as Cheng and I answered people’s questions in the forum, a few distinct issues began to emerge. By working with Dan, the developer, and Ragavan the project lead, we were able to get solutions out to users and get feedback about what worked and what didn’t. Later in the day, Cheng met with the Firefox Home team to go through forum feedback and App Store comments. Based on this, they came up with plan of action. We immediately updated all of the existing documentation to show users how to avoid or fix the issues we’d seen (Cheng even created an entirely new article). The Firefox Home team prepared an update for the app, updated it’s description and emailed users with solutions from our updated articles. In addition, the app update included a direct link to the new article that Cheng wrote which required an emergency SUMO push late Friday night (thanks paulc and fox2mike!).</p>
-<p>The result was that we were able to answer everyone’s questions in the forum that first day. And with the updated documentation in place, we’ve seen almost no new forum traffic. I’m really excited about how responsive we were able to be by working closely with the Firefox Home team and I’m looking forward to being able to repeat this with other releases.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 22 Jul 2010 22:20:40 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Michael Verdi";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:28;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:37:"Kev Needham: on using Firefox at work";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:31:"http://kev.deadsquid.com/?p=914";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:31:"http://kev.deadsquid.com/?p=914";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2972:"<p>We’ve had some good press in the last month or two, notably <a href="http://www.sutor.com/c/2010/07/ibm-moving-to-firefox-as-default-browser/">IBM’s announcement of Firefox as its default browser</a>, and a <a href="http://www.forrester.com/rb/research">Forrester Research</a> report stating that <a href="http://www.pcworld.idg.com.au/article/347493/forrester_windows_7_enterprise_use_rises_ie_falls/">Firefox has a 20% share</a> in the companies they surveyed. I think it’s important that we have a good story for getting Firefox into the hands of people in the work environment, but the story needs to be put together. This is where you come in.</p>
-<p>At the <a href="https://wiki.mozilla.org/Summit2010">Mozilla Summit</a> a week and a half ago, I gave a 30-minute talk on some of the challenges the IT groups that support us face with deploying Firefox. It’s not a new discussion by any means, but it’s something I’d like to raise awareness on within the community and actively contribute to addressing.  I wanted to get people thinking about all the bits outside the product at a high level, and called out what I think are the important parts along with what we’ll need to do. It’s not exhaustive, but I think it got the point across, and there were some great follow-on conversations that are on-going. </p>
-<p>Our <a href="http://www.mozilla.org/about/mission.html">mission</a> is to promote openness, innovation, and opportunity on the web. Making it easier for organizations to use our products in their workplace is a great opportunity to take that message to them. There’s a lot of people who use us at home, but who’d also love to use us at work. I want to help make that happen and, thankfully, I’m not alone.</p>
-<p>The end game is to improve support for groups that are looking to get Firefox into the hands of their organization’s users, and to get the <a href="http://wiki.mozilla.org/Enterprise">working group</a> that addresses these problems spun back up to share how they do it with everyone else. There’s interest from organizations that want to use Firefox in their workplace, and a need for information on how to do it repeatably.  The latter part is the tricksy bit, and I’m hoping to work on this with some like-minded individuals in the short and long term.</p>
-<p>A few people have asked for the slides, so I figured I’d post them here. My presentation slides <a href="http://docs.google.com/present/edit?id=0AY_U7DtsY-XpZGY5endwNGpfN2h0dDZtZmNk&amp;hl=en&amp;authkey=CODku_cG">can be viewed using Google Docs</a>, and if you want them in an editable format all you have to do is ask. I’d love to hear what you think, and would also love for you to get involved. If you’re interested in participating, add your name to the Working Group’s <a href="https://wiki.mozilla.org/Enterprise#Participants">Participants</a> section; I hope to reboot the group at the end of the summer, and will be in touch.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 22 Jul 2010 20:40:38 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:3:"kev";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:29;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:32:"Ted Mielczarek: MozillaBuild 1.5";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:33:"http://blog.mozilla.com/ted/?p=52";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:56:"http://blog.mozilla.com/ted/2010/07/22/mozillabuild-1-5/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:923:"<p>MozillaBuild 1.5 has been released:<br />
-<a href="http://ftp.mozilla.org/pub/mozilla.org/mozilla/libraries/win32/MozillaBuildSetup-1.5.exe" target="_blank">http://ftp.mozilla.org/pub/mozilla.org/mozilla/libraries/win32/MozillaBuildSetup-1.5.exe</a></p>
-<p>The major highlights include:</p>
-<ul>
-<li> A newer Mercurial (1.5.4)</li>
-<li>Support for Visual C++ 2010</li>
-<li> A newer Python (2.6.5)</li>
-</ul>
-<p>You can see <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=570473" title="Bug 570473 - Release MozillaBuild 1.5">the full list of dependent bugs</a>,  as well as <a href="http://hg.mozilla.org/mozilla-build/pushloghtml?fromchange=MOZILLABUILD_1_4_RELEASE&amp;tochange=MOZILLABUILD_1_5_RELEASE">the full list of committed changes</a>.</p>
-<p>As usual, bugs can be filed <a href="https://bugzilla.mozilla.org/enter_bug.cgi?product=mozilla.org&amp;component=MozillaBuild">at bugzilla.mozilla.org</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 22 Jul 2010 20:21:36 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"tmielczarek";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:30;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:34:"Instantbird: Tip for MacBook users";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:41:"http://blog.instantbird.org/nocomm26.html";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:58:"http://blog.instantbird.org/n26-tip-for-macbook-users.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:950:"<p>Instantbird 0.2 uses the multitouch feature of Macbook touchpads in conversation windows:</p>
-
-<ul>
- <li>Pinch in or out 2 fingers to change the zoom level.</li>
-
- <li>Swipe up (3 fingers) to scroll to the top of the conversation, down to scroll to the last message. This saves time when looking for an old messages in the conversation (for example, using the Find feature) and then going back to the display of the most recent messages.</li>
-
- <li>Twist left or right to select the tab at the left or right of the currently selected tab.</li>
-
- <li>Swipe left or right (3 fingers) to change the selected tab to the previously selected tab. This gesture is probably the most useful one: it's very convenient when reading quickly a message in a newly opened tab and then going back to the conversation tab where an active conversation is occurring, or when actively participating in 2 discussions and repeatedly switching between 2 tabs.</li>
-</ul>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 22 Jul 2010 20:04:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:33:"florian@instantbird.org (Florian)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:31;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:44:"Eric Shepherd: To upgrade or not to upgrade?";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:34:"http://www.bitstampede.com/?p=1603";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:67:"http://www.bitstampede.com/2010/07/22/to-upgrade-or-not-to-upgrade/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1309:"<p>MindTouch released MindTouch 2010 “Olympic” today. This has a lot of features they added specifically as a result of conversions I had with them earlier this year, and makes a lot of user experience improvements.</p>
-<p>Take a look at the <a href="http://developer.mindtouch.com/Deki/Release/Olympic">release notes</a>.</p>
-<p>Given that we’re planning to switch to a new wiki system in the first or second quarter of 2011, I’d like to get your opinions on whether or not we should install a major software update like this one right now.</p>
-<p>On the plus side, it does give us some nice new features and usability improvements both for editing and maintaining, as well as supposedly substantial search improvements.</p>
-<p>On the minus side, we’ve had problems with major MindTouch upgrades in the past. In addition, some of the exciting new features are ones that we won’t have with the first version of the new MDN wiki system our development team is building for us. I’d hate for people to get used to new features only to have them go away a few months later.</p>
-<p>So what do you all think? I could go either way on this one — I’d like to have the new features but worry about how it would impact the community. So let me know how you feel either by email or commenting here.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 22 Jul 2010 18:58:16 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:6:"sheppy";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:32;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:73:"Mozilla IT: Mozilla Scheduled Downtime – 07/22/2010, 4pm PDT (2300 UTC)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:33:"http://blog.mozilla.com/it/?p=954";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:84:"http://blog.mozilla.com/it/2010/07/22/mozilla-scheduled-downtime-02-22-2010-4pm-pdt/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1120:"<p>We will have a scheduled maintenance window tonight from 4:00pm to 11:00pm PDT. The following changes will take place:</p>
-<ul>
-<li>4:00pm PDT (2300 UTC) <a href="https://addons.mozilla.org/"><code>addons.mozilla.org</code></a> update.  We’ll be updating <code>addons.mozilla.org</code> to pick up code updates (bug <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=580283">580283</a>) . <em>Duration 60 minutes.</em></li>
-<li>9:00pm PDT (0400 UTC) We’ll be upgrading the FWSM firewalls in all of our colo facilities.  The operate in redundant pairs, and will be failed over after insuring the upgraded one is functioning properly, so no downtime is expected. <em>Duration 2 hours.</em></li>
-</ul>
-<p>Please let me know if you have any reason why we should not proceed  with this planned maintenance. As always, we aim to keep downtime to as  little as possible, but unexpected complications can arise causing  longer downtime periods than expected. All systems should be operational  by the end of the maintenance window.</p>
-<p>Feel free to comment directly if you see issues past the planned downtime.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 22 Jul 2010 18:16:26 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"justdave";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:33;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:74:"Shawn Wilsher: Better SQLite Memory Reporting Coming to a Nightly Near You";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:30:"http://shawnwilsher.com/?p=405";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:36:"http://shawnwilsher.com/archives/405";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:797:"<p>I just landed <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=575667" title="split about:memory reporting into more detailed sections">bug 575667</a> into mozilla-central which adds more detailed reporting about the memory used by SQLite.  Some people have been complaining to me that SQLite is using an awful lot of memory lately.  My hunch was that most of this was the page cache (so you don’t have to hit the disk for every read), but with the next nightly those people can see for themselves.  Now, instead of just indicating how much memory is being used, about:memory states how much is being used by the page cache and how much other memory is being used by SQLite.  We are also planning to split this up more, but are waiting for the SQLite team to provide some APIs first.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 22 Jul 2010 18:12:37 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:13:"Shawn Wilsher";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:34;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:54:"Jan Odvarko: Firebug 1.6: Switch to the default locale";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:83:"http://www.softwareishard.com/blog/firebug/firebug-16-switch-to-the-default-locale/";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:74:"http://feedproxy.google.com/~r/SoftwareIsHardPlanetMozilla/~3/1Z4AbV7fLaM/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2248:"<p><a href="http://getfirebug.com/releases/firebug/1.6X/">Firebug 1.6</a> is slowly approaching a beta phase and one of the last features we have put in <a href="http://getfirebug.com/releases/firebug/1.6X/firebug-1.6X.0a18.xpi">a18</a> is related to <a href="http://getfirebug.com/wiki/index.php/Localization">localization</a>. Note that Firebug is currently using more than 500 strings in its UI and these are translated into approximately 40 languages.</p>
-<p>Even if we are always planning a string freeze in order to give Firebug translators some time to process new strings, we often end up with a few unfinished locales.</p>
-<p>This is a problem especially for DTD entities since missing entity causes fatal error and in case of Firebug - not loading the extension at all (XUL overlay is not loaded). The problem is not that critical if the missing string comes from a <em>*.properties</em> <a href="http://developer.mozilla.org/En/XUL_Tutorial/Property_Files">file</a>, since these are scriptable and we can handle the missing-string-exception in Javascript. The only issue is what to display in the UI instead.</p>
-<p>From these reasons we decided to do following:</p>
-<ul>
-<li>Don't use DTD entities</li>
-<li>Use en-US as fallback locale (for missing strings)</li>
-</ul>
-<p>And as a bonus (!), these changes allowed to fix <a href="http://code.google.com/p/fbug/issues/detail?id=907">Issue 907</a>: <strong>Option to use en-US locale instead of fx default locale</strong></p>
-<p>So, all you need to do to always use Firebug with en-US locale, is to set<br />
-<code>extensions.firebug.useDefaultLocale</code><br />
-preference to <strong>true</strong>. There is no UI in Firebug for this option and so, you need to use <strong>about:config</strong> (see all <a href="http://getfirebug.com/wiki/index.php/Preferences">prefs</a> in Firebug).</p>
-<p><em>Do you think this should be available in Firebug-&gt;Options menu?</em></p>
-<p>Read further, if you interested how we implemented that.<br />
- <a class="more-link" href="http://www.softwareishard.com/blog/firebug/firebug-16-switch-to-the-default-locale/#more-62">(more...)</a></p>
-<img height="1" src="http://feeds.feedburner.com/~r/SoftwareIsHardPlanetMozilla/~4/1Z4AbV7fLaM" width="1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 22 Jul 2010 16:46:46 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:5:"Honza";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:35;a:6:{s:4:"data";s:11:"
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:48:"Andreas Nilsson: Windows Aero UI for Thunderbird";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:34:"http://www.andreasn.se/blog/?p=134";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:34:"http://www.andreasn.se/blog/?p=134";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:291:"I've been working together with Richard Marti of late on bug 569400 to implement Aero glass for the Windows version of Thunderbird, similar to what the Firefox devs are doing for their 4.0 release. This makes things look a lot sweeter, and blend in better with Windows 7.
-Since there are ...";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 22 Jul 2010 11:00:59 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:36;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:34:"John Britton: Mozilla Drumbeat NYC";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:61:"http://www.johndbritton.com/89 at http://www.johndbritton.com";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:66:"http://www.johndbritton.com/post/2010/july/22/mozilla_drumbeat_nyc";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2263:"<p><a href="http://www.flickr.com/photos/johndbritton/4817154629/"><img alt="Drumbeat NYC Logo" src="http://farm5.static.flickr.com/4101/4817154629_04d368b432.jpg" /></a></p>
-<p>August 7, 2010 - 12:00pm - 5:00pm<br />
-OpenPlans<br />
-148 Lafayette Street<br />
-New York, NY, 10013<br />
-<a href="http://www.drumbeat.org/events/drumbeat-new-york" title="http://www.drumbeat.org/events/drumbeat-new-york">http://www.drumbeat.org/events/drumbeat-new-york</a></p>
-<p>Join us Saturday, August 7th for a look at some cool people and projects that are keeping the web open. Plus, free pizza and beer!</p>
-<p><strong>About Mozilla Drumbeat</strong><br />
-Will the web still be open in 100 years? Mozilla thinks it can, and should, and must be. That's why we're starting Mozilla Drumbeat, an invitation to everyday internet users to imagine ideas and projects that build a more open web. We want you to get involved!</p>
-<p>We are building a new community that includes teachers, artists, designers, filmmakers, writers, lawyers, and policymakers—not just open web geeks. Online, Drumbeat is catalyzing new open web projects that address critical needs and make the Web healthier. Check out current projects or initiate your own at <a href="http://www.drumbeat.org/projects" title="www.drumbeat.org/projects">www.drumbeat.org/projects</a>.</p>
-<p><strong>About Drumbeat NYC</strong><br />
-The Drumbeat NYC event will showcase cool projects and people that are keeping the web open. Come to Drumbeat NYC and learn how you can get involved, or show others what you've been working on.</p>
-<p>Drumbeat events aren't just for geeks. We're here to weave together local networks of creative, Web-loving people and start new projects to make the web better.</p>
-<p>Please RSVP at <a href="http://bit.ly/drumbeat_nyc">Facebook</a> OR <a href="http://drumbeatnewyork.eventbrite.com/">Eventbrite</a></p>
-<p><a href="https://wiki.mozilla.org/Drumbeat/events/new_york/agenda">Check out the agenda.</a></p>
-<p><span style="margin-left: 1.5em;"> </span><a href="http://www.johndbritton.com/comment-count-image/go/node/89"><img alt="" rel="nofollow" src="http://www.johndbritton.com/system/files/comment-count-image/89/node-comments.png" style="margin-top: 0.5em;" title="" /></a></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 22 Jul 2010 07:39:14 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:12:"johndbritton";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:37;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:44:"Mozilla Labs: Firefox 4 Beta Interface Study";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:33:"http://mozillalabs.com/feed/9.323";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:75:"http://mozillalabs.com/testpilot/2010/07/21/firefox-4-beta-interface-study/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:3639:"<h3>The Latest Study</h3>
-<p>Today, we are excited to announce our next Test Pilot study, the first as part of the larger <a href="http://mozillalabs.com/testpilot/2010/07/01/test-pilot-fx4beta/">Feedback initiative</a> of the Firefox 4 Beta program.  Look out for the <a href="https://testpilot.mozillalabs.com/testcases/betaui">Firefox 4 Beta Interface Study </a>in the next few days and see below for more information, including ways you can get involved!<br />
-<span id="more-5327"></span></p>
-<p>This study will explore the ways users interact with the Firefox menu bar, Firefox button (on Windows Vista and 7), and toolbar controls in the main window.  By understanding how users commonly interact with these controls, we will be able to streamline and simplify the user interface in Firefox 4 Beta.  The aggregated, anonymous data you provide by participating in this study will directly help improve our next version of Firefox.</p>
-<p><strong>Test Champions: </strong></p>
-<ul>
-<li><a href="http://blog.mozilla.com/faaborg/">Alex Faaborg</a>, Principal Designer, Firefox UX.</li>
-<li>Cheng Wang, Firefox Beta Support Lead.</li>
-</ul>
-<p><strong>Test Duration: </strong>7 days</p>
-<h3>Get Involved!</h3>
-<ul>
-<li>If you are testing Firefox 4 Beta, the Feedback Add-On will notify you before the study starts, at which point you can view a detailed study description and choose to opt-out of the study if you wish.  For more information on how Test Pilot in Firefox 4 beta works, please see the “How it Will Work” section <a href="http://mozillalabs.com/testpilot/2010/07/01/test-pilot-fx4beta/"> here</a>.</li>
-<li> If you are not running Firefox 4 Beta, what are you waiting for?  Help test the future of Firefox by downloading the <a href="http://www.mozilla.com/en-US/firefox/all-beta.html">latest Firefox 4 Beta</a>!</li>
-<li>This study is designed to capture usage of the Firefox 4 interface, so if you are a Test Pilot Add-On user not running Firefox 4 Beta, we invite you <a href="http://www.mozilla.com/en-US/firefox/all-beta.html">to get on the latest beta</a> to participate in this study.  As a Test-Pilot user, you’ll still have the ability to run the study, but some items may not record correctly.  If do choose to join the study and submit your data, we’ll simply separate your data into a different bucket.</li>
-<li>And of course, please share your questions and suggestions in the <a href="http://groups.google.com/group/mozilla-labs-testpilot"> Test Pilot discussion group </a> or on  <a href="http://twitter.com/moztestpilot">Twitter </a>.</li>
-</ul>
-<h3>Privacy</h3>
-<p>As always, security and privacy are priorities when Mozilla is dealing with user data. All privacy settings that the Test Pilot program has developed to give users control over their data will remain the same for the Feedback Add-On in Firefox 4 Beta. These include:</p>
-<ul>
-<li>Participants’ data will be transmitted to Mozilla only when they take all of the following actions:<br />
-* Join the Firefox 4 Beta program by downloading the beta with the Feedback Add-On.<br />
-* Submit data when the test is finished. Participants will be able to review all data before choosing whether or not to submit it.</li>
-<li>Test data will be stored anonymously and in aggregate.  None of it will be publicly associated with any personally identifiable information.</li>
-<li>Participants can quit a Test Pilot study before they submit any test data.</li>
-<li>Participants can opt-out from all user studies or disable the Feedback Add-On itself at any time. <a href="https://testpilot.mozillalabs.com/faq.php#quit">Learn more</a>.</li>
-</ul>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 22 Jul 2010 03:56:53 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:16:"Christopher Jung";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:38;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:76:"Meeting Notes from the Mozilla community: Mobile Meeting Minutes: 2010-07-21";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/339";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/339";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:13495:"<div>
-<h3>Mobile/Notes/21-Jul-2010</h3>
-<h5>From MozillaWiki</h5>
-<div id="contentSub"><span class="subpages">&lt; <a href="https://wiki.mozilla.org/Mobile" title="Mobile">Mobile</a> | <a href="https://wiki.mozilla.org/Mobile/Notes" title="Mobile/Notes">Notes</a></span></div>
-<p>			<a id="Details" name="Details"></a><br />
-</p><h4> </h4>
-<ul>
-<li> Wednesdays – 9:30am Pacific, 12:30pm Eastern, 16:30 UTC<p></p>
-</li><li> 650-903-0800 or 650-215-1282 x92 Conf# 8605 (US/INTL)
-</li><li> 1-800-707-2533 (pin 369) Conf# 8605 (US)
-</li><li> irc.mozilla.org #mobile for backchannel
-</li></ul>
-<p><a id="Schedule" name="Schedule"></a><br />
-</p><h4> </h4>
-<ul>
-<li> 2.0 Alpha 1 (tbd)
-</li></ul>
-<p><a id="Major_Topics_for_This_Week" name="Major_Topics_for_This_Week"></a><br />
-</p><h4> </h4>
-<ul>
-<li> 2.0 Alpha Discussion<p></p>
-<ul>
-<li> Blockers?<p></p>
-</li><li> Sync Maemo and Android?
-</li></ul>
-</li></ul>
-<p><a id="Front-end" name="Front-end"></a><br />
-</p><h4> </h4>
-<ul>
-<li> Bug fix mode<p></p>
-<ul>
-<li> Fixing reported bugs<p></p>
-</li><li> Fixing breakage from move to e10s
-</li><li> Several e10s related patches are very close to landing, including some e10s crashers
-</li><li> Finding breakage from move to retained layers
-</li></ul>
-</li><li> Feature mode
-<ul>
-<li> Handed out each front-end developer (2-3) tasks from <a href="https://wiki.mozilla.org/Mobile/Planning/2.0" title="Mobile/Planning/2.0"> Planning page</a>
-</li></ul>
-</li><li> Cleanup mode
-<ul>
-<li> Updating front-end code to current trunk style<p></p>
-</li><li> Re-organizing some areas
-</li></ul>
-</li><li> Need to update more status and details for <a href="https://wiki.mozilla.org/Mobile/Planning/2.0" title="Mobile/Planning/2.0"> Planning 2.0</a> tasks
-</li></ul>
-<p><a id="UX_design" name="UX_design"></a><br />
-</p><h5> </h5>
-<ul>
-<li> Adding detail to documents for<p></p>
-<ul>
-<li> Sharing <a class="external free" href="https://wiki.mozilla.org/Mobile/Projects/Sharing" rel="nofollow" title="https://wiki.mozilla.org/Mobile/Projects/Sharing">https://wiki.mozilla.org/Mobile/Projects/Sharing</a><p></p>
-</li><li> Unified awesomescreen/startpage <a class="external free" href="https://wiki.mozilla.org/Mobile/Projects/AwesomeScreen2.0" rel="nofollow" title="https://wiki.mozilla.org/Mobile/Projects/AwesomeScreen2.0">https://wiki.mozilla.org/Mobile/Projects/AwesomeScreen2.0</a>
-</li><li> Virtual Keyboard/Searching <a class="external free" href="https://wiki.mozilla.org/Mobile/Projects/Virtual_Keyboard" rel="nofollow" title="https://wiki.mozilla.org/Mobile/Projects/Virtual_Keyboard">https://wiki.mozilla.org/Mobile/Projects/Virtual_Keyboard</a>
-</li></ul>
-</li><li> Round two of android mockups starting
-</li></ul>
-<p><a id="Maemo" name="Maemo"></a><br />
-</p><h4> </h4>
-<p><a id="Qt" name="Qt"></a><br />
-</p><h5> </h5>
-<p><a id="Android" name="Android"></a><br />
-</p><h4> </h4>
-<ul>
-<li> major focus for alpha is keyboard interactions and e10s regressions<p></p>
-</li><li> bug stats
-<ul>
-<li> 2.0 blockers<p></p>
-</li><li> 10 2.0a1 blockers
-</li><li> 16 new blockers since last week
-</li><li> 10 bugs resolved since last week
-</li></ul>
-</li></ul>
-<p><a id="Electrolysis" name="Electrolysis"></a><br />
-</p><h4> </h4>
-<ul>
-<li> Toolkit components need to land<p></p>
-<ul>
-<li> Permission Manager <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=564535" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=564535">bug 564535</a> (landed)<p></p>
-</li><li> Form history <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=552828" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=552828">bug 552828</a> (needs review and pass tests)
-</li><li> Login Manager <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=552827" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=552827">bug 552827</a> (needs review and fix leak)
-</li><li> InstallTrigger <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=550936" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=550936">bug 550936</a> (passes all tests on m-c)
-</li><li> PromptService <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=573635" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=573635">bug 573635</a> (active)
-</li></ul>
-</li><li> Places API has landed, but e10s bits still need to land
-<ul>
-<li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=568925" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=568925">bug 568925</a> and <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=516728" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=516728">bug 516728</a>
-</li></ul>
-</li><li> Networking fixes need to land
-<ul>
-<li> SecurityInfo <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=536301" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=536301">bug 536301</a> (need review and testing)<p></p>
-</li><li> Redirects
-</li><li> Http Auth
-</li><li> App Cache
-</li><li> Suspend/resume (waiting on review)
-</li><li> Download Manager <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=552825" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=552825">bug 552825</a> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=562444" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=562444">bug 562444</a>(active)
-</li></ul>
-</li></ul>
-<p><a id="Layers" name="Layers"></a><br />
-</p><h4> </h4>
-<ul>
-<li> Where are we with <a href="https://wiki.mozilla.org/Mobile/Layers" title="Mobile/Layers"> Layers</a><p></p>
-<ul>
-<li> Retained layers code has created some bugs in Fennec <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579349" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579349">bug 579349</a><p></p>
-</li><li> Low-level cross-process layers code v0 will land on e10s soon
-</li><li> Shadow trees integrated into chrome-process invalidation and painting paths (<a class="external text" href="http://i30.tinypic.com/34jbrbq.png" rel="nofollow" title="http://i30.tinypic.com/34jbrbq.png">screen (offset is on purpose)</a>)
-</li><li> Content process still relying on having a widget; talked to Timothy/Rob about next step.  Advised to create “fake/stub” widget, got list of known-to-be-needed nsIWidget methods to implement.
-</li><li> Gutted all platform widget code from dom/ipc and nsFrameLoader.  Breaks everything, to be fixed by cross-platform stub widget.
-</li></ul>
-</li><li> Bugs to watch
-<ul>
-<li> Tracking bug <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=574512" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=574512">bug 574512</a><p></p>
-</li><li> e10s shadow tree <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=570620" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=570620">bug 570620</a>
-</li><li> Integrate chrome hierarchy <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=130078" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=130078">bug 130078</a>
-</li></ul>
-</li></ul>
-<p><a id="General_Platform" name="General_Platform"></a><br />
-</p><h4> </h4>
-<ul>
-<li> New manifest loading is breaking parts of Fennec<p></p>
-<ul>
-<li> Should be fixed soon <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579178" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579178">bug 579178</a>
-</li></ul>
-</li></ul>
-<p><a id="Geolocation_Working_Group" name="Geolocation_Working_Group"></a><br />
-</p><h5> </h5>
-<p><a id="Video" name="Video"></a><br />
-</p><h5> </h5>
-<p><a id="Camera" name="Camera"></a><br />
-</p><h5> </h5>
-<p>Getting reviews, landing patches, etc.</p>
-<p>Went back through yesterday night and got approval2.0+ on stuff because mozilla-central went to approvals at the platform meeting yesterday.</p>
-<p>DAP has a new draft spec that’s much better.  Going to comment on it on their mailing list.
-</p>
-<p><a id="Plugins" name="Plugins"></a><br />
-</p><h5> </h5>
-<p><a id="Performance" name="Performance"></a><br />
-</p><h5> </h5>
-<p><a id="Power" name="Power"></a><br />
-</p><h5> </h5>
-<p>Various patches waiting for review/feedback: <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=571394" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=571394">bug 571394</a>, <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=568730" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=568730">bug 568730</a>, <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=359608" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=359608">bug 359608</a>
-</p>
-<p><a id="Networking" name="Networking"></a><br />
-</p><h5> </h5>
-<p><a id="Graphics" name="Graphics"></a><br />
-</p><h5> </h5>
-<p><a id="Startup" name="Startup"></a><br />
-</p><h5> </h5>
-<p>Omnijar for desktop almost done <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=556644" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=556644">bug 556644</a>, which also works for Maemo. Most patches up for review.
-</p>
-<p><a id="Layout" name="Layout"></a><br />
-</p><h5> </h5>
-<p><a id="Content" name="Content"></a><br />
-</p><h5> </h5>
-<p><a id="Release_Engineering" name="Release_Engineering"></a><br />
-</p><h4> </h4>
-<ul>
-<li> New upload directories <a class="external free" href="http://drkscrtlv.livejournal.com/320620.html" rel="nofollow" title="http://drkscrtlv.livejournal.com/320620.html">http://drkscrtlv.livejournal.com/320620.html</a><p></p>
-</li><li> New n810 configs+image
-<ul>
-<li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578952" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578952">bug 578952</a> – page doesn’t load when e10s is enabled<p></p>
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579186" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579186">bug 579186</a> – n810s can’t load GLIBCXX_3.4.9
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579184" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579184">bug 579184</a> – mobile unit tests go green if all tests are skipped
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578343" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578343">bug 578343</a> – talos needs to be retrofitted for e10s
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=575506" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=575506">bug 575506</a> – trunk maemo fennec builds not exiting talos profile creation since 6/23
-</li></ul>
-</li><li> Bear @ XMPP conference, back tomorrow
-</li></ul>
-<p><a id="QA" name="QA"></a><br />
-</p><h4> </h4>
-<p><a id="Automation" name="Automation"></a><br />
-</p><h5> </h5>
-<ul>
-<li>
-<ul>
-<li> [<a class="external text" href="https://wiki.mozilla.org/Mobile/Fennec_Unittests/green" rel="nofollow" title="https://wiki.mozilla.org/Mobile/Fennec_Unittests/green">Greening the unittests</a>]<p></p>
-<ul>
-<li> New section for [<a class="external text" href="https://wiki.mozilla.org/Mobile/Fennec_Unittests/green#mochitest" rel="nofollow" title="https://wiki.mozilla.org/Mobile/Fennec_Unittests/green#mochitest">mochitests</a>]!!!  Please read and comment or help
-</li></ul>
-</li><li> Android
-<ul>
-<li> landed a bunch of updates for getting reftests running on android<p></p>
-</li><li> initial work with :bear to get tests running, no luck yet
-</li><li> need to update talos <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578343" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578343">bug 578343</a>
-</li><li> need to update reftest <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=580418" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=580418">bug 580418</a>
-</li></ul>
-</li><li> Browser Chrome
-<ul>
-<li> starting to hack up existing tests to work in e10s
-</li></ul>
-</li></ul>
-</li></ul>
-<p><a id="Manual" name="Manual"></a><br />
-</p><h5> </h5>
-<ul>
-<li> bugs <a class="external text" href="http://bit.ly/dlaAaO" rel="nofollow" title="http://bit.ly/dlaAaO">filed</a> on the Fennec product over the past week<p></p>
-</li><li> Notes to mention about bugs found
-</li><li> Fx Input will be mobile ready by next week
-</li><li> goals for upcoming week (in order of priorities):
-<ul>
-<li> Continue having Waverley run nightly smoketests/BFTs of trunk of n900s builds<p></p>
-</li><li> Add assignments to the new features added
-</li><li> Start on adding testcases/testscripts to features landed
-</li></ul>
-</li><li> Bug 579084 seems to be not there anymore. However I can’t get any page loaded in current builds. Apparently, this is bug 578952.
-</li></ul>
-<p><a id="Other" name="Other"></a><br />
-</p><h4> </h4>
-<div class="printfooter">
-Retrieved from “<a href="https://wiki.mozilla.org/Mobile/Notes/21-Jul-2010">https://wiki.mozilla.org/Mobile/Notes/21-Jul-2010</a>“</div>
-<p></p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 22 Jul 2010 03:00:12 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:17:"Jesper Kristensen";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:39;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:92:"Meeting Notes from the Mozilla community: Firefox/Gecko Delivery Meeting Minutes: 2010-07-21";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/338";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/338";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:12310:"<div>
-<h3>Firefox/Planning/2010-07-21</h3>
-<h5>From MozillaWiki</h5>
-<div id="contentSub"><span class="subpages">&lt; <a href="https://wiki.mozilla.org/Firefox" title="Firefox">Firefox</a> | <a href="https://wiki.mozilla.org/Firefox/Planning" title="Firefox/Planning">Planning</a></span></div>
-<p><a href="https://wiki.mozilla.org/Firefox/Planning/2010-06-30" title="Firefox/Planning/2010-06-30">« previous week</a> | <a class="mw-redirect" href="https://wiki.mozilla.org/Firefox/DeliveryMeetings" title="Firefox/DeliveryMeetings">index</a> | <strong>next week »</strong></p>
-<p><b>Firefox/Gecko Delivery Meeting Details</b>
-</p>
-<ul>
-<li> Wednesdays – 11:00am Pacific, 2:00pm Eastern, 18:00 UTC<p></p>
-</li><li> Mountain View Offices: Warp Core Conference Room
-</li><li> Toronto Offices: Fin du Monde Conference Room
-</li><li> 650-903-0800 or 650-215-1282 x92 Conf# 8605 (US/INTL)
-</li><li> 1-800-707-2533 (pin 369) Conf# 8605 (US)
-</li><li> <a class="external text" href="irc://irc.mozilla.org/planning" rel="nofollow" title="irc://irc.mozilla.org/planning">irc.mozilla.org #planning</a> for backchannel
-</li><li> (the <a href="https://wiki.mozilla.org/Platform#Meetings" title="Platform">developer meeting</a> takes place on Tuesdays)
-</li></ul>
-<div style="margin: 1em 0px; padding: 1em; background-color: orange; text-align: center;"><b>REMEMBER</b><p></p>
-<div style="font-size: x-small;">These notes are read by people who weren’t able to attend the meeting. Please make sure to include links and context so they can be understood.</div>
-</div>
-<p><a id="Agenda" name="Agenda"></a><br />
-</p><h3> </h3>
-<ul>
-<li> actions from last week:<p></p>
-<ul>
-<li> Remember that Blackhat/Defcon is coming up – be as prepared as one can be for chemspill.<p></p>
-</li><li> Christian to follow up with MU uptake stats
-</li></ul>
-</li><li> schedule and progress on upcoming releases
-</li><li> review highlights and notices
-</li><li> respond to questions and concerns
-</li></ul>
-<p><b>Action Items</b>
-</p>
-<p><a id="Schedule_.26_Progress_on_Upcoming_Releases" name="Schedule_.26_Progress_on_Upcoming_Releases"></a><br />
-</p><h4> </h4>
-<p><a id="Firefox_3.5.11_.2F_Firefox_3.6.7" name="Firefox_3.5.11_.2F_Firefox_3.6.7"></a><br />
-</p><h5> </h5>
-<ul>
-<li> shipped yesterday
-</li></ul>
-<p><a id="Firefox_3.5.12_.2F_Firefox_3.6.8" name="Firefox_3.5.12_.2F_Firefox_3.6.8"></a><br />
-</p><h5> </h5>
-<ul>
-<li> Christian will be generating a plan<p></p>
-</li><li> might end up being a quick release depending on what happens at BlackHat
-</li></ul>
-<p><a id="Firefox_4.0_Beta_2" name="Firefox_4.0_Beta_2"></a><br />
-</p><h5> </h5>
-<ul>
-<li> builds generated this morning, QA has already started<p></p>
-</li><li> <b>juan</b> expects QA to be done on Monday, July 26 EOD
-</li><li> <b>lmesa</b> will be updating the features and whatsnew pages
-</li><li> available in 32 locales
-</li><li> major changes in this milestone
-<ul>
-<li> XPCOM changes which break all 3rd party apps and binary add-ons<p></p>
-</li><li> Tabs on Top for OSX
-</li><li> App Tabs
-</li><li> Retained Layers
-</li><li> JS performance improvements
-</li><li> CSS Transitions and Transformations
-</li><li> FIX: only one OSX dock icon when plugins are running
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=FIXED%20blocking2.0:beta2" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=FIXED%20blocking2.0:beta2">a list of all fixed beta2 blockers</a>, and a <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED&amp;chfieldto=2010-07-20%2015%3A00&amp;chfield=resolution&amp;query_format=advanced&amp;chfieldfrom=2010-06-30%2011%3A00&amp;product=Core&amp;product=Firefox&amp;product=NSPR&amp;product=NSS&amp;product=Toolkit" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED&amp;chfieldto=2010-07-20%2015%3A00&amp;chfield=resolution&amp;query_format=advanced&amp;chfieldfrom=2010-06-30%2011%3A00&amp;product=Core&amp;product=Firefox&amp;product=NSPR&amp;product=NSS&amp;product=Toolkit">rather complete changelist</a> are available
-</li></ul>
-</li></ul>
-<p><a id="Firefox_4.0_Beta_3" name="Firefox_4.0_Beta_3"></a><br />
-</p><h5> </h5>
-<ul>
-<li> a tentative <a href="https://wiki.mozilla.org/Firefox/4/Beta#Milestones" title="Firefox/4/Beta">beta milestone</a> list has been posted<p></p>
-</li><li> next beta is expected 2 weeks after beta 2 – we’re serious about this!
-</li><li> will build a set of major features for next week, but what’s felt to be needed?
-</li></ul>
-<p><a id="Input_1.5" name="Input_1.5"></a><br />
-</p><h5> </h5>
-<ul>
-<li> We’ve released! Check out our <a class="external text" href="http://aakash.doesthings.com/2010/07/21/firefox-input-now-with-atom-feeds-and-l10n/" rel="nofollow" title="http://aakash.doesthings.com/2010/07/21/firefox-input-now-with-atom-feeds-and-l10n/">new features</a>
-</li></ul>
-<p><a id="Jetpack_SDK_0.6" name="Jetpack_SDK_0.6"></a><br />
-</p><h5> </h5>
-<ul>
-<li> relatively minor set of improvements (schedule impacted by summit, meteors)<p></p>
-</li><li> tree froze on Monday, July 19
-</li><li> RC1 expected today, Wednesday, July 21
-</li><li> tentative release date: Tuesday, July 27
-</li></ul>
-<p><a id="Add-on_Builder.next" name="Add-on_Builder.next"></a><br />
-</p><h5> </h5>
-<ul>
-<li> goal is to resolve the major bugs and minor papercuts developers have been experiencing in the existing feature set of the previous preview release<p></p>
-</li><li> still working on the timeline
-</li></ul>
-<p><a id="Highlights_.2F_Notices" name="Highlights_.2F_Notices"></a><br />
-</p><h4> </h4>
-<p><i>Notes or issues that don’t correspond to a particular release you’d like people to know about.</i>
-</p>
-<ul>
-<li> L10n (Axel)<p></p>
-<ul>
-<li> Highlight: Fx 4 Beta 2 with 23 locales<p></p>
-</li><li> Lowlight: shipped-locales is a PITA. Question to releng, which should I fix first, milestone creation (PITA, too, <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=565640" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=565640">bug 565640</a> or add platform support to dashboard to export shipped-locales right, to fold it into l10n-changesets proper <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=535558" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=535558">bug 535558</a>?
-</li><li> want to join l10n testing goal meeting? Poke Pike.
-</li></ul>
-</li></ul>
-<ul>
-<li>Continued Feedback on Fx 4 beta 1: Overall, much less activity than last week, with more people commenting favorably about the speed/look of Fx 4 <font color="red">(not necessarily representative samples)</font>:<p></p>
-<ul>
-<li>Twitter (firefox 4, firefox4 <a class="external free" href="http://trendistic.com/firefox-4" rel="nofollow" title="http://trendistic.com/firefox-4">http://trendistic.com/firefox-4</a>)<p></p>
-<ul>
-<li> Seems like people are getting used to the new look<p></p>
-</li><li> like the speed of Fx 4
-</li><li>Issues streaming videos (not just netflix)
-</li></ul>
-</li><li>Facebook–Test Drivers (200 comments/discussion posts): <a class="external free" href="http://www.facebook.com/home.php#!/group.php?gid=173578463110&amp;ref=ts" rel="nofollow" title="http://www.facebook.com/home.php?#!/group.php?gid=173578463110&amp;ref=ts">http://www.facebook.com/home.php?#!/group.php?gid=173578463110&amp;ref=ts</a>
-<ul>
-<li> couldn’t find close/restore minimize buttons<p></p>
-</li><li> don’t like that they can’t customize/move the bookmarks bar
-</li></ul>
-</li><li>Uservoice Forums (800 voters/220 ideas): <a class="external free" href="https://firefox.uservoice.com/forums/57440-firefox-4-beta" rel="nofollow" title="https://firefox.uservoice.com/forums/57440-firefox-4-beta">https://firefox.uservoice.com/forums/57440-firefox-4-beta</a>
-<ul>
-<li> Tabs on same row as Firefox-button<p></p>
-</li><li> Release a 64bit build of FF4
-</li></ul>
-</li><li> Input
-<ul>
-<li> Cluster Analysis on <a class="external text" href="https://bugzilla.mozilla.org/attachment.cgi?id=459061" rel="nofollow" title="https://bugzilla.mozilla.org/attachment.cgi?id=459061">Happy</a> Feedback over the past week<p></p>
-</li><li> Cluster Analysis on <a class="external text" href="https://bugzilla.mozilla.org/attachment.cgi?id=459062" rel="nofollow" title="https://bugzilla.mozilla.org/attachment.cgi?id=459062">Sad</a> Feedback over the past week
-</li></ul>
-</li><li> Test Pilot
-</li></ul>
-</li></ul>
-<ul>
-<li> We intended to blocklist the Internet Download Manager (IDM) for Firefox 4 betas, but accidentally blocked it for Firefox 3.6.x users for 4-6 hours yesterday. That change has been reverted, but there are a few irate IDM users commenting in the bugs.
-</li></ul>
-<p><a id="Questions_and_Concerns" name="Questions_and_Concerns"></a><br />
-</p><h4> </h4>
-<p><i>Please add any questions or concerns you would like discussed at today’s meeting.</i>
-</p>
-<ul>
-<li> When are we switching on services/sync for Firefox? Wonder when’s the right time to expose that to l10n. (Axel)
-</li></ul>
-<p><a id="Press_.26_Public_Reactions" name="Press_.26_Public_Reactions"></a><br />
-</p><h4> </h4>
-<ul>
-<li><a class="external text" href="http://www.zdnet.com/blog/security/firefox-hit-by-drive-by-download-security-holes/6896" rel="nofollow" title="http://www.zdnet.com/blog/security/firefox-hit-by-drive-by-download-security-holes/6896">Firefox hit by drive-by download security holes</a>
-</li></ul>
-<ul>
-<li><a class="external text" href="http://www.downloadsquad.com/2010/07/14/firefox-4-nightly-build-debuts-app-tabs/" rel="nofollow" title="http://www.downloadsquad.com/2010/07/14/firefox-4-nightly-build-debuts-app-tabs/">Firefox 4 nightly build debuts App Tabs</a> <p></p>
-</li><li><a class="external text" href="http://news.cnet.com/8301-30685_3-20010589-264.html" rel="nofollow" title="http://news.cnet.com/8301-30685_3-20010589-264.html">Mac Firefox users: Tabs on top coming next week</a>
-</li></ul>
-<ul>
-<li><a class="external text" href="http://www.theregister.co.uk/2010/07/14/mozilla_jaegermonkey_update/" rel="nofollow" title="http://www.theregister.co.uk/2010/07/14/mozilla_jaegermonkey_update/">Firefox engine outraces self after Jäger shot</a> <p></p>
-</li><li><a class="external text" href="http://www.conceivablytech.com/1781/products/mozilla%E2%80%99s-new-javascript-engine-shows-its-teeth-launch-on-september-1/" rel="nofollow" title="http://www.conceivablytech.com/1781/products/mozilla%E2%80%99s-new-javascript-engine-shows-its-teeth-launch-on-september-1/">Mozilla’s New JavaScript Engine Shows Its Teeth: Launch On September 1</a>
-</li></ul>
-<ul>
-<li><a class="external text" href="http://arstechnica.com/apple/reviews/2010/07/firefox-home-hands-on-firefox-on-your-iphone-sorta.ars" rel="nofollow" title="http://arstechnica.com/apple/reviews/2010/07/firefox-home-hands-on-firefox-on-your-iphone-sorta.ars">Firefox Home hands-on: Firefox on your iPhone… sorta</a> <p></p>
-</li><li><a class="external text" href="http://reviews.cnet.com/8301-19512_7-20010972-233.html" rel="nofollow" title="http://reviews.cnet.com/8301-19512_7-20010972-233.html">Hands-on look at Firefox Home for iPhone</a>
-</li><li><a class="external text" href="http://www.fastcompany.com/1670785/firefox-home-enters-the-app-store-connects-your-pcs-browser-to-your-iphones" rel="nofollow" title="http://www.fastcompany.com/1670785/firefox-home-enters-the-app-store-connects-your-pcs-browser-to-your-iphones">Firefox Home Enters the App Store, Connects Your PC’s Browser to Your iPhone’s </a>
-</li><li><a class="external text" href="http://techcrunch.com/2010/07/15/firefox-iphone/" rel="nofollow" title="http://techcrunch.com/2010/07/15/firefox-iphone/">Firefox Home For iPhone Approved, Lets You Sync Bookmarks, Open Tabs And More</a>
-</li><li><a class="external text" href="http://gadgetwise.blogs.nytimes.com/2010/07/19/app-smart-extra-firefox-home/?src=busln" rel="nofollow" title="http://gadgetwise.blogs.nytimes.com/2010/07/19/app-smart-extra-firefox-home/?src=busln">App Smart Extra: Firefox Home</a>
-</li></ul>
-<div class="printfooter">
-Retrieved from “<a href="https://wiki.mozilla.org/Firefox/Planning/2010-07-21">https://wiki.mozilla.org/Firefox/Planning/2010-07-21</a>“</div>
-<p></p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 22 Jul 2010 03:00:08 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:17:"Jesper Kristensen";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:40;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:80:"Mozilla Add-ons Blog: Add-on compatibility for Firefox 4 – time to get started";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:38:"http://blog.mozilla.com/addons/?p=1704";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:90:"http://blog.mozilla.com/addons/2010/07/21/compatibility-for-firefox-4-time-to-get-started/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:8323:"<p>As most of you are already well aware of, <a href="http://www.mozilla.com/en-US/firefox/beta/">Firefox 4 Beta 1</a> was released a few weeks ago. Beta 2 will follow very soon, and the final version is expected <a href="https://wiki.mozilla.org/Releases">late this year</a>. This relatively long transition period is great for add-on developers, because it gives us plenty of time to update and test our add-ons for Firefox 4. On the other hand, this new major release is going to sport a ton of new features, and it will break a great deal of stuff we need, so it won’t be trivial to upgrade most add-ons to support it. This is the first of many posts that inform add-on developers about Firefox 4 compatibility.</p>
-<p>First of all, MDC is your friend: <strong><a href="https://developer.mozilla.org/en/Firefox_4_for_developers">Firefox 4 for developers</a></strong>. This is the document that will and should have all the necessary information for web developers and add-on developers surrounding Firefox 4. Make sure you visit this document regularly and look for changes. If you know of anything missing in that document, please add it yourself or let us know.</p>
-<p>Here are some highlights from the document.</p>
-<h3>The new Add-on Manager object</h3>
-<p>The nsIExtensionManager interface is no more, along with its RDF backend. Add-on data will now be stored in a SQLite database, and the Add-on Manager is now a <a href="https://developer.mozilla.org/en/Addons/Add-on_Manager/AddonManager">JS Module called AddonManager</a>.</p>
-<p>A key difference in this new interface is that <a href="http://www.oxymoronical.com/blog/2010/03/How-were-breaking-some-extensions-in-the-near-future">requesting add-on data is now asynchronous</a>. This applies to the FUEL library as well, so every add-on that requests add-on data is affected. This is particularly delicate for add-ons that have to fetch and deal with this data at startup. However, if you’re also trying to follow our <a href="http://blog.mozilla.com/addons/2010/06/14/improve-extension-startup-performance/">startup performance recommendations</a>, you should already be planning on implementing an asynchronous startup process.</p>
-<h3>XPCOM Registration</h3>
-<p>There’s a lot going on in this area: <a href="https://developer.mozilla.org/en/XPCOM/XPCOM_changes_in_Gecko_2.0">XPCOM Changes in Gecko 2.0</a>, and none of your components will work until you adjust to these changes.</p>
-<p>Components now need to be explicitly declared in the <em>chrome.manifest</em> file. A number of startup observer topics have been removed, leaving only the one that has always been recommended: <em>profile-after-change</em>. Listeners and category registrations also need to be declared in the manifest and, because of this, some category names have changed.</p>
-<h3>Changes to tabbrowser</h3>
-<p>The TabClose, TabSelect and TabOpen events no longer bubble up to the tabbrowser element, also known as <em>gBrowser</em>. Event listeners for these events should be added to <em>gBrowser.tabContainer</em>.</p>
-<h3>Remote XUL is going away</h3>
-<p>Remote XUL is a rarely used feature in Gecko browsers that allow developers to create websites using XUL instead of HTML. Since XUL support is limited to a few browsers, it didn’t make much sense to create websites with it. However, it has been used successfully in a small number of internal business applications (also known as ‘dark matter’).</p>
-<p>Remote XUL has been a big maintenance problem, and it has been the source for numerous bugs and security problems. For this, <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=546857">remote XUL will be removed</a> in Firefox 4. Luckily, HTML 5 already includes a fairly robust box model, so the main loss here is that web developers will not be able to use XBL anymore. If you’re wondering what happened with XBL 2, removing remote XUL is a necessary step to work towards implementing it.</p>
-<h3>Theme and UI changes</h3>
-<p>This is an area where you need to check back frequently, because there are many ambitious plans for the Firefox 4 UI. Whether some of these changes will be implemented or not depends on time and finding the right compromises.</p>
-<p>The main document for these UI changes is in the Mozilla wiki: <a href="https://wiki.mozilla.org/Firefox/Projects/UX_Priorities_3.7">UX Priorities for Firefox 3.7</a>. Some important changes you should know about:</p>
-<ul>
-<li><a href="http://blog.mozilla.com/faaborg/2010/06/24/why-tabs-are-on-top-in-firefox-4/">Tabs on top</a>. There will be a preference that controls the location of the tab strip and toolbars.</li>
-<li>App menu. On Windows (at least?), there will be a single menu button instead of the full  menu toolbar. Pressing the Alt key will toggle the “classic” menu. This will surely have an impact on add-ons that overlay menus in the Main Menu.</li>
-<li>Home tab. This is a fixed tab in the first position of the tab strip.</li>
-<li>App tabs. It will be possible to toggle tabs into app tabs, which basically means they can’t be easily closed and their titles will be hidden, only showing the favicon. More interesting changes, like hiding toolbars for these tabs, are being planned.</li>
-<li>There are talks around hiding or completely removing the statusbar, another significant change for add-on developers. The discussion has spanned a number of blog posts, and will surely continue. For more information, please read parts <a href="http://jboriss.wordpress.com/2010/04/29/removing-firefoxs-status-bar-and-rehousing-add-on-icons-part-1-of-2/">1</a>, <a href="http://jboriss.wordpress.com/2010/06/07/removing-firefox%E2%80%99s-status-bar-and-rehousing-add-on-icons-part-2-of-2/">2</a> and <a href="http://jboriss.wordpress.com/2010/06/16/removing-firefox%e2%80%99s-status-bar-and-rehousing-add-on-icons-part-3-of-2-wut/">3</a>.</li>
-</ul>
-<h3>Other Stuff</h3>
-<ul>
-<li>For performance reasons, Firefox 4 is now caching some resources more aggressively, including extension chrome and JS files. This can lead to unexpected behavior when developing an add-on because changes to some files will not apply unless the corresponding cache files are deleted. This is the <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=531886">relevant bug</a>. Please don’t comment on it just to show support for either side; there’s too much of that already. In a nutshell, you should make sure that you have all the <a href="https://developer.mozilla.org/en/Setting_up_extension_development_environment#Development_preferences">right preferences set</a> and you use the -purgecaches command line argument when running your development profile. This will still fail to update your JS Modules, but this should be fixed in a future build.</li>
-<li>User Agent strings are <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=572650">going to be minimized</a> for various reasons. In order to align with these efforts, AMO Editors will soon be looking for UA manipulation in extensions. We will forbid any unnecessary modifications. Unless your add-on really needs to change the UA, you should start removing this code.</li>
-<li>I was informed by a developer that dropping a URL into the sidebar now has the default behavior of trying to open this URL. If you handle drag and drop in your sidebar, make sure you use <em>preventDefault</em>.</li>
-</ul>
-<p>As you can see, there’s plenty of work to do in order to become compatible with Firefox 4, so this is a good time to begin. However, keep in mind that Firefox 4 is still very much a work in progress, and there are likely more changes to come. Don’t think that you can create a final version of your add-on for Firefox 4 just based on the first beta. My recommendation is that you take your time and make sure you stay up to date with Firefox 4 news.</p>
-<p>And, of course, there’s plenty of good stuff coming that will enable you to do amazing things in your add-on, including 2D and 3D animation, multi-threading and interaction with system libraries. <a href="https://developer.mozilla.org/en/Firefox_4_for_developers">Firefox 4 for developers</a> is, again, your friend. The <a href="http://hacks.mozilla.org/2010/07/firefox-4-beta-1-is-here-whats-in-it-for-web-developers/">Hacks blog</a> also has a nice overview.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Thu, 22 Jul 2010 01:24:09 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:5:"Jorge";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:41;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:45:"Axel Hecht: l20n meetup in the european times";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://blog.mozilla.com/axel/?p=285";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:74:"http://blog.mozilla.com/axel/2010/07/21/l20n-meetup-in-the-european-times/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:761:"<p>I heard there was interest to join the l20n discussions, so I’ll do an “even more public” invitation to tomorrow’s l20n call.</p>
-<p>We’re going to have that call on conference bridge 206 at 11 am CET, standard mozilla conference call details. Blame Seth for being almost-european these days, even if it’s just timezone. (No, not  calling London Europe, no way.)</p>
-<p>The agenda for this call is to look at some l20n-compiled files for browser.xul to make an educated decision on how to encode both external vs internal properties, and multi-locale files.</p>
-<p>Sorry for the late invite, if you’re not on my radar and can’t make the meeting at such European hours, please follow up here, or by mail, and leave a note of your timezone.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 21 Jul 2010 22:02:41 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:10:"Axel Hecht";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:42;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:43:"Brendan Eich: A Brief History of JavaScript";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:29:"http://brendaneich.com/?p=186";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:61:"http://brendaneich.com/2010/07/a-brief-history-of-javascript/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:980:"<p>It’s good to be back. I let the <a href="http://weblogs.mozillazine.org/roadmap">old blog field</a> lie fallow in order to focus on work in Ecma TC39 (JS standards), Firefox 3.5, 3.6 and 4; and recently on a <a href="http://twitpic.com/23hs06">new</a> <a href="http://github.com/graydon/rust">project</a> that I’ll blog about soon.</p>
-<p></p>
-<p>In the mean time, here’s the video from my <a href="http://jsconf.us/2010/">JSConf 2010</a> surprise keynote in April. Highlights include:</p>
-<ul>
-<li>What would happen in a battle between Chuck Norris and Bruce Campbell</li>
-<li>Clips from Netsca^H^H^H^H^H^HEvil Dead 2 and Army of Darkness</li>
-<li>Discussion of where JS has been and what lies in its immediate future</li>
-</ul>
-<p>True facts:</p>
-<ul>
-<li>I did meet John McCarthy of LISP fame in 1977</li>
-<li>My haircut was influenced by Morrissey’s (hey, it was the late ’80s)</li>
-<li>JS’s <code>function</code> keyword did come from AWK</li>
-</ul>
-<p>/be</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 21 Jul 2010 18:52:18 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:7:"brendan";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:43;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:83:"Chris Lyon: Mozilla Summit – “Are We Being Secure?” and are password(s) safe?";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:23:"http://cslyon.net/?p=19";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:58:"http://cslyon.net/2010/07/21/mozilla-summit-are-we-secure/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4301:"<p><strong>Does this page look familiar?</strong></p>
-<p><a href="http://cslyon45.files.wordpress.com/2010/07/screen-shot-2010-07-20-at-7-15-36-pm.png"></a><a href="http://cslyon45.files.wordpress.com/2010/07/screen-shot-2010-07-20-at-7-15-36-pm.png"><img alt="" class="alignnone size-full wp-image-20" height="380" src="http://cslyon45.files.wordpress.com/2010/07/screen-shot-2010-07-20-at-7-15-36-pm.png?w=550&amp;h=380" width="550" /></a></p>
-<p>As many of you know, this is a play off the famous “Wall of Sheep”, aka “Wall of Wonder”, aka “Wall of Shame” that is displayed at most security conferences and with the Blackhat / DEFCON week just around the corner, I can’t think of a better time to discuss what was found and how this was done. I also wanted to thank my dedicated and talented intern for his hard work on this project. (Chris Van Wiemeersch) He did an excellent job with presenting this data you see above.</p>
-<p>An initial side note, we didn’t display the user name and password because we wanted to make this an educational journey rather than a shameful experience. Beware if you are at a security conference they will not be as kin d and could possibly show your user name and password. (Some only show partial passwords)</p>
-<p>The two questions that I got asked the most during the conference were: “How are you doing this?” and “How do we really know we are secure?” The “how to” is rather simple and there isn’t any magic or Voodoo with pulling user-names and passwords if they are going over an unencrypted channel. Many people think that since the wireless network is encrypted that their information is safe but this is an application issue and not a wireless or network problem. Some of the time, it could also just be a setting within the application to use encryption. (This really depends upon the application and if they even use encryption at all. We discovered a few that just didn’t use encryption at all.) In order to test to see if passwords are going over clear text, there are a few utilities that can pull this information off the wire or wireless network. Snort, dsniff, and ettercap all come to mind when trying to figure out if passwords are flying around in plain readable text. We used ettercap for our “Are We Being Secure” page since it was quick and easy. Once you have the utility setup, it is just a matter of watching the output.</p>
-<p>The only way to really know you are secure and don’t have passwords flying around in plain text is to test every application on every device you use.  I just wouldn’t do that at the conference. The biggest takeaway and the main point behind the “Wall of Sheep” is bring to people’s attention that this can happen and happens more than you think. Password diversity or some throwaway passwords will also go a long way and in case your password is exposed for some social networking site, they won’t be able to access other systems.</p>
-<p>P.S. we will be posting the code and instructions for running this system on your own. We are also looking at the data and should have something more formal to present in the near future.</p>
-<br />  <a href="http://feeds.wordpress.com/1.0/gocomments/cslyon45.wordpress.com/19/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/cslyon45.wordpress.com/19/" /></a> <a href="http://feeds.wordpress.com/1.0/godelicious/cslyon45.wordpress.com/19/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/cslyon45.wordpress.com/19/" /></a> <a href="http://feeds.wordpress.com/1.0/gostumble/cslyon45.wordpress.com/19/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/cslyon45.wordpress.com/19/" /></a> <a href="http://feeds.wordpress.com/1.0/godigg/cslyon45.wordpress.com/19/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/cslyon45.wordpress.com/19/" /></a> <a href="http://feeds.wordpress.com/1.0/goreddit/cslyon45.wordpress.com/19/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/cslyon45.wordpress.com/19/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=cslyon.net&amp;blog=10586918&amp;post=19&amp;subd=cslyon45&amp;ref=&amp;feed=1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 21 Jul 2010 18:33:59 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:5:"Chris";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:44;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:58:"Aakash Desai: Firefox Input, now with Atom Feeds and L10n!";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://aakash.doesthings.com/?p=497";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:83:"http://aakash.doesthings.com/2010/07/21/firefox-input-now-with-atom-feeds-and-l10n/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1997:"<p>The Fx Input team has released out a new revision of our fun project within the Firefox Betas! We had our triagers in mind with this release and have some real goodies for them. Take a look below for what’s in this release. Of course, a hearty congratulations and thanks are in order for Fred Wenzel, Dave Dash, Stephen Donner, Shyam Mani, Chris Howse, the L10n team and James Socol for making it happen.</p>
-<h3>Features Added</h3>
-<ol>
-<li>All searches now have feeds! For example, head over to a <a href="http://input.mozilla.com/en-US/search/?q=love&amp;product=firefox">search results page for the term ‘love’</a> and look at the right side of your url bar. There you’ll see a pretty little feed icon present. Click on it and enjoy!</li>
-<li>L10n Help in the form of a localized Input  (check out the bottom of the submission and dashboard pages) and a “Translate!” link for each individual message that redirects the user to Google’s Translation Service with the message they select in-hand.</li>
-<li>A few UX changes like removing those space-taking boxes on each individual message and percentages between happy/sad on our Overview Box.</li>
-</ol>
-<p>If you’re interested in the stuff we’re doing and want to help out, come over and join us at #input on irc.mozilla.org!</p>
-<h4>Technical Bug Stuff Below</h4>
-<ul>
-<li><a href="https://bugzilla.mozilla.org/buglist.cgi?query_format=advanced&amp;bug_severity=enhancement&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;component=Input&amp;resolution=FIXED&amp;target_milestone=1.5&amp;product=Webtools">Enhancements Added</a></li>
-<li><a href="https://bugzilla.mozilla.org/buglist.cgi?query_format=advanced&amp;bug_severity=blocker&amp;bug_severity=critical&amp;bug_severity=major&amp;bug_severity=normal&amp;bug_severity=minor&amp;bug_severity=trivial&amp;bug_status=RESOLVED&amp;bug_status=VERIFIED&amp;component=Input&amp;resolution=FIXED&amp;target_milestone=1.5&amp;product=Webtools">Bugs fixed</a></li>
-</ul>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 21 Jul 2010 15:55:07 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:6:"aakash";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:45;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:66:"Armen Zambrano Gasparnian: Unit tests on the minis - status update";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:59:"tag:blogger.com,1999:blog-18323498.post-4440758345321713597";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:74:"http://armenzg.blogspot.com/2010/07/unit-tests-on-minis-status-update.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2137:"Over the <a href="http://armenzg.blogspot.com/search/label/unit%20testing">last few months</a> we have been switching to run unit tests on the minis to improve our load and use real users' OS to run our unit tests. <br /><br />We are now running unit tests on the minis for mozilla-central, try and tracemonkey branches. This change means that we have reduced the load on the builders side from running 22 jobs per push per platform to only 2 jobs per push per platform (the opt build and the debug build). Ask joduinn for how much CPU time we are saving [1].<br /><br />TraceMonkey is the first project branch to be running on the minis but next week we should have *all* other branches move to the minis as well.<br /><br />TM is the third most active branch after try and m-c and it accounts for 9% of commits (try 37% &amp; m-c 36%). This means we are now running 82% of our unit tests' load on the minis instead of the builders (this is only for Fedora 32/64-bit and OSX 10.5/10.6 since Windows is not yet moved over).<br /><br /><b>What comes next?</b><br />In the next week we should see all other project branches' unit tests to be run on the minis and cut the load again on the builders' side. This will help us to move more slaves to the try pool where they are most needed.<br /><br />[1] <a href="http://oduinn.com/blog/2010/07/16/infrastructure-load-for-june-2010/">http://oduinn.com/blog/2010/07/16/infrastructure-load-for-june-2010/</a><br /><br /><hr /><a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png" style="border-width: 0pt;" /></a><br />This work by <a href="http://armenzg.blogspot.com/" rel="cc:attributionurl">Zambrano Gasparnian, Armen</a> is licensed under a <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/" rel="license">Creative Commons Attribution-Noncommercial-Share Alike 3.0 Unported License</a>.<div class="blogger-post-footer"><img alt="" height="1" src="https://blogger.googleusercontent.com/tracker/18323498-4440758345321713597?l=armenzg.blogspot.com" width="1" /></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 21 Jul 2010 15:32:20 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:36:"noreply@blogger.com (Armen Zambrano)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:46;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:54:"Mozilla Labs: Jetpack Presentation @ OSC 2010 Hokkaido";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:33:"http://mozillalabs.com/feed/3.917";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:84:"http://mozillalabs.com/jetpack/2010/07/21/jetpack-presentation-at-osc-2010-hokkaido/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1800:"<p>We (<a href="http://minism.jp/">Daisuke Akatsuka</a> &amp; <a href="http://www.xuldev.org/">Gomita</a>) gave a presentation on Jetpack to <a href="http://www.ospn.jp/osc2010-do/">Open Source Conference 2010 Hokkaido</a> which was held in Japan, on 26th June.</p>
-<p>In the first part of the presentation, Daisuke talked about the concept of Jetpack and the history shifting from Jetpack Prototype to Jetpack Reboot. His talk was focused on the points that Jetpack makes the install and development of extensions easier, and is a technology which has a potential to “make your browser by yourself”.</p>
-<p>In the second part, Gomita demonstrated an agile extension development using the Jetpack SDK and Add-ons Builder. The demo consisted of the following three parts; setup SDK, creating the simplest ‘Hello, World!’ extension, and creating more functional one named ‘Copy Title + URL’ with some standard APIs and my own Clipboard API.</p>
-<p>Although we had little time to being asked questions, we felt that the presentation was an effective way to describe the possibility of the Jetpack technology for both users and developers who belong to various open source communities.</p>
-<h3>Slides</h3>
-<p><a href="https://docs.google.com/fileview?id=0B7ITQLfukCJeZjY0YzEwMWEtNjVhZS00ZDJiLTgxMmEtNmMzNjU2ZWQ4Njdj&amp;hl=en">Jetpack —make your browser by yourself—</a><br />
-<a href="http://docs.google.com/present/view?id=df2mfhd7_188cttck5fs">Jetpack SDK 0.5 Demonstration</a></p>
-<h3>Examples</h3>
-<p><a href="http://www.xuldev.org/misc/jetpack/copy-title-url.zip">Download complete package of ‘Copy Title + URL’ for Jetpack SDK 0.5</a><br />
-<a href="https://builder.mozillalabs.com/addon/1000023/latest/">View source of ‘Copy Title + URL’ on Add-ons Builder Preview</a></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 21 Jul 2010 13:39:38 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:6:"gomita";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:47;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:21:"Paul Rouget: Geekwear";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:40:"urn:md5:822e808400b0f417458d2307e9f43c27";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:47:"http://blog.mozbox.org/post/2010/07/21/Geekwear";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:300:"<p>Some people wear suit at work, some don't :)</p>
-<p><a href="http://bit.ly/90qCKT"><img alt="" src="http://farm5.static.flickr.com/4140/4814620471_3a9ecb7cc6.jpg" /></a></p>
-<p>My best geekwear: <a href="http://bit.ly/90qCKT">http://www.flickr.com/photos/paulrouget/sets/72157624550497814/</a></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 21 Jul 2010 13:03:00 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Paul Rouget";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:48;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:78:"David Eaves: Creating Open Data Apps: Lessons from Vantrash Creator Luke Closs";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:23:"http://eaves.ca/?p=2863";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:61:"http://feedproxy.google.com/~r/EavescaMozilla/~3/d0T5HDzQ4Wc/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:9170:"<p>Last week, as part of the <a href="http://apps4climateaction.gov.bc.ca/">Apps for Climate Action competition</a> (which is open to anyone in Canada), I interviewed the always awesome <a href="http://awesnob.com/">Luke Closs</a>. Luke, along with <a href="http://twitter.com/kevinj">Kevin Jones</a>, created <a href="http://vantrash.ca/">VanTrash</a>, a garbage pick up reminder app that uses open data from the City of Vancouver. In it, Luke shares some of the lessons learned while creating an  application using open data.</p>
-<p>As the deadline for the Apps for Climate Action competition approaches (August 8th) we thought this might help those who are thinking about throwing their hat in the ring last minute.</p>
-<p></p>
-<p>Some key lessons from Luke:</p>
-<ul>
-<li>Don't boil the ocean: Keep it simple - do one thing really, really well.</li>
-<li>Get a beta up fast: Try to scope something you can get a rough version working in day or evening - that is a sure sign that it is doable</li>
-<li>Beta test: On friends and family. A lot.</li>
-<li>Keep it fun: do something that develops a skill or let's you explore a technology you're interested in</li>
-</ul>
-
-
-
-Email &amp; Share:
-
-
-	<a href="http://www.printfriendly.com/print?url=http%3A%2F%2Feaves.ca%2F2010%2F07%2F21%2Fcreated-open-data-apps-lessons-from-vantrash-creator-luke-closs%2F&amp;partner=sociable" rel="nofollow" target="_blank" title="Print"><img alt="Print" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/printfriendly.png" title="Print" /></a>
-	<a href="http://www.printfriendly.com/print?url=http%3A%2F%2Feaves.ca%2F2010%2F07%2F21%2Fcreated-open-data-apps-lessons-from-vantrash-creator-luke-closs%2F&amp;partner=sociable" rel="nofollow" target="_blank" title="PDF"><img alt="PDF" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/pdf.png" title="PDF" /></a>
-	<a href="mailto:?subject=Creating%20Open%20Data%20Apps%3A%20Lessons%20from%20Vantrash%20Creator%20Luke%20Closs&amp;body=http%3A%2F%2Feaves.ca%2F2010%2F07%2F21%2Fcreated-open-data-apps-lessons-from-vantrash-creator-luke-closs%2F" rel="nofollow" target="_blank" title="email"><img alt="email" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/email_link.png" title="email" /></a>
-	<a href="http://twitter.com/home?status=Creating%20Open%20Data%20Apps%3A%20Lessons%20from%20Vantrash%20Creator%20Luke%20Closs%20-%20http%3A%2F%2Feaves.ca%2F2010%2F07%2F21%2Fcreated-open-data-apps-lessons-from-vantrash-creator-luke-closs%2F" rel="nofollow" target="_blank" title="Twitter"><img alt="Twitter" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/twitter.png" title="Twitter" /></a>
-	<a href="http://delicious.com/post?url=http%3A%2F%2Feaves.ca%2F2010%2F07%2F21%2Fcreated-open-data-apps-lessons-from-vantrash-creator-luke-closs%2F&amp;title=Creating%20Open%20Data%20Apps%3A%20Lessons%20from%20Vantrash%20Creator%20Luke%20Closs&amp;notes=Last%20week%2C%20as%20part%20of%20the%20Apps%20for%20Climate%20Action%20competition%20%28which%20is%20open%20to%20anyone%20in%20Canada%29%2C%20I%20interviewed%20the%20always%20awesome%20Luke%20Closs.%20Luke%2C%20along%20with%20Kevin%20Jones%2C%20created%20VanTrash%2C%20a%20garbage%20pick%20up%20reminder%20app%20that%20uses%20open%20data%20from%20th" rel="nofollow" target="_blank" title="del.icio.us"><img alt="del.icio.us" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/delicious.png" title="del.icio.us" /></a>
-	<a href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Feaves.ca%2F2010%2F07%2F21%2Fcreated-open-data-apps-lessons-from-vantrash-creator-luke-closs%2F&amp;title=Creating%20Open%20Data%20Apps%3A%20Lessons%20from%20Vantrash%20Creator%20Luke%20Closs&amp;bodytext=Last%20week%2C%20as%20part%20of%20the%20Apps%20for%20Climate%20Action%20competition%20%28which%20is%20open%20to%20anyone%20in%20Canada%29%2C%20I%20interviewed%20the%20always%20awesome%20Luke%20Closs.%20Luke%2C%20along%20with%20Kevin%20Jones%2C%20created%20VanTrash%2C%20a%20garbage%20pick%20up%20reminder%20app%20that%20uses%20open%20data%20from%20th" rel="nofollow" target="_blank" title="Digg"><img alt="Digg" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/digg.png" title="Digg" /></a>
-	<a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Feaves.ca%2F2010%2F07%2F21%2Fcreated-open-data-apps-lessons-from-vantrash-creator-luke-closs%2F&amp;title=Creating%20Open%20Data%20Apps%3A%20Lessons%20from%20Vantrash%20Creator%20Luke%20Closs" rel="nofollow" target="_blank" title="StumbleUpon"><img alt="StumbleUpon" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/stumbleupon.png" title="StumbleUpon" /></a>
-	<a href="http://slashdot.org/bookmark.pl?title=Creating%20Open%20Data%20Apps%3A%20Lessons%20from%20Vantrash%20Creator%20Luke%20Closs&amp;url=http%3A%2F%2Feaves.ca%2F2010%2F07%2F21%2Fcreated-open-data-apps-lessons-from-vantrash-creator-luke-closs%2F" rel="nofollow" target="_blank" title="Slashdot"><img alt="Slashdot" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/slashdot.png" title="Slashdot" /></a>
-	<a href="http://reddit.com/submit?url=http%3A%2F%2Feaves.ca%2F2010%2F07%2F21%2Fcreated-open-data-apps-lessons-from-vantrash-creator-luke-closs%2F&amp;title=Creating%20Open%20Data%20Apps%3A%20Lessons%20from%20Vantrash%20Creator%20Luke%20Closs" rel="nofollow" target="_blank" title="Reddit"><img alt="Reddit" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/reddit.png" title="Reddit" /></a>
-	<a href="http://www.facebook.com/share.php?u=http%3A%2F%2Feaves.ca%2F2010%2F07%2F21%2Fcreated-open-data-apps-lessons-from-vantrash-creator-luke-closs%2F&amp;t=Creating%20Open%20Data%20Apps%3A%20Lessons%20from%20Vantrash%20Creator%20Luke%20Closs" rel="nofollow" target="_blank" title="Facebook"><img alt="Facebook" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/facebook.png" title="Facebook" /></a>
-	<a href="http://www.netvibes.com/share?title=Creating%20Open%20Data%20Apps%3A%20Lessons%20from%20Vantrash%20Creator%20Luke%20Closs&amp;url=http%3A%2F%2Feaves.ca%2F2010%2F07%2F21%2Fcreated-open-data-apps-lessons-from-vantrash-creator-luke-closs%2F" rel="nofollow" target="_blank" title="Netvibes"><img alt="Netvibes" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/netvibes.png" title="Netvibes" /></a>
-	<a href="http://technorati.com/faves?add=http%3A%2F%2Feaves.ca%2F2010%2F07%2F21%2Fcreated-open-data-apps-lessons-from-vantrash-creator-luke-closs%2F" rel="nofollow" target="_blank" title="Technorati"><img alt="Technorati" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/technorati.png" title="Technorati" /></a>
-	<a href="http://twitter.com/home/?status=tip%20@Techmeme%20http%3A%2F%2Feaves.ca%2F2010%2F07%2F21%2Fcreated-open-data-apps-lessons-from-vantrash-creator-luke-closs%2F%20Creating%20Open%20Data%20Apps%3A%20Lessons%20from%20Vantrash%20Creator%20Luke%20Closs" rel="nofollow" target="_blank" title="Suggest to Techmeme via Twitter"><img alt="Suggest to Techmeme via Twitter" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/techmeme.png" title="Suggest to Techmeme via Twitter" /></a>
-	<a href="http://identi.ca/notice/new?status_textarea=http%3A%2F%2Feaves.ca%2F2010%2F07%2F21%2Fcreated-open-data-apps-lessons-from-vantrash-creator-luke-closs%2F" rel="nofollow" target="_blank" title="Identi.ca"><img alt="Identi.ca" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/identica.png" title="Identi.ca" /></a>
-
-
-<br /><br /><div class="goosegrade-badge-right"><a><img border="0" src="http://www.goosegrade.com/badge.php?sid=2316560&amp;page=http://eaves.ca/2010/07/21/created-open-data-apps-lessons-from-vantrash-creator-luke-closs/" title="Suggest spelling, factual, grammar, and other corrections to the author. Click here." /></a></div><div class="goosegrade-clear"></div><div class="feedflare">
-<a href="http://feeds.feedburner.com/~ff/EavescaMozilla?a=d0T5HDzQ4Wc:W8EWODH-0aw:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/EavescaMozilla?d=yIl2AUoC8zA" /></a> <a href="http://feeds.feedburner.com/~ff/EavescaMozilla?a=d0T5HDzQ4Wc:W8EWODH-0aw:7Q72WNTAKBA"><img border="0" src="http://feeds.feedburner.com/~ff/EavescaMozilla?d=7Q72WNTAKBA" /></a> <a href="http://feeds.feedburner.com/~ff/EavescaMozilla?a=d0T5HDzQ4Wc:W8EWODH-0aw:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/EavescaMozilla?i=d0T5HDzQ4Wc:W8EWODH-0aw:V_sGLiPBpWU" /></a> <a href="http://feeds.feedburner.com/~ff/EavescaMozilla?a=d0T5HDzQ4Wc:W8EWODH-0aw:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/EavescaMozilla?d=qj6IDK7rITs" /></a> <a href="http://feeds.feedburner.com/~ff/EavescaMozilla?a=d0T5HDzQ4Wc:W8EWODH-0aw:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/EavescaMozilla?i=d0T5HDzQ4Wc:W8EWODH-0aw:gIN9vFwOqvQ" /></a>
-</div><img height="1" src="http://feeds.feedburner.com/~r/EavescaMozilla/~4/d0T5HDzQ4Wc" width="1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 21 Jul 2010 12:32:21 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"David Eaves";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:49;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:70:"Planet Mozilla Interns: Brian Krausz: The Worst Paragraph Ever Written";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:26:"http://nerdlife.net/?p=323";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:55:"http://feedproxy.google.com/~r/nerdlife/~3/kuNYMADUeOo/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1677:"<p>Context: There’s an organization that sponsors Shabbat dinners.  It’s really awesome: they basically pay you to feed your friends.  That being said, they need a copywriter.  Here’s a paragraph in the email they sent confirming my sponsored dinner:</p>
-<blockquote><p>As of Monday, July 19th, the new NEXT Shabbat program will begin providing new NEXT Shabbat’s with up to $14 per guest (maximum of 16 guests) for the first three meals a host registers after that date. After those three meals, hosts will receive up to $10 dollars per guest. As a returning NEXT Shabbat host, your meal-payment will be based on the number of meals you’ve held already. However, since you have a meal scheduled to take place between July 19th and August 19th, you will still receive $18 per-guest for that meal. Following that meal, if you’ve already held at least three meals, any meal registered after July 19th will only be eligible for a payment of $10 per guest. By joining with us as we make these changes to the program you will give many more people the opportunity to host and will enable thousands to participate in home-based Shabbat meals for the first time. If you’ve held less than three meals, any meal registered after July 19th will be eligible for a payment of up to $14 through your third meal. You can also see how many meals you have already hosted.</p></blockquote>
-<p>As always apologies for the lack of updates: I promise there’s a short (but major) update coming very soon, followed by more frequent posting (there’s a reason I’ve been so quiet lately).</p>
-<img height="1" src="http://feeds.feedburner.com/~r/nerdlife/~4/kuNYMADUeOo" width="1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 21 Jul 2010 11:31:15 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:5:"Brian";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:50;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:63:"Robert O'Callahan: Coding Style As A Failure Of Language Design";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:72:"http://weblogs.mozillazine.org/roc/archives/2010/07/coding_style_as.html";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:72:"http://weblogs.mozillazine.org/roc/archives/2010/07/coding_style_as.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2895:"<div class="columns"><p>Variance in coding style is a huge problem. Reading code where the style varies all over the place is painful. Moving code from one place to another and having to restyle it is awful. Constantly adjusting the style in which you're writing code to conform to the local style of the project, module, file, function or line you're modifying is miring.
-</p><p>Therefore projects adopt style rules to encourage and enforce a uniform style for the project's code. However, these rules still have to be learned, and adherence to them checked and corrected, usually by humans. This takes a lot of time and effort, and imperfect enforcement means code style consistency gradually decays over time. And even if it were not so, code moving between projects looks out of place because style rules are rarely identical between projects --- unless you reformat it all, in which case you damage the relationship with the original code.
-</p><p>I see this as a failure of language design. Languages already make rules about syntax that are somewhat arbitrary. Projects imposing additional syntax restrictions indicate that the language did not constrain the syntax enough; if the language syntax was sufficiently constrained, projects would not feel the need to do it. Syntax would be uniform within and across projects, and developers would not need to learn multiple variants of the same language. More syntactic restrictions would be checked and enforced by the compiler, reducing the need for human (or even tool-assisted) review. IDE assistance could be more precise.
-</p><p>Two major counter-arguments arise. People will argue that coding style is a personal preference and therefore diversity should be allowed. This is true if you only participate in particularly small projects, but if you work in a large project then --- unless you are exceptionally fortunate --- you will have to deal with a coding style that is not your preference, no matter what. (Maciej Stachowiak once said that willingness to subjugate one's personal preferences to a project's preferences is a useful barometer of character, and I agree!)
-</p><p>A more interesting counter-argument is that many coding style rules aren't sufficiently formalized so as to be machine-checkable, and might even be very difficult to formalize at all. This is true; for example, line-breaking rules or variable naming rules might be very difficult to formalize. So I relax my thesis to claim that at least those rules which can be formalized should be baked into the language.
-</p><p>(Figuring out exactly which rules can be formalized, and exploring alternative syntax designs that maximize automatic style checkability while still being nice syntax, sound like fun research! Programming language syntax is one of those areas that I think has been greatly under-researched, especially from the HCI point of view.)</p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 21 Jul 2010 04:41:17 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:3:"roc";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:51;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:6:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:40:"Aki Sasaki: Where are the mobile builds?";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:44:"http://drkscrtlv.livejournal.com/320620.html";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:44:"http://drkscrtlv.livejournal.com/320620.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4629:"<p>
-We've been thinking about changing our mobile upload logic for a while now.
-</p><ol>
-<li><p>"mobile-trunk" and "mobile-1.9.2" were effective enough abstractions, but forced us to translate those back to branch names in automation,</p></li>
-<li><p>uploading all platforms to the same directory resulted in same-named files being overwritten by subsequent builds (e.g. the windows l10n repack overwriting the linux l10n repack's xpi files), and</p></li>
-<li><p>old versions of the same files would hang around in the latest nightly directories after a version bump. Or, in the case of the Maemo deb files, <i>every</i> build would upload a differently-named deb.</p></li>
-</ol><p>
-The first two issues should be solved now that <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=579097">bug 579097</a> has landed.  Instead of stuffing everything into <code>latest-mobile-trunk/</code>, we're using a branch-platform naming structure.
-</p><blockquote><p>
-This structure should also allow us to solve issue #3 elegantly.  We're currently copying new files into a directory with existing files, with the assumption that they'll overwrite each other.  This, of course, breaks when the filename changes. And adding per-file cleanup logic tends to be complex or messy or both.
-</p><p>
-If, instead, the latest-* directories were softlinks to the latest dated directory (e.g. <code>latest-mozilla-central-maemo4 -&gt;</code> <code>2010/07/2010-07-20-13-mozilla-central-maemo4/</code>), there would be no old files to clean up.  I'm a big fan of directory-level upload logic, because of things like this.
-</p><p>
-This is on my radar; not written yet.  Tracked in <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=580495">bug 580495</a>.
-</p></blockquote><p>
-So where are the builds?  Still in the <a href="http://ftp.mozilla.org/pub/mozilla.org/mobile/nightly/">nightly</a> directory. But the layout's a bit different.
-</p><p>
-For trunk (mozilla-central), look here:
-</p><blockquote><table border="1" cellpadding="5" cellspacing="0">
-<tbody><tr><td>Android</td><td><a href="http://ftp.mozilla.org/pub/mozilla.org/mobile/nightly/latest-mozilla-central-android-r7/">latest-mozilla-central-android-r7/</a></td></tr>
-<tr><td>Maemo 5 GTK (Fremantle)</td><td><a href="http://ftp.mozilla.org/pub/mozilla.org/mobile/nightly/latest-mozilla-central-maemo5-gtk/">latest-mozilla-central-maemo5-gtk/</a></td></tr>
-<tr><td>Maemo 5 QT (Fremantle-QT)</td><td><a href="http://ftp.mozilla.org/pub/mozilla.org/mobile/nightly/latest-mozilla-central-maemo5-qt/">latest-mozilla-central-maemo5-qt/</a></td></tr>
-<tr><td>Maemo 4 (Chinook)</td><td><a href="http://ftp.mozilla.org/pub/mozilla.org/mobile/nightly/latest-mozilla-central-maemo4/">latest-mozilla-central-maemo4/</a></td></tr>
-<tr><td>Linux Desktop</td><td><a href="http://ftp.mozilla.org/pub/mozilla.org/mobile/nightly/latest-mozilla-central-linux/">latest-mozilla-central-linux/</a></td></tr>
-<tr><td>MacOSX Desktop</td><td><a href="http://ftp.mozilla.org/pub/mozilla.org/mobile/nightly/latest-mozilla-central-macosx/">latest-mozilla-central-macosx/</a></td></tr>
-<tr><td>Windows Desktop</td><td><a href="http://ftp.mozilla.org/pub/mozilla.org/mobile/nightly/latest-mozilla-central-win32/">latest-mozilla-central-win32/</a></td></tr>
-</tbody></table></blockquote><p>
-For 1.1.x nightlies (mozilla-1.9.2), look here:
-</p><blockquote><table border="1" cellpadding="5" cellspacing="0">
-<tbody><tr><td>Maemo 5 GTK (Fremantle)</td><td><a href="http://ftp.mozilla.org/pub/mozilla.org/mobile/nightly/latest-mozilla-1.9.2-maemo5-gtk/">latest-mozilla-1.9.2-maemo5-gtk/</a><br />
-</td></tr><tr><td>Maemo 4 (Chinook)</td><td><a href="http://ftp.mozilla.org/pub/mozilla.org/mobile/nightly/latest-mozilla-1.9.2-maemo4/">latest-mozilla-1.9.2-maemo4/</a><br />
-</td></tr><tr><td>Linux Desktop</td><td><a href="http://ftp.mozilla.org/pub/mozilla.org/mobile/nightly/latest-mozilla-1.9.2-linux/">latest-mozilla-1.9.2-linux/</a><br />
-</td></tr><tr><td>MacOSX Desktop</td><td><a href="http://ftp.mozilla.org/pub/mozilla.org/mobile/nightly/latest-mozilla-1.9.2-macosx/">latest-mozilla-1.9.2-macosx/</a><br />
-</td></tr><tr><td>Windows Desktop</td><td><a href="http://ftp.mozilla.org/pub/mozilla.org/mobile/nightly/latest-mozilla-1.9.2-win32/">latest-mozilla-1.9.2-win32/</a><br />
-</td></tr></tbody></table></blockquote><p>
-Depend builds are still in the misnamed <a href="http://ftp.mozilla.org/pub/mozilla.org/mobile/tinderbox-builds/">tinderbox-builds</a> directory, and the <a href="http://ftp.mozilla.org/pub/mozilla.org/mobile/repos/">Maemo nightly update repositories</a> are still in the same place.
-</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 21 Jul 2010 03:08:32 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:6:"author";a:1:{i:0;a:5:{s:4:"data";s:35:"aki@darksecretlove.com (Aki Sasaki)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:52;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:81:"Meeting Notes from the Mozilla community: Thunderbird Meeting Minutes: 2010-07-20";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/337";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/337";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:12709:"<div>
-<h3>Thunderbird/StatusMeetings/2010-07-20</h3>
-<h5>From MozillaWiki</h5>
-<div id="contentSub"><span class="subpages">&lt; <a href="https://wiki.mozilla.org/Thunderbird" title="Thunderbird">Thunderbird</a> | <a href="https://wiki.mozilla.org/Thunderbird/StatusMeetings" title="Thunderbird/StatusMeetings">StatusMeetings</a></span></div>
-<p><a href="https://wiki.mozilla.org/Thunderbird/StatusMeetings/2010-06-29" title="Thunderbird/StatusMeetings/2010-06-29">last meeting</a> | <a href="https://wiki.mozilla.org/Thunderbird/StatusMeetings" title="Thunderbird/StatusMeetings">index</a> | <strong>next meeting »</strong>
-</p>
-<table>
-<caption> <b>Current Release Schedules</b><br />
-</caption>
-<tbody><tr>
-<th width="33%"> Thunderbird 3.2
-</th><th> Thunderbird 3.1.1
-</th><th> Thunderbird 3.0.6<br />
-</th></tr>
-<tr>
-<td> To Be Announced<p></p>
-</td><td>
-<ul>
-<li> Relbranch opens: June 24<p></p>
-</li><li> Code &amp; L10 freeze: July 13
-</li><li> Builds start: July 13
-</li><li> QA with builds start: July 14
-</li><li> Beta period starts: July 15
-</li><li> Final release: July 20
-</li></ul>
-</td><td>
-<ul>
-<li> Relbranch opens: June 18<p></p>
-</li><li> Code freeze: July 1
-</li><li> L10n freeze: July 1
-</li><li> Builds start: July 1
-</li><li> QA with builds start: July 2
-</li><li> Beta period starts: July 13
-</li><li> Final release: July 20
-</li></ul>
-</td></tr></tbody></table>
-<p>
-<b>Thunderbird Meeting Details</b> :
-</p>
-<ul>
-<li><a class="external text" href="http://www.timeanddate.com/worldclock/fixedtime.html?year=2010&amp;month=07&amp;day=20&amp;hour=16&amp;min=30&amp;sec=0" rel="nofollow" title="http://www.timeanddate.com/worldclock/fixedtime.html?year=2010&amp;month=07&amp;day=20&amp;hour=16&amp;min=30&amp;sec=0">Tuesday, July 20th, 16:30 UTC</a> (9:30am Pacific, 12:30pm Eastern)<p></p>
-</li><li><a href="https://wiki.mozilla.org/Thunderbird/StatusMeeting/DialInInfo" title="Thunderbird/StatusMeeting/DialInInfo">How to dial-in</a>
-</li></ul>
-<p><b>Remember to press *1 to unmute yourself before talking!</b>
-</p>
-<p><a id="Agenda" name="Agenda"></a><br />
-</p><h4> </h4>
-<ul>
-<li>Who’s taking minutes? –&gt; <b>Standard8</b> <p></p>
-</li><li><a class="external text" href="http://ascher.ca/thunderbird/minutes_schedule.html" rel="nofollow" title="http://ascher.ca/thunderbird/minutes_schedule.html">Minute taking Schedule</a>. Talk to davida for schedule changes/additions.
-</li></ul>
-<p><a id="Action_Items" name="Action_Items"></a><br />
-</p><h5> </h5>
-<p><a id="Friends_of_the_Tree" name="Friends_of_the_Tree"></a><br />
-</p><h5> </h5>
-<p>Thanks to our <a class="external text" href="http://developer.mozilla.org/en/Glossary#FotT" rel="nofollow" title="http://developer.mozilla.org/en/Glossary#FotT">Friends of the Tree</a>  When adding someone to this section, please get their T-Shirt size and send it to <a class="external text" href="mailto:rebron@mozillamessaging.com" rel="nofollow" title="mailto:rebron@mozillamessaging.com">rebron@mozillamessaging.com</a> so that he can send them a shirt!
-</p>
-<ul>
-<li> New <a class="external text" href="http://bit.ly/9hzJqh" rel="nofollow" title="http://bit.ly/9hzJqh">Friend of the Tree t-shirt</a> grey but also coming in a Stone blue.
-</li></ul>
-<p><a id="Conversion_Funnel_.28Priority_0_side_project.29" name="Conversion_Funnel_.28Priority_0_side_project.29"></a><br />
-</p><h5> </h5>
-<ul>
-<li> Funnel Cake 2 next week, looking to do a German version as well.<p></p>
-</li><li> Conversion #’s after 3 months shows us at 78% retention.
-</li><li> ISPDB conversion is steady at 30-39%.  Top missing domains: secureserver.net, psmtp.com, ocn.ad.jp, rr.com, at.net, ovh.net, aon.at, go2.pl, virginmedia.com, netease.com.
-</li></ul>
-<p><a id="Thunderbird_Development" name="Thunderbird_Development"></a><br />
-</p><h5> </h5>
-<p><a id="Feature_Work" name="Feature_Work"></a><br />
-</p><h6> </h6>
-<ul>
-<li> Pluggable store (maildir) is making progress – working through unit test failures now<p></p>
-</li><li> Mail account provisioning development has started, with a repo at <a class="external free" href="http://hg.mozilla.org/users/bwinton_latte.ca/accountprovisioner/" rel="nofollow" title="http://hg.mozilla.org/users/bwinton_latte.ca/accountprovisioner/">http://hg.mozilla.org/users/bwinton_latte.ca/accountprovisioner/</a>   Feedback/suggestions/pre-code-reviews welcome.
-</li></ul>
-<p><a id="3.2" name="3.2"></a><br />
-</p><h6> </h6>
-<ul>
-<li> Initial <a class="external text" href="http://groups.google.com/group/tb-planning/browse_frm/thread/f2a72996faae24f6" rel="nofollow" title="http://groups.google.com/group/tb-planning/browse_frm/thread/f2a72996faae24f6">tb-planning thread</a>, quick summary:<p></p>
-<ul>
-<li> 3.2 based off a comm-1.9.2 with mozilla-1.9.2 with limited back-ported features and fixes.<p></p>
-</li><li> Would allow some API changes (many for extensions benefit) and string changes.
-</li><li> Next trunk release would be after FF 4 ships, possibly as little as one month, depending on what state our trunk is in, features landed etc.
-</li></ul>
-</li></ul>
-<p><a id="Major_updates_to_3.1" name="Major_updates_to_3.1"></a><br />
-</p><h6> </h6>
-<ul>
-<li> Expecting to push prompted major updates to TB 3.1.1.<p></p>
-<ul>
-<li> Initial 3.0.6 -&gt; 3.1.1 push planned for 27th July.<p></p>
-</li><li> Initial 2.0.0.24 -&gt; 3.1.1 push planned for 3rd August.
-</li></ul>
-</li></ul>
-<p><a id="Thunderbird_Stability_.26_Security_Releases" name="Thunderbird_Stability_.26_Security_Releases"></a><br />
-</p><h6> </h6>
-<ul>
-<li> Releasing TB 3.0.6 and 3.1.1 the same time as <a href="https://wiki.mozilla.org/Releases/Firefox_3.6.7" title="Releases/Firefox 3.6.7">FF 3.6.7</a><p></p>
-</li><li> Bug Lists: <a class="external text" href="http://hg.mozilla.org/users/bugzilla_standard8.plus.com/drivertools/raw-file/default/bugtracking/index.html?branch=3.1" rel="nofollow" title="http://hg.mozilla.org/users/bugzilla_standard8.plus.com/drivertools/raw-file/default/bugtracking/index.html?branch=3.1">3.1</a>, <a class="external text" href="http://hg.mozilla.org/users/bugzilla_standard8.plus.com/drivertools/raw-file/default/bugtracking/index.html?branch=3.0" rel="nofollow" title="http://hg.mozilla.org/users/bugzilla_standard8.plus.com/drivertools/raw-file/default/bugtracking/index.html?branch=3.0">3.0</a>
-</li></ul>
-<p><a id="Experiments" name="Experiments"></a><br />
-</p><h6> </h6>
-<ul>
-<li> <a class="external text" href="http://mozillalabs.com/messaging" rel="nofollow" title="http://mozillalabs.com/messaging">Messaging Add-ons</a><p></p>
-<ul>
-<li> <a class="external text" href="http://mozillalabs.com/messaging/mailing-list-manager/" rel="nofollow" title="http://mozillalabs.com/messaging/mailing-list-manager/">Mailing List Manager</a> released
-</li></ul>
-</li><li> Sent out list of current experiments to tb-planning
-<ul>
-<li> <a class="external free" href="https://mail.mozilla.org/pipermail/tb-planning/2010-July/000377.html" rel="nofollow" title="https://mail.mozilla.org/pipermail/tb-planning/2010-July/000377.html">https://mail.mozilla.org/pipermail/tb-planning/2010-July/000377.html</a>
-</li></ul>
-</li><li> Add-on experiment planned for release next week
-</li></ul>
-<p><a id="QA_Updates" name="QA_Updates"></a><br />
-</p><h5> </h5>
-<ul>
-<li> working on 3.0.6<p></p>
-</li><li> working on 3.1.1
-</li><li> Usage of [tb-qa] in subjects to flag messages on mdat
-</li></ul>
-<p><a id="Marketing_Updates" name="Marketing_Updates"></a><br />
-</p><h5> </h5>
-<ul>
-<li> PR Update: <a class="external text" href="http://arstechnica.com/security/news/2010/07/mozilla-ups-bounty-for-reporting-vulnerabilities-to-3000.ars" rel="nofollow" title="http://arstechnica.com/security/news/2010/07/mozilla-ups-bounty-for-reporting-vulnerabilities-to-3000.ars">Mozilla Bug Bounty increase to $3k from $500</a>, <a class="external text" href="http://news.softpedia.com/news/Mozilla-Explains-the-Reason-for-Releasing-Experimental-New-Features-as-Add-ons-146835.shtml" rel="nofollow" title="http://news.softpedia.com/news/Mozilla-Explains-the-Reason-for-Releasing-Experimental-New-Features-as-Add-ons-146835.shtml">Mozilla Explains the Reason for Releasing Experimental New Features as Add-ons</a> <p></p>
-</li><li> Tb Stats: 5.4MM ADUs w/ 12% on latest release, steady 75k+ downloads
-</li><li> Tb 3.1.1/3.0.6 announcements and follow-ups
-</li><li> Tracking Mozilla Newsletter program
-</li><li> New t-shirts (grey/stone blue), testing out embroidered products (hats,shirt), and other logo products (bags, stickers)
-</li></ul>
-<p><a id="IT_update" name="IT_update"></a><br />
-</p><h5> </h5>
-<ul>
-<li> Thunderbird 3.0.6<p></p>
-</li><li> Thunderbird 3.1.1
-</li><li> New builders on : Linux + Linux64
-</li><li> TryServer progress
-</li></ul>
-<p><a id="Documentation" name="Documentation"></a><br />
-</p><h5> </h5>
-<ul>
-<li> contacted local universities and technical schools that have tech writing programs regarding giving a talk in the autumn <p></p>
-</li><li> practicum student (Mike) starting today
-</li><li> new Thunderbird <a class="external text" href="http://en.flossmanuals.net/" rel="nofollow" title="http://en.flossmanuals.net/">FLOSS Manual</a>  (<a class="external text" href="http://lists.flossmanuals.net/pipermail/discuss-flossmanuals.net/" rel="nofollow" title="http://lists.flossmanuals.net/pipermail/discuss-flossmanuals.net/">FLOSS Manuals discussion list archive</a>)
-</li><li> Summit loose ends / general catch-up (MDC / MCD; Doccelerator / Skywriter; etc)
-</li><li> update <a class="external text" href="http://support.mozillamessaging.com/en-US/kb/Global+Search" rel="nofollow" title="http://support.mozillamessaging.com/en-US/kb/Global+Search">Global Search article</a>, <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=577484" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=577484">bug # 577484</a>
-</li></ul>
-<p><a id="Support" name="Support"></a><br />
-</p><h5> </h5>
-<ol>
-<li> <a class="external text" href="https://wiki.mozilla.org/Thunderbird/Thunderbird3.1SupportIssues" rel="nofollow" title="https://wiki.mozilla.org/Thunderbird/Thunderbird3.1SupportIssues">3.1 Support Issues</a> – nothing really major so far, seems to be better than 3.0.x – please add your support issues to the Discussion page of this wiki page <b>still a work in progress</b><p></p>
-</li><li> still assimilating lessons of <a class="external text" href="http://summit.mozilla.org/" rel="nofollow" title="http://summit.mozilla.org/">#moz10</a> – amazing contributors and technology
-</li><li> looking forward to working with Jen’s intern on Improving SuMoMo
-</li><li> See <a href="https://wiki.mozilla.org/Thunderbird/StatusMeetings/2010-07-20/SupportAppendix" title="Thunderbird/StatusMeetings/2010-07-20/SupportAppendix">this week’s Support Appendix</a> for full Get Satisfaction metrics and other support details – welcome back to GS contributor <a class="external text" href="http://getsatisfaction.com/people/michael_a_pasek" rel="nofollow" title="http://getsatisfaction.com/people/michael_a_pasek">Michael Pasek</a>!
-</li></ol>
-<p><a id="Lightning_Updates" name="Lightning_Updates"></a><br />
-</p><h5> </h5>
-<p><a id="Status_updates" name="Status_updates"></a><br />
-</p><h5> </h5>
-<p>See the <a class="external text" href="http://benjamin.smedbergs.us/weekly-updates.fcgi/project/thunderbird" rel="nofollow" title="http://benjamin.smedbergs.us/weekly-updates.fcgi/project/thunderbird">Mozilla Status Board</a> for status updates specific to developers.
-</p>
-<p><a id="Roundtable_Highlights" name="Roundtable_Highlights"></a><br />
-</p><h5> </h5>
-<ul>
-<li> Trunk maintenance<p></p>
-<ul>
-<li> Getting too difficult/lots of maintenance to keep open – too much non-libxul build bustages<p></p>
-</li><li> Proposed route for trunk:
-<ol>
-<li> Go for the libxul option 2 asap.<p></p>
-<ul>
-<li> We know we’re going to libxul<p></p>
-</li><li> It will fix the current bustage, and protect us from any more non-libxul versus libxul
-</li><li> Support shared builds as a lower priority option – developers can back up to a working version, but tree can remain open.
-</li></ul>
-</li><li> Let the work that is being done on external API finish
-<ul>
-<li> because I can see devs, and maybe linux distros, wanting this.
-</li></ul>
-</li><li> Do some performances tests of internal &amp; external APIs.
-</li><li> Make decision on which to ship with Thunderbird trunk.
-</li></ol>
-</li></ul>
-</li></ul>
-<p><a id="Attendees" name="Attendees"></a><br />
-</p><h5> </h5>
-<div class="printfooter">
-Retrieved from “<a href="https://wiki.mozilla.org/Thunderbird/StatusMeetings/2010-07-20">https://wiki.mozilla.org/Thunderbird/StatusMeetings/2010-07-20</a>“</div>
-<p></p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 21 Jul 2010 03:00:07 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:17:"Jesper Kristensen";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:53;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:86:"Meeting Notes from the Mozilla community: Mozilla Platform Meeting Minutes: 2010-07-20";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/336";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/336";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:18995:"<div>
-<h3>Platform/2010-07-20</h3>
-<h5>From MozillaWiki</h5>
-<div id="contentSub"><span class="subpages">&lt; <a href="https://wiki.mozilla.org/Platform" title="Platform">Platform</a></span></div>
-<p><a href="https://wiki.mozilla.org/Platform/2010-07-13" title="Platform/2010-07-13">« previous week</a> | <a href="https://wiki.mozilla.org/Platform" title="Platform">index</a> | <a class="new" href="https://wiki.mozilla.org/index.php?title=Platform/2010-xx-xx&amp;action=edit&amp;redlink=1" title="Platform/2010-xx-xx (page does not exist)">next week »</a>
-</p>
-<p><a id="Notices_.2F_Schedule" name="Notices_.2F_Schedule"></a><br />
-</p><h3> </h3>
-<ul>
-<li> Ideally, around September 1, we *should* be wrapping up our <i>last beta with new features</i>.<p></p>
-<ul>
-<li> <a class="external text" href="https://wiki.mozilla.org/JavaScript:SpiderMonkey:PathToFirefox4#Shipping_This_Year.27s_JS_Work" rel="nofollow" title="https://wiki.mozilla.org/JavaScript:SpiderMonkey:PathToFirefox4#Shipping_This_Year.27s_JS_Work">The JavaScript team is committed to that date</a><p></p>
-</li><li> <a class="external text" href="https://wiki.mozilla.org/Firefox/4/Beta" rel="nofollow" title="https://wiki.mozilla.org/Firefox/4/Beta">This will be beta 5</a>.
-</li><li> We should all be focusing on blockers until then.  (There’s less than six weeks left, and for previous releases, we really locked down to working on only blockers.)
-</li></ul>
-</li></ul>
-<p><b>Firefox 3.5.11/3.6.7</b>
-</p>
-<ul>
-<li> releasing today
-</li></ul>
-<p><b>Firefox 3.5.12/3.6.8</b>
-</p>
-<ul>
-<li> planning on shipping after BlackHat
-</li></ul>
-<p><b>Firefox 4 Beta 2</b>
-</p>
-<ul>
-<li> final changeset happened <a class="external text" href="http://hg.mozilla.org/mozilla-central/rev/96f203dcd41d" rel="nofollow" title="http://hg.mozilla.org/mozilla-central/rev/96f203dcd41d">just now</a>!<p></p>
-</li><li> spinning builds ASAP, hoping to have them available late today
-</li><li> will get a QA estimate at tomorrow’s meeting
-</li><li> aiming for Friday, July 23, might slip to Monday, July 26
-</li></ul>
-<p><b>Firefox 4 Beta 3</b>
-</p>
-<ul>
-<li> as per the <a href="https://wiki.mozilla.org/Firefox/4/Beta" title="Firefox/4/Beta">Firefox Beta Plan</a> this is due to ship on 6th of August<p></p>
-</li><li> code freeze scheduled for Monday, August 2 at 11:59pm PT
-</li></ul>
-<p><a id="Blocker_Report" name="Blocker_Report"></a><br />
-</p><h3> </h3>
-<p><b>Firefox 4</b>
-</p>
-<ul>
-<li> we have <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=blocking2.0:%22?%22" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=blocking2.0:%22?%22">258 blocking nominations</a> and <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=blocking2.0:beta,final" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=blocking2.0:beta,final">331 blockers</a>: <p></p>
-<ul>
-<li> beta3: <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=blocking2.0:beta3" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=blocking2.0:beta3">32 blockers</a><p></p>
-</li><li> betaN: <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=blocking2.0:betaN" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=blocking2.0:betaN">100 blockers</a>
-</li><li> final: <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=blocking2.0:final" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=blocking2.0:final">197 blockers</a>
-</li></ul>
-</li></ul>
-<p><a id="Browser_.2F_Front_End" name="Browser_.2F_Front_End"></a><br />
-</p><h3> </h3>
-<ul>
-<li> The UX Team has collected and prioritized a list of <a href="https://wiki.mozilla.org/Startup_Experience" title="Startup Experience">Startup Experience</a> bugs with some additional context for why they are important — take a look at the list and see if there’s anything you think you can help with! If you have feedback on feasibility and which things you think we can land for Firefox 4, that would be appreciated too.
-</li></ul>
-<p><a id="Firefox_Development" name="Firefox_Development"></a><br />
-</p><h4> </h4>
-<ul>
-<li> Feature complete Firefox 4<p></p>
-<ul>
-<li> Gotta figure out a better way to high level this – <a href="https://wiki.mozilla.org/Firefox/Projects" title="Firefox/Projects">projects page</a> is too noisy
-</li></ul>
-</li></ul>
-<ul>
-<li> <a href="https://wiki.mozilla.org/Firefox/Projects/2010Q3_Dirty_Startup_Reduction" title="Firefox/Projects/2010Q3 Dirty Startup Reduction">Dirty profile startup</a><p></p>
-<ul>
-<li> sdwilsh off last week – should be more updates next week.
-</li></ul>
-</li></ul>
-<ul>
-<li> Jetpack API-complete for 1.0<p></p>
-<ul>
-<li> <a href="https://wiki.mozilla.org/Labs/Jetpack/SDK/0.6#Deliverables" title="Labs/Jetpack/SDK/0.6">0.6</a> scheduled for 07-27
-</li></ul>
-</li></ul>
-<p><a id="Platform" name="Platform"></a><br />
-</p><h3> </h3>
-<ul>
-<li> <a href="https://wiki.mozilla.org/Platform/2010-Q3-Goals#GFX" title="Platform/2010-Q3-Goals">GFX Goals</a> Update:<p></p>
-<ul>
-<li> Direct2D is coming along well.<p></p>
-<ul>
-<li> Making progress on getting Direct2D reftest failures fixed. Tracking in <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578110" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578110">bug 578110</a>.<p></p>
-</li><li> There are also a couple of perf fixes needed because of the Direct2D clipping fixes. These are in <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=576169" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=576169">bug 576169</a> and <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=576170" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=576170">bug 576170</a>.
-</li><li> Current plan is to enable Direct2D by default only on DirectX 10-compatible hardware.
-</li><li> My handwavy plan is to aim D2D at Firefox 4 beta 4.
-</li></ul>
-</li><li> Hardware-accelerated layers have fewer updates.
-<ul>
-<li> OpenGL on GLX is coming along, with lots of fixes landing recently. It’s now possible to run a full content window in OpenGL HW accelerated layers mode, and things mostly work.<p></p>
-</li><li> Direct3D 9 is on the back burner while we work on Direct2D.
-</li><li> Still unscoped: running (ref)tests for HW accelerated layers.
-</li></ul>
-</li></ul>
-</li><li> <a href="https://wiki.mozilla.org/Platform/2010-Q3-Goals#JS" title="Platform/2010-Q3-Goals">JS</a> Goals Update:
-<ul>
-<li> Plan is here: <a class="external free" href="https://wiki.mozilla.org/JavaScript:SpiderMonkey:PathToFirefox4" rel="nofollow" title="https://wiki.mozilla.org/JavaScript:SpiderMonkey:PathToFirefox4">https://wiki.mozilla.org/JavaScript:SpiderMonkey:PathToFirefox4</a><p></p>
-</li><li> Fatvals landed, doing alright. Working through fuzzbugs and a few perf changes (mostly wins)
-</li><li> JM performance increases starting to land.
-</li><li> Compartments / GC work proceeding according to plan
-</li><li> ES5
-<ul>
-<li> Landings<p></p>
-<ul>
-<li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578273" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578273">JSON.stringify cycle detection</a> no longer improperly relies on imprecise recursion-limit checking<p></p>
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=509733" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=509733"><code>arguments</code> stringifies as “[object Arguments]“</a>
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=562446" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=562446">[].toString and [].toLocaleString are now generic</a> (callable on non-Array <code>this</code> values)
-</li></ul>
-</li><li> Current work
-<ul>
-<li> Looking into <a class="external text" href="http://es5conform.codeplex.com/" rel="nofollow" title="http://es5conform.codeplex.com/">ES5 test suite</a> failures; a decent number of tests seem to have bugs, raw failure count not meaningful yet<p></p>
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=562448" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=562448">(function(){}).apply(t, args) being changed to permit non-Array args</a>; spawned <a class="external text" href="https://mail.mozilla.org/pipermail/es5-discuss/2010-July/003640.html" rel="nofollow" title="https://mail.mozilla.org/pipermail/es5-discuss/2010-July/003640.html">es5-discuss discussion</a> on the exact algorithm
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=536472" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=536472">slight tightening of object-literal getter/setter syntax</a>
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=429507" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=429507">(function(){}).bind</a> continues
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=522158" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=522158">Duplicate property name warnings</a>
-</li></ul>
-</li></ul>
-</li></ul>
-</li><li> <a href="https://wiki.mozilla.org/Platform/2010-Q3-Goals#Content" title="Platform/2010-Q3-Goals">Content</a> Goals Update:
-<ul>
-<li> How are we doing on the Zimbra perf tests?<p></p>
-</li><li> 3.2% Dromaeo (CSS) increase from <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=564266" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=564266">bug 564266</a> (peterv)
-</li></ul>
-</li><li> <a href="https://wiki.mozilla.org/Platform/2010-Q3-Goals#Layout" title="Platform/2010-Q3-Goals">Layout</a> Goals Update:
-<ul>
-<li> Retained layers fallout<p></p>
-<ul>
-<li> A few ugly regressions, notably <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579262" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579262">bug 579262</a>, difficult because it’s Flash + Windows cross-process HWND interactions
-</li></ul>
-</li><li> Where are we on content/chrome rendering integration (bug 130078)?
-<ul>
-<li> Knocking off test failures and other bugs, tn’s patches are landing on mozilla-central as we go<p></p>
-</li><li> Still finding new issues, so still difficult to estimate. Weeks, not days.
-</li></ul>
-</li><li> Multi-process layer backend ready to land in mozilla-central after beta2. The remaining work depends on de-widgetizing the content process completely. Not sure if we’ve thought through all of the implications of this WRT focus and gecko assumptions.
-</li></ul>
-</li></ul>
-<p><a id="Windows_7_Test_Status" name="Windows_7_Test_Status"></a><br />
-</p><h3> </h3>
-<p>We must have our trees <b>green</b> on Windows 7 to ship Firefox 4.<br />
-We need owners to make this happen.
-</p>
-<ul>
-<li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=562489#c3" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=562489#c3">bug 562489</a> [tracking bug] for the various win7 32-bit unit tests orange<p></p>
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=562955" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=562955">bug 562955</a> – jrmuizel – mochitests-4/5 – test_bug458898.html
-</li><li> <strike><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=574042" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=574042">bug 574042</a>, <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=574040" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=574040">bug 574040</a> – Enn / jimm (toolkit / widget) widgets/test_popupincontent.xul</strike>
-</li><li> <strike><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=558403" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=558403">bug 558403</a> – smontagu</strike>
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578448" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578448">bug 578448</a> – Mossop – browser_bug435788.js times out
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=575748" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=575748">bug 575748</a> – Dão Gottwald – browser_overflowScroll.js (WIP patch posted)
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=562967" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=562967">bug 562967</a> – Justin Dolske – test_uriloader_exthandler\unit\test_handlerService.js
-</li><li> <strike><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=562957" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=562957">bug 562957</a> – Enn</strike>
-</li></ul>
-<p>Direct 2D oranges:
-</p>
-<ul>
-<li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578110#c1" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578110#c1">bug 578110</a> – [tracking bug] reftest Direct 2D oranges<p></p>
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578127" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578127">bug 578127</a> – no assignee – bidi/visualmarquee.html, logicalmarquee.html
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578134" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578134">bug 578134</a> – no assignee -box-shadow/boxshadow-rounded-spread.html
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578135" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578135">bug 578135</a> – no assignee -box-shadow/boxshadow-onecorner.html
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578114" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578114">bug 578114</a> – no assignee -bugs/289480.html#top
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578116" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578116">bug 578116</a> – no assignee -379349-1b.xhtml, 379349-1c.xhtml
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578118" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578118">bug 578118</a> – no assignee -385569-1a.html, 385569-1b.html
-</li><li> <strike><a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578121" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578121">bug 578121</a> – jrmuizel -456219-1{a,b,c}.html, 456219-2.html</strike>
-</li><li> <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=578124" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=578124">bug 578124</a> – jrmuizel -555388-1-ref.html
-</li></ul>
-<p><a id="Tree_Management" name="Tree_Management"></a><br />
-</p><h3> </h3>
-<ul>
-<li> Changing TryServer to *not* run Talos by default. <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579573" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579573">bug 579573</a><p></p>
-<ul>
-<li> dev.planning thread: <a class="external autonumber" href="http://groups.google.com/group/mozilla.dev.planning/browse_thread/thread/402306d36d838d50" rel="nofollow" title="http://groups.google.com/group/mozilla.dev.planning/browse_thread/thread/402306d36d838d50">[1]</a>
-</li></ul>
-</li><li> Use same changeset for nightlies. <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=570814" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=570814">bug 570814</a>
-<ul>
-<li> dev.tree-management thread:<a class="external autonumber" href="http://groups.google.com/group/mozilla.dev.tree-management/browse_thread/thread/98d2431051edc7bd/68d4d513d5a036c3?lnk=raot" rel="nofollow" title="http://groups.google.com/group/mozilla.dev.tree-management/browse_thread/thread/98d2431051edc7bd/68d4d513d5a036c3?lnk=raot">[2]</a>
-</li></ul>
-</li></ul>
-<ul>
-<li> Re-enabling 10.6 unittests on tryserver <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=579887" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=579887">bug 579887</a><p></p>
-</li><li> Switching unit tests from builders to minis
-<ul>
-<li> disabling TrackeMonkey unit tests on builders this week<p></p>
-</li><li> enabling this week unit tests on minis for Fedora (32/64-bit) and 10.5/10.6 for *all* remaining project branches
-</li><li> we are <b>not</b> going to run unit tests on minis on 1.9.1/1.9.2 branches since it would require a great deal of backporting of the perma-oranges fixes. Branch tests will continue to be run on builders.
-</li></ul>
-</li><li> Windows 64-bit
-<ul>
-<li> switched from VS2010 to VS2008 to have jemalloc support
-</li></ul>
-</li><li> Automated cleaning of old builds on stage.m.o <a class="external text" href="https://wiki.mozilla.org/ReleaseEngineering:StageCleanupPolicy" rel="nofollow" title="https://wiki.mozilla.org/ReleaseEngineering:StageCleanupPolicy">StageCleanupPolicy</a>
-</li></ul>
-<p><a id="Roundtable" name="Roundtable"></a><br />
-</p><h3> </h3>
-<ul>
-<li> Windows 64 bit shipping plan (beltzner)<p></p>
-<ul>
-<li> not synchronous with Firefox 4 ship<p></p>
-</li><li> trying to hit shortly afterwards
-</li></ul>
-</li><li> beta 2 roundup (beltzner)
-</li><li> beta 3 planning (beltzner)
-</li><li> pushes without linux tests (Mossop)
-</li><li> <a class="external text" href="http://etherpad.mozilla.com:9000/WarOnOrange" rel="nofollow" title="http://etherpad.mozilla.com:9000/WarOnOrange">What makes it hard to diagnose and fix random oranges?</a> Are any teams or people interested in taking on the pain points we have identified? -Jesse
-</li><li> bsmedberg proposed that the tree stay restricted to blockers-only until we branch.
-<ul>
-<li> And that we shouldn’t branch until Jaegermonkey lands<p></p>
-</li><li> Certainly can’t branch until dewidgetification and XP-layers lands
-</li></ul>
-</li><li> Unified template library — mozilla/tl? <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=580314" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=580314">bug 580314</a>
-</li></ul>
-<div class="printfooter">
-Retrieved from “<a href="https://wiki.mozilla.org/Platform/2010-07-20">https://wiki.mozilla.org/Platform/2010-07-20</a>“</div>
-<p></p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Wed, 21 Jul 2010 03:00:03 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:17:"Jesper Kristensen";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:54;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:46:"Firefox Support Blog: Mozilla Summit aftermath";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:36:"http://blog.mozilla.com/sumo/?p=1209";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:65:"http://blog.mozilla.com/sumo/2010/07/20/mozilla-summit-aftermath/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2873:"<p><a href="http://www.flickr.com/photos/gen/4784611527/" title="Mozilla SuMo team photo by Gen Kanai, on Flickr"><img alt="Mozilla SuMo team photo" height="333" src="http://farm5.static.flickr.com/4080/4784611527_563f533431.jpg" width="500" /></a><br />
-Our community, being too much awesome!</p>
-<p>Just last week we came back from an awesome summit, where 600 Mozillians met to discuss the current status and the future of the Mozilla projects. It was a great event at an amazing location, the Whistler Valley, surrounded by snow capped mountains. Huge thanks to everyone who helped organize this summit; it was awesome indeed!</p>
-<p>As much as we love communicating online, meeting in person is always special. Looking people in the eyes for the first time, after talking to them for month or years, plays a big role in why I love these meet-ups. For some reason it’s only during meetings like this, where we’re together with people for a long time, that we also get into personal topics and that helps to strengthen the relationship between all of us in the community. I for example had no idea that we had architects and lawyers in our volunteer community. I even met a computational linguist (very rare).</p>
-<p>Since our community is spread all over the world it’s not easy to come together in one place and discuss things face to face. That is particularly true for the SUMO community. Because of that, we tried to make the most of this special occasion. Michael had a break-session about <a href="http://sumo.graymattergravy.com/slides/betterfm">writing awesome documentation</a> that pretty quickly turned into a fruitful discussion about localization and how its affected by the writing style in English. Then Cheng talked about how our support community can help other parts of Mozilla in their efforts, particularly QA and developers. It’s pretty cool.  If you are interested in finding out more, talk to us or Cheng directly.</p>
-<p>The next day we had a get together with the community. We especially wanted to hear what localizers liked and didn’t like about our current support system. The summit was very timely for that since we are in the middle of the <a href="http://blog.mozilla.com/sumo/2010/05/15/were-rewriting-sumo-from-scratch-and-we-need-your-help-to-get-it-right/">redesign</a> of our support system. We got great feedback to incorporate into the design of the new Knowledge Base. I gathered the it all on a <a href="https://wiki.mozilla.org/Support/Kitsune/KB/feedback">Wiki page</a>. Check it out and let me know if you have something to add. You can see what is already planned in our <a href="https://wiki.mozilla.org/Support/Kitsune/KB/Priorities">Requirements document</a>.</p>
-<p>The summit was a great energizer and my thanks go out to all Mozilla contributors who work hard to make the web a better place for everyone</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 20 Jul 2010 23:54:24 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"Kadir Topal";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:55;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:58:"Rock Your Firefox: Rock Your Firefox: June 2010 Collection";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:34:"http://rockyourfirefox.com/?p=1999";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:74:"http://rockyourfirefox.com/2010/07/rock-your-firefox-june-2010-collection/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1909:"<p>June was jam-packed with add-ons and special events like our 2 Billionth Download Day that reminded us of the amazing versatility and diversity of Firefox Add-ons. </p>
-<p>Track plane fares, shop super Amazon deals, or just keep track of your favorite soccer teams – it’s all possible with this set of add-ons!</p>
-<h3>June Featured Firefox Add-ons</h3>
-<ul>
-<li><a href="http://rockyourfirefox.com/2010/06/google-shortcuts-2/">Google Shortcuts</a>: One click from GMail, calendar, maps &amp;  more</li>
-<li><a href="http://rockyourfirefox.com/2010/06/reminderfox/">ReminderFox</a>: Timely reminders on important events</li>
-<li><a href="http://rockyourfirefox.com/2010/06/footiefox/">FootieFox</a>: Keep track of your World Cup goals</li>
-<li><a href="http://rockyourfirefox.com/2010/06/yapta/">Yapta</a>: Track &amp; get notified when airfares  drop</li>
-<li><a href="http://rockyourfirefox.com/2010/06/amazon-prime/">Amazon Prime</a>: Search Amazon Prime &amp;  Super Saver deals</li>
-<li><a href="http://rockyourfirefox.com/2010/06/evernote-web-clipper/">Evernote</a>: Save, organize, &amp; track info you find on the  Web</li>
-<li><a href="http://rockyourfirefox.com/2010/06/merriam-webster/">Merriam-Webster</a>: Search the English dictionary in an instant</li>
-<li><a href="http://rockyourfirefox.com/2010/06/cooliris/">Cooliris</a>: Fly through a 3D Wall of photos and videos</li>
-<li><a href="http://rockyourfirefox.com/2010/06/wired-marker/">Wired Marker</a>: Highlight text on Web pages &amp; save for  review</li>
-</ul>
-<p>Get the entire <a href="https://addons.mozilla.org/en-US/firefox/collection/ryf-jun-2010" target="_blank" title="Rock Your Firefox June 2010 Collection">Rock Your Firefox June 2010 Collection</a></p>
-<hr /><p><strong><a href="https://addons.mozilla.org/en-US/firefox/collection/ryf-jun-2010" title="Get the add-ons in this collection">Get the Add-ons</a></strong></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 20 Jul 2010 23:00:21 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:10:"Julie Choi";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:56;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:66:"Mozilla Add-ons Blog: Add-ons Review Update – Week of 2010/07/20";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:38:"http://blog.mozilla.com/addons/?p=1701";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:67:"http://blog.mozilla.com/addons/2010/07/20/add-ons-review-update-13/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4737:"<h3>Summary</h3>
-<ul>
-<li>These bi-weekly posts explain the current state of add-on reviews       and        other information relevant to add-on developers. There’s a       lengthy <a href="http://blog.mozilla.com/addons/2010/02/15/the-add-on-review-process-and-you/">overview             of the Add-on Review Process</a> posted in this blog that     should  be read as a general guide about the review process.</li>
-<li>Most nominations are being reviewed within 2 weeks.</li>
-<li>Almost every update is being reviewed within 1 week.</li>
-<li>The Mozilla Summit invited the most active contributors in the AMO Editors team. It was great and also very productive to meet them finally in person, but the review queues suffered noticeably because of that week we lost. It also didn’t help that Firefox 4 beta 1 was released just a day or two before the Summit. Major version releases trigger an unusually large number of new submissions and updates.  We’re catching up at the moment, but things will be slow for at least a couple of weeks.</li>
-</ul>
-<h3>The Review Queues</h3>
-<ul>
-<li>The stats are taken from the <a href="https://forums.addons.mozilla.org/viewtopic.php?f=21&amp;t=1401">latest             queue report</a> from last Friday.</li>
-<li>50 new nominations that week. 129 nominations in the queue awaiting             review.</li>
-<li>100 updates that week. 101 updates in the queue awaiting review.</li>
-<li>317 reviews performed by AMO Editors this month.  There were 15          editors performing reviews last  week.</li>
-</ul>
-<p>See the <a href="http://blog.mozilla.com/addons/2010/02/15/the-add-on-review-process-and-you/">Add-on              Review Process and You</a> for information on how to check      your   add-on status.</p>
-<h3>Notes for Developers</h3>
-<ul>
-<li><a href="http://blog.mozilla.com/addons/2010/06/14/improve-extension-startup-performance/"><strong>How to Improve Extension Startup Performance</strong></a>.  All extension developers should read this blog post. It explains how  extensions can have a significant impact in startup performance and,  some very simple steps you can follow to minimize this impact. There’s  also a link to some tools that can be used to easily measure startup.</li>
-<li>Firefox 4 is coming, and with it there are a number of platform  changes that will need to be addressed by extension authors. We will  increase communication as the launch date becomes clearer, but in the  meantime, you should be aware of these: <a href="http://www.oxymoronical.com/blog/2010/03/How-were-breaking-some-extensions-in-the-near-future">Add-ons Manager with Asynchronous API</a>, <a href="http://blog.mozilla.com/addons/2010/06/14/multiple-breaking-changes-are-coming-for-components-in-extensions/">Changes in XPCOM</a>, <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=546857">Remote XUL to be Removed</a>,  <a href="http://adblockplus.org/blog/javascript-modules-in-a-jar-file-finally">JSM can now be included in chrome JARs</a>. A more detailed post will be published in this blog later this week.</li>
-<li><a href="https://forums.addons.mozilla.org/viewtopic.php?f=19&amp;t=1134">New   Proposal for Review Process and Delightful Add-ons</a>.  This is a new   and different approach to resolve the issue of add-on  safety in the   sandbox and code reviews. All add-on developers should  read this and   give feedback. It’s been a long process to try to find  the right balance   of the many elements involved, and we think this is  it.</li>
-<li><a href="https://wiki.mozilla.org/AMO:Editors/EditorGuide">The AMO  Editor Guide</a>.  This new page in the wiki is a comprehensive guide to  the work  performed by AMO Editors. It will serve as an introductory  guide for  new editors, and is a step forward in being as transparent as  possible  with our review process.</li>
-<li>AMO is currently being migrated to a new code base, some of which is     already live  in production. If you notice any strange behavior on   the site , please  make sure to file a bug (see note below about AMO bug    reporting).</li>
-<li><a href="https://wiki.mozilla.org/AMO:Editors/InfoAuthors">Useful             Information for Add-on Authors</a>. How to improve review times  for         your    add-on, information about the review process, etc.</li>
-<li><a href="https://wiki.mozilla.org/AMO:Editors/InfoEditors#Bugzilla">Bugzilla             information for editors</a>.  How to file AMO bugs, how to   flag      bugs      relevant for  editors, and information on current and    future     AMO   version     releases. Let me know if you want to help    fixing  AMO    bugs.</li>
-</ul>
-<p><em>Jorge Villalobos</em></p>
-<p><em>Add-ons Developer Relations Lead, Mozilla</em></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 20 Jul 2010 21:54:54 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:5:"Jorge";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:57;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:82:"Mozilla Developer DevNews: Firefox 3.6.7 and 3.5.11 security updates now available";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:44:"http://developer.mozilla.org/devnews/?p=1170";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:115:"https://developer.mozilla.org/devnews/index.php/2010/07/20/firefox-3-6-7-and-3-5-11-security-updates-now-available/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1495:"<p>Firefox 3.6.7 and Firefox 3.5.11 are now available as free downloads for Windows, Mac, and Linux from <a href="http://www.firefox.com">http://firefox.com</a>. As always, we recommend that users keep up to date with the latest  stability and support versions of Firefox, and encourage all our users  to upgrade to the very latest version, Firefox 3.6.7.</p>
-<p>Firefox 3.6.7: <a href="http://firefox.com/">http://firefox.com</a><br />
-Firefox 3.5.11: <a href="http://www.mozilla.com/firefox/all-older.html">http://www.mozilla.com/firefox/all-older.html</a></p>
-<p>We strongly recommend that all Firefox users upgrade to these latest releases. If you already have Firefox, you will receive an automated update notification within 24 to 48 hours. This updates can also be applied manually by selecting “Check for Updates…” from the Help menu.</p>
-<p>For a list of changes and more information, please review the Firefox release notes:</p>
-<ul>
-<li><a href="http://www.mozilla.com/firefox/3.6.7/releasenotes/">Firefox 3.6.7 release notes</a></li>
-<li><a href="http://www.mozilla.com/firefox/3.5.11/releasenotes/">Firefox 3.5.11 release notes</a></li>
-</ul>
-<p>Note: All Firefox 3 and 3.5 users are strongly encouraged to upgrade to Firefox 3.6 by downloading it from <a href="http://firefox.com">http://firefox.com</a> or by selecting “Check for Updates…” from the Help menu and clicking on “Get the New Version”, then checking for updates again once Firefox 3.6 is installed.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 20 Jul 2010 21:41:04 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:18:"Christian Legnitto";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:58;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:46:"Austin King: Federated Social Web Summit Notes";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:28:"http://ozten.com/psto/?p=313";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:67:"http://ozten.com/psto/2010/07/19/federated-social-web-summit-notes/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:4064:"<p>I attended the Federated Social Web Summit yesterday. I saw some old friends and met lots of new ones.<br />
-Here is a quick brain dump of what I caught:<br />
-These people<br />
-<a href="http://federatedsocialweb.net/wiki/People"><img alt="Collage of People" class="aligncenter size-full wp-image-314" height="413" src="http://ozten.com/wordpress/wp-content/uploads/2010/07/Fsws_people.jpg" title="Fsws_people" width="600" /></a><br />
-first did a lightening talk about these projects<br />
-<a href="http://federatedsocialweb.net/wiki/Projects"><img alt="Collage of Projects" class="aligncenter size-full wp-image-315" height="478" src="http://ozten.com/wordpress/wp-content/uploads/2010/07/Fsws_projects_accepted_updated.jpg" title="Fsws_projects_accepted_updated" width="617" /></a></p>
-<p>We then broke out into sessions. Most of my day was dominated by low level discussions of the protocols and formats that could shape the Federated Social Web. These include:</p>
-<ul>
-<li><a href="http://code.google.com/p/webfinger/">Webfinger</a></li>
-<li><a href="http://code.google.com/p/salmon-protocol/">Salmon</a></li>
-<li><a href="http://activitystrea.ms/">ActivityStreams</a></li>
-<li><a href="http://code.google.com/p/pubsubhubbub/">PubSubHubub</a></li>
-<li><a href="http://portablecontacts.net/">PortableContacts</a></li>
-<li><a href="http://microformats.org/">Microformats</a></li>
-</ul>
-<h3>Salmon FTW, Webfinger WTF</h3>
-<p><a href="http://www.flickr.com/photos/aaronpk/4806253252/" title="Federated Social Web Summit Breakout Sessions #fsws by aaronparecki, on Flickr"><img alt="Federated Social Web Summit Breakout Sessions #fsws" height="299" src="http://farm5.static.flickr.com/4116/4806253252_18fc27dc2b.jpg" width="500" /></a><br />
-There was a session on private messaging. Blaine Cook proposed a method for subscribing to a feed which contains public and private entries. It used the From HTTP header, Webfinger and a Dialback to authenticate the request.</p>
-<p>Next Bret Slatkin proposed a similar technique for sending a private message that used OAuth for authentication, which was much more complicated than <a href="http://federatedsocialweb.net/wiki/Privacy_over_PSHB,_Webfinger,_%26_Salmon">Blaine’s dial-back method</a>.</p>
-<p>It turned out that these two ideas were Isomorphic. Then the term isomorphic was used about 20 times in the next 5 minutes. These ideas were seen as generalizations of the Salmon protocol. Speaking of which… Salmon’s public key crypto requirements were discussed as an impediment to adoption. The protocol has been simplified as much as possible, but many technologies have been doomed to obscurity due to the propeller head nature of properly implementing various schemes properly.</p>
-<h3>Account Manager and Contacts in Firefox</h3>
-<p>Dan Mills ran a session to ask “How can we change the client to make federation easier?”. There are some <a href="http://federatedsocialweb.net/wiki/Change_the_client_to_get_what_we_want">great notes</a>. It seems like Michael Hanson’s XPrefs concept is needed to avoid a centralized broker like <a href="http://xauth.org/spec/">XAuth</a>. Currently if you log into <a href="http://identi.ca">Identi.ca</a> and visit <a href="http://mozilla.status.net/paulbooker">Mozilla’s StatusNet</a> node and you want to follow Paul Booker, you have to type in your identi.ca url as it can’t discover that your logged in to a valid <a href="http://ostatus.org/">OStatus</a> node due to the same origin policy.</p>
-<p>The importance of interoperability testing was discussed. I watched Evan Prodromou work with Diaspora team and I expect to see lots of work between Appleseed, Crabgrass, and other systems working together over these decentralized protocols. </p>
-<p><strong>Update:</strong> – The standard test we’ll work towards passing by Sept 30th is <a href="http://federatedsocialweb.net/wiki/FSWS2010_Next_Meeting_and_FSWS2011#Notes">SWATv0</a>.</p>
-<p>This meeting was in Portland… check out the photos below for your Portland moment of zen…</p>
-<p></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 20 Jul 2010 20:31:25 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:5:"ozten";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:59;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:42:"SeaMonkey: SeaMonkey 2.0.6 Security Update";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:78:"http://weblogs.mozillazine.org/seamonkey/archives/2010/07/seamonkey_206_s.html";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:78:"http://weblogs.mozillazine.org/seamonkey/archives/2010/07/seamonkey_206_s.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:954:"<p>As part of Mozilla's ongoing stability and security update process, SeaMonkey 2.0.6 is now available for Windows, Mac, and Linux as a free download from <a href="http://www.seamonkey-project.org/releases/">www.seamonkey-project.org</a>.</p>
-
-<p>We strongly recommend that all SeaMonkey and old suite users upgrade to this latest release. If you already have SeaMonkey 2.0, you will receive an automated update notification within 24 to 48 hours. This update can also be applied manually by selecting "Check for Updates..." from the Help menu.</p>
-
-<p>For a list of changes and more information, please review the <a href="http://www.seamonkey-project.org/releases/seamonkey2.0.6/">SeaMonkey 2.0.6 Release Notes</a>.</p>
-
-<p>Note: All users of the outdated SeaMonkey 1.x, Mozilla or Netscape suites are encouraged to upgrade to SeaMonkey 2.0 by downloading it from <a href="http://www.seamonkey-project.org/releases/">www.seamonkey-project.org</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 20 Jul 2010 19:46:40 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:5:"KaiRo";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:60;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:85:"Mozilla Developer DevNews: Thunderbird 3.1.1 and 3.0.6 security updates now available";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:44:"http://developer.mozilla.org/devnews/?p=1176";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:118:"https://developer.mozilla.org/devnews/index.php/2010/07/20/thunderbird-3-1-1-and-3-0-6-security-updates-now-available/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1320:"<p>As part of Mozilla’s ongoing security and stability update process,    Thunderbird 3.1.1 and Thunderbird 3.0.6 are now available as free downloads for Windows, Mac, and Linux from <a href="http://getthunderbird.com/">http://getthunderbird.com/</a>. As always, we recommend that users keep up to date with the latest   stability and support versions of Thunderbird.</p>
-<ul>
-<li>Thunderbird 3.1.1: <a href="http://getthunderbird.com/">http://getthunderbird.com/</a></li>
-<li>Thunderbird 3.0.6: <a href="http://www.mozillamessaging.com/en-US/thunderbird/all-older.html">http://www.mozillamessaging.com/en-US/thunderbird/all-older.html</a></li>
-</ul>
-<p>We strongly recommend that all Thunderbird users upgrade to these     latest releases. If you already have Thunderbird, you will receive an    automated  update notification within 24 to 48 hours. You can also    manually fetch  this update by selecting “Check for Updates…” from the    Help menu.</p>
-<p>For a list of changes and more information, please review the Thunderbird release notes:</p>
-<ul>
-<li><a href="http://www.mozillamessaging.com/en-US/thunderbird/3.1.1/releasenotes/">Thunderbird 3.1.1 release notes</a></li>
-<li><a href="http://www.mozillamessaging.com/en-US/thunderbird/3.0.6/releasenotes/">Thunderbird 3.0.6 release notes</a></li>
-</ul>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 20 Jul 2010 18:56:17 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:9:"standard8";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:61;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:55:"Frederic Wenzel: Next Steps for the Copy ShortURL Addon";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:31:"http://fredericiana.com/?p=2885";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:74:"http://fredericiana.com/2010/07/20/next-steps-for-the-copy-shorturl-addon/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1850:"<p>The <a href="https://addons.mozilla.org/en-US/firefox/addon/197224/">Copy ShortURL Add-on</a> has been on AMO for a week now and was recently approved to be public, so now I have a user base to please <img alt=";)" class="wp-smiley" src="http://fredericiana.com/wp-includes/images/smilies/icon_wink.gif" /> </p>
-<p>I am inclined to drop the code onto github, where I’d get a proper version history along with a bug tracker. <strong>Update:</strong> <a href="http://github.com/fwenzel/copy-shorturl/">It’s on github now!</a></p>
-<p>For now though, here are a few <strong>ideas</strong> I have for the add-on, in no particular order and with no promise that I’m about to implement any of this right away:</p>
-<ul>
-<li><strong>Allow other URL shortening services.</strong> tinyURL is all fun and games, and I chose it over bit.ly because it does not require an API key — but if you have one at hand, you should be able to use any service you like. Even if only by setting an about:config preference.</li>
-<li><strong>Incorporate selected sites</strong> that support short URLs but do not publish them as a header. Zappos (zapp.me), for example. Others seem to have a short URL available (such as: NY Times (nyti.ms), Amazon (amzn.to),  ESPN (es.pn)) but only use them on their twitter account and not on every webpage, so there might be nothing we can do <img alt=":(" class="wp-smiley" src="http://fredericiana.com/wp-includes/images/smilies/icon_sad.gif" /> .</li>
-<li>When shortening, need to make sure not to use the <em>current</em> URL but the <strong>canonical URL</strong> if such a header exists. (<a href="http://github.com/fwenzel/copy-shorturl/issues/issue/3">Fixed!</a>)</li>
-</ul>
-<p>Let me know what you think! I’d like to know if any other things come to your minds, or which of the above you’d find especially useful.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 20 Jul 2010 18:13:25 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:4:"Fred";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:62;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:126:"about:mozilla: Firefox 4, Firefox Home, Firefox for Maemo, WebM, add-ons, layers, Drumbeat, bugdays, MDN, Jetpack, and more…";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:44:"http://blog.mozilla.com/about_mozilla/?p=465";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:148:"http://blog.mozilla.com/about_mozilla/2010/07/20/firefox-4-firefox-home-firefox-for-maemo-webm-add-ons-layers-drumbeat-bugdays-mdn-jetpack-and-more/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:16192:"<p><strong>In this issue…</strong></p>
-<ul>
-<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/20/firefox-4-firefox-home-firefox-for-maemo-webm-add-ons-layers-drumbeat-bugdays-mdn-jetpack-and-more/#firefox4">Firefox 4 beta 1 roundup</a></li>
-<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/20/firefox-4-firefox-home-firefox-for-maemo-webm-add-ons-layers-drumbeat-bugdays-mdn-jetpack-and-more/#firefoxhome">Firefox Home for iPhone</a></li>
-<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/20/firefox-4-firefox-home-firefox-for-maemo-webm-add-ons-layers-drumbeat-bugdays-mdn-jetpack-and-more/#firefoxmaemo">Firefox for Maemo 1.1 released</a></li>
-<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/20/firefox-4-firefox-home-firefox-for-maemo-webm-add-ons-layers-drumbeat-bugdays-mdn-jetpack-and-more/#an">An easy way to create WebM videos</a></li>
-<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/20/firefox-4-firefox-home-firefox-for-maemo-webm-add-ons-layers-drumbeat-bugdays-mdn-jetpack-and-more/#addon">Add-on icon makeover contest</a></li>
-<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/20/firefox-4-firefox-home-firefox-for-maemo-webm-add-ons-layers-drumbeat-bugdays-mdn-jetpack-and-more/#making">Making add-ons that people will love</a></li>
-<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/20/firefox-4-firefox-home-firefox-for-maemo-webm-add-ons-layers-drumbeat-bugdays-mdn-jetpack-and-more/#mozilla">Mozilla Security bug bounty changes</a></li>
-<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/20/firefox-4-firefox-home-firefox-for-maemo-webm-add-ons-layers-drumbeat-bugdays-mdn-jetpack-and-more/#improvement">Improvement to the new layers system</a></li>
-<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/20/firefox-4-firefox-home-firefox-for-maemo-webm-add-ons-layers-drumbeat-bugdays-mdn-jetpack-and-more/#drumbeat">Drumbeat Festival update</a></li>
-<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/20/firefox-4-firefox-home-firefox-for-maemo-webm-add-ons-layers-drumbeat-bugdays-mdn-jetpack-and-more/#future">Future of bugdays</a></li>
-<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/20/firefox-4-firefox-home-firefox-for-maemo-webm-add-ons-layers-drumbeat-bugdays-mdn-jetpack-and-more/#mdn">MDN documentation priorities</a></li>
-<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/20/firefox-4-firefox-home-firefox-for-maemo-webm-add-ons-layers-drumbeat-bugdays-mdn-jetpack-and-more/#two">Two billion Firefox add-on downloads</a></li>
-<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/20/firefox-4-firefox-home-firefox-for-maemo-webm-add-ons-layers-drumbeat-bugdays-mdn-jetpack-and-more/#jetpack">Jetpack survey report, part 3</a></li>
-<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/20/firefox-4-firefox-home-firefox-for-maemo-webm-add-ons-layers-drumbeat-bugdays-mdn-jetpack-and-more/#software">Software releases</a></li>
-<li><a href="http://blog.mozilla.com/about_mozilla/2010/07/20/firefox-4-firefox-home-firefox-for-maemo-webm-add-ons-layers-drumbeat-bugdays-mdn-jetpack-and-more/#upcoming">Upcoming events</a></li>
-</ul>
-<p><a name="firefox4"></a><strong>Firefox 4 beta 1 roundup</strong><br />
-<a href="https://developer.mozilla.org/devnews/index.php/2010/07/06/firefox-4-beta-1-available-for-download/">Firefox 4 beta 1 was released</a> on July 6th, and is available for download on Mac, Windows, and Linux.  There has been a lot written about this release, including <a href="http://www.mozilla.com/firefox/4.0b1/releasenotes/">notes about the release</a> itself, new and updated <a href="http://hacks.mozilla.org/2010/07/firefox-4-beta-1-is-here-whats-in-it-for-web-developers/">features for web developers</a> including the <a href="http://daviddahl.blogspot.com/2010/07/web-developer-console-in-firefox-40.html">new “web console”</a>, <a href="http://blog.pearce.org.nz/2010/07/webm-video-support-in-firefox-4-beta.html">WebM support</a>, various <a href="http://blog.mozilla.com/faaborg/2010/07/06/firefox-4-beta-1-ui-changes/">UI changes</a>, the experimental <a href="http://mozillalabs.com/testpilot/2010/07/01/test-pilot-fx4beta/">“Feedback” button</a> for the beta program, and the all <a href="http://www.oxymoronical.com/blog/2010/07/Introducing-the-new-Add-ons-Manager">new add-ons manager</a> (including a <a href="http://www.oxymoronical.com/blog/2010/07/History-of-the-Add-ons-Manager">history of the add-ons manager</a>, and <a href="http://www.oxymoronical.com/blog/2010/07/How-to-extend-the-new-Add-ons-Manager">how to extend the new version</a>).  There have been <a href="http://www.mozilla.com/en-US/firefox/beta/features/">dozens of major features added and improvements</a> made, which you can read more about on the Mozilla website.</p>
-<p><a name="firefoxhome"></a><strong>Firefox Home for iPhone</strong><br />
-Firefox Home, a free application, is <a href="http://blog.mozilla.com/blog/2010/07/15/get-firefox-home-on-your-iphone/">now available for download on your iPhone or iPod Touch</a>.  “Firefox Home provides access to your Firefox desktop history, bookmarks and open tabs on your iPhone.  Get up and go and have exactly what you are looking for on the Web on your iPhone or iPod Touch.  Firefox Home uses your browser data, securely synced from Firefox on your desktop to the cloud, to let you search and browse quickly and efficiently.  You can view the sites you want directly in Firefox Home, open them in Mobile Safari or share them with friends via email.  Your Firefox data is private and only you have access to it.” </p>
-<p><a name="firefoxmaemo"></a><strong>Firefox for Maemo 1.1 released</strong><br />
-The Firefox team has <a href="http://blog.pavlov.net/2010/07/01/firefox-for-maemo-1-1/">announced the release of Firefox for Maemo 1.1</a>.  “Our focus for this release was to improve the user experience of Firefox and to make the browser easier to use.  This release builds on our 1.0 release which introduced add-ons, such as Firefox Sync and AdBlock Plus, to the mobile browser.”  Other new features include: portrait mode on rotate, a new smart-tapping system, form assistant improvements, a redesigned start page, automatically updated add-ons, an improved site menu, the ability to save pages to PDF, a built in crash reporter, and more!  You can read more about this release in Madhava Enros’ <a href="http://madhava.com/egotism/archive/005050.html">Field Guide to Firefox 1.1 for Maemo</a>.</p>
-<p><a name="an"></a><strong>An easy way to create WebM videos</strong><br />
-With WebM support now available in Firefox 4 beta 1, you might be looking for a way to create WebM videos, and <a href="http://blog.pearce.org.nz/2010/07/easy-way-to-create-webm-videos.html">Chris Pearce is here to help</a>.  “Because WebM is such a new format, existing video editing software doesn’t encode WebM yet, so if you want to make a WebM video, you must create it in another format and then convert it to WebM using a tool like Miro Video Converter.”  The Miro Video Converter tool is freely available for download on both Windows and Mac, and can convert to other formats as well.</p>
-<p><a name="addon"></a><strong>Add-on icon makeover contest</strong><br />
-“The icon is an important part of any add-on, as it appears everywhere the add-on does both on addons.mozilla.org (AMO) and in Firefox.  Yet only half of the add-ons hosted on AMO actually provide a custom icon; the others just use the default green puzzle piece.  With Firefox 4, icons will become even more important as we allow for large 128×128 pixel icons to show off an add-on’s personality.  To help get add-ons ready for this new focus on icons, we’re announcing an icon makeover contest!  Developers can nominate their add-ons to receive an icon makeover, and the community will vote for the five add-ons to receive new icons custom designed by our graphic artist.” More details are available in <a href="http://blog.mozilla.com/addons/2010/07/15/add-on-icon-makeover-contest/">the contest announcement</a>.</p>
-<p><a name="making"></a><strong>Making add-ons that people will love</strong><br />
-Justin Scott recently presented a talk called “<a href="http://blog.fligtar.com/2010/07/02/making-add-ons-people-will-love/">Making Add-ons People Will Love</a>” at the <a href="https://wiki.mozilla.org/MozAdd-onsWorkshop:2010:London">Mozilla Add-ons Workshop in London</a>.  He has since posted his set of tips and guidelines on his weblog, including notes about building add-ons with a great user experience, tips for marketing your add-on, and some ways to communicate effectively with your users and incorporate their feedback.  His post includes the full video of his 30 minute talk in Ogg format (also available <a href="http://vimeo.com/13047133">through Vimeo</a>), and his slides <a href="http://people.mozilla.com/~fligtar/mozlondon10/Making%20Add-ons%20People%20will%20Love.pdf">as PDF</a> (<a href="http://people.mozilla.com/~fligtar/mozlondon10/Making%20Add-ons%20People%20will%20Love%20(Notes).pdf">with notes</a>) and on <a href="http://www.slideshare.net/fligtar/making-addons-people-will-love">SlideShare</a>.</p>
-<p><a name="mozilla"></a><strong>Mozilla Security bug bounty changes</strong><br />
-The <a href="http://www.mozilla.org/security/bug-bounty.html">Mozilla Security Bug Bounty Program</a> has recently undergone some changes and updates.  “Mozilla launched its security bounty program in 2004 and while the original mission of protecting users by supporting security research has not changed, the security environment has changed tremendously.  In recognition of these changes we are updating our security bounty program to better support constructive security research.  For new bugs reported starting July 1st, 2010 we are changing the bounty payment to $3,000 US per <a href="http://www.mozilla.org/security/bug-bounty-faq.html#eligible-bugs">eligible security bug</a>.  A lot has changed in the six years since the Mozilla program was announced, and we believe that one of the best ways to keep our users safe is to make it economically sustainable for security researchers to do the right thing when disclosing information.”  Read more about the Bug Bounty program and these new changes on <a href="http://blog.mozilla.com/security/2010/07/15/refresh-of-the-mozilla-security-bug-bounty-program/">the Mozilla Security weblog</a>.</p>
-<p><a name="improvement"></a><strong>Improvement to the new Layers system</strong><br />
-Mozilla Gecko’s layers framework is undergoing some significant changes, the bulk of which are now part of the <a href="http://nightly.mozilla.org/">Firefox Minefield nightly releases</a>.  This new layer system improves Firefox performance in several areas, including fade effects, CSS transforms, and scrolling.  Most importantly, retained layers lay down infrastructure that will be used in a number of other ways, benefiting D3D and GL layer implementations, as well as Fennec (Firefox on mobile devices).  Read more on <a href="http://weblogs.mozillazine.org/roc/archives/2010/07/retained_layers.html">Robert O’Callahan’s weblog</a>.</p>
-<p><a name="drumbeat"></a><strong>Drumbeat Festival update</strong><br />
-Planning for the upcoming Drumbeat Festival (Nov 3-5, Barcelona) is underway, and Nathaniel James is looking for your help.  The Festival’s theme is “Learning, Freedom, and the Web” and the team is working to create an open space where everyone who comes (up to 500 people) can be both a teacher and learner.  “I have been designing our planning framework, and working with Mark and others on the team to imagine how this kind of radically open peer-learning space will work.”  Head over to Nathaniel’s weblog to <a href="https://www.drumbeat.org/content/nathaniel-james-tents-nodes-or-pods-drumbeat-festival-update-1">find out more about their plans</a>, what questions they’re still working on, and how you can get involved.</p>
-<p><a name="future"></a><strong>Future of bugdays</strong><br />
-At the Mozilla Summit that was held earlier this month, Anthony Hughes hosted a brainstorming session towards “making bugdays better”.  “We need to make bugdays more accessible and productive, and give contributors more recognition.  The next phase is to try out as many of the ideas and see what works.”  <a href="http://ashughes.com/?q=node/132">Anthony’s post</a> goes over several ideas about the Bugday format, communication, stakeholders, success &amp; metrics, and what’s next.</p>
-<p><a name="mdn"></a><strong>MDN documentation priorities</strong><br />
-The Mozilla Developer Center is being transformed and expanded into the Mozilla Developer Network, as outlined in the <a href="http://www.scribd.com/doc/33755615/Mozilla-Developer-Network-Roadmap-2010">MDN Roadmap for 2010</a>.  Part of this includes <a href="http://hacks.mozilla.org/2010/07/help-us-set-priorities-for-docs/">setting better priorities</a> for creating or improving Mozilla’s developer documentation, and it is with this that the team would like your help.  “We’d like to get your input on where to focus documentation efforts on MDN.  There are all kinds of topics that need to be written, updated, or improved — so where should we start?  What do you need most?”  You can give you input through the <a href="http://mdn.uservoice.com/forums/63431-dev-doc-priorities">MDN Dev Doc Priorities forum</a> that has been set up on UserVoice, either by voting or commenting on existing topics or by adding your own.</p>
-<p><a name="two"></a><strong>Two billion Firefox add-on downloads</strong><br />
-AMO (addons.mozilla.org) passed a significant milestone, having served up its <a href="http://rockyourfirefox.com/2010/07/2-billion-downloads/">two billionth add-on download</a>.  “This exciting feat was made possible by the huge community of people like you who use Firefox Add-ons as well as the thousands of developers who make the add-ons you use.  To celebrate this occasion, we asked you for your favorite add-ons and created a special collection we’re calling the <a href="https://addons.mozilla.org/en-US/firefox/collection/bestof2billion">Best of 2 Billion Firefox Add-ons</a>.  Check it out!”</p>
-<p><a name="jetpack"></a><strong>Jetpack survey report, part 3</strong><br />
-The Mozilla Labs team has released the results from their third Jetpack developer survey, this time asking, “What Add-ons Builder APIs are most important to you?”  “The feedback the community gave was quite informative.  Many of our assumptions about which APIs the community wanted were confirmed, but there were quite a few APIs which ranked higher than expected.”  The <a href="http://mozillalabs.com/jetpack/2010/07/01/jetpack-survey-report-3/">Mozilla Labs blog</a> has all the details.</p>
-<p><a name="software"></a><strong>Software releases</strong><br />
-* <a href="https://developer.mozilla.org/devnews/index.php/2010/07/06/firefox-4-beta-1-available-for-download/">Firefox 4 beta 1</a><br />
-* <a href="http://blog.pavlov.net/2010/07/01/firefox-for-maemo-1-1/">Firefox 1.1 for Maemo</a><br />
-* <a href="http://blog.mozilla.com/blog/2010/07/15/get-firefox-home-on-your-iphone/">Firefox Home for iPhone</a><br />
-* <a href="http://mozillalabs.com/sync/2010/06/30/firefox-sync-1-4-released/">Firefox Sync 1.4</a><br />
-* <a href="http://weblogs.mozillazine.org/seamonkey/archives/2010/07/seamonkey_21_al_1.html">SeaMonkey 2.1 alpha 2</a><br />
-* <a href="http://blog.instantbird.org/n25-instantbird-0-2-released.html">Instantbird 0.2</a><br />
-* <a href="http://weblogs.mozillazine.org/gerv/archives/2010/07/bugzilla_api_061_released.html">Bugzilla API 0.6.1</a></p>
-<p><a name="upcoming"></a><strong>Upcoming events</strong><br />
-* Oct 1-2 – New York City – <a href="http://www.openvideoconference.org/?l=en">Open Video Conference</a><br />
-* Nov 4-6 – Barcelona – <a href="http://www.drumbeat.org/blog/drumbeat-festival-2010-save-date">Drumbeat Festival 2010</a><br />
-* Nov 5-7 – <a href="http://www.andreasn.se/blog/?p=131">Free Society Conference and Nordic Summit (FSCONS)</a></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 20 Jul 2010 16:15:53 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:3:"deb";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:63;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:64:"Chris Blizzard: new role at mozilla – director of web platform";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:40:"http://www.0xdeadbeef.com/weblog/?p=2439";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:86:"http://www.0xdeadbeef.com/weblog/2010/07/new-role-at-mozilla-director-of-web-platform/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:2636:"<p>For the last couple of years I’ve been responsible for our wonderful Evangelism group at Mozilla.  We’ve been responsible for a combination of developer relations, standards work and outbound developer-focused communications.  If you’ve followed our work on <a href="http://hacks.mozilla.org/">hacks</a> and <a href="http://developer.mozilla.org/">devmo</a>, especially around the release of 3.5 and 3.6 then you’ve familiar with the pretty amazing work of this team.</p>
-<p>But over the last few months I’ve been focused on one aspect of that job more than others – helping to drive the web-facing side of our platform.  A big part of that work has been listening to web developers who are building on top of the web and understanding what they need.  (This is a big part of the role of the Evangelism group inside of Mozilla.)  I’ve also been working closely with Mozilla’s engineering team to help determine what’s important and what’s not.  I think that I’ve discovered – and others inside of the project have discovered as well – that having someone doing that full time with a specific focus on the web platform full time is really important.  (In the past that role was spread across various parts of the project.)</p>
-<p>To that end I’m moving on from leading the Evangelism team and moving to help manage the web-facing side of Firefox full time.  It’s easiest to think of this as a product manager for the web.</p>
-<p>This is going to be an interesting job, to be sure.  It’s entirely built of soft skills:  listening closely to web developers, both frontend and backend.  Working with the Mozilla community to communicate and understand where the web needs to go next.  Working with partners to build great partnerships and products.  Working with our user and developer engagement groups on the best way to talk about the web.  Maintaining a roadmap for Gecko.  And, last but certainly not least, working every day with the people on the ground doing the great work that make Gecko the best platform to advance the web.</p>
-<p>I expect that I’ll keep posting on hacks and on this weblog.  But expect to see different kinds of questions from me from now on.  I expect that I’ll be spending a good bit of my time on what the web will look like 2-5 years from now and what we can do at Mozilla to make that happen.  That’s going to require looking for the best ideas that people have and working to make them a reality through the Mozilla project.</p>
-<p>The web is a platform that’s still ripe for improvement and change.  So I’m looking forward to your feedback and your help.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 20 Jul 2010 16:15:10 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:20:"Christopher Blizzard";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:64;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:53:"Chris Leary: B&B++: bed and breakfast for programmers";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:30:"http://blog.cdleary.com/?p=875";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:69:"http://blog.cdleary.com/2010/07/bb-bed-and-breakfast-for-programmers/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:6429:"<div class="section" id="collect-background">
-<h3>1. Collect background</h3>
-<p>This is the latest in my steal-my-idea-but-give-me-free-stuff-after-you-do series, with slightly more earning potential than my last installment, <a class="reference external" href="http://www.google.com/buzz/cdleary/UhXogs6mJrd/Chris-crazy-idea-for-a-business-5823-Strike-a-Cord">"Strike a Cord"</a>.</p>
-<p>I recently spoke to some Mozillians who had participated in a "code retreat" — I’d only heard tale of such a thing in lore and folk song, but it seems like a brilliant concept.</p>
-<p>The idea is this: a small think tank (of one or more persons) <em>requires</em> a large amount of code <em>throughput</em> on a task which requires a high degree of <em>focus</em>. To facilitate that, they run far from the middling issues of civilized society and deep into the wilderness <a class="footnote-reference" href="http://blog.cdleary.com/category/mozilla/feed/#id5" id="id2"><tt>[*]</tt></a> to code "butt-necked in harmony with Eywa". <a class="footnote-reference" href="http://blog.cdleary.com/category/mozilla/feed/#id6" id="id3"><tt>[†]</tt></a> Through single-minded concentration and a dearth of non-maskable interrupts, they emerge victorious. <a class="footnote-reference" href="http://blog.cdleary.com/category/mozilla/feed/#id8" id="id4"><tt>[‡]</tt></a></p>
-</div>
-<div class="section" id="id11">
-<h3>2. ?</h3>
-<p>Follow these simple steps to steal my idea:</p>
-<ol class="arabic simple" start="0">
-<li>Assume that the aforementioned code retreat process is awesome.</li>
-<li>Make a bed-and-breakfast in the outskirts of a city that’s attractive to programmers (for whatever reason).</li>
-<li>Offer retreats with high-speed internet access, offices with whiteboards, mirra chairs, height-adjustable desks, pay-as-you-go phone conference equipment, high-res DLP projectors, disco balls, whatever. Make it clearly "the works". If you want to go <em>even further</em>, mount speakers and sound-proof the walls. <a class="footnote-reference" href="http://blog.cdleary.com/category/mozilla/feed/#id14" id="id12"><tt>[§]</tt></a></li>
-<li>Make the experience as luxurious and classy as reasonably possible so that the programmers respect the "sanctity" of the retreat: chef-prepared meals, an indisputably good coffee machine, a <a class="reference external" href="http://blog.cdleary.com/2010/07/virtues-of-extreme-programming-practices/">Z80</a> prominently featured as a piece of wall art, and a complimentary bag-o-munchy-chips regimen. Beautiful scenery in which one can walk and think would definitely be a plus, and proximity to a nerd-friendly bar never hurt a nerdy establishment either.</li>
-</ol>
-<p>The patrons have a good degree of flexibility as a result of this setup. They might hole themselves away in offices 95% of the time, emerging only to sleep, gather delicious food, and scuttle back into their offices. Alternatively, if they’re on a more casual endeavor (coding vacation?), they might choose to strike up conversations with people at meals and go out to see the sites.</p>
-</div>
-<div class="section" id="profit">
-<h3>3. Profit!</h3>
-<p>Please do steal my idea and make a lot of money for yourself (share it with no one!) — I only ask that you offer me a free stay once you get off the ground.</p>
-<p>I’ll leave you off with a little marketing campaign idea:</p>
-<blockquote><p>
-B&amp;B++: universally evaluated as the way to B, and, after each bed and breakfast, we get a little bit better. Until we overflow. <a class="footnote-reference" href="http://blog.cdleary.com/category/mozilla/feed/#id16" id="id15"><tt>[¶]</tt></a></p></blockquote>
-</div>
-<div class="section" id="footnotes">
-<h3>Footnotes</h3>
-<table class="docutils footnote" frame="void" id="id5" rules="none">
-<colgroup>
-<col class="label" />
-<col /></colgroup>
-<tbody valign="top">
-<tr>
-<td class="label"><a class="fn-backref" href="http://blog.cdleary.com/category/mozilla/feed/#id2"><tt>[*]</tt></a></td>
-<td>Or a hotel.</td>
-</tr>
-</tbody>
-</table>
-<table class="docutils footnote" frame="void" id="id6" rules="none">
-<colgroup>
-<col class="label" />
-<col /></colgroup>
-<tbody valign="top">
-<tr>
-<td class="label"><a class="fn-backref" href="http://blog.cdleary.com/category/mozilla/feed/#id3"><tt>[†]</tt></a></td>
-<td>Sadly, <a class="reference external" href="http://en.wikipedia.org/wiki/Kanban">I can’t take credit</a> for this phrase.</td>
-</tr>
-</tbody>
-</table>
-<table class="docutils footnote" frame="void" id="id8" rules="none">
-<colgroup>
-<col class="label" />
-<col /></colgroup>
-<tbody valign="top">
-<tr>
-<td class="label"><a class="fn-backref" href="http://blog.cdleary.com/category/mozilla/feed/#id4"><tt>[‡]</tt></a></td>
-<td>Readers familiar with <a class="reference external" href="http://en.wikipedia.org/wiki/Zilog_Z80">XP</a> may draw a parallel to the practice of <a class="reference external" href="https://bugzilla.mozilla.org/show_bug.cgi?id=561948#c1">Kanban</a>, which has a fascinating backstory, and acknowledges the awesome power of JIT.</td>
-</tr>
-</tbody>
-</table>
-<table class="docutils footnote" frame="void" id="id14" rules="none">
-<colgroup>
-<col class="label" />
-<col /></colgroup>
-<tbody valign="top">
-<tr>
-<td class="label"><a class="fn-backref" href="http://blog.cdleary.com/category/mozilla/feed/#id12"><tt>[§]</tt></a></td>
-<td>For the mercy of those who dislike techno.</td>
-</tr>
-</tbody>
-</table>
-<table class="docutils footnote" frame="void" id="id16" rules="none">
-<colgroup>
-<col class="label" />
-<col /></colgroup>
-<tbody valign="top">
-<tr>
-<td class="label"><a class="fn-backref" href="http://blog.cdleary.com/category/mozilla/feed/#id15"><tt>[¶]</tt></a></td>
-<td>Hey, I’m giving this advice away for free, you can’t expect it to all be good. No company ever survived giving their excellent primary product away for free. <a class="footnote-reference" href="http://blog.cdleary.com/category/mozilla/feed/#id18" id="id17"><tt>[#]</tt></a></td>
-</tr>
-</tbody>
-</table>
-<table class="docutils footnote" frame="void" id="id18" rules="none">
-<colgroup>
-<col class="label" />
-<col /></colgroup>
-<tbody valign="top">
-<tr>
-<td class="label"><a class="fn-backref" href="http://blog.cdleary.com/category/mozilla/feed/#id17"><tt>[#]</tt></a></td>
-<td>Ugh, too much meta-humor. If you’ve read and understood up to this point, I apologize.</td>
-</tr>
-</tbody>
-</table>
-</div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 20 Jul 2010 16:00:15 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:7:"cdleary";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:65;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:48:"David Eaves: Some thoughts on improving Bugzilla";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:23:"http://eaves.ca/?p=2839";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:61:"http://feedproxy.google.com/~r/EavescaMozilla/~3/1yrHlaFkKK0/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:21149:"<p>One of the keys to making an open source project work is getting feedback from users and developers about problems (bugs) in the code or system. Mozilla (the organization behind Firefox and Thunderbird) uses Bugzilla, but organizations have developed a variety of systems for dealing with this issue. For example, many cities use 311. I'm going to talk about Bugzilla and Mozilla in this case, but I think the lessons can be applied more broadly for some of my policy geek friends.</p>
-<p>So first, some first principles. Why does getting the system right matter? A few reasons come to mind:</p>
-<ol>
-<li>Engagement: For many people Bugzilla is their first contact with "the community." We should want users to have a <em>good</em> experience so they feel some affinity towards us and we should want developers to have a <em>great </em>experience so that they want to deepen their level of participation and engagement.</li>
-<li>Efficiency: If you have the wrong or incomplete information it is hard (or impossible) to solve a problem, wasting the precious time of volunteer contributors.</li>
-</ol>
-<p>I also concede that these two objectives may not always be congruent. Indeed, at times there may be trade offs between them... but I think there is a lot that can be done to improve both.</p>
-<p>I've probably got more ideas than can fit (or should fit) into one post so I'm going to unload a few. I've got more that relate to the negotiation and empathetic approaches I talked about at the Mozilla Summit.</p>
-<p>One additional thought. Please feel free to dump all over these. Some changes many not be as simple as I've assumed. Others may break or contravene important features I'm not aware of. Happy to engage people on these, please do not see them as an end point, but rather a beginning. My main goal with this first batch of suggestions was to find things that felt easier to do and so could be implemented quickly if there was interest and would help reduce transactions costs right away.</p>
-<p><strong>1. Simplifying Menus</strong></p>
-<p>First. I thought there were some simple changes that could render the interface cleaner and friendlier. It's pretty text heavy - which is great for advanced users, but less inviting for newer users. More importantly however, we could streamline things to make it easier for people to onboard.</p>
-<p>Take for example, the landing page of Bugzilla. It is unclear to me why "Open a new Account" should be on this page. Advanced users will know they want to file a bug, novices (who may be on the wrong site and who should be looking for support) might believe they have to open and account to get support. So why not eliminate the option altogether. You are going to get it anyways if you click on "File a bug."</p>
-<div class="wp-caption alignleft" id="attachment_2840" style="width: 558px;"><a href="http://eaves.ca/wp-content/uploads/2010/07/Bugzilla-landing-page.png"><img alt="" class="size-full wp-image-2840 " height="274" src="http://eaves.ca/wp-content/uploads/2010/07/Bugzilla-landing-page.png" style="border: 1px solid black;" title="Bugzilla landing page" width="548" /></a><p class="wp-caption-text">Current</p></div>
-<div class="wp-caption alignnone" id="attachment_2841" style="width: 558px;"><a href="http://eaves.ca/wp-content/uploads/2010/07/Bugzilla-landing-page-v2.png"><img alt="" class="size-full wp-image-2841 " height="274" src="http://eaves.ca/wp-content/uploads/2010/07/Bugzilla-landing-page-v2.png" style="border: 1px solid black;" title="Bugzilla landing page v2" width="548" /></a><p class="wp-caption-text">Proposed</p></div>
-<p><a href="http://eaves.ca/wp-content/uploads/2010/07/Bugzilla-landing-page.png"> </a></p>
-<p>In addition, I got rid of the bottom menu bar (which I don't think is necessary on this screenƒclu given all the features were along the top as well). I also ditched the Release Notes and User Guide for Bugzilla as I had doubts about whether users were, at this point and on this screen, looking for those things)</p>
-<p><strong>2. Gather more information about our users (and, while I'm at it, some more simplifying)<br />
-</strong></p>
-<p>Once you choose to file a bug you get prompted to either log in or create an account. At this point, if you want to create an account. I thought this page was hard to read with the text spanning the whole width, plus, there is some good info we could gather about users at this point (the point it feels they are mostly likely going to add to their profile).</p>
-<div class="wp-caption alignleft" id="attachment_2843" style="width: 640px;"><a href="http://eaves.ca/wp-content/uploads/2010/07/Bugzilla-registration1.png"><img alt="" class="size-full wp-image-2843 " height="300" src="http://eaves.ca/wp-content/uploads/2010/07/Bugzilla-registration1.png" title="Bugzilla registration" width="630" /></a><p class="wp-caption-text">Current</p></div>
-<div class="wp-caption alignnone" id="attachment_2844" style="width: 640px;"><a href="http://eaves.ca/wp-content/uploads/2010/07/Bugzilla-registration-v2.png"><img alt="" class="size-full wp-image-2844 " height="437" src="http://eaves.ca/wp-content/uploads/2010/07/Bugzilla-registration-v2.png" title="Bugzilla registration v2" width="630" /></a><p class="wp-caption-text">Proposed</p></div>
-<p>Couple things a like about this proposed screen.</p>
-<p>One, if you are a lost user just looking for support we likely snag you <em>before</em> you fill out a bugzilla account. My feeling is the bugzilla is a scary place that most users shouldn't end up in... we need to give people lots of opportunities to opt for support before diving in, in case that is what they really need.</p>
-<p>Second, in this proposed version we tell people to read the bugzilla guidelines and suggest using an alternate email <em>before</em> they punch their email into the email field box.</p>
-<p>In addition, we ask the user for their real name now (as opposed to relying on them to fill it out later). This nudge feels important as the more people with real names on the site, the more I think people will develop relationships with one another. Finally we ask people if English is their second language and if this is their first open source project.</p>
-<p>Finally, with the extra data fields we can help flag users as ESL or new and thus in need of more care, patience and help as they on-ramp (see screen shots below). We could even modify the Bugzilla guidelines to inform people to provide newbies and ESL's with appropriate respect and support.</p>
-<div class="wp-caption alignleft" id="attachment_2846" style="width: 467px;"><a href="http://eaves.ca/wp-content/uploads/2010/07/Bugzilla-Raw1.png"><img alt="" class="size-full wp-image-2846 " height="330" src="http://eaves.ca/wp-content/uploads/2010/07/Bugzilla-Raw1.png" title="Bugzilla Raw" width="457" /></a><p class="wp-caption-text">Current</p></div>
-<div class="wp-caption alignleft" id="attachment_2847" style="width: 466px;"><a href="http://eaves.ca/wp-content/uploads/2010/07/Bugzilla-New.png"><img alt="" class="size-full wp-image-2847 " height="329" src="http://eaves.ca/wp-content/uploads/2010/07/Bugzilla-New.png" title="Bugzilla New" width="456" /></a><p class="wp-caption-text">Proposed</p></div>
-<div class="wp-caption alignnone" id="attachment_2848" style="width: 468px;"><a href="http://eaves.ca/wp-content/uploads/2010/07/Bugzilla-ESL.png"><img alt="" class="size-full wp-image-2848 " height="330" src="http://eaves.ca/wp-content/uploads/2010/07/Bugzilla-ESL.png" title="Bugzilla ESL" width="458" /></a><p class="wp-caption-text">Proposed</p></div>
-<p>I imagine that your "newbie" status would disappear either when you want (some sort of preference in your profile) or after you've engaged in a certain amount of activity.</p>
-<p><strong>3. Make life easier for users and the triage guys<br />
-</strong></p>
-<p>Here is an idea I had talking with some of the triage guys at the Mozilla Summit.</p>
-<p>Let's suppose that someone submits a bug that isn't really a bug but a support issue. I'm informed that this happens with a high degree of frequency. Would it be nice if, with a click of a mouse, the triage guys could move that bug out of Bugzilla and into a separate database (ideally this would be straight into SUMO, but I respect that this might not be easy - so just moving it to a separate database and de-cluttering bugzilla would be a great first start - the SUMO guys could then create a way to import it). My sense is that this simply requires creating <a href="https://bugzilla.mozilla.org/page.cgi?id=fields.html#status">a new resolution field</a> - I've opted to call it "Support" but am happy to name it something else.</p>
-<div class="mceTemp">
-<div class="wp-caption alignleft" id="attachment_2849" style="width: 549px;"><a href="http://eaves.ca/wp-content/uploads/2010/07/Status-v1.png"><img alt="" class="size-full wp-image-2849 " height="240" src="http://eaves.ca/wp-content/uploads/2010/07/Status-v1.png" title="Status v1" width="539" /></a><p class="wp-caption-text">Current</p></div>
-<dl class="wp-caption alignnone" id="attachment_2850" style="width: 544px;">
-<dt class="wp-caption-dt"><a href="http://eaves.ca/wp-content/uploads/2010/07/Status-v2.png"><img alt="" class="size-full wp-image-2850   " height="240" src="http://eaves.ca/wp-content/uploads/2010/07/Status-v2.png" title="Status v2" width="534" /></a></dt>
-<dd class="wp-caption-dd">Proposed</dd>
-</dl>
-</div>
-<p>This feels like a simple fix and it would quickly move a lot of bugs that are cluttering up bugzilla... out. This is important as searches for bugs often return many results that are support oriented, making it harder to find the bugs you are actually searching for. Better still, it would get them somewhere where they could more likely help users (who are probably waiting for us to respond).</p>
-<p>Of course, presently bugzilla will auto generate an email that looks like the first one and this isn't going to help. So what if we did something else?</p>
-<div class="wp-caption alignleft" id="attachment_2857" style="width: 694px;"><a href="http://eaves.ca/wp-content/uploads/2010/07/unresolved.png"><img alt="" class="size-full wp-image-2857" height="400" src="http://eaves.ca/wp-content/uploads/2010/07/unresolved.png" title="unresolved" width="684" /></a><p class="wp-caption-text">Current</p></div>
-<div class="wp-caption alignnone" id="attachment_2851" style="width: 687px;"><a href="http://eaves.ca/wp-content/uploads/2010/07/SUMO-transfer-v2.png"><img alt="" class="size-full wp-image-2851 " height="400" src="http://eaves.ca/wp-content/uploads/2010/07/SUMO-transfer-v2.png" title="SUMO transfer v2" width="677" /></a><p class="wp-caption-text">Proposed</p></div>
-<p>Here is the auto-generated email I think we <em>should</em> be sending users whos bugs get sent to SUMO. I've proposed a few things.</p>
-<p>First, if these are users who've submitted inappropriate bugs and who really need support, giving them a bugzilla email isn't going to help them, they aren't even going to know how to read it.</p>
-<p>Second, there is an opportunity to explain to them where they should go for help - I haven't done that explicitly enough in this email - but you get the idea</p>
-<p>Third, when the bug gets moved to SUMO it might be possible to do a simple key word analysis of the bug and, from that, determine what are the most likely support articles they are looking for. Why don't we send them the top 3 or 5 as hyperlinks in the email?</p>
-<p>Fourth, if this really is a bug from a more sophisticated user, we give them a hyperlink back to bugzilla so they can make a note or comment.</p>
-<p>What I like about this is it is customized engagement at a low cost. More importantly, it helps unclutter things while also making us more responsive and creating a better experience for users.</p>
-<p><strong>4. Make Bugzilla Celebrate, enhance our brand and build community<br />
-</strong></p>
-<p>Okay, so here's the thing that really bugs me about bugzilla. If we want to be onramping people and building community, shouldn't we celebrate people's successes? At the moment this is the email you get from Bugzilla when a bug you've submitted gets patched:</p>
-<p style="text-align: center;"><a href="http://eaves.ca/wp-content/uploads/2010/07/Bugzilla-ESL.png"></a><a href="http://eaves.ca/wp-content/uploads/2010/07/Congrats.png"><img alt="" class="aligncenter size-full wp-image-2852" height="400" src="http://eaves.ca/wp-content/uploads/2010/07/Congrats.png" title="Congrats" width="686" /></a></p>
-<p style="text-align: left;">BORING! Here, at the moment of maximum joy, especially for casual or new bugzilla participants we do nothing to engage or celebrate.</p>
-<p style="text-align: left;">This, is what I think the auto-generated bugzilla email <em>should</em> look like.</p>
-<p><a href="http://eaves.ca/wp-content/uploads/2010/07/Bugzilla-Raw.png"></a><a href="http://eaves.ca/wp-content/uploads/2010/07/Congrats-v2.png"><img alt="" class="aligncenter size-full wp-image-2853" height="400" src="http://eaves.ca/wp-content/uploads/2010/07/Congrats-v2.png" title="Congrats v2" width="688" /></a></p>
-<p>Yes, I agree that hard core community members probably won't care about these types of bugs, but for more casual participants this is an opportunity to explain how open source and mozilla works (the graphic) as well as a chance to educate them. I've even been more explicit about this by offering links to a) explain the open web, b) learn about mozilla and open source; and c) donate to the foundation (given this is a moment of pride for many non-developer end users)</p>
-<p>Again, I'm not overly attached to this design per se, it would just be nice to have something fun, celebratory and mozillaesque.</p>
-<p>Okay, it is super late and I'm on an early flight tomorrow. Would love feedback on all or any of this for those who've made it this far. I'll be sharing more thoughts, especially on empathetic nudges and community management in bugzilla ASAP.</p>
-
-
-
-Email &amp; Share:
-
-
-	<a href="http://www.printfriendly.com/print?url=http%3A%2F%2Feaves.ca%2F2010%2F07%2F20%2Fsome-thoughts-on-improving-bugzilla%2F&amp;partner=sociable" rel="nofollow" target="_blank" title="Print"><img alt="Print" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/printfriendly.png" title="Print" /></a>
-	<a href="http://www.printfriendly.com/print?url=http%3A%2F%2Feaves.ca%2F2010%2F07%2F20%2Fsome-thoughts-on-improving-bugzilla%2F&amp;partner=sociable" rel="nofollow" target="_blank" title="PDF"><img alt="PDF" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/pdf.png" title="PDF" /></a>
-	<a href="mailto:?subject=Some%20thoughts%20on%20improving%20Bugzilla&amp;body=http%3A%2F%2Feaves.ca%2F2010%2F07%2F20%2Fsome-thoughts-on-improving-bugzilla%2F" rel="nofollow" target="_blank" title="email"><img alt="email" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/email_link.png" title="email" /></a>
-	<a href="http://twitter.com/home?status=Some%20thoughts%20on%20improving%20Bugzilla%20-%20http%3A%2F%2Feaves.ca%2F2010%2F07%2F20%2Fsome-thoughts-on-improving-bugzilla%2F" rel="nofollow" target="_blank" title="Twitter"><img alt="Twitter" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/twitter.png" title="Twitter" /></a>
-	<a href="http://delicious.com/post?url=http%3A%2F%2Feaves.ca%2F2010%2F07%2F20%2Fsome-thoughts-on-improving-bugzilla%2F&amp;title=Some%20thoughts%20on%20improving%20Bugzilla&amp;notes=One%20of%20the%20keys%20to%20making%20an%20open%20source%20project%20work%20is%20getting%20feedback%20from%20users%20and%20developers%20about%20problems%20%28bugs%29%20in%20the%20code%20or%20system.%20Mozilla%20%28the%20organization%20behind%20Firefox%20and%20Thunderbird%29%20uses%20Bugzilla%2C%20but%20organizations%20have%20developed" rel="nofollow" target="_blank" title="del.icio.us"><img alt="del.icio.us" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/delicious.png" title="del.icio.us" /></a>
-	<a href="http://digg.com/submit?phase=2&amp;url=http%3A%2F%2Feaves.ca%2F2010%2F07%2F20%2Fsome-thoughts-on-improving-bugzilla%2F&amp;title=Some%20thoughts%20on%20improving%20Bugzilla&amp;bodytext=One%20of%20the%20keys%20to%20making%20an%20open%20source%20project%20work%20is%20getting%20feedback%20from%20users%20and%20developers%20about%20problems%20%28bugs%29%20in%20the%20code%20or%20system.%20Mozilla%20%28the%20organization%20behind%20Firefox%20and%20Thunderbird%29%20uses%20Bugzilla%2C%20but%20organizations%20have%20developed" rel="nofollow" target="_blank" title="Digg"><img alt="Digg" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/digg.png" title="Digg" /></a>
-	<a href="http://www.stumbleupon.com/submit?url=http%3A%2F%2Feaves.ca%2F2010%2F07%2F20%2Fsome-thoughts-on-improving-bugzilla%2F&amp;title=Some%20thoughts%20on%20improving%20Bugzilla" rel="nofollow" target="_blank" title="StumbleUpon"><img alt="StumbleUpon" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/stumbleupon.png" title="StumbleUpon" /></a>
-	<a href="http://slashdot.org/bookmark.pl?title=Some%20thoughts%20on%20improving%20Bugzilla&amp;url=http%3A%2F%2Feaves.ca%2F2010%2F07%2F20%2Fsome-thoughts-on-improving-bugzilla%2F" rel="nofollow" target="_blank" title="Slashdot"><img alt="Slashdot" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/slashdot.png" title="Slashdot" /></a>
-	<a href="http://reddit.com/submit?url=http%3A%2F%2Feaves.ca%2F2010%2F07%2F20%2Fsome-thoughts-on-improving-bugzilla%2F&amp;title=Some%20thoughts%20on%20improving%20Bugzilla" rel="nofollow" target="_blank" title="Reddit"><img alt="Reddit" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/reddit.png" title="Reddit" /></a>
-	<a href="http://www.facebook.com/share.php?u=http%3A%2F%2Feaves.ca%2F2010%2F07%2F20%2Fsome-thoughts-on-improving-bugzilla%2F&amp;t=Some%20thoughts%20on%20improving%20Bugzilla" rel="nofollow" target="_blank" title="Facebook"><img alt="Facebook" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/facebook.png" title="Facebook" /></a>
-	<a href="http://www.netvibes.com/share?title=Some%20thoughts%20on%20improving%20Bugzilla&amp;url=http%3A%2F%2Feaves.ca%2F2010%2F07%2F20%2Fsome-thoughts-on-improving-bugzilla%2F" rel="nofollow" target="_blank" title="Netvibes"><img alt="Netvibes" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/netvibes.png" title="Netvibes" /></a>
-	<a href="http://technorati.com/faves?add=http%3A%2F%2Feaves.ca%2F2010%2F07%2F20%2Fsome-thoughts-on-improving-bugzilla%2F" rel="nofollow" target="_blank" title="Technorati"><img alt="Technorati" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/technorati.png" title="Technorati" /></a>
-	<a href="http://twitter.com/home/?status=tip%20@Techmeme%20http%3A%2F%2Feaves.ca%2F2010%2F07%2F20%2Fsome-thoughts-on-improving-bugzilla%2F%20Some%20thoughts%20on%20improving%20Bugzilla" rel="nofollow" target="_blank" title="Suggest to Techmeme via Twitter"><img alt="Suggest to Techmeme via Twitter" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/techmeme.png" title="Suggest to Techmeme via Twitter" /></a>
-	<a href="http://identi.ca/notice/new?status_textarea=http%3A%2F%2Feaves.ca%2F2010%2F07%2F20%2Fsome-thoughts-on-improving-bugzilla%2F" rel="nofollow" target="_blank" title="Identi.ca"><img alt="Identi.ca" class="sociable-hovers" src="http://eaves.ca/wp-content/plugins/sociable/images/identica.png" title="Identi.ca" /></a>
-
-
-<br /><br /><div class="goosegrade-badge-right"><a><img border="0" src="http://www.goosegrade.com/badge.php?sid=2316560&amp;page=http://eaves.ca/2010/07/20/some-thoughts-on-improving-bugzilla/" title="Suggest spelling, factual, grammar, and other corrections to the author. Click here." /></a></div><div class="goosegrade-clear"></div><div class="feedflare">
-<a href="http://feeds.feedburner.com/~ff/EavescaMozilla?a=1yrHlaFkKK0:DYXK9zMZDwQ:yIl2AUoC8zA"><img border="0" src="http://feeds.feedburner.com/~ff/EavescaMozilla?d=yIl2AUoC8zA" /></a> <a href="http://feeds.feedburner.com/~ff/EavescaMozilla?a=1yrHlaFkKK0:DYXK9zMZDwQ:7Q72WNTAKBA"><img border="0" src="http://feeds.feedburner.com/~ff/EavescaMozilla?d=7Q72WNTAKBA" /></a> <a href="http://feeds.feedburner.com/~ff/EavescaMozilla?a=1yrHlaFkKK0:DYXK9zMZDwQ:V_sGLiPBpWU"><img border="0" src="http://feeds.feedburner.com/~ff/EavescaMozilla?i=1yrHlaFkKK0:DYXK9zMZDwQ:V_sGLiPBpWU" /></a> <a href="http://feeds.feedburner.com/~ff/EavescaMozilla?a=1yrHlaFkKK0:DYXK9zMZDwQ:qj6IDK7rITs"><img border="0" src="http://feeds.feedburner.com/~ff/EavescaMozilla?d=qj6IDK7rITs" /></a> <a href="http://feeds.feedburner.com/~ff/EavescaMozilla?a=1yrHlaFkKK0:DYXK9zMZDwQ:gIN9vFwOqvQ"><img border="0" src="http://feeds.feedburner.com/~ff/EavescaMozilla?i=1yrHlaFkKK0:DYXK9zMZDwQ:gIN9vFwOqvQ" /></a>
-</div><img height="1" src="http://feeds.feedburner.com/~r/EavescaMozilla/~4/1yrHlaFkKK0" width="1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 20 Jul 2010 15:44:17 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:11:"David Eaves";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:66;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:77:"Chris Cooper: Setting descriptions to avoid buildbot exceptions from doStepIf";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:33:"http://coop.deadsquid.com/?p=3720";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:98:"http://coop.deadsquid.com/2010/07/setting-descriptions-to-avoid-buildbot-exceptions-from-dostepif/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1302:"<p><img alt="Nut" class="alignright" src="http://coop.deadsquid.com/images/nut.png" title="Nut" width="75px" />A small caveat (and workaround) if you’re using doStepIf with buildbot:</p>
-<p>The Mozilla RelEng team recently upgraded to <a href="http://buildbot.net/trac">buildbot</a> 0.8.0. This has allowed me to start using conditional buildbot steps by specifying the <a href="http://buildbot.net/buildbot/docs/current/reference/buildbot.process.buildstep-pysrc.html#L814">doStepIf</a> parameter and a small helper function to check whether given properties have been set. I love it, and it opens up a whole new ways of working with our builds.</p>
-<p>Unfortunately, the doStepIf implementation is new-ish and <a href="http://buildbot.net/trac/ticket/837">still broken in some ways</a>. If steps are skipped, the finished() code is called without start() ever having been run, leaving you with potentially uninitialized variables. In my case, this manifests if I don’t specify a description for my conditional build step. Buildbot attempts to build a description for me by walking the properties, some of which may not be set if doStepIf is false. </p>
-<p>The workaround is, of course, to always provide a description for any conditional build steps (easy), or wrap everything in a try block.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 20 Jul 2010 14:38:29 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:4:"Coop";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:67;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:56:"Frédéric Buclin: What’s new in Bugzilla 4.0 and 4.2?";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:35:"http://lpsolit.wordpress.com/?p=215";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:74:"http://lpsolit.wordpress.com/2010/07/20/whats-new-in-bugzilla-4-0-and-4-2/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:5891:"<p>I didn’t blog for a long time about new features in the coming Bugzilla 4.0, nor Bugzilla 4.2 whose development just started. So here are some highlights:</p>
-<p><strong>Bugzilla 4.0:</strong></p>
-<ul>
-<li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=521416"><strong>Bug 521416</strong></a> – Older versions of IIS were causing Bugzilla to crash under some circumstances, due to problems with undefined values being passed back to Bugzilla when they shouldn’t (neither IIS 7.5 nor Apache are affected. IIS 5.1 definitely is. Not sure about IIS 6 and 7). This problem is now fixed, and all versions of IIS should work correctly now. This fix has also been backported to Bugzilla 3.6.2.</li>
-<li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=490923"><strong>Bug 490923</strong></a> –        Enable autocompletion for the assignee, QA contact, and CC fields. No need to remember the full email address of another user, Bugzilla will now show you a list of users matching the string you entered.</li>
-<li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=412074"><strong>Bug 412074</strong></a> –        Bug.add_attachment is a new WebService method which lets you add attachments to a bug.</li>
-<li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=415813"><strong>Bug 415813</strong></a> –            Bug.update is a new WebService method which lets you edit all aspects of an existing bug. Combined with Bug.add_attachment mentioned above, you can do everything you want with bugs. For the record, Bug.create already exists for a long time, to create new bugs.</li>
-<li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=486292"><strong>Bug 486292</strong></a> – The default workflow has been changed. New installations will now have UNCONFIRMED, CONFIRMED, IN_PROGRESS, RESOLVED and VERIFIED as bug statuses instead of the old UNCONFIRMED, NEW, ASSIGNED, REOPENED, RESOLVED, VERIFIED and CLOSED bug statuses. You are of course free to edit them from the administrative pages if you don’t like the new default workflow.</li>
-<li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=22353"><strong>Bug 22353</strong></a> –        Automatic duplicate bug detection has been implemented when filing a new bug, to give you a chance to see existing bugs matching your data before reporting your own bug. We hope this will decrease the number of duplicates.</li>
-<li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=556422"><strong>Bug 556422</strong></a> –            The existing bug-moving functionality has been converted into an extension which is disabled by default. So this functionality is still present in Bugzilla 4.0, but you now have to enable it by deleting the « extensions/Voting/disabled » file instead of enabling it from the « Parameters » page. Once the extension is enabled, you have to re-run checksetup.pl again.</li>
-<li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=24896"><strong>Bug 24896</strong></a> – Bugzilla now supports multiple (by default: 10) buglists at once, meaning that if you edit a bug and click the « Show last search results » link, it will show you the list the bug came from, even if you did another search meanwhile. Note that Bugzilla does its best to guess which buglist a bug comes from. And if a bug appears in several buglists, there is a risk that it redisplays the « wrong » buglist.</li>
-</ul>
-<p><strong>Bugzilla 4.2:</strong></p>
-<ul>
-<li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=119703" target="_blank"><strong>Bug 119703</strong></a> –        You can now create an attachment by pasting text directly into a text field. This means you don’t need to save your text in a file first, which you then have to upload. This is very useful e.g. if you want to copy and paste something very quickly.</li>
-<li><a href="https://bugzilla.mozilla.org/show_bug.cgi?id=142394"><strong>Bug 142394</strong></a> –        Tabular reports are now sortable (requires JS to be enabled). You can choose the column you want to sort data.</li>
-</ul>
-<p>As many new, and sometimes invasive, features have landed, we need as much feedback and testing as possible. So do not hesitate to <a href="http://www.bugzilla.org/download/#devel" target="_blank" title="Development snapshots for Bugzilla 4.x">download development snapshots</a> and report bugs if you find something wrong. Remember that these development snapshots are for testing purposes only, and should in no case be used in production (we have a huge list of <a href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=prod%3ABugzilla+flag%3Ablocking4.0%2B" target="_blank" title="Bugs blocking the release of Bugzilla 4.0">blockers</a> for 4.0!).</p>
-<br />  <a href="http://feeds.wordpress.com/1.0/gocomments/lpsolit.wordpress.com/215/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/comments/lpsolit.wordpress.com/215/" /></a> <a href="http://feeds.wordpress.com/1.0/godelicious/lpsolit.wordpress.com/215/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/delicious/lpsolit.wordpress.com/215/" /></a> <a href="http://feeds.wordpress.com/1.0/gostumble/lpsolit.wordpress.com/215/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/stumble/lpsolit.wordpress.com/215/" /></a> <a href="http://feeds.wordpress.com/1.0/godigg/lpsolit.wordpress.com/215/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/digg/lpsolit.wordpress.com/215/" /></a> <a href="http://feeds.wordpress.com/1.0/goreddit/lpsolit.wordpress.com/215/" rel="nofollow"><img alt="" border="0" src="http://feeds.wordpress.com/1.0/reddit/lpsolit.wordpress.com/215/" /></a> <img alt="" border="0" src="http://stats.wordpress.com/b.gif?host=lpsolit.wordpress.com&amp;blog=1159508&amp;post=215&amp;subd=lpsolit&amp;ref=&amp;feed=1" />";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 20 Jul 2010 13:40:01 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:17:"Frédéric Buclin";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:68;a:6:{s:4:"data";s:11:"
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:1:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:65:"Henri Sivonen: HOWTO Avoid Being Called a Bozo When Producing XML";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:37:"http://hsivonen.iki.fi/producing-xml/";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:37:"http://hsivonen.iki.fi/producing-xml/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:28566:"<blockquote><p>“There’s just no nice way to say this: Anyone
-who can’t make a syndication feed that’s well-formed XML
-is an incompetent fool.——Maybe this is unkind and elitist
-of me, but I think that anyone who either can’t or won’t
-implement these measures is, as noted above, a bozo.” –
-<a href="http://www.tbray.org/ongoing/When/200x/2004/01/11/PostelPilgrim" shape="rect">Tim
-Bray</a>, co-editor of the XML 1.0 specification</p></blockquote>
-<p>There seem to be developers who think that well-formedness is
-awfully hard—if not impossible—to get right when
-producing XML programmatically and developers who can get it right
-and wonder why the others are so incompetent. I assume no one wants
-to appear incompetent or to be called names. Therefore, I hope the
-following list of dos and don’ts helps developers to move from the
-first group to the latter.</p>
-<p>Note about the scope of this document: This document focuses on
-the Unicode layer, the XML 1.0 layer and the Namespaces in XML layer.
-Getting higher layers like XHTML and Atom right are outside the scope
-of this document. Also, anything served as <code>text/html</code> is
-outside the scope of this document, alhough the methods described
-here can be applied to producing HTML. In fact, doing so is even a good idea.</p>
-<h3>Contents</h3>
-<ol><li><a href="http://hsivonen.iki.fi/producing-xml/#nottext" shape="rect">Don’t think of XML as a text format</a></li><li><a href="http://hsivonen.iki.fi/producing-xml/#notexttemplates" shape="rect">Don’t use text-based templates</a></li><li><a href="http://hsivonen.iki.fi/producing-xml/#dontprint" shape="rect">Don’t <code>print</code></a></li><li><a href="http://hsivonen.iki.fi/producing-xml/#serializer" shape="rect">Use an isolated serializer</a></li><li><a href="http://hsivonen.iki.fi/producing-xml/#stack" shape="rect">Use a tree or a stack (or an XML parser)</a></li><li><a href="http://hsivonen.iki.fi/producing-xml/#namespace" shape="rect">Don’t try to manage namespace declarations manually</a></li><li><a href="http://hsivonen.iki.fi/producing-xml/#strings" shape="rect">Use unescaped Unicode strings in memory</a></li><li><a href="http://hsivonen.iki.fi/producing-xml/#utf" shape="rect">Use UTF-8 (or UTF-16) for output</a></li><li><a href="http://hsivonen.iki.fi/producing-xml/#nfc" shape="rect">Use NFC</a></li><li><a href="http://hsivonen.iki.fi/producing-xml/#comments" shape="rect">Don’t expect software to look inside comments</a></li><li><a href="http://hsivonen.iki.fi/producing-xml/#entities" shape="rect">Don’t rely on external entities on the Web</a></li><li><a href="http://hsivonen.iki.fi/producing-xml/#cdata" shape="rect">Don’t bother with CDATA sections</a></li><li><a href="http://hsivonen.iki.fi/producing-xml/#noescaping" shape="rect">Don’t bother with escaping non-ASCII</a></li><li><a href="http://hsivonen.iki.fi/producing-xml/#prettyprinting" shape="rect">Avoid adding pretty-printing white space in character data</a></li><li><a href="http://hsivonen.iki.fi/producing-xml/#textxml" shape="rect">Don’t use <code>text/xml</code></a></li><li><a href="http://hsivonen.iki.fi/producing-xml/#xml10" shape="rect">Use XML 1.0</a></li><li><a href="http://hsivonen.iki.fi/producing-xml/#astral" shape="rect">Test with astral characters</a></li><li><a href="http://hsivonen.iki.fi/producing-xml/#controlchar" shape="rect">Test with forbidden control characters</a></li><li><a href="http://hsivonen.iki.fi/producing-xml/#brokenutf" shape="rect">Test with broken UTF-*</a></li></ol>
-<h3>Don’t think of XML as a text format</h3>
-<p>Even people who have used compilers and seen the error and warning
-messages seem to think that text formats can be written casually and
-the piece of software in the other end will be able to fix small
-errors like a human reader. This is not the case with XML. If the
-document is not well-formed, it is not XML and an XML processor has
-to cease normal processing upon finding a fatal error.</p>
-<p>It helps if you think of XML as a binary format like PNG—only
-with the added bonus that you can use text tools to see what is in
-the file for debugging.</p>
-<h3>Don’t use text-based templates</h3>
-<p>Text-based Web templating systems (MovableType, WordPress, etc.)
-and active page technologies that seem to allow you to embed program
-code in document skeleton (ASP, PHP, JSP, Lasso, Net.Data, etc.) are
-designed for tag soup. They don’t guarantee well-formed XML output.
-They don’t guarantee correct HTML output, either. They seem to work
-with HTML, because <code>text/html</code> user agents are lenient and
-try to cope with broken HTML. The most common mistakes involve not
-escaping markup-significant characters or escaping them twice.</p>
-<p>Don’t use these systems for producing XML. Making mistakes with
-them is extremely easy and taking all cases into account is hard.
-These systems have failed smart people who have actively tried to get
-things right. 
-</p>
-<h3>Don’t </h3>
-<p>Using <code>print</code> (or <code>echo</code>) calls sprinkled all
-over your code to emit pieces of markup and literal text is
-error-prone as well. <a href="http://www.joelonsoftware.com/articles/Wrong.html" shape="rect">Is
-the string you are printing markup or text that needs to be escaped?</a>
-Have you printed multiple start tags at a time? Can you get the end
-tags right?</p>
-<p>When your program grows and is modified, these things become
-increasingly difficult to keep track of. It is very easy to overlook
-something. Indeed, it is very likely that something goes wrong.</p>
-<h3>Use an isolated serializer</h3>
-<p>Still, producing the markup characters and writing them as bytes
-into an output stream has to happen somewhere. Putting all the code
-the writes to the output stream in a single class or compilation unit
-makes it possible to debug the escaping-sensitive code in one place.
-The serializer should have SAX-like methods such as
-<code>startElement(nsUri, localname, attributes)</code>,
-<code>endElement(nsUri, localname)</code>, <code>characters(text)</code>,
-<code>processingInstruction(target, data)</code>, etc. The methods
-always take unescaped strings and escape attribute values and
-character data. With this approach, the notorious escaping problem
-just vanishes!</p>
-<p><del datetime="2009-04-11T18:46:28Z">For Java, there is <code><a href="http://www.gnu.org/software/classpathx/jaxp/apidoc/gnu/xml/util/XMLWriter.html" shape="rect">gnu.xml.util.XMLWriter</a></code>
-and its subclass <code><a href="http://www.gnu.org/software/classpathx/jaxp/apidoc/gnu/xml/util/XMLWriter.html" shape="rect">gnu.xml.pipeline.TextConsumer</a></code>
-that plugs into the GNU JAXP SAX pipeline framework. (A word of
-warning: The GNU JAXP XMLWriter does not work properly for all
-characters unless used with the UTF-8 output encoding and with <em>the
-XHTML mode turned off</em>. If you believe you need the XHTML
-mode—that is, the Appendix C mode—you may want to check
-out <code><a href="http://www.karppinen.fi/code/api/fi/karppinen/gnu/xml/util/XMLWriter.html" shape="rect">fi.karppinen.gnu.xml.util.XMLWriter</a></code>
-and <code><a href="http://www.karppinen.fi/code/api/fi/karppinen/gnu/xml/pipeline/TextConsumer.html" shape="rect">fi.karppinen.gnu.xml.pipeline.TextConsumer</a></code>
-instead. However, if you need the Appendix C mode, you are probably
-trying to serve XHTML as <code>text/html</code>. <a href="http://www.hixie.ch/advocacy/xhtml" shape="rect">Doing
-so is considered harmful</a>, so what you really need is <a href="http://hsivonen.iki.fi/code/api/fi/iki/hsivonen/xml/HtmlSerializer.html" shape="rect">a
-serializer that produces HTML 4.01 from XHTML 1.0 SAX events</a>.)</del></p>
-<p><ins datetime="2009-04-11T18:46:28Z">For Java, there is <a href="http://about.validator.nu/htmlparser/apidocs/nu/validator/htmlparser/sax/XmlSerializer.html" shape="rect">nu.validator.htmlparser.sax.XmlSerializer</a>. It does not support XHTML 1.0 Appendix C. If you want Appendix C support, you should probably send HTML5 as <code>text/html</code> instead, since <a href="http://www.hixie.ch/advocacy/xhtml" shape="rect">serving XHTML as <code>text/html</code> is considered harmful</a>. For that, there is <a href="http://about.validator.nu/htmlparser/apidocs/nu/validator/htmlparser/sax/HtmlSerializer.html" shape="rect">nu.validator.htmlparser.sax.HtmlSerializer</a>.</ins></p>
-<p>For C, there is eg. <a href="http://www.tbray.org/ongoing/When/200x/2004/02/20/GenxStatus" shape="rect">GenX</a>.
-C programmers may also find <a href="http://xmlsoft.org/html/libxml-xmlwriter.html" shape="rect">the
-tools in libxml2</a> useful. 
-</p>
-<h3>Use a tree or a stack (or an XML parser)</h3>
-<p>Although the serializer API sketched above makes the escaping
-problem disappear, the application could still call <code>startElement()</code>
-and <code>endElement()</code> in a bad sequence and break well-formed
-nesting.</p>
-<p>Since an XML document parses into a tree, traversing an analogous
-programmatically produced tree (eg. DOM or XOM) induces the right
-sequence of <code>startElement()</code> and <code>endElement()</code>calls.
-It is worth noting that even though recursive tree traversal usually
-gets all the attention in algorithm and data structure text books, <a href="http://lists.w3.org/Archives/Public/www-dom/1998OctDec/0218.html" shape="rect">a
-tree with parent references can be traversed iteratively</a>.</p>
-<p>If you are serializing a tree data structure into an XML format
-that closely mirrors the in-memory structure, you can use the
-treeness of the data structure for ensuring well-formed nesting
-instead of first building a DOM or XOM (or similar) tree.</p>
-<p>A tree may be an overkill, however. To ensure proper nesting, a
-stack is sufficient. A stack can keep track of the open elements
-without wasting space on parts of the document that have already been
-handled or have not been handled yet. More importantly, the stack
-does not need to be explicit: the runtime stack can be used. If
-<code>startElement</code> is always called at the beginning of a
-method and <code>endElement</code> is always called in the end, the
-runtime stack guarantees the nesting.</p>
-<p>Code using the runtime stack for ensuring nesting would look like
-this:<br clear="none" /><code>void emitFoo() {<br clear="none" />    startElement(NS_URI,
-"foo");<br clear="none" />    emitBar();<br clear="none" />    if
-(shouldEmitBaz) {<br clear="none" />        emitBaz();<br clear="none" />    }<br clear="none" />    endElement(NS_URI,
-"foo");<br clear="none" />}</code></p>
-<p>Finally, one way of producing SAX events in a proper sequence may
-be obvious: a SAX parser emits SAX parse events in a proper sequence.
-It may also be so obvious that it is easy to overlook. 
-</p>
-<p>The original way to get some SAX events is parsing an XML document
-at runtime. But if you are producing XML dynamically, what good does
-it do to parse a static document? Well, boilerplate markup can be put
-in a static XML file and the interesting parts can be produced
-programmatically. A SAX filter can look for interesting points in the
-XML document (eg. a particular processing instruction or element) and
-inject additional SAX events to the pipeline before returning to
-control to the parser. The injection may involve <a href="http://www.karppinen.fi/code/api/fi/karppinen/xml/BodyContentPassFilter.html" shape="rect">parsing
-another document and injecting events from it into the same pipeline</a>.
-If the static XML data is trusted, it is possible to even name
-methods in processing instructions and <a href="http://www.karppinen.fi/code/api/fi/karppinen/xml/MethodInvocator.html" shape="rect">use
-reflections to call back into the application</a> based on the XML
-data.</p>
-<p>Another approach to boilerplate markup is code generation in such
-a way that the parse events from an XML parser are recorded as
-generated program code that can play back the events efficiently
-without actually reading input at runtime. My <a href="http://hsivonen.iki.fi/saxcompiler/" shape="rect">SaxCompiler</a>
-takes this approach. Since the events are recorded from an XML
-parser, they occur in a permissible sequence.</p>
-<h3>Don’t try to manage namespace declarations manually</h3>
-<p>Namespaces in XML makes it possible for XML element and attribute
-names to be in a namespace. Being in a namespace means being
-associated with an additional string symbol, which is required to be
-an URI alhough it is compared code point for code point. The name of
-the XHTML element for paragraps is not just <code>p</code>. It is the
-pair consisting of the XHTML namespace URI and <code>p</code>—that
-is (<code>http://www.w3.org/1999/xhtml</code>, <code>p</code>) or in
-James Clark’s notation <code>{http://www.w3.org/1999/xhtml}p</code>.</p>
-<p>The URI is bound to the local name by using an intermediate
-syntactic abstraction. The namespace can be declared as a default
-that affects unprefixed element name (but not attribute names) or it
-can be bound to a prefix. The crucial point is that the prefix string
-itself can be chosen arbitrarily and carries no meaning. Also, the
-declarations can appear earlier in the document tree and are scoped.</p>
-<p>My aim in the above paragraps is to convey that the namespace
-mechanism is sufficiently complex to be dangerous to be left up to
-the casual programmer and application code. Instead, the application
-programmer should use the URI–local name pair and leave the
-management of the namespace declarations and prefixes to a dedicated
-piece of code that someone has already debugged. (Of course, it is OK
-for the programmer to <em>suggest</em> prefixes to make the output
-more readable.)</p>
-<p>For the GNU JAXP framework, <code><a href="http://www.gnu.org/software/classpathx/jaxp/apidoc/gnu/xml/pipeline/NSFilter.html" shape="rect">gnu.xml.pipeline.NSFilter</a></code>
-is such a piece of code. GenX, on the other hand, does this within
-the serializer component itself.</p>
-<h3>Use unescaped Unicode strings in memory</h3>
-<p>To keep the abstractions clear, the content strings in memory
-should be in the unescaped parsed form. For example, if you have
-content that says two is greater than one the string in the memory
-should be “2 &gt; 1”. In particular, it should not be “2
-&amp;gt; 1”. “2 &gt; 1” is what you mean. Only when
-the string reaches the serializer, it is the responsibility on the
-serializer to write “2 &amp;gt; 1” in the output.</p>
-<p>Passing along a chunk of markup is done either by passing a tree
-data structure (eg. DOM fragment) or by emitting multiple SAX events
-in sequence.</p>
-<p>Moreover, the chances for mistakes are minimized when in-memory
-strings use the encoding of the built-in Unicode string type of the
-programming language if your language (or framework) has one. For
-example, in Java you’d use <code>java.lang.String</code> and <code>char[]</code>
-and, therefore, UTF-16. Python has the complication that the Unicode
-string type can be either UTF-16 (OS X, Jython) or UTF-32 (Debian)
-depending on how the interpreter was compiled. With C it makes sense
-to choose one UTF and stick to it.</p>
-<h3>Use UTF-8 (or UTF-16) for output</h3>
-<p>The XML 1.0 specification requires all XML processors to support
-the UTF-8 and UTF-16 encodings. XML processors may support other
-encodings, but they are not required to. It follows that using any
-encoding other than UTF-8 or UTF-16 is unsafe, because the XML
-processor used by the recipient might not support the encoding. If
-you use an encoding other than UTF-8 or UTF-16 and communication
-fails, it is your fault. Arguments about particular legacy encodings
-being common in a particular locale (eg. Shift_JIS in Japan or
-ISO-8859-1 in Western Europe) are totally irrelevant here. (The
-<code>xml:lang</code> attribute can be used for CJK disambiguation.
-There is no need to use parochial encodings for that.)</p>
-<p>From the XML point of view both UTF-8 and UTF-16 are equally
-right. If your serializer only supports either one, just go with the
-one the serializer already supports.</p>
-<p>UTF-8 is more compact than UTF-16 (in terms of bytes) for
-characters in the ASCII range. Even if your content does not contain
-characters from the ASCII range frequently, the element and attribute
-names in well-known vocabularies as well the XML syntax itself
-consist of characters from the ASCII range. UTF-8 data is also easier
-to examine for debugging with byte/ASCII-oriented network sniffing
-and file examination tools. UTF-16 is more compact than UTF-8 only
-when the number of characters from the U+0800–U+FFFF range
-exceeds the number of characters from the ASCII range—<em>and
-the latter includes markup whenever well-known XML vocabularies are
-used</em>.</p>
-<p>It might be tempting to try to optimize the size of the document
-by choosing the encoding depending on the content or the expected
-content. However, doing so opens up more possibilities for bugs. Even
-when the serializer offers a choice, it is safer to pick either UTF-8
-or UTF-16 and stick to the choice regardless of content or deployment
-locale. I am biased in favor of UTF-8.</p>
-<h3>Use NFC</h3>
-<p>In Unicode, common accented letters can be expressed in two
-different ways: as a single character or as a base character followed
-by combining character. For example ‘ä’ can be
-represented as one character (LATIN SMALL LETTER A WITH DIAERESIS) or
-as two characters (LATIN SMALL LETTER A followed by COMBINING
-DIAERESIS). The former is known as the precomposed form and the
-latter as the decomposed form. There are also presentation forms that
-are considered compatibility equivalents of other characters. For
-example, LATIN SMALL LIGATURE FI is a presentation form of LATIN
-SMALL LETTER F and LATIN SMALL LETTER I.</p>
-<p><cite><a href="http://www.unicode.org/reports/tr15/tr15-23.html" shape="rect">Unicode
-Normalization Forms</a></cite> defines four normalization forms of
-Unicode that differ in their representation of characters that can be
-decomposed or that have compatibility equivalents. <cite><a href="http://www.w3.org/TR/2004/WD-charmod-norm-20040225/" shape="rect">Character
-Model for the World Wide Web 1.0: Normalization</a></cite> (which is
-still a working draft) specifies that the Normalization Form C (NFC
-for short) ought to be used on the Web. 
-</p>
-<p>There are a lot of transitional applications that treat Unicode as
-wide ISO-8859-1—like ISO-8859-1 is wide ASCII. These
-applications are able to deal with precomposed accented characters
-but not with the canonically equivalent NFD representations. Thus,
-NFC is the safer choice if you want to maximize the probability that
-your text renders nicely. Using NFC is not a well-formedness
-requirement—just a robustness bonus.</p>
-<h3>Don’t expect software to look inside comments</h3>
-<p><a href="http://www.w3.org/TR/REC-xml/#sec-comments" shape="rect">According to
-the XML spec</a>, “an XML processor MAY, but need not, make it
-possible for an application to retrieve the text of comments”.
-Since the receiving application is not guaranteed to see the
-comments, comments are not an appropriate place for data that you
-want to the recipient to process. That a particular DTD does not
-allow embedded RDF metadata does not make comments an appropriate
-place for metadata.</p>
-<h3>Don’t rely on external entities on the Web</h3>
-<p>It follows from the XML spec that external entities are inherently
-unsafe for Web documents, because non-validating XML processors are
-allowed not to process them and someone may be using a non-validating
-XML processor to parse the content you serve on the Web. Therefore,
-it makes sense not to rely on external entities. When you are not
-relying on them, why have them around at all? Anyone processing them
-would just waste time. The straight-forward way is to produce
-doctypeless XML.</p>
-<p>But what about validation? It turns out there is a <a href="http://www.imc.org/ietf-xml-use/mail-archive/msg00217.html" shape="rect">better</a>
-validation formalism than DTDs. It is more interesting to know the
-answer to the question “Does this document conform to these
-rules?” than to the question “Does this document conform
-to the rules it declares itself?” <a href="http://hsivonen.iki.fi/validator/" shape="rect">RELAX
-NG validation</a> answers the first question. DTD validation of
-answers the second. RELAX NG allows you to validate a document
-against a schema that is more expressive than a DTD without polluting
-the document with schema-specific syntax.</p>
-<h3>Don’t bother with CDATA sections</h3>
-<p>XML provides two ways of escaping markup-significant characters:
-predefined entities and CDATA sections. CDATA sections are only
-syntactic sugar. The two alternative syntactic constructs have no
-semantic difference.</p>
-<p>CDATA sections are convenient when you are editing XML manually
-and need to paste a large chunk of text that includes
-markup-significant characters (eg. code samples). However, when
-producing XML using a serializer, the serializer takes care of
-escaping automatically and trying to micromanage the choice of
-escaping method only opens up possibilities for bugs.</p>
-<h3>Don’t bother with escaping non-ASCII</h3>
-<p>Since you are using UTF-8 (or UTF-16), the output encoding can
-represent the whole of Unicode directly. There is no need to escape
-non-ASCII characters in any way. Only &lt;, &gt;, &amp; and (in
-attribute values) " need escaping. That’s it. No entities
-needed. No numeric character references needed.</p>
-<p>If you insist on escaping non-ASCII, please make sure you handle
-astral characters correctly.</p>
-<h3>Avoid adding pretty-printing white space in character data</h3>
-<p>XML has a design problem that makes source formatting leak into
-parsed content. Instead of reserving eg. literal tabs and line feeds
-exclusively for source formatting so that the parser could always
-discard them, XML allows white space to be both significant content
-and meaningless pretty-printing. The mess is left for higher layers
-to sort out.</p>
-<p>To avoid problems, it is prudent never to introduce
-pretty-printing white space in character data. Personally, I don’t
-pretty-print at all when I produce XML programmatically. The safe way
-to pretty-print is to put the white space inside the tags themselves
-instead of putting it between them.</p>
-<p>That is, if you have<br clear="none" /><code>&lt;foo&gt;bar&lt;/foo&gt;</code><br clear="none" />instead
-of doing this<br clear="none" /><code>&lt;foo&gt;<br clear="none" />    bar<br clear="none" />&lt;/foo&gt;</code><br clear="none" />do
-this<br clear="none" /><code>&lt;foo<br clear="none" />    &gt;bar&lt;/foo<br clear="none" />&gt;</code></p>
-<h3>Don’t use </h3>
-<p>The XML specification provides a means for XML documents to
-declare their own character encoding. This way, the encoding
-information travels with the document even in environments that can’t
-store or communicate the encoding information externally. 
-</p>
-<p>Unfortunately, the XML specification allows external encoding
-information to override the internal encoding information.
-Considering <a href="http://intertwingly.net/slides/2004/devcon/69.html" shape="rect">Ruby’s
-Postulate</a>, it would probably be a better idea to count on the
-internal information just like you trust a ZIP file itself when it
-comes to figuring out which compression method has been used instead
-of letting an external HTTP header say which decompression method you
-should apply. According to <a href="http://www.ietf.org/rfc/rfc3023.txt" shape="rect">RFC
-3023</a>, the <code>text/xml</code> content type <em>never</em>
-allows you to use the internal information. Even in the absence of an
-explicit <code>charset</code> parameter, the <a href="http://diveintomark.org/archives/2004/02/13/xml-media-types" shape="rect">default
-is US-ASCII</a> trumping the XML spec. (Of course, there’s a lot of
-software that ignores the RFC, but that’s not a good basis to build
-on.)</p>
-<p>When the type <code>application/xml</code> is used without the
-<code>charset</code> parameter, the XML spec governs on the matter of
-character encoding. For some vocabularies, there are types of the
-form <code>application/*+xml</code>, which also don’t suffer from the
-counter-intuitive encoding default of <code>text/xml</code>.</p>
-<h3>Use XML 1.0</h3>
-<p>XML 1.0 is well supported. XML 1.1 is not interoperable with XML
-1.0 software. XML 1.0 processors are required to reject XML 1.1
-documents.</p>
-<p>XML 1.1 adds the ability to use some previously forbidden control
-characters like the form feed while still forbidding U+0000, so you
-still cannot zero-extend random binary data and smuggle it over XML
-as text. XML 1.1 also allows you to use <a href="http://www.cafeconleche.org/slides/xmlone/london2002/advancedxml/54.html" shape="rect">Khmer,
-Amharic, Ge’ez, Thaana, Cherokee, and Burmese</a> characters in
-<em>element and attribute names</em>. Contrary to what XML 1.1
-propaganda may lead people to believe, XML 1.0 already allows <em>content</em>
-in those languages. Additionally, XML 1.1 changes the definition of
-white space to accommodate IBM mainframe text conventions.</p>
-<h3>Test with astral characters</h3>
-<p>Unicode was originally supposed to be 16 bits wide. However, the
-original 16 bits running up to U+FFFF turned out to be insufficient.
-Thus, Unicode was extended to extend up to U+10FFFF. The range of
-scalar values is considered to be partitioned into 17 planes with 16
-bits worth of code points on each plane. The characters in the range
-of the original 16 bits constitute the Basic Multilingual Plane (or
-BMP or Plane 0). The range above U+FFFF consists of astral planes and
-the characters above U+FFFF are called astral characters.</p>
-<p>The original way of simply storing a character as an unsigned
-16-bit integer was extended to cover the astral planes using
-surrogate pairs yielding the UTF-16 encoding. A range of values that
-fall in the BMP are set aside to be used as surrogates. An astral
-character is represented as a surrogate pair: a high surrogate (a
-16-bit code unit) followed by a low surrogate (another 16-bit code
-unit).</p>
-<p>Some programs operating on 16-bit units may not pass surrogate
-pairs through intact even though one might think the surrogate pairs
-could be smuggled through legacy software as two adjacent
-“characters”. Moreover, when UTF-16 data is converted
-into UTF-8, the surrogate pair needs to be converted into the scalar
-value of the code point which is then converted into a 4-byte UTF-8
-byte sequence. Some broken converters may produce a 3-byte sequence
-for each surrogate instead. (This kind of broken UTF-8 has been
-formalized as CESU-8.)</p>
-<p>Because of these issues, it is a good idea to test that astral
-characters can travel through your system intact and that the output
-produced is proper UTF-8 and not CESU-8.</p>
-<h3>Test with forbidden control characters</h3>
-<p>XML semi-arbitrarily forbids some ASCII control characters and
-Unicode values that are reserved to be used as sentinels (eg. U+0000
-and U+FFFF). These characters render the document ill-formed.
-Therefore, it is important to make sure they cannot occur in the
-output of your system.</p>
-<p>It is a good idea to try to introduce these characters into the
-system and make sure that they are either caught right upon input or
-at least filtered out in the XML serializer.</p>
-<h3>Test with broken UTF-*</h3>
-<p>Whichever UTF you use in memory or for input, it is possible to
-construct illegal code unit sequences. With UTF-32 the scalar value
-may be outside the Unicode range. With UTF-16 there may be unpaired
-surrogates. With UTF-8 there may be overlong byte sequences,
-sequences that are not the shortest form for a given character or
-sequences whose scalar value fall in the surrogate range.</p>
-<p>You should try throwing broken code unit sequences at your system
-and make sure that broken input can never silently translate into
-broken output. Most importantly, if your input or memory UTF is the
-same as the output UTF, you should not merely copy code units into
-the output without checking them.</p>
-<p>Usually checking is achieved as a side effect by using UTF-8 for
-input and output and UTF-16 in memory, so broken data is caught in
-the conversion.</p>
-<hr /><h3>Stuff to read elsewhere</h3>
-<p><a href="http://www-128.ibm.com/developerworks/xml/library/x-think35.html" shape="rect">Uche Ogbuji comments on this article on IBM developerWorks</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 20 Jul 2010 11:46:45 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:69;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:41:"Abimanyu Raja: Free Project: Simple Forum";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:25:"http://blog.abi.sh/?p=812";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.abi.sh/2010/free-project-simple-forum/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:1425:"<p><a href="http://feedforwardsg.appspot.com/">FeedForward</a> is a project that I worked on briefly more than a year ago. <a href="http://feedforwardsg.appspot.com/">Demo here</a>. <a href="http://github.com/abi/SimpleForum"><strong>Code here</strong></a>. It’s a really simple forum that was to be used for discussing public problems and offering solutions in Singapore. Singapore has quite a few government-run projects to provide feedback but this was supposed to be different (hence, the name FeedForward). Of course, it’s different in that this would have been run by an independent group of people. But it was also different from those other forums technologically because most of them were run on old, crumbling software like vBulletin. They looked ugly. They had stupid users with stupid nicks. The whiteness of FeedForward’s design was reaction to all that. It’s simple and minimal. Unfortunately, FeedForward didn’t go anywhere for a number of reasons.</p>
-
-<p>I hope the code is useful to someone who wants to setup a quick forum running on Google App Engine. There’s no error checking and if I recall correctly it was all written overnight. Looking at this project again makes me surprised that I was so much better at visual design last year than I am now.</p>
-
-<p><img alt="" class="alignnone" height="326" src="http://dl.dropbox.com/u/2854457/feedforward.png" title="Feedfoward" width="379" /></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 20 Jul 2010 07:42:10 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"Abi Raja";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:70;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:85:"Meeting Notes from the Mozilla community: Mozilla Project Meeting Minutes: 2010-07-19";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/335";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:50:"http://blog.mozilla.com/meeting-notes/archives/335";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:21295:"<div>
-<h3>WeeklyUpdates/2010-07-19</h3>
-<h5>From MozillaWiki</h5>
-<div id="contentSub"><span class="subpages">&lt; <a href="https://wiki.mozilla.org/WeeklyUpdates" title="WeeklyUpdates">WeeklyUpdates</a></span></div>
-<p><a href="https://wiki.mozilla.org/WeeklyUpdates/2010-07-12" title="WeeklyUpdates/2010-07-12">« previous week</a> | <a href="https://wiki.mozilla.org/WeeklyUpdates" title="WeeklyUpdates">index</a> | <a class="new" href="https://wiki.mozilla.org/index.php?title=WeeklyUpdates/2010-07-26&amp;action=edit&amp;redlink=1" title="WeeklyUpdates/2010-07-26 (page does not exist)">next week »</a>
-</p>
-<p><a id="Video_for_today.27s_meeting" name="Video_for_today.27s_meeting"></a><br />
-</p><h3> </h3>
-<p>&lt;video controls=”controls”&gt;&lt;source src=”http://videos.mozilla.org/serv/air_mozilla/monday_meetings/status-2010-07-19.ogg” type=”video/ogg; codecs=”theora, vorbis”"/&gt;&lt;/video&gt;
-</p>
-<p><a id="Friends_of_the_Tree" name="Friends_of_the_Tree"></a><br />
-</p><h3> </h3>
-<ul>
-<li>Karen Prescott, for finding the Summit Posters<p></p>
-</li><li>Armen nominates wx24 for helping him with all the Windows 64-bit SDK/compiler setup and on-going support. Overdue mention Makoto Kato for the initial setup with Windows 64-bit as well,
-</li><li>Vinicius Medina, for being an absolute rockstar the last few weeks and helping to coordinate all flight travel and hotel arrangements for community sponsorships to FISL in Brasil.
-</li><li>The SUMO team wants us to recognize Collin Sasse as a Friend of the Tree for helping lead SUMO’s Twitter effort after the Firefox 3.6.6 major update and 4.0 beta releases.  He’s been an awesome contributor for over two years, making a huge difference with our social network outreach and our response to Firefox updates.  This week, he’s replied to hundreds of tweets from satisfied beta users and from people having trouble with the update, letting them know we care and have resources to help.  Thanks a lot for all you’ve done (and continue to do!) to make the Mozilla community great!
-</li><li>Asa would like to see Robert Accettura thanked for keeping planet additions and changes up to date. It’s a thankless job that’s a key to keeping up with the Mozilla community.
-</li></ul>
-<p><a id="Upcoming_Events" name="Upcoming_Events"></a><br />
-</p><h3> </h3>
-<p><b>This Week</b> </p>
-<p><b>Monday, 19 July</b>
-</p>
-<ul>
-<li> <a class="external text" href="http://conferences.oreillynet.com/oscon" rel="nofollow" title="http://conferences.oreillynet.com/oscon">OSCON</a> in Portland, Oregon.  Some Mozillians attending and giving talks.
-</li></ul>
-<p><b>Tuesday, 20 July</b> </p>
-<p> </p>
-<p><b>Wednesday, 21 July</b><br /> 
-</p>
-<ul>
-<li><a class="external text" href="http://fisl.softwarelivre.org/" rel="nofollow" title="http://fisl.softwarelivre.org/">FISL 11 (Fórum Internacional do Software Livre)</a> in Porto Alegre, Brasil.  Mozilla has a presence with a Mozilla room, community and scheduled talks.  Follow information on Mozilla at FISL on the <a class="external text" href="https://wiki.mozilla.org/FISL:2010" rel="nofollow" title="https://wiki.mozilla.org/FISL:2010">wiki here</a>.<p></p>
-</li><li><a class="external text" href="https://intranet.mozilla.org/Brown_Bag_Presentations" rel="nofollow" title="https://intranet.mozilla.org/Brown_Bag_Presentations">Brownbag</a>: Jan Bosch, VP Engineering at Intuit on “Towards Compositional Software Engineering” at Noon (PT) in Ten Forward and on Air Mozilla
-</li></ul>
-<p>
-<b>Thursday, 22 July</b>
-</p>
-<ul>
-<li><a class="external text" href="http://fisl.softwarelivre.org/" rel="nofollow" title="http://fisl.softwarelivre.org/">FISL 11 (Fórum Internacional do Software Livre)</a> in Porto Alegre, Brasil.  Mozilla has a presence with a Mozilla room, community and scheduled talks.  Follow information on Mozilla at FISL on the <a class="external text" href="https://wiki.mozilla.org/FISL:2010" rel="nofollow" title="https://wiki.mozilla.org/FISL:2010">wiki here</a>.
-</li></ul>
-<p>
-<b>Friday, 23 July</b>
-</p>
-<ul>
-<li><a class="external text" href="http://fisl.softwarelivre.org/" rel="nofollow" title="http://fisl.softwarelivre.org/">FISL 11 (Fórum Internacional do Software Livre)</a> in Porto Alegre, Brasil.  Mozilla has a presence with a Mozilla room, community and scheduled talks.  Follow information on Mozilla at FISL on the <a class="external text" href="https://wiki.mozilla.org/FISL:2010" rel="nofollow" title="https://wiki.mozilla.org/FISL:2010">wiki here</a>.
-</li></ul>
-<p>
-<b>Next Week</b>
-</p>
-<p><a id="Product_Status_Updates" name="Product_Status_Updates"></a><br />
-</p><h3> </h3>
-<p><a id="Firefox_4" name="Firefox_4"></a><br />
-</p><h4> </h4>
-<ul>
-<li> code freeze for Beta 2 is <a href="https://wiki.mozilla.org/Releases/Firefox_4.0b2" title="Releases/Firefox 4.0b2">scheduled</a> for tonight at 11:59pm PT<p></p>
-</li><li> there are a <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=OPEN%20blocking2.0:beta2" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=OPEN%20blocking2.0:beta2">good number of blockers</a> left
-<ul>
-<li> some are being moved to <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=OPEN%20blocking2.0:beta3" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=OPEN%20blocking2.0:beta3">beta3</a> and <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=OPEN%20blocking2.0:betaN" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?quicksearch=OPEN%20blocking2.0:betaN">betaN</a><p></p>
-</li><li> if you think your blocker should be moved, say so
-</li><li> if you think your blocker shouldn’t be moved, and won’t be ready, tell beltzner ASAP
-</li></ul>
-</li></ul>
-<p><a id="Firefox_3.6" name="Firefox_3.6"></a><br />
-</p><h4> </h4>
-<ul>
-<li> Firefox <a href="https://wiki.mozilla.org/Releases/Firefox_3.6.7" title="Releases/Firefox 3.6.7">3.6.7</a>/<a href="https://wiki.mozilla.org/Releases/Firefox_3.5.11" title="Releases/Firefox 3.5.11">3.5.11</a> scheduled to be released tomorrow<p></p>
-</li><li> beltzner will be running the show
-</li></ul>
-<p><a id="Mobile_Firefox" name="Mobile_Firefox"></a><br />
-</p><h4> </h4>
-<p><a id="Thunderbird" name="Thunderbird"></a><br />
-</p><h4> </h4>
-<p><a id="Older_Branch_Work" name="Older_Branch_Work"></a><br />
-</p><h4> </h4>
-<p><a id="Speakers" name="Speakers"></a><br />
-</p><h3> </h3>
-<p>The limit is 3 minutes per speaker.  It’s like a lightning talk, but don’t feel that you have to have slides in order to make a presentation.
-</p>
-<table class="fullwidth-table">
-<tbody><tr>
-<th>  Title<p></p>
-</th><th>  Presenter<p></p>
-</th><th>  Topic<p></p>
-</th><th>  Media<p></p>
-</th><th>  More Details<br />
-</th></tr>
-<tr>
-<td> Your Title Here<p></p>
-</td><td> Your Name Here<p></p>
-</td><td> What are you going to talk about?<p></p>
-</td><td> Links to slides or images you want displayed on screen<p></p>
-</td><td> Link to where audience can find out more information<br />
-</td></tr>
-<tr>
-<td> Firefox 4 Beta<p></p>
-</td><td> Johnathan Nightingale<p></p>
-</td><td> Public announcement about code freeze<p></p>
-</td><td> <i>no slides</i><p></p>
-</td><td> <i>above in these notes</i><br />
-</td></tr>
-</tbody></table>
-<p><a id="Status_Updates_By_Team" name="Status_Updates_By_Team"></a><br />
-</p><h3> </h3>
-<p><a id="Firefox" name="Firefox"></a><br />
-</p><h4> </h4>
-<p><a id="Platform" name="Platform"></a><br />
-</p><h4> </h4>
-<p><a id="Messaging" name="Messaging"></a><br />
-</p><h4> </h4>
-<p>Due to scheduling conflicts, noone will be talking on the call for the Messaging team today; we’ll be back next week.
-</p>
-<ul>
-<li> Trunk nightlies have been resurrected after the Great XPCOM Registration Overhaul<p></p>
-</li><li> Effort to make Thunderbird participation more fun and rewarding started; see <a class="external text" href="http://groups.google.com/group/tb-planning" rel="nofollow" title="http://groups.google.com/group/tb-planning">the tb-planning archives</a> for details, and <a class="external text" href="https://wiki.mozilla.org/Thunderbird/tb-planning" rel="nofollow" title="https://wiki.mozilla.org/Thunderbird/tb-planning">join the list</a> to participate.
-</li><li> Post-3.1 planning discussions underway in tb-planning as well.
-</li></ul>
-<p><a id="Mobile" name="Mobile"></a><br />
-</p><h4> </h4>
-<p><a id="IT" name="IT"></a><br />
-</p><h4> </h4>
-<p><a id="Release_Engineering" name="Release_Engineering"></a><br />
-</p><h4> </h4>
-<p>Releases:
-</p>
-<ul>
-<li> major update for 3.5.10 -&gt; 3.6.6 published
-</li></ul>
-<p>Other:
-</p>
-<ul>
-<li> reftests now running with direct2d enabled<p></p>
-</li><li> now reporting regressions in trace-malloc, codesighs, refcnt leaks same as we do for other talos tests
-</li><li> if you use TryServer, please read this post to mozilla.dev.planning: <a class="external text" href="http://groups.google.com/group/mozilla.dev.planning/browse_thread/thread/402306d36d838d50" rel="nofollow" title="http://groups.google.com/group/mozilla.dev.planning/browse_thread/thread/402306d36d838d50#">Changing what TryServer jobs are run by default</a>
-</li><li> automated cleanup policy for stage is now in place. See details here: <a href="https://wiki.mozilla.org/ReleaseEngineering:StageCleanupPolicy" title="ReleaseEngineering:StageCleanupPolicy">ReleaseEngineering:StageCleanupPolicy</a>
-</li></ul>
-<p><a id="QA" name="QA"></a><br />
-</p><h4> </h4>
-<dl>
-<dt>QA Org Highlights
-</dt>
-</dl>
-<ul>
-<li> Desktop Firefox<p></p>
-<ul>
-<li> Firefox 3.6.7/3.5.11 shipped to beta
-</li></ul>
-</li><li> Browser Technologies
-<ul>
-<li> FF Home deployed to App store
-</li></ul>
-</li><li> Web QA
-<ul>
-<li> Ship <a class="external text" href="https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED&amp;classification=Server%20Software&amp;query_format=advanced&amp;product=addons.mozilla.org&amp;target_milestone=5.11.4" rel="nofollow" title="https://bugzilla.mozilla.org/buglist.cgi?resolution=FIXED&amp;classification=Server%20Software&amp;query_format=advanced&amp;product=addons.mozilla.org&amp;target_milestone=5.11.4">AMO 5.11.4</a>
-</li></ul>
-</li><li> QA Services
-<ul>
-<li> Community<p></p>
-<ul>
-<li> Marcia and Tomcat attended Community Leadership Summit in Portland.
-</li></ul>
-</li></ul>
-</li></ul>
-<p><a id="Automation_.26_Tools" name="Automation_.26_Tools"></a><br />
-</p><h4> </h4>
-<ul>
-<li> <a class="external text" href="http://bitbucket.org/jonallengriffin/grafxbot/downloads" rel="nofollow" title="http://bitbucket.org/jonallengriffin/grafxbot/downloads">Grafx bot</a> test day going ahead this Friday – we’ll throw in the reftest scrolling tests just to see if we can tickle the recent retained layer code, we need to run the tool through QA anyway to be sure it’s ready to go<p></p>
-<ul>
-<li> Submitting it to AMO this week
-</li></ul>
-</li><li> Landed updated sutagent and devicemanager.py for Android
-</li><li> Updated splinter extension for bugzilla, should have it finalized this week (waiting on a corresponding bugzilla change) <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=570786" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=570786">bug 570786</a>
-</li><li> Starting work on cycle-collector performance tests <a class="external text" href="https://bugzilla.mozilla.org/show_bug.cgi?id=572542" rel="nofollow" title="https://bugzilla.mozilla.org/show_bug.cgi?id=572542">bug 572542</a>
-</li><li> More information is always on <a href="https://wiki.mozilla.org/Auto-tools/Meetings/2010-07-19" title="Auto-tools/Meetings/2010-07-19">our page</a>.
-</li></ul>
-<p><a id="Security" name="Security"></a><br />
-</p><h4> </h4>
-<p><a id="Engagement" name="Engagement"></a><br />
-</p><h4> </h4>
-<p><b>PR</b>
-</p>
-<ul>
-<li><a class="external text" href="http://arstechnica.com/apple/2010/07/firefox-home-hands-on-firefox-on-your-iphone-sorta.ars" rel="nofollow" title="http://arstechnica.com/apple/2010/07/firefox-home-hands-on-firefox-on-your-iphone-sorta.ars">Firefox Home hands-on: Firefox on your iPhone… sorta</a> <p></p>
-</li><li><a class="external text" href="http://www.macnewsworld.com/story/Apple-Lets-Firefox-Ride-Along-on-Safari-70430.html?wlc=1279301709&amp;wlc=1279555583" rel="nofollow" title="http://www.macnewsworld.com/story/Apple-Lets-Firefox-Ride-Along-on-Safari-70430.html?wlc=1279301709&amp;wlc=1279555583">Apple Lets Firefox Ride Along on Safari</a>
-</li><li><a class="external text" href="http://www.fastcompany.com/1670785/firefox-home-enters-the-app-store-connects-your-pcs-browser-to-your-iphones" rel="nofollow" title="http://www.fastcompany.com/1670785/firefox-home-enters-the-app-store-connects-your-pcs-browser-to-your-iphones">Firefox Home Enters the App Store, Connects Your PC’s Browser to Your iPhone’s</a>
-</li><li><a class="external text" href="http://techcrunch.com/2010/07/15/firefox-iphone/" rel="nofollow" title="http://techcrunch.com/2010/07/15/firefox-iphone/">Firefox Home For iPhone Approved, Lets You Sync Bookmarks, Open Tabs And More</a>
-</li><li><a class="external text" href="http://mashable.com/2010/07/15/firefox-home-app-store/" rel="nofollow" title="http://mashable.com/2010/07/15/firefox-home-app-store/">Firefox Home Is Now in the App Store</a>
-</li><li><a class="external text" href="http://news.cnet.com/8301-30685_3-20010756-264.html" rel="nofollow" title="http://news.cnet.com/8301-30685_3-20010756-264.html">Apple approves Firefox sync app</a>
-</li><li><a class="external text" href="http://www.zdnet.com/blog/btl/firefox-home-hits-the-iphone-looks-handy/36815" rel="nofollow" title="http://www.zdnet.com/blog/btl/firefox-home-hits-the-iphone-looks-handy/36815">Firefox Home hits the iPhone: Looks handy</a>
-</li></ul>
-<ul>
-<li><a class="external text" href="http://www.theinquirer.net/inquirer/news/1723107/mozilla-raises-bug-bounty" rel="nofollow" title="http://www.theinquirer.net/inquirer/news/1723107/mozilla-raises-bug-bounty">Mozilla raises its bug bounty</a> <p></p>
-</li><li><a class="external text" href="http://arstechnica.com/security/news/2010/07/mozilla-ups-bounty-for-reporting-vulnerabilities-to-3000.ars" rel="nofollow" title="http://arstechnica.com/security/news/2010/07/mozilla-ups-bounty-for-reporting-vulnerabilities-to-3000.ars">Mozilla ups bounty for reporting vulnerabilities to $3,000</a>
-</li><li><a class="external text" href="http://www.pcmag.com/article2/0,2817,2366627,00.asp" rel="nofollow" title="http://www.pcmag.com/article2/0,2817,2366627,00.asp">Mozilla Ups Security Bounty from $500 to $3,000</a>
-</li></ul>
-<ul>
-<li><a class="external text" href="http://www.scmagazineus.com/mozilla-to-revamp-add-on-code-review-process/article/174658/" rel="nofollow" title="http://www.scmagazineus.com/mozilla-to-revamp-add-on-code-review-process/article/174658/">Mozilla to revamp add-on code review process</a>
-</li></ul>
-<ul>
-<li><a class="external text" href="http://www.technologyreview.com/web/25803/page1/" rel="nofollow" title="http://www.technologyreview.com/web/25803/page1/">Can Mozilla Deliver an Open App Store?</a>
-</li></ul>
-<p> <b>Events</b>
-</p>
-<ul>
-<li><a class="external text" href="http://www.blackhat.com/html/bh-us-10/bh-us-10-home.html" rel="nofollow" title="http://www.blackhat.com/html/bh-us-10/bh-us-10-home.html">Black Hat USA 2010</a> July 24-29, 2010; Las Vegas, NV – We will be hosting our “traditional” Mozilla milk &amp; cookies party on 7/28.  Check out the information here: <a class="external text" href="https://wiki.mozilla.org/Black_Hat_2010" rel="nofollow" title="https://wiki.mozilla.org/Black_Hat_2010">https://wiki.mozilla.org/Black_Hat_2010 </a> <p></p>
-</li><li><a class="external text" href="http://www.fisl.org.br/10/www/en" rel="nofollow" title="http://www.fisl.org.br/10/www/en">FISL 2010</a> July 21-24, 2010; Porto Alegre, Brasil – We will have a Mozilla room, talks and other activities.  Follow all of the activities that are going on through the <a class="external text" href="https://wiki.mozilla.org/FISL:2010" rel="nofollow" title="https://wiki.mozilla.org/FISL:2010">wiki page</a>. 
-</li><li><a class="external text" href="http://www.guadec.org/index.php/guadec/2010" rel="nofollow" title="http://www.guadec.org/index.php/guadec/2010">GUADEC 2010</a> – July 24-30, 2010; Netherlands.  We are sponsoring at the bronze level.  No Mozilla talks scheduled.<br /> 
-</li><li><a class="external text" href="http://www.openvideoconference.org/" rel="nofollow" title="http://www.openvideoconference.org/">Open Video Conference 2010</a> – October 1-2, 2010; New York, NY  – Looking over sponsorship opportunities.
-</li><li><a class="external text" href="http://www.blogher.com/blogher-10" rel="nofollow" title="http://www.blogher.com/blogher-10">BlogHer ‘10</a> – August 6-7, 2010 – We will be having a hotel suite and a presence in the GeekLab as well as a meetup on Thursday (open to non BlogHer folk)  – sign up for the meetup <a class="external text" href="http://www.meetup.com/Mozilla-in-the-Big-Apple/calendar/14115600/" rel="nofollow" title="http://www.meetup.com/Mozilla-in-the-Big-Apple/calendar/14115600/">here</a>. <br /> 
-</li><li><a class="external text" href="http://makerfaireafrica.com/" rel="nofollow" title="http://makerfaireafrica.com/">Maker Faire Africa</a> – August 27-28, 2010; Nairobi, Kenya – Looking into sponsorship opportunties.
-</li><li><a class="external text" href="http://www.renegadecraft.com/chicago" rel="nofollow" title="http://www.renegadecraft.com/chicago">Renegade Craft Fair Chicago 2010</a> – September 11-12, 2010 – We will have a booth and be doing some innovative activities.  Check out the <a class="external text" href="https://wiki.mozilla.org/RenegadeCraftFair2010_Chicago" rel="nofollow" title="https://wiki.mozilla.org/RenegadeCraftFair2010_Chicago">wiki</a> for more details Looking into sponsorship opportunities.
-</li></ul>
-<p><b>Creative Team</b><br />
-Summit Visual Identity: <a class="external free" href="http://musingt.com/?p=317" rel="nofollow" title="http://musingt.com/?p=317">http://musingt.com/?p=317</a></p>
-<p>
-<b>Community Marketing</b>
-</p>
-<ul>
-<li>Community Marketing Call: Next call is Wednesday July 28th at 10 a.m. PST/17:00 UTC. Please send agenda items to sarah at mozilla dot com.
-</li></ul>
-<p><a id="Support" name="Support"></a><br />
-</p><h4> </h4>
-<p><a id="Metrics" name="Metrics"></a><br />
-</p><h4> </h4>
-<p><a id="Evangelism" name="Evangelism"></a><br />
-</p><h4> </h4>
-<p><a id="Labs" name="Labs"></a><br />
-</p><h4> </h4>
-<ul>
-<li> People’s Choice voting for the <a class="external text" href="http://design-challenge.mozillalabs.com/contacts/" rel="nofollow" title="http://design-challenge.mozillalabs.com/contacts/">Contacts Design Challenge</a> is open – <a class="external text" href="http://design-challenge.mozillalabs.com/contacts/vote/" rel="nofollow" title="http://design-challenge.mozillalabs.com/contacts/vote/">vote now</a>!
-</li></ul>
-<p><a id="Developer_Tools" name="Developer_Tools"></a><br />
-</p><h4> </h4>
-<p><a id="Add-ons" name="Add-ons"></a><br />
-</p><h4> </h4>
-<p><a id="Webdev" name="Webdev"></a><br />
-</p><h4> </h4>
-<p><a id="L10n" name="L10n"></a><br />
-</p><h4> </h4>
-<ul>
-<li>  Firefox 4 beta 2 will be a localized beta, with the release team incorporating the “l10n-merge” tool for the first time<p></p>
-<ul>
-<li>  Localizations with untranslated strings on Mozilla Central will have the original English strings appear in the user interface<p></p>
-</li><li>  All localizers <a class="external text" href="http://groups.google.com/group/mozilla.dev.l10n/browse_thread/thread/36e8e6baf73db09a" rel="nofollow" title="http://groups.google.com/group/mozilla.dev.l10n/browse_thread/thread/36e8e6baf73db09a#">have been invited and encouraged</a> to participate
-</li><li>  We will continue to use this path until we declare a formal product string freeze later in the release cycle
-</li></ul>
-</li><li> Along with product l10n, Pascal has been driving all web l10n for the beta release
-</li><li>  The Jetpack 1l0n API work is ahead of schedule with Gandalf running an instance of the implementation that is being created by the team from Indifex
-</li><li>  Axel started <a class="external text" href="http://groups.google.com/group/mozilla.dev.planning/browse_thread/thread/629155e90992676e" rel="nofollow" title="http://groups.google.com/group/mozilla.dev.planning/browse_thread/thread/629155e90992676e#">a thread on Dev.Planning proposing a shift in the way we release new locales</a>.  Comments and feedback are welcomed and encouraged.
-</li><li>  Stas continues to work on releasing the To-Do app that he demoed during the science fair in Whistler
-</li></ul>
-<p><a id="Introducing_New_Hires" name="Introducing_New_Hires"></a><br />
-</p><h3> </h3>
-<ul>
-<li> Paul Craciunoiu, Webdev<p></p>
-</li><li> Ravi Pina, IT
-</li><li> Paul Biggar, JavaScript
-</li></ul>
-<p><a id="Foundation_Updates" name="Foundation_Updates"></a><br />
-</p><h3> </h3>
-<p><a id="Roundtable" name="Roundtable"></a><br />
-</p><h3> </h3>
-<div class="printfooter">
-Retrieved from “<a href="https://wiki.mozilla.org/WeeklyUpdates/2010-07-19">https://wiki.mozilla.org/WeeklyUpdates/2010-07-19</a>“</div>
-<p></p></div>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 20 Jul 2010 03:00:04 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:17:"Jesper Kristensen";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:71;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:46:"Planet Mozilla Blog: Planet Changes: 7/19/2010";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:37:"http://blog.mozilla.com/planet/?p=318";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:65:"http://blog.mozilla.com/planet/2010/07/19/planet-changes-7192010/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:139:"<p><a href="http://aakash.doesthings.com/">Aakash Desai</a> feed <a href="http://aakash.doesthings.com/topics/mozilla/feed/">moved</a>.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Tue, 20 Jul 2010 01:05:41 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:10:"raccettura";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:72;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:51:"David Mandelin: JägerMonkey Update: Getting Faster";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:40:"http://blog.mozilla.com/dmandelin/?p=131";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:79:"http://blog.mozilla.com/dmandelin/2010/07/19/jagermonkey-update-getting-faster/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:6051:"<p>Time for another JägerMonkey update: how far we’ve come, what’s happening next, and our plan to bring it all together in time for Firefox 4.</p>
-<p><b>How far we’ve come.</b> So far this year, we’ve done two huge things:</p>
-<ul>
-<li>Switched the JavaScript engine’s basic value representation from a pointer-sized value to 2 new 64-bit representations, one for x64, the other for x86 and ARM. This is a huge patch, touching 20,000+ lines of code–think of doing a full vascular system transplant surgically. Luke Wagner just landed this change to the TraceMonkey repository. The main reason for doing this is to enable better JIT code generation, but we are already seeing some small-to-medium speedups on certain programs.</li>
-<li>Written the JägerMonkey method JIT compiler for x86 (with ARM support mostly there). One of the key challenges was generating good code out from SpiderMonkey’s stack-based bytecode. Stack-based bytecodes tend to spend a lot of time reading from and writing to the stack compared to register-based bytecodes like Nitro’s. We designed a compilation strategy that works with our register allocator to boil away most of the stack traffic. We simulate stack operations during compilation and then generate “equivalent” code that keeps things in registers instead of in stack memory. The compiler also has fast paths for arithmetic, PICs, and all the other usual dynamic language JIT stuff. David Anderson led this effort, ably assisted by Sean Stangl.
-</li></ul>
-<p>At this point, our JIT can generate code about as good as Nitro or V8, except for a few optimizations that we are missing, such as fast paths for the mod operator or comparing floating-point numbers. We also need to make a few more improvements to our register allocator. And, of course, we need to bring up the x64 version of the JIT. But overall, the JIT code is looking very good.</p>
-<p>All in all, JägerMonkey is now about 3x faster than the baseline interpreter we started with.</p>
-<p><b>Remaining Performance Work.</b> The areas where our performance is still really hurting are in the runtime: function calls, strings, and regular expressions:</p>
-<ul>
-<li>Regular expressions. The benchmarks are kind of heavy on regular expressions. We started with a simple regular expression compiler, created by me, extended by Luke Wagner. But there are still a lot of regular expressions it doesn’t compile, which run in the slower regular expression interpreter. Because we now use the same assembler that Nitro does, we can use their regular expression compiler, <b>Yarr</b>, too. Chris Leary took on the job of porting over Yarr to SpiderMonkey, and it’s about to land.</li>
-<li>Strings. SunSpider is pretty heavy on strings, especially string concatenation and string replace operations. I would imagine those are pretty common for web code, too, so it’s a good thing to optimize. <a href="http://en.wikipedia.org/wiki/Rope_%28computer_science%29">Ropes</a> help a lot with string concatenation, so JavaScript intern Alan Pierce coded up some ropes, which are also about to land. Alan is now working on replacement and other string operations that need performance help.</li>
-<li>Function calls. As of today, function calls in SpiderMonkey are very slow compared to the competition. One of the main problems there is that we have a very large stack frame, that encodes all kinds of optional elements and duplicate copies of information available elsewhere. The current design is convenient for a basic interpreter, but it can’t deliver the kind of fast JavaScript people now expect. Luke Wagner will be applying his surgical skills to the <a href="https://wiki.mozilla.org/JSStackFrame_Evisceration">“Stack Frame Evisceration”</a> subproject, which will leave us with a lean stack frame. That plus some JIT improvements should give us fast function calls.</li>
-</ul>
-<p>Once we get these items and the JIT improvements already discussed, we should be fast. There are about <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=JaegerSpeed">30 bugs on file for JM performance</a>, some easy, some hard, some compiler, some runtime, some big wins, some small–anyone who wants to help make us fast should check out the <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=JaegerSpeed">list</a>.</p>
-<p><b>Real Artists Ship.</b> Being fast only counts if it ships. Getting us ready to ship is the priority focus right now. Shipping is mostly about getting out a beta and finding and fixing bugs. There are a couple of big chunks we need to do for a beta JM:</p>
-<ul>
-<li>x64 JIT compiler. Sean Stangl is moving right along from the x86 JIT compiler to the x64 version. It will be basically the same design, but should be even more effective because x64 has so many more registers.</li>
-<li>Integration with the trace JIT. Of course, we already have a JIT, the tracing JIT, which generates excellent code for certain programs, especially simple math kernels. So we need to be able to switch back and forth between the method JIT and the trace JIT, hopefully at the ideal times. David Anderson is now working on this. Combining the two systems most effectively will take a lot of tuning, which will have to be ongoing as the performance characteristics of both JITs are still improving.</li>
-<li>Debugging JIT code. Running 4x slower as soon as you turn on Firebug is not as good as, say, not running 4x slower. We are going to make it possible to debug jitted JavaScript code, so there should be minimal slowdown during debugging. JägerMonkey intern Andrew Drake is taking care of this part. So far, he has already solved the hard problem, setting breakpoints in JIT code, by adding a dynamic recompilation feature to JM. Once he fills in the API implementations, it should be ready to go.</li>
-</ul>
-<p>That’s our plan. Right now, things are going well–we are actually having a kind of traffic jam landing JavaScript patches (including both our perf work and other JS work). We’ll update as work continues.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 19 Jul 2010 22:19:24 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:9:"dmandelin";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:73;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:24:"Robert O'Callahan: Perks";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:62:"http://weblogs.mozillazine.org/roc/archives/2010/07/perks.html";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:4:"true";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:62:"http://weblogs.mozillazine.org/roc/archives/2010/07/perks.html";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:159:"<p>Working on plugin bugs sucks, but sometimes it's fun to watch <a href="http://www.youtube.com/watch?v=lx4fc9oRerw">a video clip</a> over and over again.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 19 Jul 2010 21:14:04 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:3:"roc";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}i:74;a:6:{s:4:"data";s:13:"
-	
-	
-	
-	
-	
-	
-";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";s:5:"child";a:2:{s:0:"";a:5:{s:5:"title";a:1:{i:0;a:5:{s:4:"data";s:57:"Mozilla Add-ons Blog: addons.mozilla.org planned downtime";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"guid";a:1:{i:0;a:5:{s:4:"data";s:38:"http://blog.mozilla.com/addons/?p=1694";s:7:"attribs";a:1:{s:0:"";a:1:{s:11:"isPermaLink";s:5:"false";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:78:"http://blog.mozilla.com/addons/2010/07/19/addons-mozilla-org-planned-downtime/";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:11:"description";a:1:{i:0;a:5:{s:4:"data";s:610:"<p>This Saturday, July 24 at noon, addons.mozilla.org will undergo a 4.5 hour maintenance period. While we will try to make many pages available as read-only, please plan for the site to be completely unavailable for the full 4.5 hour window. This will also affect AMO’s API and services such as add-on update checks and Add-ons Manager searches.</p>
-<p>For more information, please see <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=572518">bug 572518</a>.</p>
-<p><b>Update: This downtime has been <a href="http://blog.mozilla.com/addons/2010/07/23/amo-downtime-rescheduled/">rescheduled</a>.</b></p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Mon, 19 Jul 2010 21:04:52 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:22:"Justin Scott (fligtar)";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:3:"rel";s:4:"self";s:4:"href";s:35:"http://planet.mozilla.org/rss20.xml";s:4:"type";s:19:"application/rss+xml";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";a:12:{s:4:"date";s:29:"Sat, 24 Jul 2010 23:11:13 GMT";s:6:"server";s:6:"Apache";s:13:"last-modified";s:29:"Sat, 24 Jul 2010 22:20:12 GMT";s:4:"etag";s:14:"6d0be-8e12ff00";s:13:"accept-ranges";s:5:"bytes";s:14:"ntcoent-length";s:6:"446654";s:13:"cache-control";s:11:"max-age=300";s:7:"expires";s:29:"Sat, 24 Jul 2010 23:16:13 GMT";s:16:"x-backend-server";s:8:"pm-web03";s:12:"content-type";s:8:"text/xml";s:16:"content-encoding";s:4:"gzip";s:17:"transfer-encoding";s:7:"chunked";}s:5:"build";s:14:"20100407213616";}
+<p>Note: All Firefox 3 and 3.5 users are strongly encouraged to upgrade to Firefox 3.6 by downloading it from <a href="http://firefox.com/">www.firefox.com</a> or by selecting “Check for Updates…” from the Help menu and clicking on  “Get the New Version”, then checking for updates again once Firefox 3.6  is installed.</p>";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}s:7:"pubDate";a:1:{i:0;a:5:{s:4:"data";s:31:"Fri, 23 Jul 2010 20:27:06 +0000";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}s:32:"http://purl.org/dc/elements/1.1/";a:1:{s:7:"creator";a:1:{i:0;a:5:{s:4:"data";s:8:"beltzner";s:7:"attribs";a:0:{}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}s:27:"http://www.w3.org/2005/Atom";a:1:{s:4:"link";a:1:{i:0;a:5:{s:4:"data";s:0:"";s:7:"attribs";a:1:{s:0:"";a:3:{s:3:"rel";s:4:"self";s:4:"href";s:35:"http://planet.mozilla.org/rss20.xml";s:4:"type";s:19:"application/rss+xml";}}s:8:"xml_base";s:0:"";s:17:"xml_base_explicit";b:0;s:8:"xml_lang";s:0:"";}}}}}}}}}}}}s:4:"type";i:128;s:7:"headers";a:12:{s:4:"date";s:29:"Thu, 29 Jul 2010 04:19:08 GMT";s:6:"server";s:6:"Apache";s:13:"last-modified";s:29:"Thu, 29 Jul 2010 03:20:14 GMT";s:4:"etag";s:14:"7292d-36713780";s:13:"accept-ranges";s:5:"bytes";s:14:"ntcoent-length";s:6:"469293";s:13:"cache-control";s:11:"max-age=300";s:7:"expires";s:29:"Thu, 29 Jul 2010 04:24:08 GMT";s:16:"x-backend-server";s:8:"pm-web04";s:12:"content-type";s:8:"text/xml";s:16:"content-encoding";s:4:"gzip";s:17:"transfer-encoding";s:7:"chunked";}s:5:"build";s:14:"20100407213616";}
