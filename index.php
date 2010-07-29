@@ -89,7 +89,7 @@
 				<? if(!isset($_GET['page'])): ?><? if(isset($_GET['country'])): ?><a href="./" class="back"><img src="assets/imgs/back.png" alt=back"></a><? else: ?>
 				<a href="?page=list" class="list"><img src="assets/imgs/list.png" alt="list"></a><? endif ?>
 				<a href="?page=info" class="info"><img src="assets/imgs/info.png" alt="info"></a>
-				<? if(isset($_GET['country'])): ?><a href="<?=$country->get_link()?>" class="link"><img src="assets/imgs/link.png" alt="link"></a><? else: ?>
+				<? if(isset($_GET['country'])): ?><a href="<?=$_GET['country']?>" class="link"><img src="assets/imgs/link.png" alt="link"></a><? else: ?>
 				<a href="http://planet.mozilla.org/rss20.xml"><img src="assets/imgs/rss.png" alt="rss"></a><? endif; else: ?>
 				<a href="./" class="back"><img src="assets/imgs/back.png" alt="back"></a>
 				<? endif ?>
