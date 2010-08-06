@@ -63,7 +63,6 @@
 						if($countryCode == null):
 				?>
 				<!-- homepage content -->
-				<div id="planet">
 					<div class="country" rel="<?=countryCode($country->get_link())?>">
 						<h3>
 							<?php
@@ -78,7 +77,6 @@
 							</a>
 						</p>
 					</div>
-				</div>
 				<?php
 						elseif($countryCode == countryCode($country->get_link())):
 							$countryExists = true;
