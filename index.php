@@ -38,6 +38,9 @@
 			<script type="text/javascript" src="assets/jquery.js"></script>
 			<script type="text/javascript" src="assets/jquery.cookie.js"></script>
 			<script type="text/javascript" src="assets/jquery.pmom.js"></script>
+			
+			<!-- mobile device detection/settings -->
+			<meta content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport">
 		</head>
 		<body>
 			<div id="header">
