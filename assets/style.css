@@ -15,7 +15,7 @@ a {
 }
 a:hover { text-decoration : underline; }
 a img { border : none; }
-#content-inner img,
+#content img,
 object, embed {
 	display : block;
 	padding : 5px;
@@ -62,7 +62,7 @@ object, embed {
 	padding : 5px;
 	margin : 5px;
 }
-#content-inner { padding : 5px; }
+#content { padding : 5px; }
 #controls {
 	height : 32px;
 	margin : 30px auto -60px auto;
