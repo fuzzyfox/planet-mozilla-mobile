@@ -54,7 +54,7 @@ $(document).ready(function(){
 		$(this).slideUp('slow');
 	});
 	
-	$('.country[rel^=http://]').live('click', function(){
+	$('.country[rel!=read]').live('click', function(){
 		//check that cookie does not contain this ingredient
 		if(cookieData.readItems.length > 0)
 		{
