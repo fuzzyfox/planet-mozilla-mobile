@@ -91,7 +91,7 @@ $(document).ready(function(){
 		//animate then link to article if not previously clicked
 		$('.country[rel='+$(this).attr('rel')+']').attr('rel', 'read').fadeTo('slow', 0.3, function(){
 			$(this).slideToggle('slow', function(){
-				$(this).appendTo('#content-inner').slideToggle('slow', function(){
+				$(this).appendTo('#planet').slideToggle('slow', function(){
 					window.location = $(this).find('a').attr('href');
 					return false;
 				});
