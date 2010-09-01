@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	$('#notice').click(function(){
-		window.location = 'http://www.mozhunt.com/planet/';
+		window.location = './';
 	});
 	//send user back one page of their history if js on
 	$('#controls .back').click(function(){
@@ -9,7 +9,7 @@ $(document).ready(function(){
 	});
 	//reload just the list of posts if js on
 	$('#controls .reload').click(function(){
-		$('#content-inner').empty().load('pmom.php #content-inner');
+		$('#content-inner').empty().load('index.php #content-inner');
 		return false;
 	});
 	
