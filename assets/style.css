@@ -56,7 +56,7 @@ object, embed {
 	padding : 5px;
 	text-align : center;
 }
-#intro, #notice {
+#disclaimer, .notice {
 	background : #f3a96a;
 	border-bottom : 1px solid #ccc;
 	padding : 5px;

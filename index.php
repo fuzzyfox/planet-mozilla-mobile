@@ -36,8 +36,7 @@
 			
 			<!-- scripts -->
 			<script type="text/javascript" src="assets/jquery.js"></script>
-			<script type="text/javascript" src="assets/jquery.cookie.js"></script>
-			<script type="text/javascript" src="assets/jquery.pmom.js"></script>
+			<script type="text/javascript" src="assets/planet-mozilla-mobile.js"></script>
 			
 			<!-- mobile device detection/settings -->
 			<meta content="width=320; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" name="viewport">
@@ -49,7 +48,7 @@
 			<div id="content">
 				
 				<!-- introduction block -->
-				<div id="intro">
+				<div id="disclaimer">
 					<p>
 						Collected here are the most recent blog posts from all
 						over the Mozilla community. The content here is unfiltered
@@ -116,15 +115,15 @@
 					<p><img src="assets/imgs/reload.png" alt="reload" class="left">This is the reload button. This will reload all the listed articles on the homepage to ensure that you see the most up-to-date items available from Planet Mozilla.</p>
 					<p><img src="assets/imgs/link.png" alt="link" class="left">This is the link button. You will only see this when viewing an article. It allows you to go straight to the original source of the content.</p>
 				<? elseif($countryCode == 'list'): ?>
-				<div id="notice">
+				<div class="notice">
 					<p class="error">Sorry, but this feature is not quite ready yet. <br><small>We hope to have it working soon.</small></p>
-					<p class="close">tap to return to cover</p>
+					<p class="close"><a href="./">tap to return to cover</a></p>
 				</div>
 				<? elseif((!isset($countryExists))&&($countryCode != null)): ?>
 				<!-- invalid country code -->
-				<div id="notice">
+				<div class="notice">
 					<p class="error">Oops! It looks like we lost your page O.o</p>
-					<p class="close">tap to return to cover</p>
+					<p class="close"><a href="./">tap to return to cover</a></p>
 				</div>
 				<? endif; ?>
 				
